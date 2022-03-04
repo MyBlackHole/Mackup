@@ -1,0 +1,9 @@
+[user]
+	email = 1358244533@qq.com
+	name = black
+[core]
+	editor = lvim
+[https]
+	proxy = http://127.0.0.1:1080
+[http]
+	proxy = http://127.0.0.1:1080

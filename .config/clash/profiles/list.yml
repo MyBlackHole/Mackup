@@ -1,0 +1,39 @@
+files:
+  - url: ""
+    time: 1643853510968.yml
+    name: config.yaml
+    selected: []
+  - time: 1643853520734.yml
+    name: sub
+    url: http://localhost:25500/sub?target=clash&url=https%3A%2F%2Fjiang.netlify.com
+    selected:
+      - name: GLOBAL
+        now: HK_二爷翻墙网 https://1808.ga_62
+      - name: 🔰 节点选择
+        now: ♻️ 自动选择
+      - name: 🎥 NETFLIX
+        now: 🔰 节点选择
+      - name: ⛔️ 广告拦截
+        now: 🛑 全球拦截
+      - name: 🚫 运营劫持
+        now: 🛑 全球拦截
+      - name: 🌍 国外媒体
+        now: 🔰 节点选择
+      - name: 🌏 国内媒体
+        now: 🎯 全球直连
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 📲 电报信息
+        now: 🔰 节点选择
+      - name: 🍎 苹果服务
+        now: 🔰 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🔰 节点选择
+    interval: 24
+    subInfo: {}
+    mode: global
+index: 1
