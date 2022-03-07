@@ -121,9 +121,9 @@ export https_proxy="http://127.0.0.1:1080"
 
 # cargo
 source $HOME/.cargo/env
-source ~/.rustup_completes
+# source ~/.rustup_completes
 # source $(rustc --print sysroot)/etc/bash_completion.d/cargo
-fpath+=~/.zfunc
+# fpath+=~/.zfunc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
