@@ -5,10 +5,10 @@ files:
     selected: []
   - time: 1643853520734.yml
     name: sub
-    url: http://localhost:25500/sub?target=clash&url=https%3A%2F%2Fjiang.netlify.com
+    url: http://localhost:25500/sub?target=clashr&url=https%3A%2F%2Fjiang.netlify.com
     selected:
       - name: GLOBAL
-        now: CA_二爷翻墙网https://1808.ga_14
+        now: CA_二爷翻墙网 https://1808.ga 节点_460
       - name: 🔰 节点选择
         now: ♻️ 自动选择
       - name: 🎥 NETFLIX
@@ -36,4 +36,6 @@ files:
     interval: 24
     subInfo: {}
     mode: global
+    cron: ""
+    headers: ""
 index: 1
