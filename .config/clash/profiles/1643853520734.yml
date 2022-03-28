@@ -322,7 +322,6 @@ proxies:
   - {name: 二爷翻墙网 https://1808.ga 节点_315, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: ddec8c44-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
   - {name: US_二爷翻墙网 https://1808.ga 节点_316, server: dycxh.ml, port: 3835, type: vmess, uuid: 1be22068-d373-4450-94c3-50f72a40fba4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_二爷翻墙网 https://1808.ga 节点_317, server: us4.bpyun.live, port: 443, type: vmess, uuid: ead1f6eb-a3c5-304a-bd25-e8e6c793e702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us4.bpyun.live}}, udp: true}
-  - {name: US_二爷翻墙网 https://1808.ga 节点_318, server: 35.153.162.49, port: 27080, type: vmess, uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [35.153.162.49]}, udp: true}
   - {name: 二爷翻墙网 https://1808.ga 节点_319, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.41.221.169}}, udp: true}
   - {name: 二爷翻墙网 https://1808.ga 节点_320, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudflare.a-yu.xyz}}, udp: true}
   - {name: 二爷翻墙网 https://1808.ga 节点_321, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.96.85}}, udp: true}
@@ -355,7 +354,6 @@ proxies:
   - {name: CN_二爷翻墙网 https://1808.ga 节点_348, server: us02.linkzones.xyz, port: 31964, type: vmess, uuid: d85d3fcd-17e0-3448-8694-6834a8fcf4b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us02.linkzones.xyz}}, udp: true}
   - {name: US_二爷翻墙网 https://1808.ga 节点_349, server: 172.67.190.72, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.67.190.72}}, udp: true}
   - {name: KR_二爷翻墙网 https://1808.ga 节点_350, server: gmp3.bgnac.com, port: 80, type: vmess, uuid: 3af8c974-8b6b-4629-93ce-9ae7bd8db37f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmp3.bgnac.com}}, udp: true}
-  - {name: KR_二爷翻墙网 https://1808.ga 节点_351, server: 152.70.237.92, port: 80, type: vmess, uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [152.70.237.92]}, udp: true}
   - {name: CN_二爷翻墙网 https://1808.ga 节点_352, server: az.hk01.paopaocloud.cyou, port: 10032, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az.hk01.paopaocloud.cyou}}, udp: true}
   - {name: HK_二爷翻墙网 https://1808.ga 节点_353, server: gz.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.yd01.paopaocloud.cyou}}, udp: true}
   - {name: HK_二爷翻墙网 https://1808.ga 节点_354, server: hkec01.newspacex.buzz, port: 49996, type: vmess, uuid: c9487119-4647-3c48-ae20-86d41d715f8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkec01.newspacex.buzz}}, udp: true}
@@ -826,7 +824,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -859,7 +856,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -1329,7 +1325,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -1362,7 +1357,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -1833,7 +1827,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -1866,7 +1859,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -2349,7 +2341,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -2382,7 +2373,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -2857,7 +2847,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -2890,7 +2879,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -3360,7 +3348,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -3393,7 +3380,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -3864,7 +3850,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -3897,7 +3882,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354
@@ -4377,7 +4361,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_315
       - US_二爷翻墙网 https://1808.ga 节点_316
       - US_二爷翻墙网 https://1808.ga 节点_317
-      - US_二爷翻墙网 https://1808.ga 节点_318
       - 二爷翻墙网 https://1808.ga 节点_319
       - 二爷翻墙网 https://1808.ga 节点_320
       - 二爷翻墙网 https://1808.ga 节点_321
@@ -4410,7 +4393,6 @@ proxy-groups:
       - CN_二爷翻墙网 https://1808.ga 节点_348
       - US_二爷翻墙网 https://1808.ga 节点_349
       - KR_二爷翻墙网 https://1808.ga 节点_350
-      - KR_二爷翻墙网 https://1808.ga 节点_351
       - CN_二爷翻墙网 https://1808.ga 节点_352
       - HK_二爷翻墙网 https://1808.ga 节点_353
       - HK_二爷翻墙网 https://1808.ga 节点_354

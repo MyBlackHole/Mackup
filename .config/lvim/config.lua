@@ -46,17 +46,13 @@ lvim.builtin.which_key.mappings["t"] = {
   name = "+Trouble",
   r = { "<cmd>Trouble lsp_references<cr>", "References" },
   f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
-  d = { "<cmd>Trouble document_diagnostics<cr>", "Diagnostics" },
+  d = { "<cmd>Trouble lsp_document_diagnostics<cr>", "Diagnostics" },
   q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
   l = { "<cmd>Trouble loclist<cr>", "LocationList" },
-  w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
+  w = { "<cmd>Trouble lsp_workspace_diagnostics<cr>", "Diagnostics" },
 }
 
-lvim.builtin.which_key.vmappings["t"] = {
-  name = "Translate",
-  t = {"<cmd>Translate<cr>", "Translate"},
-  w = {"<cmd>TranslateW<cr>", "TranslateW"},
-}
+lvim.builtin.which_key.vmappings["t"] = { "<cmd>Translate<cr>", "Translate" }
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -70,8 +66,8 @@ lvim.builtin.nvimtree.show_icons.git = 0
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
   "c",
-  -- "javascript",
-  "json",
+  "javascript",
+  -- "json",
   "lua",
   "python",
   -- "typescript",
