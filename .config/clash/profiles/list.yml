@@ -20,9 +20,9 @@ files:
       - name: 🌍 国外媒体
         now: 🔰 节点选择
       - name: 🌏 国内媒体
-        now: 🎯 全球直连
+        now: 🔰 节点选择
       - name: Ⓜ️ 微软服务
-        now: 🎯 全球直连
+        now: 🔰 节点选择
       - name: 📲 电报信息
         now: 🔰 节点选择
       - name: 🍎 苹果服务
@@ -35,7 +35,7 @@ files:
         now: 🔰 节点选择
     interval: 24
     subInfo: {}
-    mode: global
+    mode: rule
     cron: ""
     headers: ""
 index: 1
