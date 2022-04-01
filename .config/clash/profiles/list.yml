@@ -10,29 +10,29 @@ files:
       - name: GLOBAL
         now: ♻️ 自动选择
       - name: 🔰 节点选择
-        now: ♻️ 自动选择
+        now: KR_二爷翻墙网https://1808.ga 节点_135
       - name: 🎥 NETFLIX
-        now: 🔰 节点选择
+        now: ♻️ 自动选择
       - name: ⛔️ 广告拦截
-        now: 🛑 全球拦截
+        now: 🔰 节点选择
       - name: 🚫 运营劫持
-        now: 🛑 全球拦截
+        now: 🔰 节点选择
       - name: 🌍 国外媒体
-        now: 🔰 节点选择
+        now: ♻️ 自动选择
       - name: 🌏 国内媒体
-        now: 🔰 节点选择
+        now: 🎯 全球直连
       - name: Ⓜ️ 微软服务
         now: 🔰 节点选择
       - name: 📲 电报信息
         now: 🔰 节点选择
       - name: 🍎 苹果服务
-        now: 🔰 节点选择
+        now: ♻️ 自动选择
       - name: 🎯 全球直连
         now: DIRECT
       - name: 🛑 全球拦截
         now: REJECT
       - name: 🐟 漏网之鱼
-        now: 🔰 节点选择
+        now: ♻️ 自动选择
     interval: 24
     subInfo: {}
     mode: rule
