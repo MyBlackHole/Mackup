@@ -9,3 +9,4 @@ trayOrders:
     - text
 hideTrayIcon: false
 theme: 1
+randomMixedPort: true
