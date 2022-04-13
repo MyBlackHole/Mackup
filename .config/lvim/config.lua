@@ -13,6 +13,7 @@ lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings="utf-8,gbk"
+vim.o.fileformats="unix"
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -150,8 +151,10 @@ lvim.plugins = {
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- 自动操作
--- lvim.autocommands.custom_groups = {
---   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
--- }
+lvim.autocommands.custom_groups = {
+  -- { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
+  { "BufWinEnter", "*.py,*.c,*.h", "%s/[\\u0d]//ge"},
+  -- { "BufNewFile", "*.py", "set fileformats=unix" },
+}
 
 
