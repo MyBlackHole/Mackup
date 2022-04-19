@@ -45,7 +45,7 @@ files:
       - name: GLOBAL
         now: DIRECT
       - name: 🚀 节点选择
-        now: ♻️ 自动选择
+        now: "[04-09]|oslook|日本(JP)Japan/Tokyo_49"
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 📲 电报信息
@@ -71,14 +71,15 @@ files:
     selected: []
     interval: 0
     subInfo: {}
+    mode: rule
   - time: 1648818337971.yml
     name: config.yaml
     url: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
     selected:
       - name: GLOBAL
-        now: 🇺🇸:美国-ss-134.195.198.211:443-可用-直连-仅支持加拿大地区NF自制剧
+        now: 🇷🇺:俄罗斯-ss-213.183.53.202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧
       - name: PROXY
-        now: 🇺🇸:美国-ss-134.195.198.211:443-可用-直连-仅支持加拿大地区NF自制剧
+        now: DIRECT
       - name: 被墙代理组
         now: DIRECT
       - name: 仅支持Netflix自制剧
@@ -103,7 +104,28 @@ files:
   - time: 1648818592897.yml
     name: clash.yml
     url: https://fastly.jsdelivr.net/gh/obcbo/auto-subscribe/subscribe/clash.yml
-    selected: []
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 🚀 节点选择
+        now: 🇨🇦_CA_加拿大_8
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
     interval: 0
     subInfo: {}
-index: 4
+    mode: rule
+index: 5
