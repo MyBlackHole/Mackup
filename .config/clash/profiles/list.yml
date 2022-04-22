@@ -8,7 +8,7 @@ files:
     url: http://localhost:25500/sub?target=clashr&url=https%3A%2F%2Fjiang.netlify.com
     selected:
       - name: GLOBAL
-        now: VN_二爷翻墙网https://1808.ga 节点_222
+        now: 二爷翻墙https://1808.ga 节点_11
       - name: 🔰 节点选择
         now: ♻️ 自动选择
       - name: 🎥 NETFLIX
@@ -35,7 +35,7 @@ files:
         now: 🔰 节点选择
     interval: 24
     subInfo: {}
-    mode: rule
+    mode: global
     cron: ""
     headers: ""
   - time: 1648816736951.yml
@@ -43,9 +43,9 @@ files:
     url: https://cdn.jsdelivr.net/gh/oslook/clash-freenode@main/clash.yaml
     selected:
       - name: GLOBAL
-        now: DIRECT
+        now: "[04-19]|oslook|加拿大(CA)Canada/Toronto_7"
       - name: 🚀 节点选择
-        now: "[04-09]|oslook|日本(JP)Japan/Tokyo_49"
+        now: ♻️ 自动选择
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 📲 电报信息
@@ -64,20 +64,40 @@ files:
         now: 🚀 节点选择
     interval: 0
     subInfo: {}
-    mode: rule
+    mode: global
   - time: 1648817489814.yml
     name: 02-22u2.yaml
     url: https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-22u2.yaml
-    selected: []
+    selected:
+      - name: GLOBAL
+        now: Ⓜ️ 微软服务
+      - name: 🚀 节点选择
+        now: ♻️ 自动选择
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
     interval: 0
     subInfo: {}
-    mode: rule
+    mode: global
   - time: 1648818337971.yml
     name: config.yaml
     url: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
     selected:
       - name: GLOBAL
-        now: 🇷🇺:俄罗斯-ss-213.183.53.202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+        now: 🇨🇳:中国-ss-14.29.124.168:25289-可用-直连-完全不支持NF
       - name: PROXY
         now: DIRECT
       - name: 被墙代理组
@@ -128,4 +148,4 @@ files:
     interval: 0
     subInfo: {}
     mode: rule
-index: 5
+index: 2
