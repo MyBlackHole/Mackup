@@ -43,7 +43,7 @@ files:
     url: https://cdn.jsdelivr.net/gh/oslook/clash-freenode@main/clash.yaml
     selected:
       - name: GLOBAL
-        now: "[04-19]|oslook|加拿大(CA)Canada/Toronto_7"
+        now: ♻️ 自动选择
       - name: 🚀 节点选择
         now: ♻️ 自动选择
       - name: 🌍 国外媒体
@@ -65,87 +65,11 @@ files:
     interval: 0
     subInfo: {}
     mode: global
-  - time: 1648817489814.yml
-    name: 02-22u2.yaml
-    url: https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-22u2.yaml
-    selected:
-      - name: GLOBAL
-        now: Ⓜ️ 微软服务
-      - name: 🚀 节点选择
-        now: ♻️ 自动选择
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 📲 电报信息
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软服务
-        now: 🎯 全球直连
-      - name: 🍎 苹果服务
-        now: 🚀 节点选择
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 全球拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: 🚀 节点选择
-    interval: 0
-    subInfo: {}
-    mode: global
-  - time: 1648818337971.yml
-    name: config.yaml
-    url: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
-    selected:
-      - name: GLOBAL
-        now: 🇨🇳:中国-ss-14.29.124.168:25289-可用-直连-完全不支持NF
-      - name: PROXY
-        now: DIRECT
-      - name: 被墙代理组
-        now: DIRECT
-      - name: 仅支持Netflix自制剧
-        now: DIRECT
-      - name: 解锁Netflix非自制剧
-        now: DIRECT
-      - name: 入口代理组
-        now: PROXY
-      - name: 出口代理组
-        now: 被墙代理组
-      - name: NETFLIX_PROXY
-        now: 解锁Netflix非自制剧
-      - name: Tiktok_PROXY
-        now: PROXY
-      - name: Bili_PROXY
-        now: DIRECT
-      - name: IQiyi_PROXY
-        now: DIRECT
-    interval: 0
-    subInfo: {}
-    mode: global
-  - time: 1648818592897.yml
-    name: clash.yml
-    url: https://fastly.jsdelivr.net/gh/obcbo/auto-subscribe/subscribe/clash.yml
-    selected:
-      - name: GLOBAL
-        now: DIRECT
-      - name: 🚀 节点选择
-        now: 🇨🇦_CA_加拿大_8
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 📲 电报信息
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软服务
-        now: 🎯 全球直连
-      - name: 🍎 苹果服务
-        now: 🚀 节点选择
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 全球拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: 🚀 节点选择
-    interval: 0
+  - time: 1652272199012.yml
+    name: sub
+    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F8139d220235d4c729ae726579d20d699%2Ffiles%2Fbc00a042ee5c4e9e8b6028dc61aab037%2Fraw&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+    selected: []
+    interval: 24
     subInfo: {}
     mode: rule
-index: 2
+index: 3
