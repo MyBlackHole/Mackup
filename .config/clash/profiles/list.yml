@@ -8,7 +8,7 @@ files:
     url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F8139d220235d4c729ae726579d20d699%2Ffiles%2Fbc00a042ee5c4e9e8b6028dc61aab037%2Fraw&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
     selected:
       - name: GLOBAL
-        now: 🎯 全球直连
+        now: Ⓜ️ 微软服务
       - name: 🚀 节点选择
         now: ♻️ 自动选择
       - name: 🌍 国外媒体
@@ -35,7 +35,28 @@ files:
   - time: 1653016213245.yml
     name: sub
     url: https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMazeorz%2Fairports%2Fmaster%2FClash%2FSkslaPro-Balance.ini
-    selected: []
+    selected:
+      - name: GLOBAL
+        now: CN_https://1808.ga  Node_230
+      - name: 🔰 节点选择
+        now: ♻️ 自动选择
+      - name: 🌍 国外媒体
+        now: 🔰 节点选择
+      - name: 🌏 国内媒体
+        now: 🔰 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 📲 电报信息
+        now: 🔰 节点选择
+      - name: 🍎 苹果服务
+        now: 🔰 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🔰 节点选择
     interval: 24
     subInfo: {}
-index: 1
+    mode: global
+index: 2

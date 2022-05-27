@@ -83,6 +83,7 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
   vi-mode
+  tmux
 )
 
 source $ZSH/oh-my-zsh.sh
