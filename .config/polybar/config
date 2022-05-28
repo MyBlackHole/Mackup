@@ -43,20 +43,20 @@ wrapping-scroll = false
 
 label-mode-padding = 2
 label-mode-foreground = #162025
-label-mode-background = #193a48
+label-mode-background = #75404b
 
 label-focused = %index%
-label-focused-background = #193a48
+label-focused-background = #75404b
 label-focused-foreground = #6b7443
 label-focused-padding = 2
 
 label-unfocused = %index%
-label-unfocused-background = #193a48
+label-unfocused-background = #75404b
 label-unfocused-foreground = #162025
 label-unfocused-padding = 2
 
 label-visible = %index%
-label-visible-background = #193a48
+label-visible-background = #75404b
 label-visible-foreground = #162025
 label-visible-padding = 2
 
@@ -71,7 +71,7 @@ interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 format-connected-foreground = #162025
-format-connected-background = #193a48
+format-connected-background = #39402e
 format-connected-padding = 2
 label-connected = %essid%
 
@@ -91,7 +91,7 @@ interval = 3.0
 
 format-connected-padding = 2
 format-connected-foreground = #162025
-format-connected-background = #193a48
+format-connected-background = #39402e
 format-connected-prefix = " "
 format-connected-prefix-foreground = #162025
 label-connected = %local_ip%
@@ -110,7 +110,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-foreground = #162025
-format-background = #2a474a
+format-background = #4c584a
 format-padding = 2
 
 label = %date% %time%
@@ -123,11 +123,11 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-foreground = #193a48
+label-open-foreground = #39402e
 label-close =  cancel
-label-close-foreground = #193a48
+label-close-foreground = #39402e
 label-separator = |
-label-separator-foreground = #193a48
+label-separator-foreground = #39402e
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1
