@@ -14,6 +14,8 @@ lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
+-- 显示所有符号
+vim.o.list = true
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
