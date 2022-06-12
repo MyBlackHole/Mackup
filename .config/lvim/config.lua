@@ -14,6 +14,8 @@ lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
+-- 开启光标所在行相对行号
+vim.o.relativenumber = true
 -- 按语法打开折叠
 vim.o.foldmethod = "syntax"
 -- 显示所有符号
