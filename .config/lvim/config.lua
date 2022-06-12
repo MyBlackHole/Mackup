@@ -14,6 +14,8 @@ lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
+-- 按语法打开折叠
+vim.o.foldmethod = "syntax"
 -- 显示所有符号
 vim.o.list = true
 -- keymappings [view all the defaults by pressing <leader>Lk]
