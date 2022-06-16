@@ -65,9 +65,10 @@ lvim.builtin.which_key.vmappings["t"] = { "<cmd>Translate<cr>", "Translate" }
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.notify.active = true
+lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.show_icons.git = 0
+lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -158,8 +159,14 @@ lvim.plugins = {
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- 自动操作
-lvim.autocommands.custom_groups = {
-  -- { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
-  { "BufWinEnter", "*.py,*.c,*.h", "%s/[\\u0d]//ge" },
-  -- { "BufNewFile", "*.py", "set fileformats=unix" },
-}
+-- lvim.autocommands.custom_groups = {
+--   -- { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
+--   { "BufWinEnter", "*.py,*.c,*.h", "" },
+--   -- { "BufNewFile", "*.py", "set fileformats=unix" },
+-- }
+
+vim.api.nvim_create_autocmd("BufWinEnter", {
+  pattern = { "*.py", "*.c", "*.h" },
+  -- enable wrap mode for json files only
+  command = "%s/[\\u0d]//ge",
+})
