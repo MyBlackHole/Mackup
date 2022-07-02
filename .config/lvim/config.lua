@@ -18,8 +18,10 @@ vim.o.fileformats = "unix"
 vim.o.relativenumber = true
 -- 按语法打开折叠
 vim.o.foldmethod = "syntax"
--- 显示所有符号
-vim.o.list = true
+
+-- -- 显示所有符号
+-- vim.o.list = true
+
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -148,13 +150,32 @@ linters.setup {
   -- },
 }
 
+-- set indent_blankline config
+vim.opt.list = true
+vim.opt.listchars:append("space:⋅")
+vim.opt.listchars:append("eol:↴")
+
+require("indent_blankline").setup {
+  -- show_end_of_line = true,
+  space_char_blankline = " ",
+}
+
 -- Additional Plugins
 lvim.plugins = {
+  -- 缩进线
+  { "lukas-reineke/indent-blankline.nvim" },
+  -- { "ahmedkhalf/lsp-rooter.nvim" },
+  -- { "phaazon/hop.nvim" },
+  -- { "kevinhwang91/nvim-bqf" },
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
+  { "lunarvim/colorschemes" },
+  { "folke/trouble.nvim" },
   {
-    "folke/trouble.nvim",
-  },
+    "ray-x/lsp_signature.nvim",
+    config = function() require "lsp_signature".on_attach() end,
+    event = "BufRead"
+  }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)

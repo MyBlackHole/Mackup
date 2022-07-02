@@ -125,7 +125,7 @@ export https_proxy="http://127.0.0.1:1080"
 export GOPROXY="https://proxy.golang.com.cn,direct"
 
 # cargo
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
 # source ~/.rustup_completes
 # source $(rustc --print sysroot)/etc/bash_completion.d/cargo
 # fpath+=~/.zfunc
