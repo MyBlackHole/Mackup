@@ -37,9 +37,9 @@ files:
     url: https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMazeorz%2Fairports%2Fmaster%2FClash%2FSkslaPro-Balance.ini
     selected:
       - name: GLOBAL
-        now: CN_二爷翻墙https://1808.ga  节点_236
+        now: CN_二爷翻墙网https://1808.ga  节点_3
       - name: 🔰 节点选择
-        now: US_二爷翻墙https://1808.ga  节点_98
+        now: CN_二爷翻墙网https://1808.ga  节点_1
       - name: 🌍 国外媒体
         now: 🔰 节点选择
       - name: 🌏 国内媒体
@@ -64,7 +64,7 @@ files:
     url: https://api.ikuuu.science/link/v9XTzNjT9jdlA3Nw?clash=3
     selected:
       - name: GLOBAL
-        now: 🇯🇵 免费-日本4
+        now: 🇯🇵 免费-日本3
       - name: 🔰 选择节点
         now: 🇯🇵 免费-日本1
       - name: 🌏 爱奇艺&哔哩哔哩
@@ -89,9 +89,9 @@ files:
         now: 🔰 选择节点
     interval: 6
     subInfo:
-      upload: 251501336
-      download: 36732962658
+      upload: 509381500
+      download: 53184754188
       total: 53687091200
       expire: 1648285130
     mode: global
-index: 3
+index: 2

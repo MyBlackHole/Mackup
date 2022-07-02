@@ -1,5 +1,5 @@
 mixed-port: 1080
 allow-lan: true
-external-controller: 127.0.0.1:40437
+external-controller: 127.0.0.1:42063
 secret: 78882f4b-40da-419d-8e8e-58430a8b9bc4
 ipv6: true
