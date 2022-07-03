@@ -16,12 +16,10 @@ vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
 -- 开启光标所在行相对行号
 vim.o.relativenumber = true
--- 按语法打开折叠
+-- 启用语法高亮
+vim.o.syntax = "enable"
+-- 按语法高亮折叠
 vim.o.foldmethod = "syntax"
--- 显示所有符号
-vim.o.list = true
-vim.opt.listchars:append("space:⋅")
-vim.opt.listchars:append("eol:↴")
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -67,6 +65,7 @@ lvim.builtin.which_key.vmappings["t"] = { "<cmd>Translate<cr>", "Translate" }
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.notify.active = true
+lvim.builtin.dap.active = true -- (default: false)
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -85,7 +84,7 @@ lvim.builtin.treesitter.ensure_installed = {
   "rust",
   -- "java",
   "yaml",
-  -- "go",
+  "go",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -150,6 +149,10 @@ linters.setup {
   -- },
 }
 
+-- 显示所有符号
+vim.o.list = true
+vim.opt.listchars:append("space:⋅")
+vim.opt.listchars:append("eol:↴")
 
 -- Additional Plugins
 lvim.plugins = {
