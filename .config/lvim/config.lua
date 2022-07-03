@@ -20,6 +20,8 @@ vim.o.relativenumber = true
 vim.o.foldmethod = "syntax"
 -- 显示所有符号
 vim.o.list = true
+vim.opt.listchars:append("space:⋅")
+vim.opt.listchars:append("eol:↴")
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -148,13 +150,13 @@ linters.setup {
   -- },
 }
 
+
 -- Additional Plugins
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
-  {
-    "folke/trouble.nvim",
-  },
+  { "lunarvim/colorschemes" },
+  { "folke/trouble.nvim" },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
