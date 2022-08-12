@@ -84,6 +84,7 @@ plugins=(
   zsh-syntax-highlighting
   vi-mode
   tmux
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
