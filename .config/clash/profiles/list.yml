@@ -3,43 +3,15 @@ files:
     time: 1643853510968.yml
     name: config.yaml
     selected: []
-  - time: 1652272199012.yml
-    name: sub
-    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F8139d220235d4c729ae726579d20d699%2Ffiles%2Fbc00a042ee5c4e9e8b6028dc61aab037%2Fraw&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
-    selected:
-      - name: GLOBAL
-        now: Ⓜ️ 微软服务
-      - name: 🚀 节点选择
-        now: ♻️ 自动选择
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 📲 电报信息
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软服务
-        now: 🎯 全球直连
-      - name: 🍎 苹果服务
-        now: 🚀 节点选择
-      - name: 📢 谷歌FCM
-        now: 🚀 节点选择
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 全球拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: 🚀 节点选择
-    interval: 24
-    subInfo: {}
-    mode: global
+    mode: rule
   - time: 1653016213245.yml
     name: sub
     url: https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMazeorz%2Fairports%2Fmaster%2FClash%2FSkslaPro-Balance.ini
     selected:
       - name: GLOBAL
-        now: 二爷翻墙网https://1808.ga 节点_100
+        now: 163.177.106.2
       - name: 🔰 节点选择
-        now: ♻️ 自动选择
+        now: 🎯 全球直连
       - name: 🌍 国外媒体
         now: 🔰 节点选择
       - name: 🌏 国内媒体
@@ -64,7 +36,7 @@ files:
     url: https://api.ikuuu.science/link/v9XTzNjT9jdlA3Nw?clash=3
     selected:
       - name: GLOBAL
-        now: 🇯🇵 免费-日本3
+        now: 🇯🇵 免费-日本6
       - name: 🔰 选择节点
         now: 🇯🇵 免费-日本1
       - name: 🌏 爱奇艺&哔哩哔哩
@@ -89,9 +61,9 @@ files:
         now: 🔰 选择节点
     interval: 6
     subInfo:
-      upload: 3446428
-      download: 194847726
+      upload: 532604539
+      download: 53247551526
       total: 53687091200
       expire: 1648285130
     mode: global
-index: 2
+index: 1
