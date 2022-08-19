@@ -1,0 +1,47 @@
+files:
+  - url: ""
+    time: 1660920504232.yml
+    name: 1.yaml
+    selected: []
+  - url: ""
+    time: 1660920511967.yml
+    name: 2.yaml
+    selected: []
+  - url: ""
+    time: 1660920517887.yml
+    name: 3.yaml
+    selected:
+      - name: GLOBAL
+        now: "  [黄金][台.高雄市][0.8] 港转 ②   "
+      - name: 🚀 节点选择
+        now: "  [黄金][台.高雄市][0.8] 港转 ①   "
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 🎯 哔哩哔哩
+        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    mode: global
+  - url: ""
+    time: 1660920523071.yml
+    name: 4.yaml
+    selected: []
+  - url: ""
+    time: 1660920581210.yml
+    name: iKuuu.yaml
+    selected: []
+index: 2
