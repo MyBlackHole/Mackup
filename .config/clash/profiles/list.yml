@@ -1,18 +1,15 @@
 files:
   - url: ""
-    time: 1660920504232.yml
-    name: 1.yaml
+    time: 1660920581210.yml
+    name: iKuuu.yaml
     selected: []
-  - url: ""
-    time: 1660920511967.yml
-    name: 2.yaml
-    selected: []
-  - url: ""
-    time: 1660920517887.yml
-    name: 3.yaml
+    mode: rule
+  - time: 1661434133828.yml
+    name: Clash_1661434132.yaml
+    url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
     selected:
       - name: GLOBAL
-        now: "  [黄金][台.高雄市][0.8] 港转 ②   "
+        now: "  [黄金][日.东京市][0.8] 港转 ②   "
       - name: 🚀 节点选择
         now: "  [黄金][台.高雄市][0.8] 港转 ①   "
       - name: 🌍 国外媒体
@@ -35,13 +32,17 @@ files:
         now: REJECT
       - name: 🐟 漏网之鱼
         now: 🚀 节点选择
+    interval: 0
+    subInfo:
+      upload: 568717852
+      download: 54732541015
+      total: 1296200368128
+      expire: 1680263469
     mode: global
-  - url: ""
-    time: 1660920523071.yml
-    name: 4.yaml
+  - time: 1661434311798.yml
+    name: jiang.netlify.com
+    url: https://jiang.netlify.com
     selected: []
-  - url: ""
-    time: 1660920581210.yml
-    name: iKuuu.yaml
-    selected: []
-index: 2
+    interval: 0
+    subInfo: {}
+index: 1
