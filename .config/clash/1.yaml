@@ -5,55 +5,339 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 二爷翻墙网https://1808.ga, server: 60.249.92.67, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: diamonds-july-egg-sporting.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: diamonds-july-egg-sporting.trycloudflare.com}}, udp: true}
-  - {name: 德国, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: diamonds-july-egg-sporting.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: diamonds-july-egg-sporting.trycloudflare.com}}, udp: true}
-  - {name: 波兰01, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fought-insurance-background-ot.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fought-insurance-background-ot.trycloudflare.com}}, udp: true}
-  - {name: 波兰02, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fought-insurance-background-ot.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fought-insurance-background-ot.trycloudflare.com}}, udp: true}
-  - {name: 波兰03, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fought-insurance-background-ot.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fought-insurance-background-ot.trycloudflare.com}}, udp: true}
-  - {name: argo1, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: click-ended-zen-died.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: click-ended-zen-died.trycloudflare.com}}, udp: true}
-  - {name: argo2, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: click-ended-zen-died.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: click-ended-zen-died.trycloudflare.com}}, udp: true}
-  - {name: argo3, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: click-ended-zen-died.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: click-ended-zen-died.trycloudflare.com}}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_1, server: fnhk1glines002re.fnline.club, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: edbe138e9e7d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1glines002re.fnline.club, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_2, server: fn600mliness011.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2d59efdde6c9, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness011.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_3, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: HK_二爷翻墙 https://1808.ga Node_4, server: fn600mliness016.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd04a7b470fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness016.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_5, server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_6, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_7, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_8, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_9, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_10, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline001.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_11, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness019.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_12, server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_13, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_14, server: fn600mliness015.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 696744f948f3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness015.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_15, server: fn600mlines023.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a386af7970a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines023.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 二爷翻墙 https://1808.ga Node_16, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_17, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_18, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_19, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_20, server: fn600mlines022.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a57a10279872, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines022.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_21, server: fn600mliness012.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a7f2fb3db93c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness012.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_22, server: fndxshk1000mline006.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: db83a372671f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline006.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_23, server: fn600mliness009.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cafd390e3444, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness009.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_24, server: fndxshk1000mline002re.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 16c5fe596bfb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline002re.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_25, server: fndxus1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 563b1dc7d669, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxus1000mline001.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW_二爷翻墙 https://1808.ga Node_26, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_27, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_28, server: bjus1glines007.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: f7b2af773c6e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bjus1glines007.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_29, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_30, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: KR_二爷翻墙 https://1808.ga Node_31, server: fn50mjckrline001.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dc638ac923b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn50mjckrline001.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: LT_二爷翻墙 https://1808.ga Node_32, server: fn100mltvline001.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8525fd2e202b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn100mltvline001.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: SG_二爷翻墙 https://1808.ga Node_33, server: fn100mnmsgpline001.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0391ed69a1b5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn100mnmsgpline001.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: JP_二爷翻墙 https://1808.ga Node_34, server: fn50mxwjpline002.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4138ea5f87df, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn50mxwjpline002.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_35, server: fnhk1glines004.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7ebf987cedac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1glines004.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_36, server: bjus1glines011.feisujiasu.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a82fbbd272e6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bjus1glines011.feisujiasu.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_37, server: bjus1glines005.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 37242aed6a99, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bjus1glines005.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_38, server: fnbg1glines004.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 772183321102, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1glines004.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: US_二爷翻墙 https://1808.ga Node_39, server: bjus1glines010.feisujiasu.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: b98227c85ab5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bjus1glines010.feisujiasu.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: SG_二爷翻墙 https://1808.ga Node_40, server: fn50mxwjpline001.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8777fef1dd40, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn50mxwjpline001.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: _JP_日本, server: 85.208.108.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰, server: 213.183.59.211, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: _JP_日本 2, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NL_荷兰 2, server: 213.183.59.211, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 195.133.197.254, port: 443, type: vmess, uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.125, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: _US_美国 2, server: 38.75.136.34, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _NL_荷兰 3, server: 213.183.59.211, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _NL_荷兰 4, server: 213.183.59.218, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: _KR_韩国, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 3, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _RU_俄罗斯联邦 2, server: 213.183.53.198, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: _IN_印度, server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _JP_日本 4, server: 103.209.101.179, port: 443, type: vmess, uuid: a7f881d0-5767-4b46-c1a8-5f65dab50eda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.209.101.179}}, udp: true}
+  - {name: _US_美国 3, server: hd-3.ienai.xin, port: 11000, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 38.75.136.34, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _NL_荷兰 5, server: 213.183.59.211, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _US_美国 5, server: 38.75.136.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _NL_荷兰 6, server: 213.183.59.214, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _NL_荷兰 7, server: 213.183.59.191, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: _IR_伊朗, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 5, server: 85.208.108.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 6, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _NL_荷兰 8, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: _JP_日本 6, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _JP_日本 7, server: 85.208.108.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _JP_日本 8, server: 85.208.108.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _NL_荷兰 9, server: 213.183.59.191, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: _US_美国 7, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _RU_俄罗斯联邦 3, server: 213.183.53.198, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: _RU_俄罗斯联邦 4, server: 213.183.53.198, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _NL_荷兰 10, server: 213.183.59.214, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: _US_美国 8, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _NL_荷兰 11, server: 213.183.59.211, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: cm.spacez.cloud, port: 30000, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
+  - {name: solink.ga_Trojan, server: solink.ga, port: 443, type: trojan, password: b3f3d494-d74d-4c03-9931-5c7efb75d980, sni: solink.ga, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,59 +356,345 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +710,85 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网https://1808.ga
-      - 德国
-      - 波兰01
-      - 波兰02
-      - 波兰03
-      - argo1
-      - argo2
-      - argo3
+      - US_二爷翻墙 https://1808.ga Node_1
+      - TW_二爷翻墙 https://1808.ga Node_2
+      - TW_二爷翻墙 https://1808.ga Node_3
+      - HK_二爷翻墙 https://1808.ga Node_4
+      - TW_二爷翻墙 https://1808.ga Node_5
+      - US_二爷翻墙 https://1808.ga Node_6
+      - US_二爷翻墙 https://1808.ga Node_7
+      - TW_二爷翻墙 https://1808.ga Node_8
+      - US_二爷翻墙 https://1808.ga Node_9
+      - US_二爷翻墙 https://1808.ga Node_10
+      - TW_二爷翻墙 https://1808.ga Node_11
+      - TW_二爷翻墙 https://1808.ga Node_12
+      - US_二爷翻墙 https://1808.ga Node_13
+      - TW_二爷翻墙 https://1808.ga Node_14
+      - TW_二爷翻墙 https://1808.ga Node_15
+      - 二爷翻墙 https://1808.ga Node_16
+      - TW_二爷翻墙 https://1808.ga Node_17
+      - TW_二爷翻墙 https://1808.ga Node_18
+      - TW_二爷翻墙 https://1808.ga Node_19
+      - TW_二爷翻墙 https://1808.ga Node_20
+      - TW_二爷翻墙 https://1808.ga Node_21
+      - US_二爷翻墙 https://1808.ga Node_22
+      - TW_二爷翻墙 https://1808.ga Node_23
+      - US_二爷翻墙 https://1808.ga Node_24
+      - US_二爷翻墙 https://1808.ga Node_25
+      - TW_二爷翻墙 https://1808.ga Node_26
+      - US_二爷翻墙 https://1808.ga Node_27
+      - US_二爷翻墙 https://1808.ga Node_28
+      - US_二爷翻墙 https://1808.ga Node_29
+      - US_二爷翻墙 https://1808.ga Node_30
+      - KR_二爷翻墙 https://1808.ga Node_31
+      - LT_二爷翻墙 https://1808.ga Node_32
+      - SG_二爷翻墙 https://1808.ga Node_33
+      - JP_二爷翻墙 https://1808.ga Node_34
+      - US_二爷翻墙 https://1808.ga Node_35
+      - US_二爷翻墙 https://1808.ga Node_36
+      - US_二爷翻墙 https://1808.ga Node_37
+      - US_二爷翻墙 https://1808.ga Node_38
+      - US_二爷翻墙 https://1808.ga Node_39
+      - SG_二爷翻墙 https://1808.ga Node_40
+      - _JP_日本
+      - _US_美国
+      - _NL_荷兰
+      - _JP_日本 2
+      - _NL_荷兰 2
+      - _RU_俄罗斯联邦
+      - _CH_瑞士
+      - _US_美国 2
+      - _NL_荷兰 3
+      - _NL_荷兰 4
+      - _KR_韩国
+      - _DE_德国
+      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本 3
+      - _RU_俄罗斯联邦 2
+      - _IN_印度
+      - _JP_日本 4
+      - _US_美国 3
+      - _US_美国 4
+      - _NL_荷兰 5
+      - _US_美国 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
+      - _IR_伊朗
+      - _JP_日本 5
+      - _US_美国 6
+      - _NL_荷兰 8
+      - _JP_日本 6
+      - _JP_日本 7
+      - _JP_日本 8
+      - _NL_荷兰 9
+      - _US_美国 7
+      - _RU_俄罗斯联邦 3
+      - _RU_俄罗斯联邦 4
+      - _NL_荷兰 10
+      - _US_美国 8
+      - _NL_荷兰 11
+      - _CN_中国->🇭🇰_HK_香港 2
+      - solink.ga_Trojan
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
