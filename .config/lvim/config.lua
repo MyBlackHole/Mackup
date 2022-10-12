@@ -18,7 +18,9 @@ vim.o.fileformats = "unix"
 -- 开启光标所在行相对行号
 vim.o.relativenumber = true
 -- 按语法打开折叠
-vim.o.foldmethod = "syntax"
+vim.o.foldmethod = "indent"
+-- 关闭鼠标
+vim.o.mouse = ""
 
 -- -- 显示所有符号
 -- vim.o.list = true

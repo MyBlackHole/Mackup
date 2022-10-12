@@ -119,8 +119,8 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=/opt/riscv/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
 
-export http_proxy="http://127.0.0.1:7890"
-export https_proxy="http://127.0.0.1:7890"
+export http_proxy="http://127.0.0.1:1080"
+export https_proxy="http://127.0.0.1:1080"
 
 # golang 
 export GOPROXY="https://proxy.golang.com.cn,direct"

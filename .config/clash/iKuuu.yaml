@@ -20,6 +20,12 @@ dns:
     - tls://8.8.4.4:853
     - https://dns.google/dns-query
     - https://dns.twnic.tw/dns-query
+    - https://i.passcloud.xyz/dns-query
+    - https://a.passcloud.xyz/dns-query
+    - tls://a.passcloud.xyz:5432
+    - tls://x.passcloud.xyz
+    - tls://h.iqiq.io
+    - tls://j.iqiq.io
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -57,13 +63,12 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 proxies:
-  - {name: 🇯🇵 免费-日本1, server: jp01-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bf419d5f59f96a.windowsupdate.com}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: bf419d5f59f96a.windowsupdate.com}}
-  - {name: 🇯🇵 免费-日本2, server: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}
-  - {name: 🇯🇵 免费-日本3, server: jp03-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}
-  - {name: 🇯🇵 免费-日本4, server: jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bf419d5f59f7d0.windowsupdate.com}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: bf419d5f59f7d0.windowsupdate.com}}
-  - {name: 🇯🇵 免费-日本5, server: jp05-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}
-  - {name: 🇯🇵 免费-日本6, server: jp06-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp06-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp06-vm0.entry.rwesdhytjuftyhdafsdgfrh.club}}
-  - {name: 🇯🇵 免费-日本备用1, server: jp01-tls-vm0.entry.rwesdhytjuftyhdafsdgfrh.club, port: 889, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-tls-vm0.entry.vm-pass.org}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp01-tls-vm0.entry.vm-pass.org}}
+  - {name: 🇯🇵 免费-日本1, server: jp01-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bf419d5f59f96a.windowsupdate.com}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: bf419d5f59f96a.windowsupdate.com}}
+  - {name: 🇯🇵 免费-日本2, server: jp02-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp02-vm0.entry.srthdw.art}}
+  - {name: 🇯🇵 免费-日本3, server: jp03-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.srthdw.art}}
+  - {name: 🇯🇵 免费-日本4, server: jp04-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bf419d5f59f7d0.windowsupdate.com}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: bf419d5f59f7d0.windowsupdate.com}}
+  - {name: 🇯🇵 免费-日本5, server: jp05-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-vm0.entry.srthdw.art}}
+  - {name: 🇯🇵 免费-日本6, server: jp06-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 72117c89-cbd0-3f6b-a06d-a1fbb86694df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp06-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp06-vm0.entry.srthdw.art}}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -74,7 +79,6 @@ proxy-groups:
       - 🇯🇵 免费-日本4
       - 🇯🇵 免费-日本5
       - 🇯🇵 免费-日本6
-      - 🇯🇵 免费-日本备用1
       - DIRECT
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
@@ -165,6 +169,18 @@ rules:
  - DOMAIN-SUFFIX,forums.e-hentai.org,🐼 ExHentai
  - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
  - DOMAIN-SUFFIX,steam-chat.com,🎮 Steam好友
+ - DST-PORT,25,DIRECT
+ - DST-PORT,57,DIRECT
+ - DST-PORT,109,DIRECT
+ - DST-PORT,110,DIRECT
+ - DST-PORT,143,DIRECT
+ - DST-PORT,158,DIRECT
+ - DST-PORT,209,DIRECT
+ - DST-PORT,220,DIRECT
+ - DST-PORT,465,DIRECT
+ - DST-PORT,587,DIRECT
+ - DST-PORT,995,DIRECT
+ - DST-PORT,993,DIRECT
  - DOMAIN-SUFFIX,t.me,🔰 选择节点
  - DOMAIN-SUFFIX,tdesktop.com,🔰 选择节点
  - DOMAIN-SUFFIX,telegra.ph,🔰 选择节点
