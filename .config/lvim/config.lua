@@ -14,12 +14,14 @@ lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
+-- 关闭鼠标
+vim.o.mouse = ""
 -- 开启光标所在行相对行号
 vim.o.relativenumber = true
 -- 启用语法高亮
 vim.o.syntax = "enable"
 -- 按语法高亮折叠
-vim.o.foldmethod = "syntax"
+vim.o.foldmethod = "indent"
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -61,7 +63,15 @@ lvim.builtin.which_key.mappings["t"] = {
   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
 }
 
-lvim.builtin.which_key.vmappings["t"] = { "<cmd>Translate<cr>", "Translate" }
+lvim.builtin.which_key.vmappings["t"] = {
+  name = "+Translate",
+  t = { "<cmd>Translate<cr>", "Translate" },
+  r = { "<cmd>TranslateR<cr>", "TranslateR" },
+  l = { "<cmd>TranslateL<cr>", "TranslateL" },
+  h = { "<cmd>TranslateH<cr>", "TranslateH" },
+  w = { "<cmd>TranslateW<cr>", "TranslateW" },
+  x = { "<cmd>TranslateX<cr>", "TranslateX" },
+}
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
