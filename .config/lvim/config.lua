@@ -28,6 +28,9 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["H"] = "<cmd>BufferLineCyclePrev<cr>"
 lvim.keys.normal_mode["L"] = "<cmd>BufferLineCycleNext<cr>"
+lvim.keys.normal_mode["K"] = "<cmd>lua vim.lsp.buf.hover()<CR>"
+lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
+
 -- unmap a default keymapping
 -- lvim.keys.normal_mode["<C-Up>"] = false
 -- edit a default keymapping
@@ -166,8 +169,13 @@ vim.o.list = true
 vim.opt.listchars:append("space:⋅")
 vim.opt.listchars:append("eol:↴")
 
+require("flutter-tools").setup {}
+
 -- Additional Plugins
 lvim.plugins = {
+  {
+    'akinsho/flutter-tools.nvim',
+  },
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
   { "lunarvim/colorschemes" },
