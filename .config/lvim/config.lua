@@ -14,6 +14,7 @@ lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.o.fileencodings = "utf-8,gbk"
 vim.o.fileformats = "unix"
+vim.auto_complete = true
 -- 关闭鼠标
 vim.o.mouse = ""
 -- 开启光标所在行相对行号
@@ -184,6 +185,9 @@ lvim.plugins = {
   },
   {
     'akinsho/flutter-tools.nvim',
+    config = function()
+      require("flutter-tools").setup {}
+    end,
   },
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
@@ -204,3 +208,5 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
   -- enable wrap mode for json files only
   command = "%s/[\\u0d]//ge",
 })
+
+vim.cmd('source ~/.config/lvim/lua/user/lualine.lua')
