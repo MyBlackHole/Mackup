@@ -4,8 +4,8 @@ height = 27
 radius = 0
 fixed-center = false
 
-background = #162025
-foreground = #bfbfbf
+background = #1d1e26
+foreground = #b0b287
 
 line-size = 3
 line-color =
@@ -23,9 +23,9 @@ font-0 = "Source Code Pro Semibold:size=10;1"
 font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
 font-2 = "Font Awesome 5 Brands:size=10;1"
 
-modules-left = i3
-modules-center = date
-modules-right = wlan eth powermenu
+modules-left = wlan eth
+modules-center = i3
+modules-right = date powermenu
 
 tray-position =
 ;tray-padding =
@@ -42,22 +42,22 @@ index-sort = true
 wrapping-scroll = false
 
 label-mode-padding = 2
-label-mode-foreground = #162025
-label-mode-background = #75404b
+label-mode-foreground = #1d1e26
+label-mode-background = #1d1e26
 
 label-focused = %index%
-label-focused-background = #75404b
-label-focused-foreground = #6b7443
+label-focused-background = #789073
+label-focused-foreground = #ffffff
 label-focused-padding = 2
 
 label-unfocused = %index%
-label-unfocused-background = #75404b
-label-unfocused-foreground = #162025
+label-unfocused-background = #789073
+label-unfocused-foreground = #1d1e26
 label-unfocused-padding = 2
 
 label-visible = %index%
-label-visible-background = #75404b
-label-visible-foreground = #162025
+label-visible-background = #789073
+label-visible-foreground = #1d1e26
 label-visible-padding = 2
 
 label-urgent = %index%
@@ -70,8 +70,8 @@ interface = net1
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-foreground = #162025
-format-connected-background = #39402e
+format-connected-foreground = #1d1e26
+format-connected-background = #789073
 format-connected-padding = 2
 label-connected = %essid%
 
@@ -82,7 +82,7 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
-ramp-signal-foreground = #162025
+ramp-signal-foreground = #1d1e26
 
 [module/eth]
 type = internal/network
@@ -90,10 +90,10 @@ interface = enp0s3
 interval = 3.0
 
 format-connected-padding = 2
-format-connected-foreground = #162025
-format-connected-background = #39402e
+format-connected-foreground = #1d1e26
+format-connected-background = #789073
 format-connected-prefix = " "
-format-connected-prefix-foreground = #162025
+format-connected-prefix-foreground = #1d1e26
 label-connected = %local_ip%
 
 format-disconnected =
@@ -109,8 +109,8 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
-format-foreground = #162025
-format-background = #4c584a
+format-foreground = #1d1e26
+format-background = #789073
 format-padding = 2
 
 label = %date% %time%
@@ -123,11 +123,11 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-foreground = #39402e
+label-open-foreground = #789073
 label-close =  cancel
-label-close-foreground = #39402e
+label-close-foreground = #789073
 label-separator = |
-label-separator-foreground = #39402e
+label-separator-foreground = #789073
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1

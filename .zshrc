@@ -136,3 +136,4 @@ source $HOME/.cargo/env
 autoload bashcompinit
 bashcompinit
 source $HOME/.config/vcpkg_completion.zsh
+ source <(flutter bash-completion)

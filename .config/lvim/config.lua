@@ -57,6 +57,7 @@ lvim.transparent_window = true
 
 -- Use which-key to add extra bindings with the leader-key prefix
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+lvim.builtin.which_key.mappings["s"]["o"] = { "<cmd>SymbolsOutline<CR>", "SymbolsOutline" }
 lvim.builtin.which_key.mappings["t"] = {
   name = "+Trouble",
   r = { "<cmd>Trouble lsp_references<cr>", "References" },
@@ -171,9 +172,16 @@ vim.opt.listchars:append("space:⋅")
 vim.opt.listchars:append("eol:↴")
 
 require("flutter-tools").setup {}
+require('symbols-outline').setup()
 
 -- Additional Plugins
 lvim.plugins = {
+  {
+    "simrat39/symbols-outline.nvim",
+    config = function()
+      require('symbols-outline').setup()
+    end
+  },
   {
     'akinsho/flutter-tools.nvim',
   },
