@@ -30,6 +30,7 @@ lvim.keys.normal_mode["H"] = "<cmd>BufferLineCyclePrev<cr>"
 lvim.keys.normal_mode["L"] = "<cmd>BufferLineCycleNext<cr>"
 lvim.keys.normal_mode["K"] = "<cmd>lua vim.lsp.buf.hover()<CR>"
 lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
+lvim.transparent_window = true
 
 -- unmap a default keymapping
 -- lvim.keys.normal_mode["<C-Up>"] = false
