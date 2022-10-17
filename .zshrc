@@ -135,3 +135,5 @@ export GOPROXY="https://proxy.golang.com.cn,direct"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source <(flutter zsh-completion)

@@ -57,7 +57,9 @@ vim.opt.cmdheight = 1
 -- 启用语法高亮
 vim.opt.syntax = "enable"
 -- 按语法高亮折叠
-vim.opt.foldmethod = "indent"
+-- vim.opt.foldmethod = "indent"
+vim.wo.foldmethod = "expr"
+vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 -- 显示所有符号
 vim.opt.list = true
 -- 光标在行首的时候，使用左右方向键可以跳转到上一行或下一行
@@ -216,7 +218,7 @@ require("flutter-tools").setup {}
 require('symbols-outline').setup()
 require("nvim-treesitter.configs").setup {
   -- A list of parser names, or "all"
-  ensure_installed = { "c", "lua", "rust" },
+  -- ensure_installed = { "c", "lua", "rust" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
@@ -244,6 +246,9 @@ require("nvim-treesitter.configs").setup {
     max_file_lines = nil, -- Do not enable for files with more than n lines, int
     -- colors = {}, -- table of hex strings
     -- termcolors = {} -- table of colour name strings
+  },
+  indent = {
+    enable = true
   }
 }
 
