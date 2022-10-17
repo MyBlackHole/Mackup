@@ -1,0 +1,48 @@
+files:
+  - url: ""
+    time: 1660920581210.yml
+    name: iKuuu.yaml
+    selected: []
+    mode: rule
+  - time: 1661434133828.yml
+    name: Clash_1661434132.yaml
+    url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
+    selected:
+      - name: GLOBAL
+        now: " [白银][台.高雄市][0.4] 直连 ④  "
+      - name: 🚀 节点选择
+        now: "  [黄金][台.高雄市][0.8] 港转 ①   "
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 🎯 哔哩哔哩
+        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    interval: 0
+    subInfo:
+      upload: 568717852
+      download: 54732541015
+      total: 1296200368128
+      expire: 1680263469
+    mode: global
+  - time: 1661434311798.yml
+    name: jiang.netlify.com
+    url: https://jiang.netlify.com
+    selected: []
+    interval: 0
+    subInfo: {}
+index: 1
