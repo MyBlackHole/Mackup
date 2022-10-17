@@ -137,3 +137,5 @@ autoload bashcompinit
 bashcompinit
 source $HOME/.config/vcpkg_completion.zsh
  source <(flutter bash-completion)
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

@@ -57,7 +57,9 @@ vim.opt.cmdheight = 1
 -- 启用语法高亮
 vim.opt.syntax = "enable"
 -- 按语法高亮折叠
-vim.opt.foldmethod = "indent"
+-- vim.opt.foldmethod = "indent"
+vim.wo.foldmethod = "expr"
+vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 -- 显示所有符号
 vim.opt.list = true
 -- 光标在行首的时候，使用左右方向键可以跳转到上一行或下一行
@@ -75,7 +77,7 @@ lvim.keys.normal_mode["H"] = "<cmd>BufferLineCyclePrev<cr>"
 lvim.keys.normal_mode["L"] = "<cmd>BufferLineCycleNext<cr>"
 lvim.keys.normal_mode["K"] = "<cmd>lua vim.lsp.buf.hover()<CR>"
 lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
-lvim.transparent_window = true
+-- lvim.transparent_window = true
 
 -- unmap a default keymapping
 -- lvim.keys.normal_mode["<C-Up>"] = false
@@ -103,6 +105,10 @@ lvim.transparent_window = true
 -- Use which-key to add extra bindings with the leader-key prefix
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 lvim.builtin.which_key.mappings["s"]["o"] = { "<cmd>SymbolsOutline<CR>", "SymbolsOutline" }
+lvim.builtin.which_key.mappings["f"] = {
+  name = "Flutter",
+  r = { "<cmd>FlutterRun<CR>", "FlutterRun" },
+}
 lvim.builtin.which_key.mappings["t"] = {
   name = "+Trouble",
   r = { "<cmd>Trouble lsp_references<cr>", "References" },
@@ -127,7 +133,6 @@ lvim.builtin.which_key.vmappings["t"] = {
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.notify.active = true
-lvim.builtin.dap.active = true -- (default: false)
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -211,42 +216,6 @@ linters.setup {
   -- },
 }
 
-
-require("flutter-tools").setup {}
-require('symbols-outline').setup()
-require("nvim-treesitter.configs").setup {
-  -- A list of parser names, or "all"
-  ensure_installed = { "c", "lua", "rust" },
-
-  -- Install parsers synchronously (only applied to `ensure_installed`)
-  sync_install = false,
-
-  -- Automatically install missing parsers when entering buffer
-  -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
-  auto_install = true,
-
-  -- List of parsers to ignore installing (for "all")
-  ignore_install = { "javascript" },
-
-  ---- If you need to change the installation directory of the parsers (see -> Advanced Setup)
-  -- parser_install_dir = "/some/path/to/store/parsers", -- Remember to run vim.opt.runtimepath:append("/some/path/to/store/parsers")!
-
-  highlight = {
-    -- `false` will disable the whole extension
-    enable = true,
-
-  },
-  -- ...
-  rainbow = {
-    enable = true,
-    -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
-    extended_mode = true, -- Also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
-    max_file_lines = nil, -- Do not enable for files with more than n lines, int
-    -- colors = {}, -- table of hex strings
-    -- termcolors = {} -- table of colour name strings
-  }
-}
-
 -- Additional Plugins
 lvim.plugins = {
   {
@@ -261,12 +230,36 @@ lvim.plugins = {
       require("flutter-tools").setup {}
     end,
   },
+  -- { "norcalli/nvim-colorizer.lua" },
   { "p00f/nvim-ts-rainbow" },
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
   { "lunarvim/colorschemes" },
   { "folke/trouble.nvim" },
 }
+
+
+-- require("colorizer").setup()
+require("flutter-tools").setup()
+require('symbols-outline').setup()
+-- require("nvim-treesitter").setup {}
+require("nvim-treesitter.configs").setup {
+  highlight = {
+    -- `false` will disable the whole extension
+    enable = true,
+  },
+  -- ...
+  rainbow = {
+    enable = true,
+    -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
+    extended_mode = true, -- Also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
+    max_file_lines = nil, -- Do not enable for files with more than n lines, int
+    -- colors = {}, -- table of hex strings
+    -- termcolors = {} -- table of colour name strings
+  }
+}
+
+
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- 自动操作
@@ -276,10 +269,13 @@ lvim.plugins = {
 --   -- { "BufNewFile", "*.py", "set fileformats=unix" },
 -- }
 
-vim.api.nvim_create_autocmd("BufWinEnter", {
-  pattern = { "*.py", "*.c", "*.h" },
-  -- enable wrap mode for json files only
-  command = "%s/[\\u0d]//ge",
-})
+vim.api.nvim_create_autocmd(
+  "BufWinEnter",
+  {
+    pattern = { "*.py", "*.c", "*.h" },
+    -- enable wrap mode for json files only
+    command = "%s/[\\u0d]//ge",
+  }
+)
 
 vim.cmd('source ~/.config/lvim/lua/user/lualine.lua')
