@@ -10,7 +10,8 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
+-- 关闭保存时格式化
+lvim.format_on_save = false
 lvim.colorscheme = "onedarker"
 -- 写入文件的编码
 vim.opt.fileencoding = "utf-8"

@@ -82,6 +82,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-history-substring-search
   vi-mode
   tmux
 )
@@ -137,6 +138,6 @@ source $HOME/.cargo/env
 autoload bashcompinit
 bashcompinit
 source $HOME/.config/vcpkg_completion.zsh
- source <(flutter bash-completion)
+source <(flutter bash-completion)
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
