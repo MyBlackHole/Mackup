@@ -118,6 +118,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.local/bin:$PATH
 export PATH=/opt/riscv/bin:$PATH
 export PATH=/opt/gcc_riscv32/bin:$PATH
+export PATH=/opt/gcc_arm/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
 
 export http_proxy="http://127.0.0.1:1080"

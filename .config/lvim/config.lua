@@ -133,7 +133,6 @@ lvim.builtin.which_key.vmappings["t"] = {
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
-lvim.builtin.notify.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -276,7 +275,7 @@ require("nvim-treesitter.configs").setup {
 vim.api.nvim_create_autocmd(
   "BufWinEnter",
   {
-    pattern = { "*.py", "*.c", "*.h" },
+    pattern = { "*.py", "*.c", "*.h", "Makefile", "*.s", "*.ld"},
     -- enable wrap mode for json files only
     command = "%s/[\\u0d]//ge",
   }
