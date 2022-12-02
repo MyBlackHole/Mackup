@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "onedarker"
+lvim.colorscheme = "onedark"
 -- 写入文件的编码
 vim.opt.fileencoding = "utf-8"
 vim.opt.fileencodings = "utf-8,gbk"
@@ -128,8 +128,6 @@ lvim.builtin.which_key.vmappings["t"] = {
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
-lvim.builtin.notify.active = true
-lvim.builtin.dap.active = true -- (default: false)
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -214,7 +212,6 @@ linters.setup {
 }
 
 
-require("flutter-tools").setup {}
 require('symbols-outline').setup()
 require("nvim-treesitter.configs").setup {
   -- A list of parser names, or "all"
@@ -259,12 +256,6 @@ lvim.plugins = {
     config = function()
       require('symbols-outline').setup()
     end
-  },
-  {
-    'akinsho/flutter-tools.nvim',
-    config = function()
-      require("flutter-tools").setup {}
-    end,
   },
   { "p00f/nvim-ts-rainbow" },
   { "folke/tokyonight.nvim" },
