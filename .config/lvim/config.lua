@@ -10,9 +10,11 @@ an executable
 
 -- general
 lvim.log.level = "warn"
+-- 主题
+lvim.colorscheme = "lunar"
+-- lvim.colorscheme = "onedarker"
 -- 关闭保存时格式化
-lvim.format_on_save = false
-lvim.colorscheme = "onedarker"
+lvim.format_on_save.enabled = false
 -- 写入文件的编码
 vim.opt.fileencoding = "utf-8"
 vim.opt.fileencodings = "utf-8,gbk"
@@ -136,7 +138,10 @@ lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+-- lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+lvim.builtin.cmp.completion.keyword_length = 2
+-- lvim.builtin.telescope.defaults.layout_config.width = 0.95
+-- lvim.builtin.telescope.defaults.layout_config.preview_cutoff = 75
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -202,6 +207,7 @@ formatters.setup {
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
   { command = "flake8", filetypes = { "python" } },
+  { command = "golangci-lint", filetypes = { "go" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
@@ -231,11 +237,15 @@ lvim.plugins = {
     end,
   },
   -- { "norcalli/nvim-colorizer.lua" },
-  { "p00f/nvim-ts-rainbow" },
+  -- { "p00f/nvim-ts-rainbow" },
   { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
-  { "lunarvim/colorschemes" },
+  -- { "lunarvim/colorschemes" },
   { "folke/trouble.nvim" },
+  { "hrsh7th/vim-vsnip" },
+  { "hrsh7th/vim-vsnip-integ" },
+  { "hrsh7th/cmp-cmdline" },
+  -- { "ryanoasis/vim-devicons" },
 }
 
 

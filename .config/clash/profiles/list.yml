@@ -9,7 +9,7 @@ files:
     url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
     selected:
       - name: GLOBAL
-        now: " [白银][台.高雄市][0.4] 直连 ②  "
+        now: "  [黄金][港.香港市][0.8] 港转 ①   "
       - name: 🚀 节点选择
         now: "  [黄金][台.高雄市][0.8] 港转 ①   "
       - name: 🌍 国外媒体
@@ -34,15 +34,17 @@ files:
         now: 🚀 节点选择
     interval: 0
     subInfo:
-      upload: 568717852
-      download: 54732541015
-      total: 1296200368128
+      upload: 5436747339
+      download: 521365808612
+      total: 1303457562624
       expire: 1680263469
     mode: global
+    homeWeb: https://dash.ibcn.space/
   - time: 1661434311798.yml
     name: jiang.netlify.com
     url: https://jiang.netlify.com
     selected: []
     interval: 0
     subInfo: {}
+    homeWeb: ""
 index: 1

@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://dash.ibcn.space/link/pZlKcvYeh6fGTXnJ?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022-08-25 09:32:50
+## 上次更新于：2022-12-31 03:07:57
 #---------------------------------------------------#
 
 port: 7890
@@ -14,475 +14,7 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '  [黄金][台.高雄市][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][台.高雄市][0.8] 港转 ②   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][台.高雄市][0.8] 港转 ③   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-03-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-03-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][台.高雄市][0.8] 港转 ④   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-04-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-04-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][新.新加坡][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-sg-sin-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-sg-sin-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][新.新加坡][0.8] 港转 ②'
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-sg-sin-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-sg-sin-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][日.东京市][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-jp-tyo-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-jp-tyo-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][日.东京市][0.8] 港转 ②   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-jp-tyo-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-jp-tyo-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][港.香港市][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-hk-hkg-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-hk-hkg-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][港.香港市][0.8] 港转 ②   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-hk-hkg-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-hk-hkg-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][美.旧金山][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-sfo-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-sfo-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][美.旧金山][0.8] 港转 ②'
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-sfo-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-sfo-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][美.洛杉矶][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-lax-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-lax-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][美.洛杉矶][0.8] 港转 ②   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-lax-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-lax-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][韩.首尔市][0.8] 港转 ①   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-kr-sel-01-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-kr-sel-01-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '  [黄金][韩.首尔市][0.8] 港转 ②   '
-    type: vmess
-    server: gtm-sg-6wr2tpwdh0r.gtm-i2d3.com
-    port: 2083
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-kr-sel-02-edgecast-v2.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-kr-sel-02-edgecast-v2.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][台.高雄市][0.4] 直连 ①  '
-    type: vmess
-    server: apac-tw-khh-01-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-01-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-01-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][台.高雄市][0.4] 直连 ②  '
-    type: vmess
-    server: apac-tw-khh-02-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-02-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-02-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][台.高雄市][0.4] 直连 ③  '
-    type: vmess
-    server: apac-tw-khh-03-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-03-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-03-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][台.高雄市][0.4] 直连 ④  '
-    type: vmess
-    server: apac-tw-khh-04-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-tw-khh-04-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-tw-khh-04-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][日.东京市][0.4] 直连 ①  '
-    type: vmess
-    server: apac-jp-tyo-01-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-jp-tyo-01-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-jp-tyo-01-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][日.东京市][0.4] 直连 ②  '
-    type: vmess
-    server: apac-jp-tyo-02-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-jp-tyo-02-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-jp-tyo-02-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][港.香港市][0.4] 直连 ①  '
-    type: vmess
-    server: apac-hk-hkg-01-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-hk-hkg-01-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-hk-hkg-01-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][港.香港市][0.4] 直连 ②  '
-    type: vmess
-    server: apac-hk-hkg-02-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: apac-hk-hkg-02-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: apac-hk-hkg-02-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][美.洛杉矶][0.4] 直连 ①  '
-    type: vmess
-    server: namer-us-lax-01-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-lax-01-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-lax-01-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: ' [白银][美.洛杉矶][0.4] 直连 ②  '
-    type: vmess
-    server: namer-us-lax-02-edgecast-v1.qdns.live
-    port: 2088
-    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers: { Host: namer-us-lax-02-edgecast-v1.qdns.live }
-    ws-path: /
-    ws-headers:
-      Host: namer-us-lax-02-edgecast-v1.qdns.live
-    tls: true
-    skip-cert-verify: true
-  -
-    name: '[青铜][俄.莫斯科][1.0] 直连 ① '
+    name: '      用前更新订阅'
     type: vmess
     server: emea-ru-mow-01-edgecast.qdns.live
     port: 2053
@@ -500,9 +32,405 @@ proxies:
     tls: true
     skip-cert-verify: true
   -
-    name: '[青铜][美.旧金山][1.0] 直连 ① '
+    name: '  [黄金][台.高雄市][0.8] 港转 ①   '
     type: vmess
-    server: namer-us-sfo-01-edgecast.qdns.live
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-tw-khh-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-tw-khh-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][台.高雄市][0.8] 港转 ②   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-tw-khh-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-tw-khh-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][新.新加坡][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-sg-sin-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-sg-sin-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][新.新加坡][0.8] 港转 ②'
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-sg-sin-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-sg-sin-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][日.东京市][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-jp-tyo-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-jp-tyo-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][日.东京市][0.8] 港转 ②   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-jp-tyo-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-jp-tyo-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][港.香港市][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-hk-hkg-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-hk-hkg-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][港.香港市][0.8] 港转 ②   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-hk-hkg-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-hk-hkg-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][美.旧金山][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-sfo-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-sfo-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][美.旧金山][0.8] 港转 ②'
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-sfo-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-sfo-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][美.洛杉矶][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-lax-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-lax-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][美.洛杉矶][0.8] 港转 ②   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-lax-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-lax-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][韩.首尔市][0.8] 港转 ①   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-kr-sel-01-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-kr-sel-01-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '  [黄金][韩.首尔市][0.8] 港转 ②   '
+    type: vmess
+    server: relay1.ksrd.xyz
+    port: 2083
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-kr-sel-02-edgecast-v2.getbdns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-kr-sel-02-edgecast-v2.getbdns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][台.高雄市][0.4] 直连 ①  '
+    type: vmess
+    server: apac-tw-khh-01-edgecast-v1.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-tw-khh-01-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-tw-khh-01-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][台.高雄市][0.4] 直连 ②  '
+    type: vmess
+    server: apac-tw-khh-02-edgecast-v1.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-tw-khh-02-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-tw-khh-02-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][日.东京市][0.4] 直连 ①  '
+    type: vmess
+    server: relay-1.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-jp-tyo-01-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-jp-tyo-01-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][日.东京市][0.4] 直连 ②  '
+    type: vmess
+    server: relay-2.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-jp-tyo-02-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-jp-tyo-02-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][港.香港市][0.4] 直连 ①  '
+    type: vmess
+    server: relay-1.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-hk-hkg-01-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-hk-hkg-01-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][港.香港市][0.4] 直连 ②  '
+    type: vmess
+    server: relay-2.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: apac-hk-hkg-02-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: apac-hk-hkg-02-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][美.洛杉矶][0.4] 直连 ①  '
+    type: vmess
+    server: relay-1.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-lax-01-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-lax-01-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: ' [白银][美.洛杉矶][0.4] 直连 ②  '
+    type: vmess
+    server: relay-2.getadns.xyz
+    port: 2087
+    uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers: { Host: namer-us-lax-02-edgecast-v1.getadns.xyz }
+    ws-path: /
+    ws-headers:
+      Host: namer-us-lax-02-edgecast-v1.getadns.xyz
+    tls: true
+    skip-cert-verify: true
+  -
+    name: '[青铜][俄.莫斯科][1.0] 直连 ① '
+    type: vmess
+    server: 141.101.115.3
     port: 2053
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -511,16 +439,16 @@ proxies:
     network: ws
     ws-opts:
       path: /
-      headers: { Host: namer-us-sfo-01-edgecast.qdns.live }
+      headers: { Host: emea-ru-mow-01-edgecast.qdns.live }
     ws-path: /
     ws-headers:
-      Host: namer-us-sfo-01-edgecast.qdns.live
+      Host: emea-ru-mow-01-edgecast.qdns.live
     tls: true
     skip-cert-verify: true
   -
     name: '[青铜][美.西雅图][1.0] 直连 ① '
     type: vmess
-    server: namer-us-sea-01-edgecast.qdns.live
+    server: 141.101.115.1
     port: 2053
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -540,10 +468,9 @@ proxy-groups:
     name: '🚀 节点选择'
     type: select
     proxies:
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -558,8 +485,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -567,7 +492,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
       - '🎯 全球直连'
       - '🚀 故障转移'
@@ -577,10 +501,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -595,8 +518,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -604,7 +525,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '📲 电报信息'
@@ -612,10 +532,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -630,8 +549,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -639,7 +556,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: 'Ⓜ️ 微软服务'
@@ -647,10 +563,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -665,8 +580,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -674,7 +587,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '🍎 苹果服务'
@@ -682,10 +594,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -700,8 +611,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -709,7 +618,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '🎯 哔哩哔哩'
@@ -717,10 +625,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - '🚀 节点选择'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -735,8 +642,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -744,7 +649,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '📢 谷歌FCM'
@@ -752,10 +656,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -770,8 +673,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -779,7 +680,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '🎯 全球直连'
@@ -798,10 +698,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - REJECT
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -816,8 +715,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -825,7 +722,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '🐟 漏网之鱼'
@@ -833,10 +729,9 @@ proxy-groups:
     proxies:
       - '🚀 节点选择'
       - '🎯 全球直连'
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -851,8 +746,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -860,16 +753,14 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
     name: '🚀 故障转移'
     type: fallback
     proxies:
+      - '      用前更新订阅'
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
-      - '  [黄金][台.高雄市][0.8] 港转 ③   '
-      - '  [黄金][台.高雄市][0.8] 港转 ④   '
       - '  [黄金][新.新加坡][0.8] 港转 ①   '
       - '  [黄金][新.新加坡][0.8] 港转 ②'
       - '  [黄金][日.东京市][0.8] 港转 ①   '
@@ -884,8 +775,6 @@ proxy-groups:
       - '  [黄金][韩.首尔市][0.8] 港转 ②   '
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
-      - ' [白银][台.高雄市][0.4] 直连 ③  '
-      - ' [白银][台.高雄市][0.4] 直连 ④  '
       - ' [白银][日.东京市][0.4] 直连 ①  '
       - ' [白银][日.东京市][0.4] 直连 ②  '
       - ' [白银][港.香港市][0.4] 直连 ①  '
@@ -893,7 +782,6 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ①  '
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
-      - '[青铜][美.旧金山][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
     url: 'http://www.gstatic.com/generate_204'
     interval: 60

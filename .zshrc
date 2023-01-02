@@ -120,6 +120,7 @@ export PATH=/opt/riscv/bin:$PATH
 export PATH=/opt/gcc_riscv32/bin:$PATH
 export PATH=/opt/gcc_arm/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
+export PATH=$HOME/Android/Sdk/platform-tools:$PATH
 
 export http_proxy="http://127.0.0.1:1080"
 export https_proxy="http://127.0.0.1:1080"
@@ -142,3 +143,5 @@ source $HOME/.config/vcpkg_completion.zsh
 source <(flutter bash-completion)
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+eval "$(atuin init zsh)"
