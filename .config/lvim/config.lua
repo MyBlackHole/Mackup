@@ -238,7 +238,6 @@ lvim.plugins = {
   },
   -- { "norcalli/nvim-colorizer.lua" },
   -- { "p00f/nvim-ts-rainbow" },
-  { "folke/tokyonight.nvim" },
   { "voldikss/vim-translator" },
   -- { "lunarvim/colorschemes" },
   { "folke/trouble.nvim" },
@@ -285,7 +284,7 @@ require("nvim-treesitter.configs").setup {
 vim.api.nvim_create_autocmd(
   "BufWinEnter",
   {
-    pattern = { "*.py", "*.c", "*.h", "Makefile", "*.s", "*.ld"},
+    pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld"},
     -- enable wrap mode for json files only
     command = "%s/[\\u0d]//ge",
   }

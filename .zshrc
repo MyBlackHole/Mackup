@@ -132,16 +132,20 @@ export GOPROXY="https://proxy.golang.com.cn,direct"
 source $HOME/.cargo/env
 # source ~/.rustup_completes
 # source $(rustc --print sysroot)/etc/bash_completion.d/cargo
-# fpath+=~/.zfunc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 autoload bashcompinit
-bashcompinit
+# vcpkg
 source $HOME/.config/vcpkg_completion.zsh
+# flutter
 source <(flutter bash-completion)
-
+# yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 eval "$(atuin init zsh)"
+
+# >>> xmake >>>
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+# <<< xmake <<<
