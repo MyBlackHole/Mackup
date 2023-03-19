@@ -9,13 +9,13 @@ files:
     url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
     selected:
       - name: GLOBAL
-        now: "  [黄金][韩.首尔市][0.8] 港转 ②   "
+        now: "  [黄金][美.旧金山][0.8] 港转 ②"
       - name: 🚀 节点选择
-        now: "  [黄金][台.高雄市][0.8] 港转 ①   "
+        now: "  [黄金][美.洛杉矶][0.8] 港转 ②   "
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 📲 电报信息
-        now: 🚀 节点选择
+        now: "[青铜][美.西雅图][1.0] 直连 ① "
       - name: Ⓜ️ 微软服务
         now: 🎯 全球直连
       - name: 🍎 苹果服务
@@ -32,11 +32,13 @@ files:
         now: REJECT
       - name: 🐟 漏网之鱼
         now: 🚀 节点选择
+      - name: 🤖 OPENGPT
+        now: DIRECT
     interval: 0
     subInfo:
-      upload: 5436747339
-      download: 521365808612
-      total: 1303457562624
+      upload: 6667116013
+      download: 689499430633
+      total: 1305940590592
       expire: 1680263469
     mode: global
     homeWeb: https://dash.ibcn.space/

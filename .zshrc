@@ -124,6 +124,7 @@ export PATH=$HOME/Android/Sdk/platform-tools:$PATH
 
 export http_proxy="http://127.0.0.1:1080"
 export https_proxy="http://127.0.0.1:1080"
+# export all_proxy="socks5://127.0.0.1:1080"
 
 # golang 
 export GOPROXY="https://proxy.golang.com.cn,direct"
@@ -144,7 +145,8 @@ source <(flutter bash-completion)
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-eval "$(atuin init zsh)"
+# # atuin
+# eval "$(atuin init zsh)"
 
 # >>> xmake >>>
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile

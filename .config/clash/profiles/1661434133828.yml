@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://dash.ibcn.space/link/pZlKcvYeh6fGTXnJ?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022-12-31 03:07:57
+## 上次更新于：2023-03-02 09:59:47
 #---------------------------------------------------#
 
 port: 7890
@@ -16,7 +16,7 @@ proxies:
   -
     name: '      用前更新订阅'
     type: vmess
-    server: emea-ru-mow-01-edgecast.qdns.live
+    server: 141.101.115.6
     port: 2053
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -25,10 +25,10 @@ proxies:
     network: ws
     ws-opts:
       path: /
-      headers: { Host: emea-ru-mow-01-edgecast.qdns.live }
+      headers: { Host: namer-us-sea-01-edgecast.qdns.live }
     ws-path: /
     ws-headers:
-      Host: emea-ru-mow-01-edgecast.qdns.live
+      Host: namer-us-sea-01-edgecast.qdns.live
     tls: true
     skip-cert-verify: true
   -
@@ -52,7 +52,7 @@ proxies:
   -
     name: '  [黄金][台.高雄市][0.8] 港转 ②   '
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -88,7 +88,7 @@ proxies:
   -
     name: '  [黄金][新.新加坡][0.8] 港转 ②'
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -124,7 +124,7 @@ proxies:
   -
     name: '  [黄金][日.东京市][0.8] 港转 ②   '
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -160,7 +160,7 @@ proxies:
   -
     name: '  [黄金][港.香港市][0.8] 港转 ②   '
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -196,7 +196,7 @@ proxies:
   -
     name: '  [黄金][美.旧金山][0.8] 港转 ②'
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -232,7 +232,7 @@ proxies:
   -
     name: '  [黄金][美.洛杉矶][0.8] 港转 ②   '
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -268,7 +268,7 @@ proxies:
   -
     name: '  [黄金][韩.首尔市][0.8] 港转 ②   '
     type: vmess
-    server: relay1.ksrd.xyz
+    server: relay2.ksrd.xyz
     port: 2083
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -286,7 +286,7 @@ proxies:
   -
     name: ' [白银][台.高雄市][0.4] 直连 ①  '
     type: vmess
-    server: apac-tw-khh-01-edgecast-v1.getadns.xyz
+    server: relay-1.getadns.xyz
     port: 2087
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -304,7 +304,7 @@ proxies:
   -
     name: ' [白银][台.高雄市][0.4] 直连 ②  '
     type: vmess
-    server: apac-tw-khh-02-edgecast-v1.getadns.xyz
+    server: relay-2.getadns.xyz
     port: 2087
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -430,7 +430,7 @@ proxies:
   -
     name: '[青铜][俄.莫斯科][1.0] 直连 ① '
     type: vmess
-    server: 141.101.115.3
+    server: 141.101.115.7
     port: 2053
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -448,7 +448,7 @@ proxies:
   -
     name: '[青铜][美.西雅图][1.0] 直连 ① '
     type: vmess
-    server: 141.101.115.1
+    server: 141.101.115.6
     port: 2053
     uuid: 313d0e9a-c70d-3070-b6cc-652527d888e4
     alterId: 0
@@ -755,6 +755,16 @@ proxy-groups:
       - '[青铜][俄.莫斯科][1.0] 直连 ① '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
+    name: '🤖 OPENGPT'
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - '  [黄金][台.高雄市][0.8] 港转 ①   '
+      - '  [黄金][台.高雄市][0.8] 港转 ②   '
+      - ' [白银][台.高雄市][0.4] 直连 ①  '
+      - ' [白银][台.高雄市][0.4] 直连 ②  '
+  -
     name: '🚀 故障转移'
     type: fallback
     proxies:
@@ -792,6 +802,8 @@ rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
 
+  - DOMAIN-SUFFIX,openai.com,🤖 OPENGPT
+  - DST-PORT,25,DIRECT
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连

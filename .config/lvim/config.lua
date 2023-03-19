@@ -51,6 +51,13 @@ vim.opt.swapfile = false
 vim.opt.smartindent = true
 -- 智能案例
 vim.opt.smartcase = true
+-- 换行缩进
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+-- 自动缩进:产考上一行
+vim.opt.autoindent = true
+-- 使用C/C++语言自动缩进
+vim.opt.cindent = true
 -- 关闭鼠标
 vim.opt.mouse = ""
 -- 开启光标所在行相对行号
@@ -189,8 +196,9 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- 格式化
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-  { command = "black", filetypes = { "python" } },
-  { command = "isort", filetypes = { "python" } },
+  { command = "black",        filetypes = { "python" } },
+  { command = "isort",        filetypes = { "python" } },
+  { command = "markdownlint", filetypes = { "Markdown" } },
   -- {
   --   -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "prettier",
@@ -206,8 +214,9 @@ formatters.setup {
 -- 语法校验
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
-  { command = "flake8", filetypes = { "python" } },
+  { command = "flake8",        filetypes = { "python" } },
   { command = "golangci-lint", filetypes = { "go" } },
+  { command = "markdownlint",  filetypes = { "Markdown" } },
   -- {
   --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
   --   command = "shellcheck",
@@ -284,7 +293,7 @@ require("nvim-treesitter.configs").setup {
 vim.api.nvim_create_autocmd(
   "BufWinEnter",
   {
-    pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld"},
+    pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
     -- enable wrap mode for json files only
     command = "%s/[\\u0d]//ge",
   }
