@@ -151,3 +151,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # >>> xmake >>>
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
 # <<< xmake <<<
+
+# tmux error:"ssh" 'tmux-256color': unknown terminal type. 处理
+alias ssh='TERM=xterm ssh'
