@@ -126,6 +126,9 @@ export http_proxy="http://127.0.0.1:1080"
 export https_proxy="http://127.0.0.1:1080"
 # export all_proxy="socks5://127.0.0.1:1080"
 
+# zsh 解释 *
+setopt no_nomatch
+
 # golang 
 export GOPROXY="https://proxy.golang.com.cn,direct"
 
