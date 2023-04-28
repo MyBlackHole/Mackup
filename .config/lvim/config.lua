@@ -9,7 +9,12 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
 -- general
-lvim.log.level = "warn"
+lvim.log.level = "info"
+lvim.format_on_save = {
+  enabled = true,
+  pattern = "*.lua",
+  timeout = 1000,
+}
 -- 主题
 lvim.colorscheme = "lunar"
 -- lvim.colorscheme = "onedarker"
@@ -89,66 +94,43 @@ lvim.keys.normal_mode["K"] = "<cmd>lua vim.lsp.buf.hover()<CR>"
 lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
 -- lvim.transparent_window = true
 
--- unmap a default keymapping
--- lvim.keys.normal_mode["<C-Up>"] = false
--- edit a default keymapping
--- lvim.keys.normal_mode["<C-q>"] = ":q<cr>"
-
--- Change Telescope navigation to use j and k for navigation and n and p for history in both input and normal mode.
--- we use protected-mode (pcall) just in case the plugin wasn't loaded yet.
--- local _, actions = pcall(require, "telescope.actions")
--- lvim.builtin.telescope.defaults.mappings = {
---   -- for input mode
---   i = {
---     ["<C-j>"] = actions.move_selection_next,
---     ["<C-k>"] = actions.move_selection_previous,
---     ["<C-n>"] = actions.cycle_history_next,
---     ["<C-p>"] = actions.cycle_history_prev,
---   },
---   -- for normal mode
---   n = {
---     ["<C-j>"] = actions.move_selection_next,
---     ["<C-k>"] = actions.move_selection_previous,
---   },
--- }
-
 -- Use which-key to add extra bindings with the leader-key prefix
 -- 打开项目
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 
 -- 打开函数树
 lvim.builtin.which_key.mappings["S"] = {
-    name = "symbols-outline",
-    o = { "<cmd>SymbolsOutlineOpen<CR>", "SymbolsOutlineOpen" },
-    c = { "<cmd>SymbolsOutlineClose<CR>", "SymbolsOutlineClose" },
+  name = "symbols-outline",
+  o = { "<cmd>SymbolsOutlineOpen<CR>", "SymbolsOutlineOpen" },
+  c = { "<cmd>SymbolsOutlineClose<CR>", "SymbolsOutlineClose" },
 }
 
 -- flutter-tools
 lvim.builtin.which_key.mappings["f"] = {
-    name = "Flutter",
-    r = { "<cmd>FlutterRun<CR>", "FlutterRun" },
+  name = "Flutter",
+  r = { "<cmd>FlutterRun<CR>", "FlutterRun" },
 }
 
 -- 诊断 key map
 lvim.builtin.which_key.mappings["t"] = {
-    name = "+Trouble",
-    r = { "<cmd>Trouble lsp_references<cr>", "References" },
-    f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
-    d = { "<cmd>Trouble lsp_document_diagnostics<cr>", "Diagnostics" },
-    q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
-    l = { "<cmd>Trouble loclist<cr>", "LocationList" },
-    w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
+  name = "+Trouble",
+  r = { "<cmd>Trouble lsp_references<cr>", "References" },
+  f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
+  d = { "<cmd>Trouble lsp_document_diagnostics<cr>", "Diagnostics" },
+  q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
+  l = { "<cmd>Trouble loclist<cr>", "LocationList" },
+  w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
 }
 
 -- 翻译
 lvim.builtin.which_key.vmappings["t"] = {
-    name = "+Translate",
-    t = { "<cmd>Translate<cr>", "Translate" },
-    r = { "<cmd>TranslateR<cr>", "TranslateR" },
-    l = { "<cmd>TranslateL<cr>", "TranslateL" },
-    h = { "<cmd>TranslateH<cr>", "TranslateH" },
-    w = { "<cmd>TranslateW<cr>", "TranslateW" },
-    x = { "<cmd>TranslateX<cr>", "TranslateX" },
+  name = "+Translate",
+  t = { "<cmd>Translate<cr>", "Translate" },
+  r = { "<cmd>TranslateR<cr>", "TranslateR" },
+  l = { "<cmd>TranslateL<cr>", "TranslateL" },
+  h = { "<cmd>TranslateH<cr>", "TranslateH" },
+  w = { "<cmd>TranslateW<cr>", "TranslateW" },
+  x = { "<cmd>TranslateX<cr>", "TranslateX" },
 }
 
 -- TODO: User Config for predefined plugins
@@ -164,138 +146,83 @@ lvim.builtin.cmp.completion.keyword_length = 2
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
-    "bash",
-    "c",
-    "javascript",
-    -- "json",
-    "lua",
-    "python",
-    -- "typescript",
-    -- "css",
-    "rust",
-    -- "java",
-    "yaml",
-    "go",
+  "bash",
+  "c",
+  "javascript",
+  -- "json",
+  "lua",
+  "python",
+  -- "typescript",
+  -- "css",
+  "rust",
+  -- "java",
+  "yaml",
+  "go",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
 
 -- generic LSP settings
+-- :LvimCacheReset (必须执行才生效)
 
--- ---@usage disable automatic installation of servers
--- lvim.lsp.automatic_servers_installation = false
-
--- ---@usage Select which servers should be configured manually. Requires `:LvimCacheRest` to take effect.
--- See the full default list `:lua print(vim.inspect(lvim.lsp.override))`
--- vim.list_extend(lvim.lsp.override, { "pyright" })
-
--- ---@usage setup a server -- see: https://www.lunarvim.org/languages/#overriding-the-default-configuration
--- local opts = {} -- check the lspconfig documentation for a list of all possible options
--- require("lvim.lsp.manager").setup("pylsp", opts)
-
--- -- you can set a custom on_attach function that will be used for all the language servers
--- -- See <https://github.com/neovim/nvim-lspconfig#keybindings-and-completion>
--- lvim.lsp.on_attach_callback = function(client, bufnr)
---   local function buf_set_option(...)
---     vim.api.nvim_buf_set_option(bufnr, ...)
---   end
---   --Enable completion triggered by <c-x><c-o>
---   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
--- end
+-- 添加到自动配置服务跳过列表
+vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
+-- 移除 跳过列表中 pylsp 项
+lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
+  return server ~= "pylsp"
+end, lvim.lsp.automatic_configuration.skipped_servers)
 
 -- set a formatter, this will override the language server formatting capabilities (if it exists)
 -- 格式化
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-    { command = "black",        filetypes = { "python" } },
-    { command = "isort",        filetypes = { "python" } },
-    { command = "markdownlint", filetypes = { "Markdown" } },
-    -- {
-    --   -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    --   command = "prettier",
-    --   ---@usage arguments to pass to the formatter
-    --   -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
-    --   extra_args = { "--print-with", "100" },
-    --   ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    --   filetypes = { "typescript", "typescriptreact" },
-    -- },
+  { command = "black",        filetypes = { "python" } },
+  { command = "isort",        filetypes = { "python" } },
+  { command = "markdownlint", filetypes = { "Markdown" } },
 }
 
 -- set additional linters
 -- 语法校验
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
-    { command = "flake8",        filetypes = { "python" } },
-    { command = "golangci-lint", filetypes = { "go" } },
-    { command = "markdownlint",  filetypes = { "Markdown" } },
-    -- {
-    --   -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    --   command = "shellcheck",
-    --   ---@usage arguments to pass to the formatter
-    --   -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
-    --   extra_args = { "--severity", "warning" },
-    -- },
-    -- {
-    --   command = "codespell",
-    --   ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    --   filetypes = { "javascript", "python" },
-    -- },
+  { command = "flake8",        filetypes = { "python" } },
+  { command = "golangci-lint", filetypes = { "go" } },
+  { command = "markdownlint",  filetypes = { "Markdown" } },
 }
 
 -- Additional Plugins
 lvim.plugins = {
-    -- 代码函数树
-    {
-        "simrat39/symbols-outline.nvim",
-        config = function()
-            require('symbols-outline').setup()
-        end
-    },
-    -- flutter-tools
-    {
-        'akinsho/flutter-tools.nvim',
-        config = function()
-            require("flutter-tools").setup()
-        end,
-    },
-    -- { "norcalli/nvim-colorizer.lua" },
-    -- -- 彩虹括号
-    -- { "mrjones2014/nvim-ts-rainbow" },
-    -- 翻译
-    { "voldikss/vim-translator" },
-    -- { "lunarvim/colorschemes" },
-    -- 诊断
-    {
-        "folke/trouble.nvim",
-        cmd = "TroubleToggle"
-    },
-    -- { "hrsh7th/vim-vsnip" },
-    -- { "hrsh7th/vim-vsnip-integ" },
-    -- { "hrsh7th/cmp-cmdline" },
-    -- { "ryanoasis/vim-devicons" },
+  -- 代码函数树
+  {
+    "simrat39/symbols-outline.nvim",
+    config = function()
+      require('symbols-outline').setup()
+    end
+  },
+  -- flutter-tools
+  {
+    'akinsho/flutter-tools.nvim',
+    config = function()
+      require("flutter-tools").setup()
+    end,
+  },
+  -- { "norcalli/nvim-colorizer.lua" },
+  -- -- 彩虹括号
+  -- { "mrjones2014/nvim-ts-rainbow" },
+  -- 翻译
+  { "voldikss/vim-translator" },
+  -- { "lunarvim/colorschemes" },
+  -- 诊断
+  {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle"
+  },
+  -- { "hrsh7th/vim-vsnip" },
+  -- { "hrsh7th/vim-vsnip-integ" },
+  -- { "hrsh7th/cmp-cmdline" },
+  -- { "ryanoasis/vim-devicons" },
 }
-
-
--- require("nvim-treesitter.configs").setup {
---     highlight = {
---         -- `false` will disable the whole extension
---         enable = true,
---     },
---     -- ...
---     rainbow = {
---         enable = true,
---         -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
---         extended_mode = true, -- Also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
---         max_file_lines = nil, -- Do not enable for files with more than n lines, int
---         -- colors = {}, -- table of hex strings
---         -- termcolors = {} -- table of colour name strings
---     },
---     indent = {
---         enable = true
---     }
--- }
-
 
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -307,12 +234,12 @@ lvim.plugins = {
 -- }
 
 vim.api.nvim_create_autocmd(
-    "BufWinEnter",
-    {
-        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
-        -- enable wrap mode for json files only
-        command = "%s/[\\u0d]//ge",
-    }
+  "BufWinEnter",
+  {
+    pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
+    -- enable wrap mode for json files only
+    command = "%s/[\\u0d]//ge",
+  }
 )
 
 vim.cmd('source ~/.config/lvim/lua/user/lualine.lua')
