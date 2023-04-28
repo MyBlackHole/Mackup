@@ -141,10 +141,13 @@ source $HOME/.cargo/env
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 autoload bashcompinit
-# vcpkg
-source $HOME/.config/vcpkg_completion.zsh
-# flutter
-source <(flutter bash-completion)
+
+# # vcpkg
+# source $HOME/.config/vcpkg_completion.zsh
+
+# # flutter
+# source <(flutter bash-completion)
+
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 

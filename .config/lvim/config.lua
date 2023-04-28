@@ -166,12 +166,12 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- generic LSP settings
 -- :LvimCacheReset (必须执行才生效)
 
--- 添加到自动配置服务跳过列表
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
--- 移除 跳过列表中 pylsp 项
-lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
-  return server ~= "pylsp"
-end, lvim.lsp.automatic_configuration.skipped_servers)
+-- -- 添加到自动配置服务跳过列表
+-- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
+-- -- 移除 跳过列表中 pylsp 项
+-- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
+--   return server ~= "pylsp"
+-- end, lvim.lsp.automatic_configuration.skipped_servers)
 
 -- set a formatter, this will override the language server formatting capabilities (if it exists)
 -- 格式化
