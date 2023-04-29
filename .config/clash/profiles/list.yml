@@ -9,38 +9,38 @@ files:
     url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
     selected:
       - name: GLOBAL
-        now: "  [黄金][日.东京市][0.8] 港转 ②   "
-      - name: 🚀 节点选择
-        now: "  [黄金][美.洛杉矶][0.8] 港转 ②   "
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 📲 电报信息
         now: "[青铜][美.西雅图][1.0] 直连 ① "
       - name: Ⓜ️ 微软服务
         now: 🎯 全球直连
-      - name: 🍎 苹果服务
+      - name: 🌍 国外媒体
         now: 🚀 节点选择
-      - name: 🎯 哔哩哔哩
-        now: DIRECT
-      - name: 📢 谷歌FCM
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🍎 苹果服务
         now: 🚀 节点选择
       - name: 🎯 全球直连
         now: DIRECT
-      - name: 🛑 全球拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
+      - name: 🎯 哔哩哔哩
+        now: DIRECT
       - name: 🐟 漏网之鱼
         now: 🚀 节点选择
-      - name: 🤖 OPENGPT
-        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: "  [黄金][日.东京市][0.8] 港转 ②   "
+      - name: 🚀 节点选择
+        now: 🚀 故障转移
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🤖 CHATGPT
+        now: " [白银][台.高雄市][0.4] 直连 ②  "
     interval: 0
     subInfo:
-      upload: 7257395801
-      download: 744531119974
-      total: 1308481290240
-      expire: 1680263469
-    mode: global
+      upload: 1165598857
+      download: 120959995576
+      total: 1555986120704
+      expire: 1711885869
+    mode: rule
     homeWeb: https://dash.ibcn.space/
   - time: 1661434311798.yml
     name: jiang.netlify.com

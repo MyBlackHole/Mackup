@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://dash.ibcn.space/link/pZlKcvYeh6fGTXnJ?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-03-27 05:51:04
+## 上次更新于：2023-04-28 09:13:14
 #---------------------------------------------------#
 
 port: 7890
@@ -728,13 +728,15 @@ proxy-groups:
       - ' [白银][美.洛杉矶][0.4] 直连 ②  '
       - '[青铜][美.西雅图][1.0] 直连 ① '
   -
-    name: '🤖 OPENGPT'
+    name: '🤖 CHATGPT'
     type: select
     proxies:
       - DIRECT
       - REJECT
       - '  [黄金][台.高雄市][0.8] 港转 ①   '
       - '  [黄金][台.高雄市][0.8] 港转 ②   '
+      - '  [黄金][美.俄勒冈][0.8] 港转 ①   '
+      - '  [黄金][美.俄勒冈][0.8] 港转 ②'
       - ' [白银][台.高雄市][0.4] 直连 ①  '
       - ' [白银][台.高雄市][0.4] 直连 ②  '
   -
@@ -774,7 +776,7 @@ rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
 
-  - DOMAIN-SUFFIX,openai.com,🤖 OPENGPT
+  - DOMAIN-SUFFIX,openai.com,🤖 CHATGPT
   - DST-PORT,25,DIRECT
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3059,6 +3061,8 @@ rules:
   - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
   - DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,pinterest.com,🚀 节点选择
+  - DOMAIN-SUFFIX,googleapis.cn,🚀 节点选择
+  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
   - DOMAIN-SUFFIX,potato.im,🚀 节点选择
   - DOMAIN-SUFFIX,prfct.co,🚀 节点选择
   - DOMAIN-SUFFIX,pscp.tv,🚀 节点选择

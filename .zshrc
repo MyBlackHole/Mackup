@@ -130,7 +130,7 @@ export https_proxy="http://127.0.0.1:1080"
 setopt no_nomatch
 
 # golang 
-export GOPROXY="https://proxy.golang.com.cn,direct"
+export GOPROXY="https://goproxy.io,direct"
 
 # cargo
 source $HOME/.cargo/env
