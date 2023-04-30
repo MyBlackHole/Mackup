@@ -86,7 +86,7 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["H"] = "<cmd>BufferLineCyclePrev<cr>"
 lvim.keys.normal_mode["L"] = "<cmd>BufferLineCycleNext<cr>"
 lvim.keys.normal_mode["K"] = "<cmd>lua vim.lsp.buf.hover()<CR>"
-lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
+-- lvim.keys.normal_mode["gd"] = "<cmd>lua vim.lsp.buf.definition()<CR>"
 -- lvim.transparent_window = true
 
 -- unmap a default keymapping
@@ -157,6 +157,7 @@ lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
+lvim.builtin.dap.active = true
 -- lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 lvim.builtin.cmp.completion.keyword_length = 2
 -- lvim.builtin.telescope.defaults.layout_config.width = 0.95
@@ -316,3 +317,40 @@ vim.api.nvim_create_autocmd(
 )
 
 vim.cmd('source ~/.config/lvim/lua/user/lualine.lua')
+
+
+
+local dap = require('dap')
+--[[
+当然还有其他更多选项可以用啦，看标题就知道这只是简单配置一下，我的目前时间也不多就暂时能用就行，
+主要还是向能脱离IDE
+]]
+dap.adapters.python = {
+    type = "executable",
+    command = '/usr/bin/python3',
+    args = { '-m', 'debugpy.adapter' },
+}
+local get_args = function()
+    -- 获取输入命令行参数
+    local cmd_args = vim.fn.input('CommandLine Args:')
+    local params = {}
+    -- 定义分隔符(%s在lua内表示任何空白符号)
+    local sep = "%s"
+    for param in string.gmatch(cmd_args, "[^%s]+") do
+        table.insert(params, param)
+    end
+    return params
+end;
+dap.configurations.python = {
+    {
+        type = 'python',
+        request = 'launch',
+        name = 'launch file',
+        -- 此处指向当前文件
+        program = '${file}',
+        args = get_args,
+        pythonpath = function()
+            return '/usr/bin/python3'
+        end,
+    },
+}
