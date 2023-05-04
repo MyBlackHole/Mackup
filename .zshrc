@@ -148,6 +148,9 @@ autoload bashcompinit
 # # flutter
 # source <(flutter bash-completion)
 
+# pyenv
+export PATH=$HOME/.pyenv/bin:$PATH
+
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
