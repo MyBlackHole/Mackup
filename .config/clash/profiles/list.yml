@@ -1,23 +1,22 @@
 files:
   - url: ""
-    time: 1660920581210.yml
-    name: iKuuu.yaml
+    time: 1679912865351.yml
+    name: config.yaml
     selected: []
-    mode: rule
-  - time: 1661434133828.yml
-    name: Clash_1661434132.yaml
+  - time: 1679914608823.yml
+    name: Clash_1679914608.yaml
     url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
     selected:
       - name: GLOBAL
-        now: "  [黄金][日.东京市][0.8] 港转 ②   "
+        now: " [白银][台.高雄市][0.4] 直连 ①  "
       - name: 🚀 节点选择
-        now: "  [黄金][美.洛杉矶][0.8] 港转 ②   "
+        now: "  [黄金][新.新加坡][0.8] 港转 ②"
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 📲 电报信息
-        now: "[青铜][美.西雅图][1.0] 直连 ① "
+        now: 🚀 节点选择
       - name: Ⓜ️ 微软服务
-        now: 🎯 全球直连
+        now: 🚀 节点选择
       - name: 🍎 苹果服务
         now: 🚀 节点选择
       - name: 🎯 哔哩哔哩
@@ -27,26 +26,19 @@ files:
       - name: 🎯 全球直连
         now: DIRECT
       - name: 🛑 全球拦截
-        now: REJECT
+        now: DIRECT
       - name: 🍃 应用净化
-        now: REJECT
+        now: DIRECT
       - name: 🐟 漏网之鱼
         now: 🚀 节点选择
-      - name: 🤖 OPENGPT
+      - name: 🤖 CHATGPT
         now: DIRECT
     interval: 0
     subInfo:
-      upload: 7257395801
-      download: 744531119974
-      total: 1308481290240
-      expire: 1680263469
-    mode: global
+      upload: 1305393235
+      download: 138425443768
+      total: 1555986120704
+      expire: 1711885869
     homeWeb: https://dash.ibcn.space/
-  - time: 1661434311798.yml
-    name: jiang.netlify.com
-    url: https://jiang.netlify.com
-    selected: []
-    interval: 0
-    subInfo: {}
-    homeWeb: ""
+    mode: rule
 index: 1
