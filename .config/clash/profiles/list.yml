@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: " [白银][台.高雄市][0.4] 直连 ①  "
       - name: Ⓜ️ 微软服务
-        now: 🚀 节点选择
+        now: 🎯 全球直连
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 🍃 应用净化
@@ -35,8 +35,8 @@ files:
         now: DIRECT
     interval: 0
     subInfo:
-      upload: 1305393235
-      download: 138425443768
+      upload: 1343351269
+      download: 143405737148
       total: 1555986120704
       expire: 1711885869
     homeWeb: https://dash.ibcn.space/
