@@ -7,8 +7,11 @@ trayOrders:
   - - status
     - traffic
     - text
-hideTrayIcon: false
+hideTrayIcon: true
 connShowProcess: true
 showTrayProxyDelayIndicator: true
 theme: 1
 randomMixedPort: false
+shortcutTun: ""
+systemTheme: false
+useSystemEmoji: true
