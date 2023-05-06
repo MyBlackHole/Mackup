@@ -160,3 +160,7 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # tmux error:"ssh" 'tmux-256color': unknown terminal type. 处理
 alias ssh='TERM=xterm ssh'
+
+# erg
+export PATH=$PATH:/home/black/.erg/bin
+export ERG_PATH=/home/black/.erg
