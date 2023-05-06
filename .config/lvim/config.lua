@@ -281,3 +281,11 @@ dap.configurations.python = {
         end,
     },
 }
+
+-- require'lspconfig'.clangd.setup{
+--     cmd = {"clangd"}
+--     -- cmd = {"clangd", "--query-drive="}
+-- }
+
+
+-- require'lspconfig'.clangd.arguments = []

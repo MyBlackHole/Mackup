@@ -1,5 +1,6 @@
 mixed-port: 1080
 allow-lan: true
-external-controller: 127.0.0.1:34983
-secret: 7a61a2c1-bbe7-4232-989b-d835a464da23
+external-controller: 127.0.0.1:34069
+secret: c5ef0205-a9a3-4ee9-82ab-fed4b5507e25
 ipv6: true
+log-level: debug
