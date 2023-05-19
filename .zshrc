@@ -154,7 +154,11 @@ export PATH=$PYENV_ROOT/bin:$PATH
 if [ -d "$PYENV_ROOT" ]; then
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
+    pyenv activate default
 fi
+
+# musl
+export PATH=/usr/local/musl/bin:$PATH
 
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
@@ -170,5 +174,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 alias ssh='TERM=xterm ssh'
 
 # erg
-export PATH=$PATH:/home/black/.erg/bin
-export ERG_PATH=/home/black/.erg
+export PATH=$PATH:$HOME/.erg/bin
+export ERG_PATH="$HOME/.erg"
+

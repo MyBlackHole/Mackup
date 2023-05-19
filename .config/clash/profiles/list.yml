@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: " [白银][台.高雄市][0.4] 直连 ①  "
       - name: Ⓜ️ 微软服务
-        now: 🚀 节点选择
+        now: "  [黄金][台.高雄市][0.8] 港转 ①   "
       - name: 🌍 国外媒体
         now: 🚀 节点选择
       - name: 🍃 应用净化
@@ -28,7 +28,7 @@ files:
       - name: 📲 电报信息
         now: 🚀 节点选择
       - name: 🚀 节点选择
-        now: 🚀 故障转移
+        now: "  [黄金][日.东京市][0.8] 港转 ②   "
       - name: 🛑 全球拦截
         now: DIRECT
       - name: 🤖 CHATGPT

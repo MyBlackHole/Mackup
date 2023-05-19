@@ -3844,3 +3844,831 @@
 
 # 2023-05-05 11:42:54.574733
 +show tables;
+
+# 2023-05-06 15:21:10.447572
++show variables like 'datadir';
+
+# 2023-05-06 15:21:37.618906
++show variables like 'innodb_undo_directory';
+
+# 2023-05-06 15:22:10.919924
++show variables;
+
+# 2023-05-06 15:54:20.331382
++show variables like '%redo%';
+
+# 2023-05-06 15:54:41.299278
++show engine innodb status \G
+
+# 2023-05-06 15:57:24.634277
++show variables like 'innodb_log_buffer_size';
+
+# 2023-05-06 15:57:30.303280
++show variables like 'innodb_log_buffer_size';
+
+# 2023-05-06 16:22:40.917267
++show databases;
+
+# 2023-05-06 16:24:37.522255
++show l
+
+# 2023-05-06 16:24:39.625885
++show databases;
+
+# 2023-05-06 16:24:43.714117
++use aio;
+
+# 2023-05-06 16:24:46.453458
++show tables;
+
+# 2023-05-06 16:26:44.091437
++use aio;
+
+# 2023-05-06 16:27:23.425806
++select * from aio_node;
+
+# 2023-05-06 16:27:52.762246
++select * from crontab;
+
+# 2023-05-06 16:28:03.686953
++select * from sub_crontab;
+
+# 2023-05-08 15:06:53.997479
++select HOST from information_schema.processlist;
+
+# 2023-05-08 15:07:02.101608
++exit
+
+# 2023-05-08 15:07:49.681606
++select HOST from information_schema.processlist;
+
+# 2023-05-08 15:08:05.137022
++select HOST from information_schema.processlist as p where p.command like 'Binlog Dump%'
+
+# 2023-05-08 15:08:57.613185
++show slave status;
+
+# 2023-05-08 15:09:00.253513
++show slave status\G
+
+# 2023-05-08 15:09:06.725740
++select slave status\G
+
+# 2023-05-08 15:10:02.641149
++show slave status\G
+
+# 2023-05-08 15:11:40.913131
++select HOST from information_schema.processlist as p where p.command like 'Binlog Dump%'
+
+# 2023-05-08 15:13:18.905230
++select HOST from information_schema.processlist;
+
+# 2023-05-08 15:13:29.312832
++select * from information_schema.processlist;
+
+# 2023-05-08 15:31:22.149662
++show master status\G
+
+# 2023-05-08 17:12:06.218701
++show databases;
+
+# 2023-05-08 17:12:09.988977
++use UDALTEST;
+
+# 2023-05-08 17:12:12.160801
++show databases;
+
+# 2023-05-08 17:12:15.448595
++show tables;
+
+# 2023-05-08 17:12:27.652405
++select count(1) from `user`;
+
+# 2023-05-08 17:12:34.464724
++select count(1) from test
+
+# 2023-05-08 17:12:49.250700
++drop table user_1;
+
+# 2023-05-08 17:13:12.891674
++select count(1) from test;
+
+# 2023-05-08 17:13:28.189731
++select * from test;
+
+# 2023-05-08 17:14:34.389700
++use UDALTEST;
+
+# 2023-05-08 17:14:37.700979
++select * from test1;
+
+# 2023-05-08 17:14:46.037070
++show tables;
+
+# 2023-05-08 17:15:06.724287
++select * from test1;
+
+# 2023-05-08 17:15:08.339776
++select * from test;
+
+# 2023-05-08 17:15:14.132280
++select * from `user`;
+
+# 2023-05-08 17:15:43.479684
++delete from `user` where id > 10000;
+
+# 2023-05-08 17:15:46.732397
++select * from `user`;
+
+# 2023-05-08 17:15:56.556312
++select count(*) from `user`;
+
+# 2023-05-09 14:27:24.594842
++show databases;
+
+# 2023-05-09 14:29:57.483160
++use aio;
+
+# 2023-05-09 14:30:19.570709
++select * from aio_resource;
+
+# 2023-05-09 14:53:41.799334
++show databases;
+
+# 2023-05-09 14:53:45.118637
++use aio;
+
+# 2023-05-09 16:10:24.762838
++show tables;
+
+# 2023-05-09 16:10:34.695523
++select * from aio_node;
+
+# 2023-05-09 16:47:23.789078
++show variables like 'datadir';
+
+# 2023-05-09 16:51:23.544569
++select * from aio_node;
+
+# 2023-05-09 16:56:12.488564
++show columns table aio_node;
+
+# 2023-05-09 16:56:16.221118
++show columns  aio_node;
+
+# 2023-05-09 16:56:30.604405
++select columns table aio_node;
+
+# 2023-05-09 16:58:28.442165
++show columns from aio_node;
+
+# 2023-05-09 17:37:01.689110
++select columns table aio_node;
+
+# 2023-05-09 17:37:04.973411
++select * from aio_node;
+
+# 2023-05-09 17:41:39.406840
++show grants for 'root'
+
+# 2023-05-09 17:45:19.841747
++show grants for 'black'
+
+# 2023-05-09 17:47:17.085633
++show grants;
+
+# 2023-05-09 17:47:33.305028
++show grants;
+
+# 2023-05-09 17:55:24.566795
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER,BACKUP_ADMIN ON *.* TO 'root'@'%';
++FLUSH  PRIVILEGES ;
+
+# 2023-05-09 17:55:46.685755
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER ON *.* TO 'root'@'%';
+
+# 2023-05-09 17:56:10.830348
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER ON *.* TO 'test'@'%';
+
+# 2023-05-09 17:57:46.005393
++select * from mysql.user;
+
+# 2023-05-09 17:58:49.186384
++show grants for 'RDS_sla'@'%''
+
+# 2023-05-09 17:58:52.866242
++show grants for 'RDS_sla';
+
+# 2023-05-09 18:09:14.693527
++select * from mysql.user\G
+
+# 2023-05-09 18:32:43.347594
++show databases;
+
+# 2023-05-09 18:39:04.622534
++select * from mysql.user\G
+
+# 2023-05-09 18:39:48.417155
++show databases;
+
+# 2023-05-10 09:39:58.347184
++select * from mysql.user\G
+
+# 2023-05-10 09:41:39.172065
++create USER BlackHole@'%' identified by '1358244533';
++
+
+# 2023-05-10 09:41:42.971325
++select * from mysql.user\G
+
+# 2023-05-10 09:42:03.379233
++show grants for 'BlackHole'@'%';
+
+# 2023-05-10 09:42:25.939336
++grant all on *.* to BlackHole@'%' with grant option;
+
+# 2023-05-10 09:44:41.662951
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER,BACKUP_ADMIN ON *.* TO 'BlackHole'@'%';
+
+# 2023-05-10 09:44:50.519201
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER ON *.* TO 'BlackHole'@'%';
+
+# 2023-05-10 09:45:07.767367
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE ON *.* TO 'BlackHole'@'%';
+
+# 2023-05-10 10:10:56.437423
++show databases;
+
+# 2023-05-10 10:11:18.153261
++use aio;
+
+# 2023-05-10 10:11:21.380650
++show tables;
+
+# 2023-05-10 10:11:56.556216
++select * from backup_unit;
+
+# 2023-05-10 10:12:43.728548
++select * from aio_resource;
+
+# 2023-05-10 10:13:58.288601
++show grants for root;
+
+# 2023-05-10 10:14:07.672400
++select * from aio_resource;
+
+# 2023-05-10 10:14:21.208571
++select * from backup_unit;
+
+# 2023-05-10 10:15:38.200818
++select * from aio_resource;
+
+# 2023-05-10 10:15:52.488619
++select * from backup_unit;
+
+# 2023-05-10 10:16:15.600812
++show columns from backup_unit
+
+# 2023-05-10 10:16:33.301232
++show index from backup_unit;
+
+# 2023-05-10 10:17:05.436570
++show columns from backup_unit
+
+# 2023-05-10 10:21:16.860339
++describe test2;
+
+# 2023-05-10 10:21:20.580145
++describe backup_unit;
+
+# 2023-05-10 10:21:38.828672
++show create table backup_unit\G
+
+# 2023-05-10 10:33:58.892068
++show create table aio_node
+
+# 2023-05-10 10:34:41.855812
++select * from aio_data_nodes
+
+# 2023-05-10 10:41:34.419429
++select * from backup_unit;
+
+# 2023-05-10 10:41:45.119043
++select * from aio_resource;
+
+# 2023-05-10 11:43:05.952143
++show grants for root;
+
+# 2023-05-10 11:53:35.456917
++show grants;
+
+# 2023-05-10 12:08:05.898974
++show grants;
+
+# 2023-05-10 12:09:18.423965
++show grants for 'telemonitor'@'%';
+
+# 2023-05-10 13:47:16.815063
++show variables like 'version';
+
+# 2023-05-10 13:49:09.406203
++show processlist;
+
+# 2023-05-10 13:49:55.265831
++select * from aio_node;
+
+# 2023-05-10 13:56:28.546557
++create USER test@'%' identified by '1358';
+
+# 2023-05-10 13:57:01.437906
++create USER test@'%' identified by '1358244533';
+
+# 2023-05-10 13:57:37.042900
++create USER test@'%' identified by '1358';
+
+# 2023-05-10 13:57:48.182070
++show grants for test;
+
+# 2023-05-10 13:58:18.841434
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER ON *.* TO 'test'@'%';
+
+# 2023-05-10 13:58:35.198537
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE ON *.* TO 'test'@'%';
+
+# 2023-05-10 13:58:42.537979
++show grants for test;
+
+# 2023-05-10 14:00:58.033734
++show grants for root;
+
+# 2023-05-10 14:02:02.493723
++flush privileges;
+
+# 2023-05-10 14:02:28.386513
++show grants for root;
+
+# 2023-05-10 14:02:32.405965
++show grants for test;
+
+# 2023-05-10 14:04:35.181929
++GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER ON *.* TO 'test'@'%';
+
+# 2023-05-10 14:05:09.501758
++show grants for 'telemonitor'@'%'
+
+# 2023-05-10 14:07:13.669678
++GRANT  SUPER ON *.* TO 'test'@'%';
+
+# 2023-05-10 14:07:22.044581
++GRANT SUPER ON *.* TO 'test'@'%';
+
+# 2023-05-10 14:09:59.678176
++select * from mysql.user\G
+
+# 2023-05-10 14:12:25.578677
++select * from mysql.user
+
+# 2023-05-10 14:12:50.651313
++select * from mysql.user where Grant_priv = 'Y';
+
+# 2023-05-10 14:13:22.879159
++select * from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y';
+
+# 2023-05-10 14:13:45.878921
++select * from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y'\G
+
+# 2023-05-10 14:17:56.094345
++select * from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y';
+
+# 2023-05-10 14:18:04.019488
++select * from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y'\G
+
+# 2023-05-10 14:18:52.075533
++select host from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y'\G
+
+# 2023-05-10 14:18:59.695703
++select host,user from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y'\G
+
+# 2023-05-10 14:19:03.599340
++select host,user from mysql.user where Grant_priv = 'Y' and Super_priv = 'Y';
+
+# 2023-05-10 14:22:04.635495
++show grants for 'test'@'%'
+
+# 2023-05-10 16:14:16.584585
++是哦为
+
+# 2023-05-10 16:14:44.609078
++select * from resource_;
+
+# 2023-05-10 16:15:03.265065
++show create table resource_;
+
+# 2023-05-10 16:15:08.981152
++show create table resource_\G
+
+# 2023-05-10 17:08:09.397623
++show databases;
+
+# 2023-05-10 17:08:16.276303
++use udal_admin;
+
+# 2023-05-10 17:08:17.823727
++show databases;
+
+# 2023-05-10 17:08:22.675898
++show tables;
+
+# 2023-05-10 17:08:57.756043
++select * from udal_sys_oper_log;
+
+# 2023-05-10 17:10:41.024902
++select * from udal_app_category;
+
+# 2023-05-10 17:26:29.168407
++show processlist;
+
+# 2023-05-11 08:58:38.303186
++show databases;
+
+# 2023-05-11 08:58:48.565960
++use aio;
+
+# 2023-05-11 08:58:50.781931
++show tables;
+
+# 2023-05-11 09:32:46.278124
++select * from aio_restore;
+
+# 2023-05-11 09:32:52.973527
++select * from aio_resource;
+
+# 2023-05-11 09:33:49.657315
++select * from aio_node;
+
+# 2023-05-11 09:35:05.886132
++select * from aio_node
+
+# 2023-05-11 09:35:14.698197
++select * from aio_node where db_type='goldendb'
+
+# 2023-05-11 09:35:16.881653
++select * from aio_node where db_type='goldendb';
+
+# 2023-05-11 09:35:39.357668
++show create table aio_node;
+
+# 2023-05-11 09:35:42.817298
++show create table aio_node\G
+
+# 2023-05-11 09:36:08.350330
++show create table aio_node;
+
+# 2023-05-11 09:36:21.326551
++show create table backup_unit\G
+
+# 2023-05-11 09:36:52.869862
++select * from backup_unit;
+
+# 2023-05-11 09:37:22.585239
++select * from aio_resource;
+
+# 2023-05-11 09:37:44.497638
++select id,resrc_db_type from aio_resource;
+
+# 2023-05-11 09:37:59.294279
++select * from backup_unit where resrc_id = 183;
+
+# 2023-05-11 09:39:42.542613
++select * from aio_node;
+
+# 2023-05-11 09:39:44.442540
++select * from backup_unit where resrc_id = 183;
+
+# 2023-05-11 09:39:54.374223
++select * from aio_node where backup_unit_id=295;
+
+# 2023-05-11 10:10:39.967056
++show databases;
+
+# 2023-05-11 10:10:59.118098
++use UDALTEST;
+
+# 2023-05-11 10:11:01.745490
++show databases;
+
+# 2023-05-11 10:11:04.042071
++show tables;
+
+# 2023-05-11 10:11:58.357364
++show databases;
+
+# 2023-05-11 10:12:01.945500
++use TEST;
+
+# 2023-05-11 10:12:07.128980
++select * from `user`;
+
+# 2023-05-17 09:58:54.472045
++show databases;
+
+# 2023-05-17 09:58:59.795817
++use aio'
+
+# 2023-05-17 09:59:01.427866
++use aio;
+
+# 2023-05-17 09:59:01.939576
++ls
+
+# 2023-05-17 09:59:05.015476
++show tables;
+
+# 2023-05-17 09:59:29.232119
++select * from aio_data_nodes;
+
+# 2023-05-17 10:58:38.587464
++select * from crontab;
+
+# 2023-05-17 10:58:44.940019
++select * from crontab_;
+
+# 2023-05-17 11:01:07.684556
++use aio;
+
+# 2023-05-17 11:01:12.180319
++show tables;
+
+# 2023-05-17 11:01:20.519708
++select * from crontab_;
+
+# 2023-05-17 11:01:22.496936
++select * from crontab;
+
+# 2023-05-17 11:37:14.178994
++select * from 
+
+# 2023-05-17 11:37:23.164105
++select * from snapshot_;
+
+# 2023-05-17 11:38:11.219456
++select * from backup_unit;
+
+# 2023-05-17 11:38:34.123182
++show create table backup_unit\G
+
+# 2023-05-17 11:40:01.867696
++show create table sync_node\G
+
+# 2023-05-17 11:42:10.027927
++select * from sync_node;
+
+# 2023-05-17 11:43:18.987825
++select * from sub_crontab
+
+# 2023-05-17 11:45:10.471223
++show create table crontab_\G
+
+# 2023-05-17 11:48:23.958806
++show create table backup_unit_\G
+
+# 2023-05-17 11:55:59.681591
++use aio;
+
+# 2023-05-17 11:56:15.253005
++show create table crontab_\G
+
+# 2023-05-17 11:57:02.132352
++show create table sub_crontab\G
+
+# 2023-05-18 09:03:54.837330
++use aio;
+
+# 2023-05-18 09:04:09.761121
++use airflow;
+
+# 2023-05-18 10:08:49.173044
++set global TRANSACTION ISOLATION LEVEL READ COmmitted;
+
+# 2023-05-18 10:09:07.852312
++SELECT @@GLOBAL.tx_isolation, @@tx_isolation;
++
+
+# 2023-05-18 10:09:33.152929
++select @@tx_isolation;
+
+# 2023-05-18 10:09:47.405562
++show variables like 'version';
+
+# 2023-05-18 10:10:00.293377
++SELECT @@GLOBAL.tx_isolation, @@tx_isolation;
++
+
+# 2023-05-18 10:10:05.075984
++SELECT @@GLOBAL.tx_isolation;
+
+# 2023-05-18 10:10:10.412753
++select @@GLOBAL.transaction_isolation, @@transaction_isolation;
+
+# 2023-05-18 19:41:59.844561
++show use;
+
+# 2023-05-18 19:42:03.519896
++show databases;
+
+# 2023-05-18 19:48:09.496987
++show variables like 'version';
+
+# 2023-05-18 20:06:49.039384
++SELECT @@GLOBAL.tx_isolation, @@tx_isolation;
++
+
+# 2023-05-18 20:07:12.751503
++SELECT @@GLOBAL.tx_isolation, @@tx_isolation;
+
+# 2023-05-19 12:08:11.759305
++use aio;
+
+# 2023-05-19 12:08:15.358647
++use airflow;
+
+# 2023-05-19 12:08:23.334287
++select * from job;
+
+# 2023-05-19 12:29:07.037577
++SELECT task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:19:04.400475')
+
+# 2023-05-19 12:31:41.617739
++SELECT task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:25:49.400688')
++
+
+# 2023-05-19 12:32:15.394840
++SELECT job.latest_heartbeat, task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:25:49.400688')
++
+
+# 2023-05-19 12:40:02.490470
++SELECT job.latest_heartbeat, job.state, task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:34:11.860644')
+
+# 2023-05-19 12:41:16.962289
++delete from job where 1;
+
+# 2023-05-19 12:42:59.770385
++SELECT task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:37:33.075284')
+
+# 2023-05-19 12:43:19.554120
++SELECT job.latest_heartbeat, job.state, task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:37:33.075284')
+
+# 2023-05-19 12:43:49.193240
++select * from job;
+
+# 2023-05-19 13:53:10.831743
++select * from task_instance;
+
+# 2023-05-19 14:08:42.140364
++select * from job;
+
+# 2023-05-19 14:15:08.045787
++select * from task_instance;
+
+# 2023-05-19 14:18:20.590338
++select * from task_instance
+
+# 2023-05-19 14:35:33.526465
++select * from dag_run;
+
+# 2023-05-19 14:43:49.791244
++select * from job;
+
+# 2023-05-19 14:43:52.158062
++use airflow;
+
+# 2023-05-19 14:43:53.405738
++select * from job;
+
+# 2023-05-19 14:53:25.146002
++SELECT job.latest_heartbeat, job.state, task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag.fileloc, dag_run_1.state, dag_run_1.id, dag_run_1.dag_id, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date, dag_run_1.end_date, dag_run_1.run_id, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash
++FROM task_instance JOIN job ON task_instance.job_id = job.id AND job.job_type IN ('LocalTaskJob') JOIN dag ON task_instance.dag_id = dag.dag_id JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id
++WHERE task_instance.state = 'running' AND (job.state != 'running' OR job.latest_heartbeat < '2023-05-19 04:37:33.075284')
+
+# 2023-05-19 15:22:36.876666
++use airflow;
+
+# 2023-05-19 15:23:59.584539
++select * from job;
+
+# 2023-05-19 15:30:14.408558
++select * from task_instance
+
+# 2023-05-19 15:30:49.928862
++select * from job;
+
+# 2023-05-19 15:31:14.485244
++select * from task_instance
+
+# 2023-05-19 15:31:38.964902
++select * from job;
+
+# 2023-05-19 15:31:53.368870
++select * from task_instance
+
+# 2023-05-19 15:32:10.501634
++delete from job where 1;
+
+# 2023-05-19 15:32:12.617885
++select * from task_instance
+
+# 2023-05-19 15:32:16.265761
++select * from job;
+
+# 2023-05-19 15:32:24.201890
++select * from task_instance
+
+# 2023-05-19 15:32:35.557676
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:32:58.677532
++delete from task_instance where task_id='t2';
+
+# 2023-05-19 15:33:01.913967
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:34:15.277179
++select * from job;
+
+# 2023-05-19 15:34:27.509472
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:34:34.201363
++select * from job;
+
+# 2023-05-19 15:34:38.757334
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:34:47.253884
++select * from job;
+
+# 2023-05-19 15:34:55.961540
++use airflow;
+
+# 2023-05-19 15:34:57.461542
++select * from job;
+
+# 2023-05-19 15:35:31.753455
++select * from task_instance;
+
+# 2023-05-19 15:35:44.881820
++select * from job;
+
+# 2023-05-19 15:36:26.576223
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:36:30.425959
++select * from job;
+
+# 2023-05-19 15:36:45.878296
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:36:49.517486
++select * from job;
+
+# 2023-05-19 15:37:06.213060
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:37:15.632954
++select * from job;
+
+# 2023-05-19 15:37:17.996920
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:37:38.065729
++select * from job;
+
+# 2023-05-19 15:37:40.489390
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 15:49:10.488842
++select * from job;
+
+# 2023-05-19 16:02:20.699244
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 16:02:28.528028
++select * from job;
+
+# 2023-05-19 16:02:31.139142
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 16:05:27.783098
++select * from job;

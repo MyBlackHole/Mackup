@@ -12,3 +12,5 @@
 	ui = auto
 [init]
 	defaultBranch = main
+[safe]
+	directory = /home/black/Documents/aio-cdm
