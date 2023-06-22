@@ -115,12 +115,38 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$HOME/.local/bin:$PATH
-export PATH=/opt/riscv/bin:$PATH
-export PATH=/opt/gcc_riscv32/bin:$PATH
-export PATH=/opt/gcc_arm/bin:$PATH
-export PATH=$HOME/go/bin:$PATH
-export PATH=$HOME/Android/Sdk/platform-tools:$PATH
+# riscv
+RISCV_PATH=/opt/riscv
+if [ -d "$RISCV_PATH" ]; then
+    export PATH=$RISCV_PATH/bin:$PATH
+fi
+
+# gcc_riscv32
+GCC_RISCV32_PATH=/opt/gcc_riscv32
+if [ -d "$GCC_RISCV32_PATH" ]; then
+    export PATH=$GCC_RISCV32_PATH/bin:$PATH
+fi
+
+# gcc_arm
+GCC_ARM_PATH=/opt/gcc_riscv32
+if [ -d "$GCC_ARM_PATH" ]; then
+    export PATH=$GCC_ARM_PATH/bin:$PATH
+fi
+
+# go
+GO_PATH=$HOME/go
+if [ -d "$GO_PATH" ]; then
+    export PATH=$GO_PATH/bin:$PATH
+
+    # golang 
+    export GOPROXY="https://goproxy.io,direct"
+fi
+
+# Android sdk
+ANDROID_SDK_PATH=$HOME/Android/Sdk
+if [ -d "$ANDROID_SDK_PATH" ]; then
+    export PATH=$ANDROID_SDK_PATH/platform-tools:$PATH
+fi
 
 export http_proxy="http://127.0.0.1:1080"
 export https_proxy="http://127.0.0.1:1080"
@@ -128,9 +154,6 @@ export https_proxy="http://127.0.0.1:1080"
 
 # zsh 解释 *
 setopt no_nomatch
-
-# golang 
-export GOPROXY="https://goproxy.io,direct"
 
 # cargo
 source $HOME/.cargo/env
@@ -149,17 +172,27 @@ autoload bashcompinit
 # source <(flutter bash-completion)
 
 # pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH=$PYENV_ROOT/bin:$PATH
+PYENV_ROOT="$HOME/.pyenv"
 if [ -d "$PYENV_ROOT" ]; then
+    export PATH=$PYENV_ROOT/bin:$PATH
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
     # 启用默认环境
     pyenv activate default
 fi
 
+# musl
+MUSL_PATH=/usr/local/musl
+if [ -d "$MUSL_PATH" ]; then
+    export PATH=$MUSL_PATH/bin:$PATH
+fi
+
 # yarn
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+YARN_PATH=$HOME/.yarn
+YARN_CONFIG_PATH=$HOME/.config/yarn/global/node_modules
+if [ -d "$YARN_PATH" ]; then
+    export PATH=$YARN_PATH/bin::$YARN_CONFIG_PATH/.bin:$PATH
+fi
 
 # # atuin
 # eval "$(atuin init zsh)"
@@ -172,8 +205,10 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 alias ssh='TERM=xterm ssh'
 
 # erg
-export PATH=$PATH:/home/black/.erg/bin
-export ERG_PATH=/home/black/.erg
+ERG_PATH=$HOME/.erg
+if [ -d "$ERG_PATH" ]; then
+    export PATH=$ERG_PATH/bin:$PATH
+fi
 
 # patchelf
 PATCHELF_ROOT="/media/black/Data/lib/patchelf/patchelf_master"
@@ -182,7 +217,10 @@ if [ -d "$PATCHELF_ROOT" ]; then
 fi
 
 # Created by `pipx` on 2023-05-17 13:27:05
-export PATH="$PATH:$HOME/.local/bin"
+export LOCAL_PATH="$HOME/.local"
+if [ -d "$LOCAL_PATH" ]; then
+    export PATH=$LOCAL_PATH/bin:$PATH
+fi
 
 # nvim
 NVIM_PATH="/opt/nvim"
