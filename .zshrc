@@ -154,6 +154,8 @@ export PATH=$PYENV_ROOT/bin:$PATH
 if [ -d "$PYENV_ROOT" ]; then
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
+    # 启用默认环境
+    pyenv activate default
 fi
 
 # yarn
@@ -172,3 +174,18 @@ alias ssh='TERM=xterm ssh'
 # erg
 export PATH=$PATH:/home/black/.erg/bin
 export ERG_PATH=/home/black/.erg
+
+# patchelf
+PATCHELF_ROOT="/media/black/Data/lib/patchelf/patchelf_master"
+if [ -d "$PATCHELF_ROOT" ]; then
+    export PATH=$PATCHELF_ROOT/bin:$PATH
+fi
+
+# Created by `pipx` on 2023-05-17 13:27:05
+export PATH="$PATH:$HOME/.local/bin"
+
+# nvim
+NVIM_PATH="/opt/nvim"
+if [ -d "$NVIM_PATH" ]; then
+    export PATH=$NVIM_PATH/bin:$PATH
+fi

@@ -2,6 +2,7 @@
 	email = 1358244533@qq.com
 	name = black
 [core]
+	excludesfile = /home/black/.gitignore
 	editor = lvim
 	quotepath = false
 ; [https]
