@@ -210,6 +210,12 @@ if [ -d "$ERG_PATH" ]; then
     export PATH=$ERG_PATH/bin:$PATH
 fi
 
+# python black
+PYTHON_BLACK_PATH="/media/black/Data/lib/black/21.12b0/"
+if [ -d "$PYTHON_BLACK_PATH" ]; then
+    export PATH=$PYTHON_BLACK_PATH:$PATH
+fi
+
 # patchelf
 PATCHELF_ROOT="/media/black/Data/lib/patchelf/patchelf_master"
 if [ -d "$PATCHELF_ROOT" ]; then

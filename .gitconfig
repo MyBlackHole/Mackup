@@ -5,6 +5,7 @@
 	excludesfile = /home/black/.gitignore
 	editor = lvim
 	quotepath = false
+	excludesfile = /home/black/.gitignore
 ; [https]
 ; 	proxy = http://127.0.0.1:1080
 ; [http]
@@ -14,4 +15,5 @@
 [init]
 	defaultBranch = main
 [safe]
+	directory = /home/black/Documents/aio-airflow
 	directory = /home/black/Documents/aio-cdm
