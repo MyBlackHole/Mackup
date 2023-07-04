@@ -4672,3 +4672,1457 @@
 
 # 2023-05-19 16:05:27.783098
 +select * from job;
+
+# 2023-05-19 16:34:49.133244
++select * from task_instance where task_id='t2';
+
+# 2023-05-19 16:34:56.944775
++select * from job;
+
+# 2023-05-19 16:35:21.356820
++select * from task_instance;
+
+# 2023-05-19 16:36:11.513130
++select * from job;
+
+# 2023-05-19 16:44:50.824702
++select * from task_instance;
+
+# 2023-05-19 16:44:58.308494
++select * from job;
+
+# 2023-05-31 09:55:20.075728
++show databases;
+
+# 2023-05-31 09:55:29.536064
++use airflow;
+
+# 2023-05-31 09:55:33.428283
++show databases;
+
+# 2023-05-31 10:07:22.635437
++select * from aio_timeline_point;
+
+# 2023-05-31 10:07:29.683755
++use aio;
+
+# 2023-05-31 10:07:32.728721
++select * from aio_timeline_point;
+
+# 2023-05-31 10:07:55.587156
++select * from timeline_;
+
+# 2023-05-31 10:07:58.091728
++select * from timeline;
+
+# 2023-06-01 09:32:33.601205
++show databases;
+
+# 2023-06-01 09:32:37.681264
++use aio;
+
+# 2023-06-01 09:32:53.180585
++select * from copy_crontab;
+
+# 2023-06-01 16:43:41.495193
++exit
+
+# 2023-06-01 16:43:58.556100
++use aio
+
+# 2023-06-01 16:44:09.047934
++select * from resource_;
+
+# 2023-06-01 16:44:51.068228
++create show from resource_;
+
+# 2023-06-01 16:45:01.331661
++show create table resource_;
+
+# 2023-06-01 16:45:50.516232
++show create table antdb_instance_
+
+# 2023-06-01 16:46:02.267577
++show create table aio_data_nodes;
+
+# 2023-06-01 16:46:08.419816
++select * from aio_data_nodes;
+
+# 2023-06-01 16:48:29.871838
++show create table resource_;
+
+# 2023-06-01 16:48:38.471707
++select * from resource_;
+
+# 2023-06-01 16:49:05.076129
++select attribute from resource_;
+
+# 2023-06-01 16:49:19.391850
++select attribute from resource_\G
+
+# 2023-06-01 16:49:41.795954
++select * from resource_;
+
+# 2023-06-01 16:51:58.703437
++select * from entry_;
+
+# 2023-06-02 10:29:57.681299
++use aio
+
+# 2023-06-02 10:30:05.572061
++select * from aio_user;
+
+# 2023-06-02 10:30:45.112598
++use aio;
+
+# 2023-06-02 10:31:07.651962
++select * from aio_user;
+
+# 2023-06-02 10:31:41.232056
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-02 10:32:02.863837
++select * from aio_user;
+
+# 2023-06-02 10:32:53.548315
++update aio_user set is_default_pwd=1 where id=1;
+
+# 2023-06-02 10:32:55.420197
++select * from aio_user;
+
+# 2023-06-02 10:33:48.595189
++update aio_user set _password="pbkdf2:sha256:150000$9XJvPUrL$bebaee3aa84bd93bcd82e725c6fe6ebb5a53412e375adf03406c840cb8bf8c1a" where id=1;
+
+# 2023-06-02 10:33:50.700282
++select * from aio_user;
+
+# 2023-06-02 10:35:25.052232
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-02 10:35:27.419722
++select * from aio_user;
+
+# 2023-06-05 16:42:27.911475
++use aio;
+
+# 2023-06-05 16:42:46.682989
++select * from aio_resource;
+
+# 2023-06-05 16:45:52.439219
++select * from aio_node;
+
+# 2023-06-05 16:46:10.387663
++select * from aio_data_nodes
+
+# 2023-06-05 16:46:37.735380
++select * from entry_;
+
+# 2023-06-05 17:12:42.194323
++select * from aio_user;
+
+# 2023-06-05 17:12:50.653898
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-05 17:12:52.453790
++select * from aio_user;
+
+# 2023-06-06 16:02:08.349041
++use aio;
+
+# 2023-06-06 16:02:19.597570
++show databases;
+
+# 2023-06-06 17:19:50.284490
++use aio;
+
+# 2023-06-06 17:19:59.585353
++select * from aio_data_nodes;
+
+# 2023-06-06 17:20:13.064469
++select * from aio_resource;
+
+# 2023-06-06 17:22:04.396732
++select * from aio_restore;
+
+# 2023-06-06 17:29:46.915347
++use airflow;
+
+# 2023-06-06 17:30:02.305604
++select * from job where state = 'running';
+
+# 2023-06-06 17:30:22.064959
++select * from dag_run;
+
+# 2023-06-06 17:30:39.769407
++select * from job where state = 'running';
+
+# 2023-06-06 17:31:27.753168
++update job set state='success' where state='running';
+
+# 2023-06-06 18:00:17.482378
++show databases;
+
+# 2023-06-06 18:00:21.005164
++use airflow;
+
+# 2023-06-06 18:00:25.461157
++select * from dag;
+
+# 2023-06-06 18:00:33.365415
++select * from dag_run;
+
+# 2023-06-07 14:19:15.331592
++show databases;
+
+# 2023-06-07 14:19:29.393793
++exit
+
+# 2023-06-07 14:19:36.503009
++show databases;
+
+# 2023-06-07 14:19:43.494733
++exit
+
+# 2023-06-07 14:19:49.642256
++show databases;
+
+# 2023-06-07 14:19:54.734002
++use aio;
+
+# 2023-06-07 14:20:02.311620
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-08 09:19:41.474121
++use oceanbase;
+
+# 2023-06-08 09:19:48.116934
++show tables;
+
+# 2023-06-08 09:56:03.861710
++select * from mount_unit;
+
+# 2023-06-08 09:56:06.501537
++select * from mount_unit_result
+
+# 2023-06-08 09:56:12.665839
++select * from mount_result;
+
+# 2023-06-08 09:58:21.232529
++select * from backup_unit;
+
+# 2023-06-08 09:58:28.729689
++select * from backup_unit_;
+
+# 2023-06-08 09:58:51.869203
++select attribute from backup_unit_;
+
+# 2023-06-08 09:59:11.765251
++select attribute from backup_unit_\G
+
+# 2023-06-08 09:59:45.213724
++select * from entry_;
+
+# 2023-06-08 09:59:55.562137
++select * from aio_volumes;
+
+# 2023-06-08 10:00:03.753674
++select * from backup_unit_;
+
+# 2023-06-08 10:00:10.848783
++select * from mount_resource;
+
+# 2023-06-08 10:00:14.213499
++select * from mount_unit;
+
+# 2023-06-08 10:00:17.857169
++select * from mount_resource;
+
+# 2023-06-08 10:00:22.088634
++select * from mount_unit_result;
+
+# 2023-06-08 10:00:39.658331
++select * from mount_unit;
+
+# 2023-06-08 11:15:17.541916
++select * from event;
+
+# 2023-06-08 11:39:42.846025
++select attribute from event\G
+
+# 2023-06-08 11:55:54.941454
++select * from event;
+
+# 2023-06-08 11:56:09.609337
++select attribute from event where id=40\G
+
+# 2023-06-08 11:56:22.389285
++select * from event where id=40\G
+
+# 2023-06-08 11:56:57.201053
++update event set event_id=301000 where id=40;
+
+# 2023-06-08 11:57:43.969861
++select * from event where id=40\G
+
+# 2023-06-08 14:01:57.917646
++select * from crontab;
+
+# 2023-06-08 14:02:01.004777
++select * from crontab_
+
+# 2023-06-08 16:58:36.641128
++select * from resource_;
+
+# 2023-06-08 17:22:00.085322
++alter system noarchivelog;
+
+# 2023-06-08 19:12:19.522804
++select * from timeline_point_;
+
+# 2023-06-08 19:28:10.622145
++select * from resource_;
+
+# 2023-06-08 19:29:19.637872
++select * from aio_resource;
+
+# 2023-06-08 19:55:13.297370
++select * from entry_;
+
+# 2023-06-08 21:24:42.525559
++select * from proxy_instance;
+
+# 2023-06-09 13:49:01.757671
++select * from crontab_;
+
+# 2023-06-09 15:11:16.170655
++select * from mysql_instance_;
+
+# 2023-06-09 15:12:40.998980
++select * from proxy_instance;
+
+# 2023-06-09 15:34:34.990693
++select * from backup_instance_;
+
+# 2023-06-09 18:07:10.404525
++select * from crontab_;
+
+# 2023-06-12 10:17:13.857947
++select * from event;
+
+# 2023-06-12 17:30:50.826342
++show databases;
+
+# 2023-06-13 13:54:39.411345
++use airflow;
+
+# 2023-06-13 13:54:46.183877
++show tables;
+
+# 2023-06-13 14:05:34.491600
++select * from addrest
+
+# 2023-06-13 14:05:36.338782
++show tables;
+
+# 2023-06-13 14:05:42.035529
++select * from address;
+
+# 2023-06-13 14:14:42.916023
++SELECT address.id AS address_id, address.discriminator AS address_discriminator, address.city AS address_city
++FROM address
+
+# 2023-06-13 14:16:57.702527
++drop table address;
+
+# 2023-06-13 14:20:11.152022
++select * from address;
+
+# 2023-06-13 18:20:26.053306
++show databases;
+
+# 2023-06-13 18:20:32.620281
++use airflow;
+
+# 2023-06-13 18:20:38.528282
++select * from resource_;
+
+# 2023-06-13 18:20:45.888958
++use aio;
+
+# 2023-06-13 18:20:46.744454
++select * from resource_;
+
+# 2023-06-13 18:21:01.212452
++select * from aio_data_nodes;
+
+# 2023-06-13 18:22:37.593972
++select * from aio_binlog;
+
+# 2023-06-13 18:22:46.934911
++select * from mount_unit;
+
+# 2023-06-13 18:22:51.498682
++select * from aio_data_nodes;
+
+# 2023-06-14 14:10:37.610730
++show master status;
+
+# 2023-06-14 14:11:08.861736
++show slave status\G
+
+# 2023-06-14 14:11:15.081905
++show slave status\G
+
+# 2023-06-14 14:14:50.722154
++show processlist\G
+
+# 2023-06-14 14:16:14.766686
++start slave;
+
+# 2023-06-14 14:16:53.634191
++show slave status\G 
+
+# 2023-06-14 14:17:04.066620
++start slave;
+
+# 2023-06-14 14:17:08.082578
++show slave status\G
+
+# 2023-06-14 14:18:07.846247
++show processlist;
+
+# 2023-06-14 14:19:19.594356
++show variables like "binlog_format";
++
+
+# 2023-06-14 14:22:59.138937
++show slave status\G
+
+# 2023-06-14 14:23:55.593699
++show processlist\G
+
+# 2023-06-14 14:24:33.685881
++show master status;
+
+# 2023-06-14 14:24:53.926130
++stop slave;
+
+# 2023-06-14 14:25:27.350628
++use mysql;
+
+# 2023-06-14 14:25:32.530300
++select * from `user`;
+
+# 2023-06-14 14:26:01.211280
++change master to MASTER_HOST='192.168.110.142',MASTER_USER='root',MASTER_PASSWORD='A2022',MASTER_LOG_FILE='mysql-bin.000003',MASTER_LOG_POS=154; 
+
+# 2023-06-14 14:26:15.122812
++start slave;
+
+# 2023-06-14 14:26:22.050610
++show slave status
+
+# 2023-06-14 14:26:26.245542
++show slave status\G
+
+# 2023-06-14 14:26:40.854001
++show master status;
+
+# 2023-06-14 14:28:28.068755
++show databases;
+
+# 2023-06-14 14:28:34.589513
++show databases;
+
+# 2023-06-14 14:30:13.665078
++show binary logs;
++
+
+# 2023-06-14 14:30:55.698744
++flush logs;
+
+# 2023-06-14 14:30:58.000646
++show binary logs;
+
+# 2023-06-14 14:31:10.621280
++stop slave;
+
+# 2023-06-14 14:31:22.025177
++change master to MASTER_HOST='192.168.110.142',MASTER_USER='root',MASTER_PASSWORD='A2022',MASTER_LOG_FILE='mysql-bin.000004',MASTER_LOG_POS=154; 
+
+# 2023-06-14 14:31:25.732903
++start slave;
+
+# 2023-06-14 14:31:29.497354
++show slave status\G
+
+# 2023-06-14 14:33:09.297198
++slave stop
+
+# 2023-06-14 14:33:19.761437
++stop slave;
+
+# 2023-06-14 14:33:41.636490
++reset slave;
+
+# 2023-06-14 14:33:46.317597
++start slave;
+
+# 2023-06-14 14:33:49.633420
++show slave status\G
+
+# 2023-06-14 14:35:12.550497
++show processlist\G
+
+# 2023-06-14 14:37:13.137177
++show processlist;
+
+# 2023-06-14 14:46:40.617988
++select * from aio_resource;
+
+# 2023-06-14 14:48:28.241446
++select * from backup_unit;
+
+# 2023-06-14 14:50:23.850652
++select * from aio_data_nodes;
+
+# 2023-06-14 14:51:01.670625
++select * from aio_resource;
+
+# 2023-06-14 14:51:32.069233
++select * from backup_unit;
+
+# 2023-06-14 14:52:00.290848
++select * from aio_node;
+
+# 2023-06-14 14:53:05.642626
++select * from aio_node where backup_unit_id in (6, 7);
+
+# 2023-06-14 14:54:06.317544
++show grants
++
+
+# 2023-06-14 14:54:46.555005
++show grants;
+
+# 2023-06-14 14:58:36.613677
++create user xtrabackup@'localhost' identified by 'xtrabackup';
++
+
+# 2023-06-14 14:58:40.281971
++show grants;
+
+# 2023-06-14 14:58:55.386345
++show grants for 'test'@'%'
+
+# 2023-06-14 14:59:54.486196
++SELECT * FROM mysql.user；
+
+# 2023-06-14 14:59:56.494586
++SELECT * FROM mysql.user;
+
+# 2023-06-14 15:00:21.133848
++grant reload,lock tables,replication client,create tablespace,process,super on *.* to xtrabackup@'localhost';
++
+
+# 2023-06-14 15:00:35.269494
++grant reload,lock tables,replication client,create tablespace,process,super on *.* to xtrabackup@'localhost';
++
+
+# 2023-06-14 15:01:08.554517
++grant reload, lock tables, replication client, create tablespace, process, super on *.* to xtrabackup@'localhost';
++
+
+# 2023-06-14 15:06:30.967141
++GRANT BACKUP_ADMIN, PROCESS, RELOAD, LOCK TABLES, REPLICATION CLIENT ON *.* TO 'xtrabackup'@'localhost';
+
+# 2023-06-14 15:06:36.310229
++GRANT SELECT ON performance_schema.log_status TO 'bkpuser'@'localhost';
+
+# 2023-06-14 15:06:45.338617
++GRANT SELECT ON performance_schema.log_status TO 'xtrabackup'@'localhost';
+
+# 2023-06-14 15:06:48.858680
++FLUSH PRIVILEGES;
+
+# 2023-06-14 15:08:10.014843
++CREATE USER 'xtrabackup'@'localhost' IDENTIFIED BY 'xtrabackup'
+
+# 2023-06-14 15:08:12.846453
++CREATE USER 'xtrabackup'@'localhost' IDENTIFIED BY 'xtrabackup';
+
+# 2023-06-14 15:08:33.114119
++create user xtrabackup@'localhost' identified by 'xtrabackup';
++
+
+# 2023-06-14 15:09:26.742538
++create user xtrabackup@'%' identified by 'xtrabackup';
++
+
+# 2023-06-14 15:09:38.841887
++GRANT BACKUP_ADMIN, PROCESS, RELOAD, LOCK TABLES, REPLICATION CLIENT ON *.* TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:09:43.518390
++FLUSH PRIVILEGES;
+
+# 2023-06-14 15:11:25.330083
++SELECT * FROM mysql.user；
+
+# 2023-06-14 15:11:33.058904
++SELECT * FROM user；
+
+# 2023-06-14 15:11:35.853782
++select * from `user`;
+
+# 2023-06-14 15:11:53.391596
++show grants;
+
+# 2023-06-14 15:12:09.794418
++show grants for '*';
+
+# 2023-06-14 15:12:12.354195
++show grants for '.*';
+
+# 2023-06-14 15:12:16.829820
++show grants;
+
+# 2023-06-14 15:12:19.802655
++show grants\G
+
+# 2023-06-14 15:13:42.436808
++select * from `user`;
+
+# 2023-06-14 15:13:50.070700
++show grants for '*';
+
+# 2023-06-14 15:13:53.742973
++show grants for '*@*';
+
+# 2023-06-14 15:14:00.596360
++show grants for '%';
+
+# 2023-06-14 15:14:07.675753
++show grants for 'xtrabackup'@'%'';
+
+# 2023-06-14 15:14:10.308061
++show grants for 'xtrabackup'@'%;
+
+# 2023-06-14 15:14:12.996694
++show grants for 'xtrabackup'@'%‘;
+
+# 2023-06-14 15:14:21.811305
++show grants for 'xtrabackup@%’;
+
+# 2023-06-14 15:14:35.699352
++show grants for 'xtrabackup'@'%‘
+
+# 2023-06-14 15:14:37.918932
++show grants for 'xtrabackup'
+
+# 2023-06-14 15:15:41.220260
++GRANT BACKUP_ADMIN, RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT, REPLICATION SLAVE, SUPER,BACKUP_ADMIN ON *.* TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:15:50.640012
++FLUSH PRIVILEGES;
+
+# 2023-06-14 15:15:53.844621
++show grants for 'xtrabackup'@'%‘
+
+# 2023-06-14 15:15:56.799958
++show grants for 'xtrabackup'@'%‘;
+
+# 2023-06-14 15:16:00.027979
++show grants for 'xtrabackup'@
+
+# 2023-06-14 15:16:07.503722
++show grants for 'xtrabackup'@'%‘
+
+# 2023-06-14 15:16:11.599707
++show grants for 'xtrabackup'@'%‘;
+
+# 2023-06-14 15:16:14.011682
++show grants for 'xtrabackup'
+
+# 2023-06-14 15:17:18.131046
++select * from mysql.user
+
+# 2023-06-14 15:24:30.783517
++SELECT server_uuid, local, replication, storage_engines FROM performance_schema.log_status;
+
+# 2023-06-14 15:24:39.343848
++exit
+
+# 2023-06-14 15:25:12.336684
++SELECT server_uuid, local, replication, storage_engines FROM performance_schema.log_status;
+
+# 2023-06-14 15:25:32.043056
++GRANT SELECT ON performance_schema.log_status TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:25:37.707730
++exit
+
+# 2023-06-14 15:25:43.024934
++GRANT SELECT ON performance_schema.log_status TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:25:49.067750
++FLUSH PRIVILEGES;
+
+# 2023-06-14 15:25:50.131880
++exit
+
+# 2023-06-14 15:25:54.804872
++GRANT SELECT ON performance_schema.log_status TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:26:13.651803
++SELECT server_uuid, local, replication, storage_engines FROM performance_schema.log_status;
+
+# 2023-06-14 15:30:26.393019
++show grants for 'xtrabackup'
+
+# 2023-06-14 15:30:39.004050
++grant all
+
+# 2023-06-14 15:30:42.767736
++grant all on *.* to BlackHole@'%' with grant option;
+
+# 2023-06-14 15:31:00.943340
++show grants for 'xtrabackup'@'%'
+
+# 2023-06-14 15:31:33.179596
++GRANT SELECT ON performance_schema.log_status TO 'xtrabackup'@'%';
+
+# 2023-06-14 15:31:35.391462
++show grants for 'xtrabackup'@'%'
+
+# 2023-06-14 15:32:05.331241
++show slave status\G
+
+# 2023-06-14 15:32:31.567229
++show processlist;
+
+# 2023-06-14 15:32:42.944515
++start slave;
+
+# 2023-06-14 15:32:45.063992
++show slave status\G
+
+# 2023-06-15 10:40:53.936499
++show databases;
+
+# 2023-06-15 14:53:21.183892
++show tables;
+
+# 2023-06-15 14:53:28.729220
++select * from event;
+
+# 2023-06-15 14:54:12.267857
++select * from policy_job;
+
+# 2023-06-15 14:54:32.708886
++select * from event;
+
+# 2023-06-15 14:55:07.472593
++select * from policy_job;
+
+# 2023-06-15 14:55:58.071722
++select * from event;
+
+# 2023-06-15 14:56:09.508069
++select * from policy_job;
+
+# 2023-06-15 14:56:23.840191
++select * from event;
+
+# 2023-06-15 15:36:05.036336
++select * from policy_job;
+
+# 2023-06-15 15:46:11.099928
++select * from crontab_;
+
+# 2023-06-15 15:46:13.108211
++select * from crontab;
+
+# 2023-06-15 16:00:16.910686
++select * from policy_job;
+
+# 2023-06-15 16:00:39.562412
++select * from event;
+
+# 2023-06-15 16:58:20.834118
++select * from policy_job;
+
+# 2023-06-15 17:00:00.221616
++select * from sub_task;
+
+# 2023-06-15 17:00:05.654500
++select * from aio_sub_task;
+
+# 2023-06-15 17:08:01.046583
++select * from aio_total_task;
+
+# 2023-06-15 17:17:40.203849
++select * from event;
+
+# 2023-06-15 17:20:21.084965
++delete from event when 1;
+
+# 2023-06-15 17:20:24.966489
++delete from event when 1=1;
+
+# 2023-06-15 17:20:43.954885
++delete from event where 1;
+
+# 2023-06-15 17:20:47.778615
++select * from event;
+
+# 2023-06-15 17:25:54.626623
++select * from policy_job;
+
+# 2023-06-15 17:26:00.385761
++select * from event;
+
+# 2023-06-15 17:41:24.137849
++select * from policy_job;
+
+# 2023-06-15 17:51:52.130658
++update policy_job set next_run_time = "" where id = "backup_5_oracle_log";
+
+# 2023-06-15 17:51:56.702791
++select * from policy_job;
+
+# 2023-06-15 17:52:11.059205
++update policy_job set next_run_datetime = "" where id = "backup_5_oracle_log";
+
+# 2023-06-15 17:52:18.226394
++update policy_job set next_run_datetime = '' where id = "backup_5_oracle_log";
+
+# 2023-06-16 09:18:54.953559
++select * from policy_job;
+
+# 2023-06-16 09:19:09.441649
++update policy_job set next_run_datetime = 'None' where id = "backup_5_oracle_log";
+
+# 2023-06-16 09:19:43.090152
++update policy_job set next_run_datetime = '' where id = "backup_5_oracle_log";
+
+# 2023-06-16 09:19:50.169149
++show create table policy_job;
+
+# 2023-06-16 09:20:42.345126
++update policy_job set next_run_datetime = NULL where id = "backup_5_oracle_log";
+
+# 2023-06-16 09:20:49.061556
++select * from policy_job;
+
+# 2023-06-16 09:32:50.065068
++update policy_job set next_run_datetime = NULL where id = "backup_5_oracle_log";
+
+# 2023-06-16 09:32:51.205493
++select * from policy_job;
+
+# 2023-06-16 09:40:51.393980
++select * from policy_job\G
+
+# 2023-06-16 10:19:15.133219
++select * from policy_job;
+
+# 2023-06-16 10:24:13.412953
++select * from crontab;
+
+# 2023-06-16 10:24:24.121815
++select * from policy_job;
+
+# 2023-06-16 10:24:34.696897
++select * from crontab_
+
+# 2023-06-16 10:24:37.013384
++select * from crontab
+
+# 2023-06-16 10:24:49.869738
++select * from crontab\g
+
+# 2023-06-16 10:24:52.657195
++select * from crontab\G
+
+# 2023-06-16 10:25:14.305859
++select * from policy_job;
+
+# 2023-06-16 10:25:17.697012
++select * from policy_job\G
+
+# 2023-06-16 10:26:32.146342
++select * from resource_;
+
+# 2023-06-16 10:26:34.453602
++select * from resource;
+
+# 2023-06-16 10:26:38.549235
++select * from aio_resource;
+
+# 2023-06-16 10:27:00.389543
++select * from aio_data_nodes;
+
+# 2023-06-16 10:27:09.165260
++select * from policy_job\G
+
+# 2023-06-16 10:27:31.113786
++select * from aio_restore;
+
+# 2023-06-16 10:27:40.581806
++select * from aio_sub_task;
+
+# 2023-06-16 10:27:50.090012
++select * from aio_data_nodes;
+
+# 2023-06-16 10:28:02.693732
++select * from aio_sub_task;
+
+# 2023-06-16 10:28:18.742005
++select * from aio_devices;
+
+# 2023-06-16 10:28:25.821340
++select * from aio_node;
+
+# 2023-06-16 10:29:09.683316
++select * from resource_;
+
+# 2023-06-16 10:29:38.333614
++select * from backup_unit;
+
+# 2023-06-16 10:30:03.741240
++select * from crontab_backup_unit;
+
+# 2023-06-16 10:30:10.570364
++select * from backup_unit_;
+
+# 2023-06-16 10:30:18.793745
++select * from crontab_backup_unit;
+
+# 2023-06-16 10:30:22.965087
++select * from backup_instance_;
+
+# 2023-06-16 10:30:30.937469
++select * from backup_unit;
+
+# 2023-06-16 10:30:57.117867
++select * from policy_job\G
+
+# 2023-06-16 10:31:52.813948
++select * from aio_total_task;
+
+# 2023-06-16 10:33:09.467722
++select * from policy_job\G
+
+# 2023-06-16 10:33:11.441675
++select * from policy_job
+
+# 2023-06-16 10:34:19.748859
++select * from backup_unit;
+
+# 2023-06-16 10:34:51.221253
++select * from policy_job
+
+# 2023-06-16 10:36:17.170639
++select * from policy;
+
+# 2023-06-16 10:37:25.941941
++select * from crontab;
+
+# 2023-06-16 10:37:46.940230
++select * from backup_unit;
+
+# 2023-06-16 10:38:14.925928
++select * from crontab;
+
+# 2023-06-16 10:38:31.737037
++select * from policy_job;
+
+# 2023-06-16 10:48:39.288651
++select * from crontab;
+
+# 2023-06-16 16:39:24.641352
++select * from event;
+
+# 2023-06-16 18:52:44.170464
++select * from aio_total_task;
+
+# 2023-06-19 13:39:29.022191
++select * from resource_;
+
+# 2023-06-19 13:40:00.997875
++select * from resource_\G
+
+# 2023-06-19 13:40:31.013731
++select * from backup_unit_\G
+
+# 2023-06-19 16:26:30.709453
++drop database aio;
+
+# 2023-06-19 16:27:23.501695
++show databases;
+
+# 2023-06-19 16:32:50.962261
++create database aio;
+
+# 2023-06-19 16:32:54.108866
++show databases;
+
+# 2023-06-19 16:35:35.305404
++use aio;
+
+# 2023-06-19 16:35:38.830057
++show tables;
+
+# 2023-06-19 16:41:23.973722
++show databases;
+
+# 2023-06-19 16:43:36.146828
++use aio;
+
+# 2023-06-19 16:43:43.724904
++select * from aio_user;
+
+# 2023-06-19 16:43:49.922399
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-19 17:31:57.762034
++select * from aio_data_nodes;
+
+# 2023-06-19 17:44:06.253317
++delete from aio_data_nodes where 1;
+
+# 2023-06-19 17:44:19.750006
++select * from aio_devices;
+
+# 2023-06-19 17:44:28.613511
++delete from aio_devices;
+
+# 2023-06-19 17:44:43.706148
++delete from aio_data_nodes;
+
+# 2023-06-19 17:44:55.136751
++select * from aio_total_task;
+
+# 2023-06-19 17:45:11.978878
++delete from aio_total_task ;
+
+# 2023-06-19 17:45:18.552956
++delete from aio_data_nodes;
+
+# 2023-06-20 11:25:11.340147
++select * from aio_data_nodes;
+
+# 2023-06-20 11:25:33.727954
++select * from aio_restore;
+
+# 2023-06-20 11:26:58.803251
++select * from aio_data_nodes;
+
+# 2023-06-20 13:39:50.333353
++delete from aio_data_nodes;
+
+# 2023-06-20 13:39:57.903738
++delete from aio_devices;
+
+# 2023-06-20 13:40:06.168126
++delete from aio_data_nodes;
+
+# 2023-06-20 13:40:11.299598
++delete from aio_total_task;
+
+# 2023-06-20 13:40:13.771270
++delete from aio_data_nodes;
+
+# 2023-06-20 18:03:39.575511
++select * from backup_unit;
+
+# 2023-06-20 18:03:56.887697
++select * from backup_unit_;
+
+# 2023-06-20 18:04:19.971469
++select * from backup_instance_;
+
+# 2023-06-20 18:04:51.095631
++select * from policy;
+
+# 2023-06-20 18:04:56.288651
++select * from policy_job
+
+# 2023-06-20 18:05:17.124147
++select * from backup_instance_;
+
+# 2023-06-20 18:05:21.791861
++select * from backup_unit_;
+
+# 2023-06-20 18:05:24.200032
++select * from backup_unit;
+
+# 2023-06-20 18:07:00.279979
++select * from aio_data_nodes;
+
+# 2023-06-26 13:33:21.447619
++use aio;
+
+# 2023-06-26 13:33:28.770981
++delete from event;
+
+# 2023-06-27 13:49:51.377164
++show databases;
+
+# 2023-06-27 13:54:20.104775
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG_SUMMARY
+
+# 2023-06-27 13:54:22.261038
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-27 13:54:27.368699
++show databases;
+
+# 2023-06-27 13:54:31.840664
++use oceanbase;
+
+# 2023-06-27 13:54:34.937022
++show databases;
+
+# 2023-06-27 13:54:37.504574
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-27 16:08:09.990471
++select status from CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-06-27 16:10:56.055117
++select status from CDB_OB_BACKUP_ARCHIVELOG;
++
+
+# 2023-06-27 16:11:08.630832
++SELECT * FROM oceanbase.CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-06-27 17:12:07.879024
++show databases;
+
+# 2023-06-27 17:12:11.074811
++use test;
+
+# 2023-06-27 17:12:14.215126
++show tables;
+
+# 2023-06-27 17:12:22.730662
++create table test3(id int,name varchar(233));
+
+# 2023-06-27 17:12:26.162686
++show tables;
+
+# 2023-06-27 17:12:29.522852
++insert into user (score, name) values( RAND() * 100, 'test1');
+
+# 2023-06-27 17:13:19.942461
++insert into test3 (name) values("black hole");
+
+# 2023-06-27 17:13:23.771011
++insert into test3 (name) values("black hole1");
+
+# 2023-06-27 17:13:25.806739
++insert into test3 (name) values("black hole3");
+
+# 2023-06-27 17:13:34.577896
++select * from test3;
+
+# 2023-06-27 17:13:44.038234
++insert into test3 (id, name) values(1, "black hole3");
+
+# 2023-06-27 17:13:50.158267
++insert into test3 (id, name) values(3, "black hole3");
+
+# 2023-06-27 17:13:55.194830
++insert into test3 (id, name) values(4, "black hole4");
+
+# 2023-06-27 17:13:59.575313
++select * from test3;
+
+# 2023-06-27 17:15:37.655607
++SELECT * FROM oceanbase.CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-27 17:32:13.369564
++show tables;
+
+# 2023-06-27 17:32:16.614741
++SELECT * FROM oceanbase.CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-27 17:32:20.714674
++show databases;
+
+# 2023-06-27 17:33:25.934520
++exit
+
+# 2023-06-28 11:28:58.197677
++show databases;
+
+# 2023-06-28 11:29:03.708339
++SELECT * FROM oceanbase.CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-28 12:47:06.034731
++use airflow;
+
+# 2023-06-28 12:47:14.221407
++select * from dag_run;
+
+# 2023-06-28 12:47:20.044877
++select * from dag_run limit 10;
+
+# 2023-06-28 12:47:51.042729
++select run_type from dag_run limit 10;
+
+# 2023-06-28 12:48:53.158267
++select run_type from dag_run limit 100
+
+# 2023-06-28 13:57:30.320586
++select * from task_instance;
+
+# 2023-06-28 13:57:34.832019
++select * from task_instance limit 10;
+
+# 2023-06-28 13:58:34.136270
++select * from task_instance where task_id='get_incr_data_size' limit 10;
+
+# 2023-06-28 13:59:13.844222
++select * from task_instance where task_id='get_incr_data_size'
+
+# 2023-06-28 13:59:48.471989
++select * from task_instance where task_id='get_incr_data_size' and run='manual__2023-06-28T02:20:08.835413+00:00';
+
+# 2023-06-28 13:59:58.804752
++select * from task_instance where task_id='get_incr_data_size' and run_id='manual__2023-06-28T02:20:08.835413+00:00';
+
+# 2023-06-28 14:00:24.996055
++select * from job where state = 'running';
+
+# 2023-06-28 14:00:48.580502
++select * from task_instance where task_id='get_incr_data_size' and run_id='manual__2023-06-28T02:20:08.835413+00:00';
+
+# 2023-06-28 14:01:06.976805
++select * from job where state = 'running';
+
+# 2023-06-28 14:01:15.192714
++select * from job where id=355553;
+
+# 2023-06-28 14:01:29.332181
++select * from job where id=355552;
+
+# 2023-06-28 14:01:33.699942
++select * from job where id=355553;
+
+# 2023-06-28 14:08:47.841598
++select * from task_instance where state='scheduled';
+
+# 2023-06-28 15:33:10.588598
++select * from task_instance where state = 'deferred';
+
+# 2023-06-29 08:38:23.036562
++show databases;
+
+# 2023-06-29 08:38:42.128307
++select * from aio_resource;
+
+# 2023-06-29 08:39:03.957346
++select * from aio_data_nodes;
+
+# 2023-06-29 08:39:20.124587
++delete from aio_data_nodes where id=9;
+
+# 2023-06-29 08:39:34.691826
++select * from aio_devices;
+
+# 2023-06-29 08:39:56.471797
++delete from aio_devices where data_node_id=9;
+
+# 2023-06-29 08:39:59.607869
++delete from aio_data_nodes where id=9;
+
+# 2023-06-29 08:40:31.860005
++select * from aio_node;
+
+# 2023-06-29 08:41:13.568465
++delete from aio_node;
+
+# 2023-06-29 08:41:16.712739
++delete from aio_data_nodes where id=9;
+
+# 2023-06-29 08:41:26.376474
++select * from aio_total_task;
+
+# 2023-06-29 08:41:58.792780
++delete from aio_total_task where data_node_id=9;
+
+# 2023-06-29 08:42:04.160691
++delete from aio_data_nodes where id=9;
+
+# 2023-06-29 08:42:40.768743
++delete from snapshot_ where storage_id=9;
+
+# 2023-06-29 08:42:49.016963
++delete from aio_data_nodes where id=9;
+
+# 2023-06-29 10:35:11.439932
++show databases;
+
+# 2023-06-29 10:35:40.918376
++SELECT * FROM information_schema.INNODB_LOCKs;
+
+# 2023-06-29 11:18:04.190344
++show databases;
+
+# 2023-06-29 11:18:11.846038
++exit
+
+# 2023-06-29 11:18:24.174327
++drop database aio;
+
+# 2023-06-29 11:21:38.243418
++show databases;
+
+# 2023-06-29 11:22:22.601491
++use aio;
+
+# 2023-06-29 11:22:27.471258
++show tables;
+
+# 2023-06-29 11:45:30.570601
++use airflow
+
+# 2023-06-29 11:45:36.679008
++show tables;
+
+# 2023-06-29 11:45:45.455033
++select * from dag;
+
+# 2023-06-29 15:21:35.376494
++show databases;
+
+# 2023-06-29 15:21:46.549086
++use oceanbase;
+
+# 2023-06-29 15:21:56.848318
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-06-29 15:23:16.584780
++SELECT * FROM oceanbase.CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-06-29 15:24:46.345407
++SELECT * FROM oceanbase.CDB_OB_BACKUP_ARCHIVELOG_SUMMARY;
+
+# 2023-06-29 15:30:45.289215
++SELECT * FROM CDB_OB_BACKUP_PROGRESS
+
+# 2023-06-29 15:32:21.165229
++SELECT * FROM oceanbase.CDB_OB_BACKUP_PROGRESS
+
+# 2023-06-29 17:56:05.738533
++show databases;
+
+# 2023-06-29 17:56:09.231128
++use oceanbase;
+
+# 2023-06-29 17:56:16.178713
++show tables;
+
+# 2023-06-29 17:56:52.816113
++select tenant_name from __all_tenant;
+
+# 2023-06-29 17:57:25.052612
++drop tenant root@sys#wdg80143144145:1675402849;
+
+# 2023-06-29 17:57:30.998037
++drop tenant wdg_t_2;
+
+# 2023-06-29 17:59:06.021667
++select * from __all_resource_pool;
+
+# 2023-06-29 17:59:39.229116
++show tables like '%pool%';
+
+# 2023-06-29 17:59:56.847330
++select * from __all_tenant;
+
+# 2023-06-29 18:00:32.100494
++drop tenant wdg_t_2 force;
+
+# 2023-06-29 19:46:08.241504
++show databases;
+
+# 2023-06-29 19:46:14.456649
++use airflow
+
+# 2023-06-29 19:46:33.780803
++select * from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-06-29 19:47:02.488879
++select count(*) from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-06-29 19:47:06.912863
++select * from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-06-29 19:49:20.183610
++select count(*) from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-06-29 19:49:23.952169
++select * from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-06-30 10:00:29.805570
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-06-30 10:00:33.977862
++use aio;
+
+# 2023-06-30 10:00:34.818068
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-07-03 09:35:55.873750
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG_SUMMARY
+
+# 2023-07-03 09:36:12.837850
++exit
+
+# 2023-07-03 15:08:00.625690
++show databases;
+
+# 2023-07-03 15:08:06.969504
++use airflow;
+
+# 2023-07-03 15:08:16.063861
++select * from task_instance where run_id = "manual__2023-06-29T10:40:09.758082+00:00";
+
+# 2023-07-03 15:09:50.908812
++use aio;
+
+# 2023-07-03 15:09:54.500425
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-07-03 15:12:25.620518
++select * from task_instance where run_id = "manual__2023-06-29T10:09:10.563609+00:00";
+
+# 2023-07-03 15:12:31.327884
++use airflow;
+
+# 2023-07-03 15:12:32.452748
++select * from task_instance where run_id = "manual__2023-06-29T10:09:10.563609+00:00";
+
+# 2023-07-03 15:16:19.315732
++select * from dag_run where dag_id = "goldendb_inc_backup";
+
+# 2023-07-03 15:17:12.976449
++select * from dag_run where dag_id = "goldendb_inc_backup" and run_id = "manual__2023-06-29T10:09:10.563609+00:00";
+
+# 2023-07-03 15:17:41.584012
++show create table dag_run;
+
+# 2023-07-03 15:17:49.216700
++select * from dag_run where dag_id = "goldendb_inc_backup" and run_id = "manual__2023-06-29T10:09:10.563609+00:00";
+
+# 2023-07-03 15:18:07.804872
++select * from dag_run where dag_id = "goldendb_inc_backup" and execution_date = "2023-06-29 10:09:10.563609";
+
+# 2023-07-03 15:18:47.200879
++select * from dag_run where id in (628,629);
+
+# 2023-07-03 15:19:04.612869
++select * from dag_run where id in (627,628,629);

@@ -22,13 +22,13 @@ files:
       - name: 🎯 哔哩哔哩
         now: DIRECT
       - name: 🐟 漏网之鱼
-        now: "  [黄金][韩.首尔市][0.8] 港转 ②   "
+        now: " [白银][港.香港市][0.4] 直连 ②  "
       - name: 📢 谷歌FCM
         now: 🚀 节点选择
       - name: 📲 电报信息
         now: 🚀 节点选择
       - name: 🚀 节点选择
-        now: "  [黄金][日.东京市][0.8] 港转 ②   "
+        now: " [白银][港.香港市][0.4] 直连 ①  "
       - name: 🛑 全球拦截
         now: DIRECT
       - name: 🤖 CHATGPT
