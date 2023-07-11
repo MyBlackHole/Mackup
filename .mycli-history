@@ -6126,3 +6126,204 @@
 
 # 2023-07-03 15:19:04.612869
 +select * from dag_run where id in (627,628,629);
+
+# 2023-07-05 11:24:54.273636
++select * from total_task;
+
+# 2023-07-05 11:25:00.162336
++select * from total_task limit 10;
+
+# 2023-07-05 11:25:20.425623
++select * from aio_total_task limit 10;
+
+# 2023-07-05 11:26:10.613541
++select * from aio_total_task limit 10;
+
+# 2023-07-05 11:26:16.505945
++use aio;
+
+# 2023-07-05 11:26:17.481214
++select * from aio_total_task limit 10;
+
+# 2023-07-05 18:20:51.704316
++use aio;
+
+# 2023-07-05 18:21:04.549640
++select * from event;
+
+# 2023-07-06 08:52:42.034780
++select * from aio_sub_task;
+
+# 2023-07-06 15:22:53.908794
++select * from aio_sub_task limit 10;
+
+# 2023-07-06 15:22:58.576332
++select * from aio_sub_task limit 10 desc;
+
+# 2023-07-06 15:23:11.485075
++select * from aio_sub_task limit 10  desc;
+
+# 2023-07-06 15:23:13.925087
++select * from aio_sub_task limit 10 
+
+# 2023-07-06 15:23:22.036373
++select * from aio_sub_task limit 10 create desc 
+
+# 2023-07-06 15:23:27.569250
++select * from aio_sub_task  create desc;
+
+# 2023-07-06 15:23:33.147214
++select * from aio_sub_task where create desc;
+
+# 2023-07-06 15:23:39.144361
++select * from aio_sub_task;
+
+# 2023-07-06 15:44:06.011622
++select * from aio_total_task ;
+
+# 2023-07-06 15:44:15.472205
++select * from aio_sub_task;
+
+# 2023-07-06 15:47:52.920274
++use airflow
+
+# 2023-07-06 15:48:08.004569
++select * from dag_run;
+
+# 2023-07-06 15:50:06.784200
++use aio;
+
+# 2023-07-06 15:50:10.146919
++select * from aio_sub_task;
+
+# 2023-07-06 16:46:43.508461
++select * from aio_total_task where id=733
+
+# 2023-07-06 17:05:23.520406
++select * from aio_sub_task where total_task_id = 733
+
+# 2023-07-06 17:07:46.540336
++select * from aio_sub_task ;
+
+# 2023-07-06 18:08:29.876843
++select * from aio_sub_task;
+
+# 2023-07-07 10:17:49.014333
++UPDATE aio_sub_task SET  attribute=(aio_sub_task.attribute || "{\"key\": 1}") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:18:26.382459
++UPDATE aio_sub_task SET  attribute="{}" WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:18:32.374520
++UPDATE aio_sub_task SET  attribute=(aio_sub_task.attribute || "{\"key\": 1}") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:22:31.387462
++UPDATE aio_sub_task SET JSON_SET(attribute, '$.key', 1) WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:22:42.050000
++UPDATE aio_sub_task SET JSON_SET(attribute, '$.key', "") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:23:17.236288
++select * from aio_sub_task where id=5;
+
+# 2023-07-07 10:23:34.402778
++UPDATE aio_sub_task SET JSON_SET(attribute, '$.key', "1") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:23:50.023401
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key', "1") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:23:53.394578
++select * from aio_sub_task where id=5;
+
+# 2023-07-07 10:24:13.415210
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key1', "1") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:24:14.638426
++select * from aio_sub_task where id=5;
+
+# 2023-07-07 10:29:45.601054
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key1', "1"， '$.key2', "2") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:30:55.361852
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key1', "1"， '$.key4', "2") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:31:03.500920
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key1', "1"，'$.key4', "2") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:31:38.476365
++UPDATE aio_sub_task SET attribute=JSON_SET(attribute, '$.key1', "1", '$.key4', "2") WHERE aio_sub_task.id IN (5)
+
+# 2023-07-07 10:47:17.497096
++select * from aio_sub_task limit 10;
+
+# 2023-07-07 10:52:49.976736
++select * from aio_sub_task where id=4699;
+
+# 2023-07-07 10:54:44.173540
++select * from aio_total_task where id=5;
+
+# 2023-07-07 15:42:34.157293
++select * from aio_sub_task where id=5390;
+
+# 2023-07-07 15:42:46.901232
++select * from aio_total_task where id=5;
+
+# 2023-07-07 15:47:46.729565
++select * from aio_sub_task where id=5390;
+
+# 2023-07-07 15:58:08.504422
++select * from aio_total_task where id=846;
+
+# 2023-07-07 16:10:45.582548
++select * from aio_sub_task where id=5390;
+
+# 2023-07-07 18:23:58.510480
++select * from aio_sub_task where id=5;
+
+# 2023-07-07 18:24:22.985547
++select * from aio_sub_task where total_task_id=5;
+
+# 2023-07-07 18:41:48.003566
++use airflow;
+
+# 2023-07-07 18:42:19.699405
++select * from task_instance where dag_id = "aceanbase_reload";
+
+# 2023-07-07 18:43:19.511674
++select * from task_instance where dag_id = "oceanbase_reload";
+
+# 2023-07-07 18:43:32.251217
++select * from task_instance where dag_id = "oceanbase_reload" limit 10;
+
+# 2023-07-07 18:47:36.532579
++select * from dag_run where dag_id = "oceanbase_reload" limit 10;
+
+# 2023-07-07 18:48:13.281081
++select * from dag_run where dag_id = "oceanbase_reload" and execution_date = "2023-07-07T10:22:54.554921+00:00";
+
+# 2023-07-07 18:49:01.691657
++select * from task_instance where dag_id = "oceanbase_reload" limit 10;
+
+# 2023-07-10 17:03:49.851905
++use airflow;
+
+# 2023-07-10 17:04:10.551508
++select * from job;
+
+# 2023-07-10 17:04:26.567306
++select * from job limit 10;
+
+# 2023-07-10 17:06:13.407614
++select * from job where id=创建转换器解压目录;
+
+# 2023-07-10 17:06:21.379689
++select * from job where id=11750;
+
+# 2023-07-10 17:06:42.655869
++select * from task_instance where job_id=11750;
+
+# 2023-07-10 17:47:11.561743
++select * from task_instance limit 10;
+
+# 2023-07-10 19:55:36.993284
++show full processlist;
