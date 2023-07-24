@@ -11,9 +11,9 @@ an executable
 -- general
 lvim.log.level = "info"
 lvim.format_on_save = {
-  enabled = true,
-  pattern = "*.lua",
-  timeout = 1000,
+    enabled = true,
+    pattern = "*.lua",
+    timeout = 1000,
 }
 -- 主题
 lvim.colorscheme = "lunar"
@@ -100,37 +100,37 @@ lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Project
 
 -- 打开函数树
 lvim.builtin.which_key.mappings["S"] = {
-  name = "symbols-outline",
-  o = { "<cmd>SymbolsOutlineOpen<CR>", "SymbolsOutlineOpen" },
-  c = { "<cmd>SymbolsOutlineClose<CR>", "SymbolsOutlineClose" },
+    name = "symbols-outline",
+    o = { "<cmd>SymbolsOutlineOpen<CR>", "SymbolsOutlineOpen" },
+    c = { "<cmd>SymbolsOutlineClose<CR>", "SymbolsOutlineClose" },
 }
 
 -- flutter-tools
 lvim.builtin.which_key.mappings["f"] = {
-  name = "Flutter",
-  r = { "<cmd>FlutterRun<CR>", "FlutterRun" },
+    name = "Flutter",
+    r = { "<cmd>FlutterRun<CR>", "FlutterRun" },
 }
 
 -- 诊断 key map
 lvim.builtin.which_key.mappings["t"] = {
-  name = "+Trouble",
-  r = { "<cmd>Trouble lsp_references<cr>", "References" },
-  f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
-  d = { "<cmd>Trouble lsp_document_diagnostics<cr>", "Diagnostics" },
-  q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
-  l = { "<cmd>Trouble loclist<cr>", "LocationList" },
-  w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
+    name = "+Trouble",
+    r = { "<cmd>Trouble lsp_references<cr>", "References" },
+    f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
+    d = { "<cmd>Trouble lsp_document_diagnostics<cr>", "Diagnostics" },
+    q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
+    l = { "<cmd>Trouble loclist<cr>", "LocationList" },
+    w = { "<cmd>Trouble workspace_diagnostics<cr>", "Diagnostics" },
 }
 
 -- 翻译
 lvim.builtin.which_key.vmappings["t"] = {
-  name = "+Translate",
-  t = { "<cmd>Translate<cr>", "Translate" },
-  r = { "<cmd>TranslateR<cr>", "TranslateR" },
-  l = { "<cmd>TranslateL<cr>", "TranslateL" },
-  h = { "<cmd>TranslateH<cr>", "TranslateH" },
-  w = { "<cmd>TranslateW<cr>", "TranslateW" },
-  x = { "<cmd>TranslateX<cr>", "TranslateX" },
+    name = "+Translate",
+    t = { "<cmd>Translate<cr>", "Translate" },
+    r = { "<cmd>TranslateR<cr>", "TranslateR" },
+    l = { "<cmd>TranslateL<cr>", "TranslateL" },
+    h = { "<cmd>TranslateH<cr>", "TranslateH" },
+    w = { "<cmd>TranslateW<cr>", "TranslateW" },
+    x = { "<cmd>TranslateX<cr>", "TranslateX" },
 }
 
 -- TODO: User Config for predefined plugins
@@ -147,82 +147,129 @@ lvim.builtin.cmp.completion.keyword_length = 2
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
-  "bash",
-  "c",
-  "javascript",
-  -- "json",
-  "lua",
-  "python",
-  -- "typescript",
-  -- "css",
-  "rust",
-  -- "java",
-  "yaml",
-  "go",
+    "bash",
+    "c",
+    "javascript",
+    -- "json",
+    "lua",
+    "python",
+    -- "typescript",
+    -- "css",
+    "rust",
+    -- "java",
+    "yaml",
+    "go",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
+
+-- -- 关闭自动安装语言服务器
+-- lvim.lsp.automatic_servers_installation = true
 
 -- generic LSP settings
 -- :LvimCacheReset (必须执行才生效)
 
 -- -- 添加到自动配置服务跳过列表
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
--- -- 移除 跳过列表中 pylsp 项
+
+-- -- 移除 跳过列表中 pyright 项
 -- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
---   return server ~= "pylsp"
+--   return server ~= "pyright"
 -- end, lvim.lsp.automatic_configuration.skipped_servers)
 
 -- set a formatter, this will override the language server formatting capabilities (if it exists)
 -- 格式化
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-  { command = "black",        filetypes = { "python" } },
-  { command = "isort",        filetypes = { "python" } },
-  { command = "markdownlint", filetypes = { "Markdown" } },
+    { command = "black",        filetypes = { "python" } },
+    { command = "isort",        filetypes = { "python" } },
+    { command = "markdownlint", filetypes = { "Markdown" } },
 }
 
 -- set additional linters
 -- 语法校验
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
-  { command = "flake8",        filetypes = { "python" } },
-  { command = "golangci-lint", filetypes = { "go" } },
-  { command = "markdownlint",  filetypes = { "Markdown" } },
+    { command = "flake8",        filetypes = { "python" } },
+    { command = "golangci-lint", filetypes = { "go" } },
+    { command = "markdownlint",  filetypes = { "Markdown" } },
 }
+
+-- --- check the lspconfig documentation for a list of all possible options
+-- --- 启用其他语言服务器
+-- local opts = {}
+-- require("lspconfig")["pylsp"].setup(opts)
 
 -- Additional Plugins
 lvim.plugins = {
-  -- 代码函数树
-  {
-    "simrat39/symbols-outline.nvim",
-    config = function()
-      require('symbols-outline').setup()
-    end
-  },
-  -- flutter-tools
-  {
-    'akinsho/flutter-tools.nvim',
-    config = function()
-      require("flutter-tools").setup()
-    end,
-  },
-  -- { "norcalli/nvim-colorizer.lua" },
-  -- -- 彩虹括号
-  -- { "mrjones2014/nvim-ts-rainbow" },
-  -- 翻译
-  { "voldikss/vim-translator" },
-  -- { "lunarvim/colorschemes" },
-  -- 诊断
-  {
-    "folke/trouble.nvim",
-    cmd = "TroubleToggle"
-  },
-  -- { "hrsh7th/vim-vsnip" },
-  -- { "hrsh7th/vim-vsnip-integ" },
-  -- { "hrsh7th/cmp-cmdline" },
-  -- { "ryanoasis/vim-devicons" },
+    -- 代码函数树
+    {
+        "simrat39/symbols-outline.nvim",
+        config = function()
+            require('symbols-outline').setup()
+        end
+    },
+    -- flutter-tools
+    {
+        'akinsho/flutter-tools.nvim',
+        config = function()
+            require("flutter-tools").setup()
+        end,
+    },
+    -- { "norcalli/nvim-colorizer.lua" },
+    -- -- 彩虹括号
+    -- { "mrjones2014/nvim-ts-rainbow" },
+    -- 翻译
+    { "voldikss/vim-translator" },
+    -- { "lunarvim/colorschemes" },
+    -- 诊断
+    {
+        "folke/trouble.nvim",
+        cmd = "TroubleToggle"
+    },
+    -- { "hrsh7th/vim-vsnip" },
+    -- { "hrsh7th/vim-vsnip-integ" },
+    -- { "hrsh7th/cmp-cmdline" },
+    -- { "ryanoasis/vim-devicons" },
+    {
+        "folke/flash.nvim",
+        event = "VeryLazy",
+        ---@type Flash.Config
+        opts = {},
+        -- stylua: ignore
+        keys = {
+            { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
+            {
+                "S",
+                mode = { "n", "o", "x" },
+                function() require("flash").treesitter() end,
+                desc =
+                "Flash Treesitter"
+            },
+            {
+                "r",
+                mode = "o",
+                function() require("flash").remote() end,
+                desc =
+                "Remote Flash"
+            },
+            {
+                "R",
+                mode = { "o", "x" },
+                function() require("flash").treesitter_search() end,
+                desc =
+                "Treesitter Search"
+            },
+            {
+                "<c-s>",
+                mode = { "c" },
+                function() require("flash").toggle() end,
+                desc =
+                "Toggle Flash Search"
+            },
+        },
+    }
 }
 
 
@@ -235,12 +282,12 @@ lvim.plugins = {
 -- }
 
 vim.api.nvim_create_autocmd(
-  "BufWinEnter",
-  {
-    pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
-    -- enable wrap mode for json files only
-    command = "%s/[\\u0d]//ge",
-  }
+    "BufWinEnter",
+    {
+        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
+        -- enable wrap mode for json files only
+        command = "%s/[\\u0d]//ge",
+    }
 )
 
 vim.cmd('source ~/.config/lvim/lua/user/lualine.lua')
