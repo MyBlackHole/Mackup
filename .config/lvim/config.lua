@@ -164,14 +164,18 @@ lvim.builtin.treesitter.ensure_installed = {
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
 
+-- -- 关闭自动安装语言服务器
+-- lvim.lsp.automatic_servers_installation = true
+
 -- generic LSP settings
 -- :LvimCacheReset (必须执行才生效)
 
 -- -- 添加到自动配置服务跳过列表
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
--- -- 移除 跳过列表中 pylsp 项
+
+-- -- 移除 跳过列表中 pyright 项
 -- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
---   return server ~= "pylsp"
+--   return server ~= "pyright"
 -- end, lvim.lsp.automatic_configuration.skipped_servers)
 
 -- set a formatter, this will override the language server formatting capabilities (if it exists)
@@ -191,6 +195,11 @@ linters.setup {
     { command = "golangci-lint", filetypes = { "go" } },
     { command = "markdownlint",  filetypes = { "Markdown" } },
 }
+
+-- --- check the lspconfig documentation for a list of all possible options
+-- --- 启用其他语言服务器
+-- local opts = {}
+-- require("lspconfig")["pylsp"].setup(opts)
 
 -- Additional Plugins
 lvim.plugins = {
