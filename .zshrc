@@ -197,9 +197,7 @@ fi
 # # atuin
 # eval "$(atuin init zsh)"
 
-# >>> xmake >>>
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
-# <<< xmake <<<
+
 
 # tmux error:"ssh" 'tmux-256color': unknown terminal type. 处理
 alias ssh='TERM=xterm ssh'
@@ -233,3 +231,6 @@ NVIM_PATH="/opt/nvim"
 if [ -d "$NVIM_PATH" ]; then
     export PATH=$NVIM_PATH/bin:$PATH
 fi
+# >>> xmake >>>
+test -f "/home/black/.xmake/profile" && source "/home/black/.xmake/profile"
+# <<< xmake <<<

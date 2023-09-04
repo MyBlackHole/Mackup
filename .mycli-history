@@ -6327,3 +6327,4702 @@
 
 # 2023-07-10 19:55:36.993284
 +show full processlist;
+
+# 2023-07-11 09:27:41.348054
++use aio;
+
+# 2023-07-11 09:27:46.855644
++update aio_user set is_default_pwd=0 where id=1;
+
+# 2023-07-11 09:34:21.994499
++ls
+
+# 2023-07-11 12:29:21.155918
++use airflow;
+
+# 2023-07-11 12:29:26.472505
++select * from task_instance limit 10;
+
+# 2023-07-11 18:59:25.505624
++select * from task_instance where state = 'queue';
+
+# 2023-07-11 18:59:48.430123
++select * from dag_run where state = 'running';
+
+# 2023-07-11 19:25:05.057647
++select * from task_instance where task_id='判断全量备份模式';
+
+# 2023-07-12 08:46:17.434381
++SELECT task_instance.try_number AS task_instance_try_number, task_instance.task_id AS task_instance_task_id, task_instance.dag_id AS task_instance_dag_id, task_instance.run_id AS task_instance_run_id, task_instance.start_date AS task_instance_start_date, task_instance.end_date AS task_instance_end_date, task_instance.duration AS task_instance_duration, task_instance.state AS task_instance_state, task_instance.max_tries AS task_instance_max_tries, task_instance.hostname AS task_instance_hostname, task_instance.unixname AS task_instance_unixname, task_instance.job_id AS task_instance_job_id, task_instance.pool AS task_instance_pool, task_instance.pool_slots AS task_instance_pool_slots, task_instance.queue AS task_instance_queue, task_instance.priority_weight AS task_instance_priority_weight, task_instance.operator AS task_instance_operator, task_instance.queued_dttm AS task_instance_queued_dttm, task_instance.queued_by_job_id AS task_instance_queued_by_job_id, task_instance.pid AS task_instance_pid, task_instance.executor_config AS task_instance_executor_config, task_instance.external_executor_id AS task_instance_external_executor_id, task_instance.trigger_id AS task_instance_trigger_id, task_instance.trigger_timeout AS task_instance_trigger_timeout, task_instance.next_method AS task_instance_next_method, task_instance.next_kwargs AS task_instance_next_kwargs, dag_run_1.state AS dag_run_1_state, dag_run_1.id AS dag_run_1_id, dag_run_1.dag_id AS dag_run_1_dag_id, dag_run_1.queued_at AS dag_run_1_queued_at, dag_run_1.execution_date AS dag_run_1_execution_date, dag_run_1.start_date AS dag_run_1_start_date, dag_run_1.end_date AS dag_run_1_end_date, dag_run_1.run_id AS dag_run_1_run_id, dag_run_1.creating_job_id AS dag_run_1_creating_job_id, dag_run_1.external_trigger AS dag_run_1_external_trigger, dag_run_1.run_type AS dag_run_1_run_type, dag_run_1.conf AS dag_run_1_conf, dag_run_1.data_interval_start AS dag_run_1_data_interval_start, dag_run_1.data_interval_end AS dag_run_1_data_interval_end, dag_run_1.last_scheduling_decision AS dag_run_1_last_scheduling_decision, dag_run_1.dag_hash AS dag_run_1_dag_hash
++FROM task_instance INNER JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id where task_instance.task_id = "判断全量备份模式";
+
+# 2023-07-12 10:11:20.721492
++use aio;
+
+# 2023-07-12 10:11:29.753065
++select * from aio_resource;
+
+# 2023-07-12 10:11:44.559557
++select * from resource_;
+
+# 2023-07-12 10:12:04.690313
++select * from backup_unit_
+
+# 2023-07-12 10:12:10.794412
++select * from aio_node
+
+# 2023-07-12 10:12:15.849438
++select * from host_
+
+# 2023-07-12 11:59:06.355013
++select * from resource_;
+
+# 2023-07-12 11:59:41.875904
++use aio;
+
+# 2023-07-12 11:59:46.449863
++select * from resource_;
+
+# 2023-07-12 13:46:36.513800
++select attribute from resource_ where id=9;
+
+# 2023-07-12 13:54:20.790417
++select * from resource_ where id=9;
+
+# 2023-07-12 14:38:23.594685
++show tables;
+
+# 2023-07-12 14:38:39.389153
++select * from proxy_instance;
+
+# 2023-07-12 16:15:13.993841
++select * from resource_ where id=9;
+
+# 2023-07-12 16:42:46.345435
++select * from proxy_instance;
+
+# 2023-07-12 16:48:25.646733
++select * from proxy_instance_;
+
+# 2023-07-12 16:48:45.710296
++drop table proxy_instance;
+
+# 2023-07-12 17:00:32.181983
++select * from proxy_instance_;
+
+# 2023-07-12 17:00:56.322437
++select * from resource_;
+
+# 2023-07-12 17:08:18.161655
++select * from proxy_instance_;
+
+# 2023-07-12 17:13:06.589828
++select * from resource_;
+
+# 2023-07-12 17:34:15.094646
++select * from entry_;
+
+# 2023-07-12 17:41:01.998063
++select * from resource_;
+
+# 2023-07-12 17:45:41.696578
++select * from proxy_instance_;
+
+# 2023-07-12 17:46:35.229891
++select * from resource_;
+
+# 2023-07-12 17:52:59.805911
++select * from backup_unit_;
+
+# 2023-07-12 20:15:40.820732
++select * from resource_;
+
+# 2023-07-12 20:16:08.507824
++select * from backup_instance_;
+
+# 2023-07-12 20:18:15.844424
++select * from resource_;
+
+# 2023-07-12 20:24:16.590856
++select * from backup_instance_;
+
+# 2023-07-12 20:24:58.016268
++select * from backup_unit_;
+
+# 2023-07-12 20:28:06.360989
++select * from backup_instance_;
+
+# 2023-07-12 20:29:01.828774
++select user_dir, user_name from insight_install_db_info where host_ip = '192.168.79.24' and db_port = '5501';
+
+# 2023-07-12 20:30:10.463938
++select * from backup_instance_;
+
+# 2023-07-12 20:32:12.913163
++select * from mysql_instance_;
+
+# 2023-07-12 20:37:20.463806
++select * from resource_;
+
+# 2023-07-12 20:37:30.291272
++select * from backup_unit_;
+
+# 2023-07-12 20:39:25.752032
++select * from mysql_instance_;
+
+# 2023-07-12 20:52:41.980468
++select * from resource_;
+
+# 2023-07-12 20:52:45.940408
++select * from mysql_instance_;
+
+# 2023-07-12 21:01:16.933402
++select * from backup_unit_;
+
+# 2023-07-12 21:28:57.792231
++select * from mysql_instance_;
+
+# 2023-07-12 21:31:11.132530
++select * from proxy_instance_;
+
+# 2023-07-13 09:09:24.303550
++select * from host_;
+
+# 2023-07-13 11:08:44.617259
++select * from mysql_instance_;
+
+# 2023-07-13 11:09:37.892707
++select * from resource_;
+
+# 2023-07-13 11:44:45.546099
++delete from resource_;
+
+# 2023-07-13 11:44:54.445852
++delete from mysql_instance_;
+
+# 2023-07-13 11:44:59.058852
++delete from host_;
+
+# 2023-07-13 11:45:07.234321
++delete from backup_unit_;
+
+# 2023-07-13 11:45:14.382136
++delete from snapshot_;
+
+# 2023-07-13 11:45:17.818459
++delete from backup_unit_;
+
+# 2023-07-13 11:45:25.054093
++delete from crontab_;
+
+# 2023-07-13 11:45:33.634539
++delete from aio_total_task;
+
+# 2023-07-13 11:45:35.546982
++delete from crontab_;
+
+# 2023-07-13 11:45:47.410201
++delete from backup_unit_;
+
+# 2023-07-13 11:46:00.270238
++delete from crontab;
+
+# 2023-07-13 11:46:10.983700
++delete from backup_instance_;
+
+# 2023-07-13 11:46:15.940932
++delete from backup_unit_;
+
+# 2023-07-13 11:46:29.574494
++delete from crontab_backup_unit;
+
+# 2023-07-13 11:46:31.762843
++delete from backup_unit_;
+
+# 2023-07-13 11:46:43.694535
++delete from resource_;
+
+# 2023-07-13 11:46:52.377764
++delete from timeline_;
+
+# 2023-07-13 11:46:55.913843
++delete from resource_;
+
+# 2023-07-13 11:47:06.538958
++select * from resource_;
+
+# 2023-07-13 11:47:08.626853
++select * from host_;
+
+# 2023-07-13 11:47:10.786406
++select * from resource_;
+
+# 2023-07-13 11:47:13.726518
++select * from backup_unit_;
+
+# 2023-07-13 11:47:18.198240
++select * from backup_instance_;
+
+# 2023-07-13 11:47:42.830598
++select * from mysql_instance_;
+
+# 2023-07-13 11:48:07.674639
++select * from backup_unit_;
+
+# 2023-07-13 11:48:12.759083
++select * from host_;
+
+# 2023-07-13 12:06:23.382515
++select * from mysql_instance_;
+
+# 2023-07-13 12:10:04.102518
++select * from host_;
+
+# 2023-07-13 12:10:25.027049
++select * from mysql_instance_;
+
+# 2023-07-13 12:11:59.694935
++select * from resource_;
+
+# 2023-07-13 12:13:07.942204
++select * from mysql_instance_;
+
+# 2023-07-13 14:09:21.362091
++select * from resource_;
+
+# 2023-07-13 16:47:31.577788
++select * from mysql_instance_;
+
+# 2023-07-13 16:47:34.190584
++select * from host_;
+
+# 2023-07-13 16:47:39.891217
++select * from backup_unit_;
+
+# 2023-07-13 16:47:57.362215
++select * from resource_;
+
+# 2023-07-13 16:48:02.334363
++select * from mysql_instance_;
+
+# 2023-07-13 16:48:19.714740
++select * from proxy_instance_;
+
+# 2023-07-13 16:48:59.698109
++delete from proxy_instance_ where host_id is NULL;
+
+# 2023-07-13 16:49:02.978498
++select * from proxy_instance_;
+
+# 2023-07-13 16:50:11.286024
++select * from host_;
+
+# 2023-07-13 16:51:33.502540
++select * from mysql_instance_;
+
+# 2023-07-13 16:52:25.202088
++select * from host_;
+
+# 2023-07-13 16:56:15.241934
++select * from proxy_instance_;
+
+# 2023-07-13 16:58:16.730716
++select * from host_;
+
+# 2023-07-13 17:02:00.006152
++select * from resource_;
+
+# 2023-07-13 17:05:05.258798
++select * from proxy_instance_;
+
+# 2023-07-13 17:05:08.570178
++select * from resource_;
+
+# 2023-07-13 17:07:29.657897
++select * from host_;
+
+# 2023-07-13 18:11:57.065854
++select * from aio_node;
+
+# 2023-07-13 18:12:08.341447
++select * from aio_data_nodes;
+
+# 2023-07-13 18:18:28.698850
++select * from backup_unit_;
+
+# 2023-07-13 18:18:50.322864
++select * from aio_data_nodes;
+
+# 2023-07-13 18:19:16.358836
++select * from backup_instance_ where backup_unit_id=30;
+
+# 2023-07-13 18:19:21.335081
++select * from backup_unit_;
+
+# 2023-07-13 18:19:35.318126
++select * from mysql_instance_ where backup_unit_id=30;
+
+# 2023-07-13 18:19:46.378540
++select * from mysql_instance_ where backup_unit_id=29;
+
+# 2023-07-13 18:19:53.770658
++select * from mysql_instance_ where backup_unit_id=30;
+
+# 2023-07-13 18:19:57.610516
++select * from mysql_instance_ where backup_unit_id=29;
+
+# 2023-07-13 18:27:34.346812
++select * from crontab_;
+
+# 2023-07-13 18:28:51.316497
++select * from backup_instance_;
+
+# 2023-07-13 19:22:34.906563
++select * from crontab_;
+
+# 2023-07-13 20:32:25.151790
++select * from backup_instance_;
+
+# 2023-07-14 09:11:23.647388
++select * from resource_;
+
+# 2023-07-14 09:24:20.787072
++select * from crontab_;
+
+# 2023-07-14 09:26:25.387125
++select * from backup_instance_;
+
+# 2023-07-14 09:27:23.651229
++select * from crontab_backup_unit
+
+# 2023-07-14 09:30:54.142562
++select * from backup_unit_;
+
+# 2023-07-14 09:30:57.762675
++select * from backup_instance_;
+
+# 2023-07-14 09:31:19.838518
++select * from crontab_backup_unit
+
+# 2023-07-14 09:32:14.663632
++select * from backup_unit_;
+
+# 2023-07-14 09:33:27.399352
++select * from crontab_backup_unit
+
+# 2023-07-14 09:33:35.458995
++select * from crontab_;
+
+# 2023-07-14 09:42:45.703413
++select * from backup_unit_;
+
+# 2023-07-14 09:42:53.262732
++select * from backup_instance_;
+
+# 2023-07-14 09:49:59.982782
++select * from crontab_backup_unit
+
+# 2023-07-14 09:50:01.839249
++select * from crontab_backup_unit;
+
+# 2023-07-14 09:50:08.359152
++select * from crontab_;
+
+# 2023-07-14 10:11:38.639047
++select * from crontab_backup_unit;
+
+# 2023-07-14 10:28:26.974882
++select * from backup_instance_;
+
+# 2023-07-14 10:33:01.203040
++select * from aio_sub_task;
+
+# 2023-07-14 10:33:05.203553
++select * from sub_crontab;
+
+# 2023-07-14 10:33:08.298945
++select * from sub_task;
+
+# 2023-07-14 10:33:49.599421
++select * from aio_sub_task;
+
+# 2023-07-14 15:12:29.152172
++select * from crontab_;
+
+# 2023-07-14 15:25:57.968817
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 15:26:01.568342
++select * from crontab_;
+
+# 2023-07-14 15:32:02.847506
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 15:36:59.852236
++select * from crontab_;
+
+# 2023-07-14 15:37:39.256516
++update crontab_ set block_size=65536 where id=9;
+
+# 2023-07-14 15:37:41.820924
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 15:42:07.616097
++use airflow;
+
+# 2023-07-14 15:42:16.796351
++select * from dag_run ;
+
+# 2023-07-14 15:42:24.940259
++select * from dag_run desc;
+
+# 2023-07-14 15:43:07.296551
++use aio;
+
+# 2023-07-14 15:43:10.176258
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 15:56:44.475326
++select * from backup_unit_;
+
+# 2023-07-14 16:31:35.208653
++select * from proxy_instance_;
+
+# 2023-07-14 16:42:40.368433
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 17:14:07.564229
++select * from snapshot_;
+
+# 2023-07-14 17:14:11.976179
++select * from aio_snapshot;
+
+# 2023-07-14 17:14:15.620770
++select * from snapshot_;
+
+# 2023-07-14 17:39:16.149099
++use aio;
+
+# 2023-07-14 17:39:18.895994
++update crontab_ set state="plan_backup" where id=9;
+
+# 2023-07-14 17:42:54.248657
++select * from mysql_instance_;
+
+# 2023-07-14 17:46:13.136041
++select * from aio_total_task ;
+
+# 2023-07-14 17:46:48.012587
++select * from aio_sub_task;
+
+# 2023-07-14 17:47:45.147780
++select * from mysql_instance_;
+
+# 2023-07-14 17:50:16.484177
++select * from crontab_;
+
+# 2023-07-14 17:50:44.316334
++update crontab_ set block_size=65536 where id=9;
+
+# 2023-07-14 17:50:47.242726
++update crontab_ set block_size=65536 where id=10;
+
+# 2023-07-14 17:50:52.607846
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-14 18:01:21.660490
++select * from resource_;
+
+# 2023-07-14 18:01:54.579984
++select * from proxy_instance_;
+
+# 2023-07-14 18:02:32.099705
++select * from mysql_instance_;
+
+# 2023-07-14 18:30:31.979452
++select * from proxy_instance_;
+
+# 2023-07-14 18:55:43.992072
++select * from backup_unit_;
+
+# 2023-07-14 19:03:10.420201
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-14 19:47:49.137658
++ALTER SYSTEM RESTORE tenant01_1689333293 FROM tenant01 at "file:///volmountpoint/aiopool/1689320324189_1689333281_clone" UNTIL "2023-07-14 15:43:01" WITH "backup_cluster_name=obtest&backup_cluster_id=999999&pool_list=ob_pool03"
+
+# 2023-07-17 10:32:25.276785
++use aio;
+
+# 2023-07-17 10:32:29.899086
++select * from proxy_instance_;
+
+# 2023-07-17 13:37:06.473972
++select * from mysql_instance_;
+
+# 2023-07-17 13:56:10.893874
++select * from proxy_instance_;
+
+# 2023-07-17 13:57:10.770683
++select * from host_;
+
+# 2023-07-17 13:57:28.949886
++select * from proxy_instance_;
+
+# 2023-07-17 13:57:38.868816
++select * from host_;
+
+# 2023-07-17 14:19:23.284653
++select * from proxy_instance_;
+
+# 2023-07-17 14:37:50.345072
++use aio;
+
+# 2023-07-17 14:38:39.936961
++select * from proxy_instance_;
+
+# 2023-07-17 14:43:10.648923
++select * from host_ where id=65
+
+# 2023-07-17 14:43:18.325306
++select * from host_;
+
+# 2023-07-17 14:43:38.977608
++select * from proxy_instance_;
+
+# 2023-07-17 14:44:23.580383
++select * from host_;
+
+# 2023-07-17 14:45:56.096011
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-17 14:54:52.376909
++select * from host_;
+
+# 2023-07-17 14:55:01.916396
++select * from mysql_instance_;
+
+# 2023-07-17 14:55:15.400258
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-17 15:25:36.181514
++select * from aio_sub_task;
+
+# 2023-07-17 15:26:08.140158
++select * from sub_task;
+
+# 2023-07-17 15:26:15.932284
++select * from aio_sub_task;
+
+# 2023-07-17 15:26:25.960305
++select * from sub_task;
+
+# 2023-07-17 15:26:32.832879
++select * from aio_sub_task;
+
+# 2023-07-17 15:29:09.246525
++select * from total_task;
+
+# 2023-07-17 15:56:28.036058
++select * from aio_total_task;
+
+# 2023-07-17 15:57:02.276186
++select * from aio_sub_task;
+
+# 2023-07-17 16:57:38.655226
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-17 16:58:02.831042
++select * from crontab_;
+
+# 2023-07-17 17:07:15.779059
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-17 17:20:44.573197
++select * from proxy_instance_;
+
+# 2023-07-17 17:20:47.124857
++select * from host_;
+
+# 2023-07-17 17:26:22.493511
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-17 20:40:47.160900
++select * from snapshot_;
+
+# 2023-07-18 09:25:01.977734
++create table snapshot_;
+
+# 2023-07-18 09:25:16.302059
++create show from snapshot_;
+
+# 2023-07-18 09:25:31.429830
++show create table snapshot_;
+
+# 2023-07-18 09:25:50.542523
++select * from backup_instance_;
+
+# 2023-07-18 09:27:04.635290
++select * from mysql_instance_;
+
+# 2023-07-18 09:29:10.927395
++select * from backup_instance_;
+
+# 2023-07-18 09:29:35.515700
++show create table snapshot_;
+
+# 2023-07-18 09:29:41.056188
++select * from snapshot_;
+
+# 2023-07-18 10:52:08.496581
++delete from snapshot_;
+
+# 2023-07-18 10:52:21.853080
++select * from snapshot_;
+
+# 2023-07-18 13:46:02.777822
++select * from timeline_point_;
+
+# 2023-07-18 13:46:15.757784
++delete from timeline_point_;
+
+# 2023-07-18 13:46:19.498535
++select * from timeline_point_;
+
+# 2023-07-18 13:55:32.241702
++select * from aio_total_task;
+
+# 2023-07-18 13:56:43.105989
++update aio_total_task set state="success" where id=1364;
+
+# 2023-07-18 13:56:49.890091
++update aio_total_task set ="success" where id=1364;
+
+# 2023-07-18 13:56:52.126042
++select * from aio_total_task;
+
+# 2023-07-18 13:57:01.293381
++update aio_total_task set task_status="success" where id=1364;
+
+# 2023-07-18 14:00:22.372296
++select * from aio_total_task;
+
+# 2023-07-18 14:00:27.116617
++select * from timeline_point_;
+
+# 2023-07-18 14:46:11.899653
++select * from re
+
+# 2023-07-18 14:46:15.690598
++select * from resource_;
+
+# 2023-07-18 17:57:26.443236
++select * from crontab_;
+
+# 2023-07-18 18:00:21.986987
++select * from timeline_point_;
+
+# 2023-07-18 18:32:30.301628
++select * from crontab_;
+
+# 2023-07-18 18:52:48.625993
++select * from snapshot_;
+
+# 2023-07-18 18:59:34.129724
++select * from crontab_;
+
+# 2023-07-18 19:00:17.606326
++select * from aio_total_task;
+
+# 2023-07-18 19:00:39.286004
++select * from aio_sub_task;
+
+# 2023-07-18 19:00:46.842354
++select * from crontab_;
+
+# 2023-07-18 19:07:12.129999
++select * from aio_total_task;
+
+# 2023-07-18 19:10:50.885999
++select * from aio_sub_task;
+
+# 2023-07-18 19:12:20.049723
++SELECT aio_total_task.id AS aio_total_task_id, aio_total_task.task_num AS aio_total_task_task_num, aio_total_task.execution_batch AS aio_total_task_execution_batch, aio_total_task.task_type AS aio_total_task_task_type, aio_total_task.task_status AS aio_total_task_task_status, aio_total_task.start_time AS aio_total_task_start_time, aio_total_task.end_time AS aio_total_task_end_time, aio_total_task.initiator AS aio_total_task_initiator, aio_total_task.execute_type AS aio_total_task_execute_type, aio_total_task.revert_after_fail AS aio_total_task_revert_after_fail, aio_total_task.is_pause AS aio_total_task_is_pause, aio_total_task.crontab_id AS aio_total_task_crontab_id, aio_total_task.crontab_id_ AS aio_total_task_crontab_id_, aio_total_task.copy_crontab_id AS aio_total_task_copy_crontab_id, aio_total_task.data_node_id AS aio_total_task_data_node_id, aio_total_task.mount_unit_result_id AS aio_total_task_mount_unit_result_id, aio_total_task.related_object AS aio_total_task_related_object, aio_total_task.attribute AS aio_total_task_attribute, aio_total_task.create_time AS aio_total_task_create_time, aio_total_task.update_time AS aio_total_task_update_time, aio_total_task.time_zone AS aio_total_task_time_zone
++FROM aio_total_task;
+
+# 2023-07-18 19:15:00.057097
++SELECT aio_total_task.id AS aio_total_task_id, aio_total_task.task_num AS aio_total_task_task_num, aio_total_task.execution_batch AS aio_total_task_execution_batch, aio_total_task.task_type AS aio_total_task_task_type, aio_total_task.task_status AS aio_total_task_task_status, aio_total_task.start_time AS aio_total_task_start_time, aio_total_task.end_time AS aio_total_task_end_time, aio_total_task.initiator AS aio_total_task_initiator, aio_total_task.execute_type AS aio_total_task_execute_type, aio_total_task.revert_after_fail AS aio_total_task_revert_after_fail, aio_total_task.is_pause AS aio_total_task_is_pause, aio_total_task.crontab_id AS aio_total_task_crontab_id, aio_total_task.crontab_id_ AS aio_total_task_crontab_id_, aio_total_task.copy_crontab_id AS aio_total_task_copy_crontab_id, aio_total_task.data_node_id AS aio_total_task_data_node_id, aio_total_task.mount_unit_result_id AS aio_total_task_mount_unit_result_id, aio_total_task.related_object AS aio_total_task_related_object, aio_total_task.attribute AS aio_total_task_attribute, aio_total_task.create_time AS aio_total_task_create_time, aio_total_task.update_time AS aio_total_task_update_time, aio_total_task.time_zone AS aio_total_task_time_zone
++FROM aio_total_task where aio_total_task.task_status = "running" aio_total_task.id NOT IN (1365) ORDER BY aio_total_task.id DESC
+
+# 2023-07-18 19:16:38.839059
++SELECT aio_total_task.id AS aio_total_task_id, aio_total_task.task_num AS aio_total_task_task_num, aio_total_task.execution_batch AS aio_total_task_execution_batch, aio_total_task.task_type AS aio_total_task_task_type, aio_total_task.task_status AS aio_total_task_task_status, aio_total_task.start_time AS aio_total_task_start_time, aio_total_task.end_time AS aio_total_task_end_time, aio_total_task.initiator AS aio_total_task_initiator, aio_total_task.execute_type AS aio_total_task_execute_type, aio_total_task.revert_after_fail AS aio_total_task_revert_after_fail, aio_total_task.is_pause AS aio_total_task_is_pause, aio_total_task.crontab_id AS aio_total_task_crontab_id, aio_total_task.crontab_id_ AS aio_total_task_crontab_id_, aio_total_task.copy_crontab_id AS aio_total_task_copy_crontab_id, aio_total_task.data_node_id AS aio_total_task_data_node_id, aio_total_task.mount_unit_result_id AS aio_total_task_mount_unit_result_id, aio_total_task.related_object AS aio_total_task_related_object, aio_total_task.attribute AS aio_total_task_attribute, aio_total_task.create_time AS aio_total_task_create_time, aio_total_task.update_time AS aio_total_task_update_time, aio_total_task.time_zone AS aio_total_task_time_zone
++FROM aio_total_task where aio_total_task.task_status = "running" aio_total_task.id IN (1365) ORDER BY aio_total_task.id DESC
+
+# 2023-07-18 19:16:47.718071
++select * from aio_sub_task;
+
+# 2023-07-18 19:17:27.134277
++delete from aio_sub_task where total_task_id != 1365;
+
+# 2023-07-18 19:17:30.229941
++select * from aio_sub_task;
+
+# 2023-07-18 19:17:40.714547
++delete from aio_total_task where id != 1365;
+
+# 2023-07-18 19:17:46.325945
++select * from aio_total_task;
+
+# 2023-07-19 09:03:06.060101
++select * from crontab_;
+
+# 2023-07-19 09:03:25.491762
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-19 09:04:55.331479
++select * from crontab_;
+
+# 2023-07-19 09:26:20.011334
++select * from aio_sub_task;
+
+# 2023-07-19 09:26:37.191453
++select * from aio_total_task;
+
+# 2023-07-19 09:27:41.627883
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-19 09:30:06.823443
++select * from crontab_;
+
+# 2023-07-19 09:34:46.147800
++select * from aio_total_task;
+
+# 2023-07-19 09:35:35.235214
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-19 09:37:14.691677
++select * from aio_total_task;
+
+# 2023-07-19 09:37:39.415886
++select * from aio_sub_task;
+
+# 2023-07-19 09:37:58.963913
++select * from aio_total_task;
+
+# 2023-07-19 09:54:26.447296
++update aio_total_task set task_status="success" where id=1366;
+
+# 2023-07-19 09:54:29.247952
++select * from aio_total_task;
+
+# 2023-07-19 10:02:38.727355
++select * from aio_binlog
+
+# 2023-07-19 10:09:52.151235
++select * from snapshot_;
+
+# 2023-07-19 13:46:34.747781
++aio_data_nodes
+
+# 2023-07-19 13:46:37.627487
++select * from aio_data_nodes;
+
+# 2023-07-19 13:52:31.195308
++select * from mysql_instance_;
+
+# 2023-07-19 13:52:39.171813
++select * from backup_instance_;
+
+# 2023-07-19 14:05:29.394613
++select * from aio_node
+
+# 2023-07-19 14:08:05.219493
++select * from mysql_instance_;
+
+# 2023-07-19 14:08:18.515727
++select * from antdb_instance_
+
+# 2023-07-19 14:22:41.736009
++select * from binlog_
+
+# 2023-07-19 16:33:02.089018
++select * from crontab_;
+
+# 2023-07-19 17:08:03.795486
++select * from binlog_
+
+# 2023-07-19 17:08:07.379390
++select * from binlog_;
+
+# 2023-07-20 11:36:53.226903
++delete from binlog_;
+
+# 2023-07-20 11:41:30.547268
++select * from binlog_;
+
+# 2023-07-20 11:44:40.726889
++select * from binlog_ 
+
+# 2023-07-20 11:44:54.762748
++select * from binlog_ group by instance_id;
+
+# 2023-07-20 11:45:00.103027
++select * from binlog_  group by instance_id;
+
+# 2023-07-20 11:45:22.687451
++select count(*) from binlog_  group by instance_id;
+
+# 2023-07-20 11:45:41.309495
++select * from binlog_ 
+
+# 2023-07-20 11:48:56.251471
++select count(*) from binlog_ where crontab_id=10  group by instance_id;
+
+# 2023-07-20 11:49:02.010739
++select * from binlog_ where crontab_id=10  group by instance_id;
+
+# 2023-07-20 11:50:21.318983
++select * from binlog_ where crontab_id=10
+
+# 2023-07-20 11:50:57.182417
++select instance_id from binlog_ where crontab_id=10  group by instance_id;
+
+# 2023-07-20 11:51:08.138945
++select id, instance_id from binlog_ where crontab_id=10  group by instance_id;
+
+# 2023-07-20 11:52:12.598042
++select instance_id from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 11:52:15.702698
++select instance_id from binlog_ where crontab_id=10  group by instance_id ;
+
+# 2023-07-20 11:55:36.210398
++select instance_id from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 11:56:03.294074
++select instance_id, count(*) from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 13:32:36.756393
++select * from binlog_ where crontab_id=10
+
+# 2023-07-20 13:34:41.664717
++select * from binlog_ where crontab_id=10 and instance_id=147;
+
+# 2023-07-20 13:36:27.067858
++select * from binlog_ where crontab_id=10 and binlog_type="cr";
+
+# 2023-07-20 13:36:28.904297
++select * from binlog_ where crontab_id=10 and instance_id=147;
+
+# 2023-07-20 13:36:35.968437
++select * from binlog_ where crontab_id=10 and binlog_type="current";
+
+# 2023-07-20 13:44:49.463788
++select * from binlog_ where crontab_id=10 and binlog_type="current" and instance_id=147;
+
+# 2023-07-20 13:45:24.712096
++select * from binlog_ 
+
+# 2023-07-20 13:45:28.857133
++select * from binlog_ where crontab_id=10 and binlog_type="current" and instance_id=147;
+
+# 2023-07-20 13:45:46.192009
++select * from binlog_ where crontab_id=10  and instance_id=147;
+
+# 2023-07-20 14:33:34.629766
++select instance_id, count(*) from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:33:50.573512
++select instance_id, start_time from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:34:06.809770
++select instance_id, binlog_date from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:34:48.890000
++select instance_id from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:35:02.470205
++select instance_id, binlog_date from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:35:39.473153
++select instance_id, min(binlog_date) from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:35:49.693234
++select instance_id, max(binlog_date) from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 14:43:25.221614
++select instance_id, min(binlog_date) from binlog_ where crontab_id=10  group by instance_id desc;
+
+# 2023-07-20 15:28:39.799076
++select * from timeline_;
+
+# 2023-07-20 15:31:22.117736
++select * from timeline_point_;
+
+# 2023-07-20 15:35:33.705959
++select * from aio_total_task;
+
+# 2023-07-20 15:39:36.365068
++delete from aio_total_task where id < 1392;
+
+# 2023-07-20 15:39:41.548732
++select * from aio_total_task;
+
+# 2023-07-20 15:39:46.840601
++delete from aio_total_task where id < 1393;
+
+# 2023-07-20 15:39:48.864683
++select * from aio_total_task;
+
+# 2023-07-20 16:14:25.643441
++select * from timeline_point_;
+
+# 2023-07-20 16:14:29.508503
++select * from timeline_;
+
+# 2023-07-20 16:24:14.505343
++select * from timeline_point_;
+
+# 2023-07-20 16:24:35.920769
++select * from crontab_;
+
+# 2023-07-20 16:24:58.284980
++select * from aio_total_task;
+
+# 2023-07-20 16:25:15.160634
++select * from aio_sub_task;
+
+# 2023-07-20 16:25:27.516866
++select * from aio_total_task;
+
+# 2023-07-20 16:28:30.136187
++select * from aio_sub_task;
+
+# 2023-07-20 17:01:43.516129
++select * from crontab_;
+
+# 2023-07-20 17:08:33.801124
++select * from aio_sub_task;
+
+# 2023-07-20 17:08:40.928046
++select * from aio_total_task;
+
+# 2023-07-20 17:09:04.249295
++select * from aio_sub_task;
+
+# 2023-07-20 17:10:07.484505
++select * from crontab_;
+
+# 2023-07-20 17:10:13.309134
++select * from aio_sub_task;
+
+# 2023-07-20 17:10:19.813007
++select * from aio_total_task;
+
+# 2023-07-20 17:10:33.092334
++select * from crontab_;
+
+# 2023-07-20 17:10:46.740620
++update crontab_ set state="plan_backup" where id=10;
+
+# 2023-07-20 17:19:33.887663
++select * from crontab_;
+
+# 2023-07-20 17:19:39.561328
++select * from aio_total_task;
+
+# 2023-07-20 17:19:57.472775
++select * from timeline_point_;
+
+# 2023-07-20 17:31:48.461157
++select * from crontab_;
+
+# 2023-07-20 17:33:14.844033
++select * from timeline_point_;
+
+# 2023-07-20 17:33:19.700427
++select * from timeline_;
+
+# 2023-07-20 18:26:11.695387
++select * from binlog_
+
+# 2023-07-20 18:45:45.217384
++select * from timeline_;
+
+# 2023-07-20 18:53:11.172900
++select * from binlog_
+
+# 2023-07-20 18:58:34.593544
++select * from timeline_;
+
+# 2023-07-20 19:03:35.449377
++select * from timeline_point_;
+
+# 2023-07-20 19:05:06.482046
++delete from timeline_;
+
+# 2023-07-20 19:08:55.629777
++select * from timeline_point_;
+
+# 2023-07-20 19:08:59.665819
++select * from timeline_;
+
+# 2023-07-20 19:16:45.508997
++select * from binlog_
+
+# 2023-07-20 19:17:30.597382
++select * from binlog_ group by instance_id;
+
+# 2023-07-20 19:18:15.721602
++select instance_id, max(binlog_time) from binlog_ group by instance_id;
+
+# 2023-07-20 19:18:18.109361
++select * from binlog_ group by instance_id;
+
+# 2023-07-20 19:18:22.997502
++select * from binlog_
+
+# 2023-07-20 19:18:45.765675
++select instance_id, max(binlog_end_date) from binlog_ group by instance_id;
+
+# 2023-07-20 19:20:06.833197
++select * from timeline_;
+
+# 2023-07-21 14:33:29.091423
++select * from snapshot_;
+
+# 2023-07-21 14:35:15.898593
++select * from snapshot_
+
+# 2023-07-21 14:49:56.399823
++select * from aio_total_task;
+
+# 2023-07-21 14:50:05.747216
++select * from aio_sub_task;
+
+# 2023-07-21 14:53:53.039543
++select * from aio_total_task;
+
+# 2023-07-21 14:54:07.620255
++select * from aio_sub_task;
+
+# 2023-07-21 15:01:42.531507
++select * from aio_total_task;
+
+# 2023-07-21 15:07:05.448179
++select * from snapshot_
+
+# 2023-07-21 15:29:37.759963
++select * from aio_total_task;
+
+# 2023-07-21 15:33:43.019933
++select * from aio_sub_task;
+
+# 2023-07-21 15:35:16.964011
++update aio_sub_task set data_size = 0 where data_size is NULL;
+
+# 2023-07-21 15:35:21.988199
++select * from aio_sub_task;
+
+# 2023-07-21 15:39:30.595770
++update aio_sub_task set data_size = "" where data_size == 0;
+
+# 2023-07-21 15:39:38.619915
++update aio_sub_task set data_size = "" where data_size == "0";
+
+# 2023-07-21 15:42:08.140605
++update aio_sub_task set data_size = NULL where data_size == "0";
+
+# 2023-07-21 15:42:11.051598
++update aio_sub_task set data_size = NULL where data_size == 0;
+
+# 2023-07-21 15:42:14.604228
++update aio_sub_task set data_size = NULL where data_size = 0;
+
+# 2023-07-21 15:42:19.839760
++select * from aio_sub_task;
+
+# 2023-07-21 15:44:01.764152
++update aio_sub_task set data_size = NULL where data_size = 0;
+
+# 2023-07-21 15:47:22.135908
++select * from aio_sub_task;
+
+# 2023-07-21 15:48:26.774826
++insert into aio_sub_task(total_task_id) values ()
+
+# 2023-07-21 15:48:27.835083
++select * from aio_sub_task;
+
+# 2023-07-21 15:48:35.470914
++insert into aio_sub_task(total_task_id) values (1393)
+
+# 2023-07-21 15:48:38.351422
++select * from aio_sub_task;
+
+# 2023-07-21 15:49:45.775192
++show create table aio_sub_task;
+
+# 2023-07-21 15:52:07.347066
++show create table total_task;
+
+# 2023-07-21 15:52:24.552135
++show create table aio_sub_task;
+
+# 2023-07-21 16:09:54.475652
++use test;
+
+# 2023-07-21 16:09:57.502903
++show databases;
+
+# 2023-07-21 16:10:16.284122
++use test;
+
+# 2023-07-21 16:10:19.403524
++show tables;
+
+# 2023-07-21 16:10:28.707327
++select * from user;
+
+# 2023-07-21 16:10:30.727609
++show tables;
+
+# 2023-07-21 16:10:34.387695
++select * from test;
+
+# 2023-07-21 16:10:48.083682
++use airflow;
+
+# 2023-07-21 16:10:51.447094
++select * from user;
+
+# 2023-07-21 16:13:44.555856
++INSERT INTO user (id, name) VALUES (3, "dksfjsl")
+
+# 2023-07-21 16:13:52.579603
++show create table user;
+
+# 2023-07-21 16:59:30.286720
++show variables；
+
+# 2023-07-21 16:59:34.606813
++show variables like "binlog_format";
+
+# 2023-07-21 16:59:38.404449
++show variables ;
+
+# 2023-07-24 14:00:17.496009
++use aio;
+
+# 2023-07-24 14:00:33.412875
++select * from snapshot_
+
+# 2023-07-24 14:00:51.490726
++select * from backup_instance_;
+
+# 2023-07-24 14:02:10.250615
++select * from mysql_instance_;
+
+# 2023-07-24 14:02:33.051051
++select * from host_;
+
+# 2023-07-24 14:06:19.862801
++select * from backup_instance_;
+
+# 2023-07-24 14:06:36.126504
++select * from snapshot_
+
+# 2023-07-24 14:08:50.778994
++select * from instance_;
+
+# 2023-07-24 14:09:18.952671
++select * from backup_instance_;
+
+# 2023-07-24 14:09:29.649396
++select * from snapshot_
+
+# 2023-07-24 14:26:33.863113
++ren
+
+# 2023-07-24 14:26:55.556460
++rename backup_unit_ to unit_
+
+# 2023-07-24 14:28:17.975563
++ALTER TABLE backup_unit_ RENAME TO unit_;
+
+# 2023-07-24 15:14:07.822753
++ALTER TABLE backup_instance_ RENAME TO instance_
+
+# 2023-07-24 15:26:57.866802
++select * from snapshot_
+
+# 2023-07-24 16:31:48.485653
++select * from instance_;
+
+# 2023-07-24 16:32:37.990201
++select * from mysql_instance_;
+
+# 2023-07-24 17:50:50.869112
++select * from resource_;
+
+# 2023-07-24 17:50:57.293140
++select * from backup_unit;
+
+# 2023-07-24 17:51:13.613524
++select * from entry_;
+
+# 2023-07-24 17:51:18.865396
++select * from resource_;
+
+# 2023-07-24 17:51:23.681673
++select * from unit_;
+
+# 2023-07-25 09:09:25.737710
++select * from resource_;
+
+# 2023-07-25 09:25:18.104878
++select * from proxy_instance_;
+
+# 2023-07-25 11:04:21.001612
++show databases;
+
+# 2023-07-25 11:04:32.261294
++show tables;
+
+# 2023-07-25 11:05:31.736921
++select * from alembic_version;
+
+# 2023-07-25 11:05:40.201150
++drop table alembic_version;
+
+# 2023-07-25 11:05:43.020868
++select * from alembic_version;
+
+# 2023-07-25 11:07:19.089894
++select * from aio_binlog;
+
+# 2023-07-25 11:08:42.985642
++drop table aio_binlog;
+
+# 2023-07-25 11:09:07.265417
++select * from aio_data_nodes;
+
+# 2023-07-25 11:09:13.532659
++select * from alembic_version;
+
+# 2023-07-25 11:09:42.305330
++update alembic_version set version_num = "60c9b4051c99";
+
+# 2023-07-25 11:09:45.257042
++select * from alembic_version;
+
+# 2023-07-25 11:09:51.721106
++update alembic_version set version_num = "60c9b4051c99" where 1;
+
+# 2023-07-25 11:09:54.313264
++select * from alembic_version;
+
+# 2023-07-25 11:10:14.061110
++insert into alembic_version(version_num) values ("60c9b4051c99")
+
+# 2023-07-25 11:10:15.893520
++select * from alembic_version;
+
+# 2023-07-25 11:24:54.365261
++select * from aio_sub_task;
+
+# 2023-07-25 11:25:05.833632
++show create table aio_sub_task;
+
+# 2023-07-25 11:26:15.468736
++select * from alembic_version;
+
+# 2023-07-25 11:28:41.998671
++select * from aio_sub_task;
+
+# 2023-07-25 11:28:59.018750
++update aio_sub_task set data_size = 0 where data_size is null;
+
+# 2023-07-25 11:29:01.070513
++select * from aio_sub_task;
+
+# 2023-07-25 13:30:38.378163
++select * from unit_;
+
+# 2023-07-25 13:33:19.669071
++select * from instance_;
+
+# 2023-07-25 13:35:15.301571
++select * from aio_user;
+
+# 2023-07-25 13:36:03.025588
++select * from instance_;
+
+# 2023-07-25 13:37:18.077694
++drop database aio;
+
+# 2023-07-25 13:37:27.085993
++create database aio;
+
+# 2023-07-25 13:38:42.359014
++select * from instance_;
+
+# 2023-07-25 13:38:45.530550
++use aio;
+
+# 2023-07-25 13:38:46.589976
++select * from instance_;
+
+# 2023-07-25 13:39:14.041591
++select * from aio_user;
+
+# 2023-07-25 13:40:20.668850
++select * from instance_;
+
+# 2023-07-25 13:41:18.516654
++select * from backup_unit_;
+
+# 2023-07-25 13:49:27.027411
++select * from unit_;
+
+# 2023-07-25 13:49:29.460632
++select * from instance_;
+
+# 2023-07-25 13:49:32.157004
++select * from backup_unit_;
+
+# 2023-07-25 13:49:50.993148
++select * from mysql_instance_;
+
+# 2023-07-25 13:50:14.197183
++show create table mysql_instance_;
+
+# 2023-07-25 13:54:23.296599
++drop database aio;
+
+# 2023-07-25 13:54:25.753071
++create database aio;
+
+# 2023-07-25 13:55:39.969120
++use aio;
+
+# 2023-07-25 13:55:48.637865
++select * from mysql_instance_;
+
+# 2023-07-25 13:55:50.857695
++show create table mysql_instance_;
+
+# 2023-07-25 14:03:52.665357
++drop database aio;
+
+# 2023-07-25 14:03:55.119748
++create database aio;
+
+# 2023-07-25 14:03:57.771757
++use aio;
+
+# 2023-07-25 14:09:42.800736
++select * from mysql_instance_;
+
+# 2023-07-25 14:09:45.115834
++show create table mysql_instance_;
+
+# 2023-07-25 14:24:31.432096
++select * from BackupInstance;
+
+# 2023-07-25 14:24:44.060434
++select * from backup_instance;
+
+# 2023-07-25 15:03:17.096078
++select * from unit_;
+
+# 2023-07-25 15:36:45.961462
++select * from aio_user;
+
+# 2023-07-25 15:37:49.489628
++show create table aio_user;
+
+# 2023-07-25 15:39:23.341358
++select * from aio_user;
+
+# 2023-07-25 15:39:58.489945
++drop database aio;
+
+# 2023-07-25 15:41:42.745726
++create database if not exists aio DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 2023-07-25 15:44:07.989698
++select * from aio_user;
+
+# 2023-07-25 15:44:11.266475
++use aio;
+
+# 2023-07-25 15:44:12.550176
++select * from aio_user;
+
+# 2023-07-25 16:15:16.770657
++select * from resource_;
+
+# 2023-07-25 16:16:49.182300
++select * from unit_;
+
+# 2023-07-25 16:17:44.986322
++select * from resource_;
+
+# 2023-07-25 16:24:45.917446
++select * from instance_;
+
+# 2023-07-25 16:24:50.194413
++select * from 
+
+# 2023-07-25 16:24:53.266200
++select * from mysql_instance_;
+
+# 2023-07-25 16:25:11.018552
++select * from instance_;
+
+# 2023-07-25 16:25:44.982063
++select * from mysql_instance_;
+
+# 2023-07-25 16:25:48.414839
++select * from resource_;
+
+# 2023-07-25 16:26:07.445972
++select * from oracle_instance_;
+
+# 2023-07-25 16:26:43.142092
++select * from resource_;
+
+# 2023-07-25 16:48:23.269946
++select * from instance_;
+
+# 2023-07-25 16:49:16.790336
++select * from mysql_instance_;
+
+# 2023-07-25 16:56:40.057840
++select * from instance_;
+
+# 2023-07-25 17:09:07.565969
++select * from mysql_instance_;
+
+# 2023-07-25 17:10:51.865379
++select * from host_;
+
+# 2023-07-25 17:11:01.552483
++select * from mysql_instance_;
+
+# 2023-07-25 17:11:08.173205
++select * from host_;
+
+# 2023-07-25 17:11:26.076967
++select * from mysql_instance_;
+
+# 2023-07-25 17:31:23.324915
++select * from host_;
+
+# 2023-07-25 17:31:35.965159
++select * from proxy_instance_;
+
+# 2023-07-25 17:34:14.970146
++select * from host_;
+
+# 2023-07-25 17:34:22.676812
++select * from proxy_instance_;
+
+# 2023-07-25 17:35:36.240720
++select * from host_;
+
+# 2023-07-25 17:35:47.940320
++select * from proxy_instance_;
+
+# 2023-07-25 17:38:57.122949
++select * from host_;
+
+# 2023-07-25 17:39:07.820196
++select * from proxy_instance_;
+
+# 2023-07-25 17:40:38.679872
++select * from host_;
+
+# 2023-07-25 17:40:48.031804
++select * from proxy_instance_;
+
+# 2023-07-25 17:41:00.299301
++select * from mysql_instance_;
+
+# 2023-07-25 17:42:02.284448
++select * from unit_;
+
+# 2023-07-25 17:42:06.539880
++select * from mysql_instance_;
+
+# 2023-07-25 17:53:29.258887
++select * from instance_;
+
+# 2023-07-26 09:04:01.075228
++select * from crontab_;
+
+# 2023-07-26 09:04:39.366659
++select * from unit_;
+
+# 2023-07-26 09:08:28.839556
++select * from backup_instance;
+
+# 2023-07-26 09:08:32.091045
++select * from instance_;
+
+# 2023-07-26 09:09:03.963281
++select * from crontab_;
+
+# 2023-07-26 09:12:12.774811
++select * from unit_;
+
+# 2023-07-26 09:12:22.923166
++select * from instance_;
+
+# 2023-07-26 09:48:09.076062
++select * from resource_;
+
+# 2023-07-26 09:48:19.292090
++select * from crontab_;
+
+# 2023-07-26 09:48:32.837232
++select * from instance_;
+
+# 2023-07-26 10:00:17.629808
++select * from resource_;
+
+# 2023-07-26 10:01:33.903411
++select * from unit_;
+
+# 2023-07-26 10:15:57.607149
++select * from crontab_backup_unit;
+
+# 2023-07-26 10:18:55.218097
++show create table crontab_backup_unit;
+
+# 2023-07-26 10:20:43.537462
++show create table resource_;
+
+# 2023-07-26 10:20:48.568971
++select * from resource_;
+
+# 2023-07-26 10:25:02.193400
++select * from proxy_instance_;
+
+# 2023-07-26 10:25:07.553319
++select * from host_;
+
+# 2023-07-26 10:25:17.850312
++select * from mysql_instance_;
+
+# 2023-07-26 10:26:48.894665
++select * from host_;
+
+# 2023-07-26 10:27:02.205207
++select * from proxy_instance_;
+
+# 2023-07-26 10:28:31.061309
++select * from host_;
+
+# 2023-07-26 10:28:44.981915
++select * from proxy_instance_;
+
+# 2023-07-26 10:29:35.054007
++select * from host_;
+
+# 2023-07-26 10:29:37.473187
++select * from proxy_instance_;
+
+# 2023-07-26 10:30:03.457519
++select * from host_;
+
+# 2023-07-26 10:30:05.481306
++select * from proxy_instance_;
+
+# 2023-07-26 10:30:21.541564
++select * from host_;
+
+# 2023-07-26 10:30:31.265742
++select * from proxy_instance_;
+
+# 2023-07-26 10:31:01.521639
++select * from host_;
+
+# 2023-07-26 10:34:00.709237
++select * from proxy_instance_;
+
+# 2023-07-26 10:38:02.105533
++select * from mysql_instance_;
+
+# 2023-07-26 10:40:33.777558
++select * from unit_;
+
+# 2023-07-26 10:40:54.570116
++select * from mysql_instance_;
+
+# 2023-07-26 10:42:50.034025
++select * from proxy_instance_;
+
+# 2023-07-26 10:44:20.609323
++select * from host_;
+
+# 2023-07-26 10:44:31.897990
++select * from proxy_instance_;
+
+# 2023-07-26 10:45:08.141786
++select * from host_;
+
+# 2023-07-26 10:45:15.009308
++select * from proxy_instance_;
+
+# 2023-07-26 10:46:29.241467
++select * from mysql_instance_;
+
+# 2023-07-26 11:15:45.597270
++select * from unit
+
+# 2023-07-26 11:15:47.358968
++select * from unit_
+
+# 2023-07-26 11:58:57.341213
++select * from mysql_instance_;
+
+# 2023-07-26 13:40:04.821350
++select * from resource_;
+
+# 2023-07-26 13:40:35.256453
++select * from mysql_instance_;
+
+# 2023-07-26 13:42:47.761315
++select * from resource_;
+
+# 2023-07-26 13:43:41.468779
++select * from unit_
+
+# 2023-07-26 13:44:13.452828
++update unit_ set type = "goldendb_backup" where resource_id = 1;
+
+# 2023-07-26 13:44:25.156499
++update unit_ set type = "goldendb_mount" where resource_id = 2;
+
+# 2023-07-26 13:44:26.521201
++select * from unit_
+
+# 2023-07-26 13:45:52.112789
++select * from resource_;
+
+# 2023-07-26 14:11:53.900812
++select * from mysql_instance_;
+
+# 2023-07-26 14:13:24.008789
++select * from host_;
+
+# 2023-07-26 14:13:25.492717
++select * from mysql_instance_;
+
+# 2023-07-26 14:13:30.913164
++select * from host_;
+
+# 2023-07-26 14:18:16.881142
++select * from mysql_instance_;
+
+# 2023-07-26 14:19:34.689096
++select * from resource_;
+
+# 2023-07-26 14:20:40.624331
++select * from host_;
+
+# 2023-07-26 14:26:25.704142
++select * from mysql_instance_;
+
+# 2023-07-26 14:26:57.373033
++select * from host_;
+
+# 2023-07-26 14:28:50.184224
++select * from mysql_instance_;
+
+# 2023-07-26 14:55:18.026526
++select * from unit_
+
+# 2023-07-26 14:55:25.069943
++select * from resource_;
+
+# 2023-07-26 14:56:28.922277
++select * from crontab_;
+
+# 2023-07-26 14:56:49.082193
++select * from resource_;
+
+# 2023-07-26 14:56:57.434510
++select * from unit_
+
+# 2023-07-26 14:57:33.106125
++select * from resource_;
+
+# 2023-07-26 14:57:37.761942
++select * from crontab_;
+
+# 2023-07-26 14:57:56.594358
++select * from crontab_backup_unit;
+
+# 2023-07-26 14:58:15.694168
++select * from unit_
+
+# 2023-07-26 14:58:31.518137
++select * from crontab_backup_unit;
+
+# 2023-07-26 15:06:35.434014
++select * from resource_;
+
+# 2023-07-26 15:30:52.418157
++select * from unit_
+
+# 2023-07-26 17:24:42.897183
++select * from resource_;
+
+# 2023-07-26 17:58:52.343621
++select * from unit_
+
+# 2023-07-26 17:59:22.858827
++update unit_ set type = "goldendb_mount" where resource_id = 2;
+
+# 2023-07-26 17:59:24.754571
++select * from unit_
+
+# 2023-07-26 17:59:30.790604
++update unit_ set type = "goldendb_mount" where resource_id = 6;
+
+# 2023-07-26 17:59:32.035051
++select * from unit_
+
+# 2023-07-27 10:38:48.610662
++select * from crontab_;
+
+# 2023-07-27 10:39:10.160978
++select * from unit_
+
+# 2023-07-27 10:39:25.656782
++select * from crontab_backup_unit;
+
+# 2023-07-27 10:39:51.892971
++delete from crontab_backup_unit where crontab_id < 18;
+
+# 2023-07-27 10:39:54.609517
++select * from crontab_backup_unit;
+
+# 2023-07-27 10:47:42.540920
++select * from instance_;
+
+# 2023-07-27 10:49:27.544628
++delete from instance_ where unit_id is null;
+
+# 2023-07-27 10:49:29.913102
++select * from instance_;
+
+# 2023-07-27 10:52:50.836649
++select * from mysql_instance_;
+
+# 2023-07-27 10:54:35.117515
++select * from instance_;
+
+# 2023-07-27 11:03:46.236323
++select * from crontab_;
+
+# 2023-07-27 11:04:56.272803
++select * from instance_;
+
+# 2023-07-27 11:05:20.689501
++delete from instance_ where id < 26;
+
+# 2023-07-27 11:05:22.668860
++select * from instance_;
+
+# 2023-07-27 11:05:54.317349
++update instance_ set type = "goldendb_backup" where 1;
+
+# 2023-07-27 11:05:56.253963
++select * from instance_;
+
+# 2023-07-27 11:15:09.581013
++select * from snapshot_
+
+# 2023-07-27 11:17:50.753147
++select * from timeline_point_
+
+# 2023-07-27 11:24:27.784563
++select * from snapshot_
+
+# 2023-07-27 11:33:05.576901
++select * from instance_;
+
+# 2023-07-27 14:37:03.918666
++select * from restore_node_record;
+
+# 2023-07-27 14:56:31.379508
++select * from crontab_;
+
+# 2023-07-27 14:57:32.079438
++select * from resource_;
+
+# 2023-07-27 14:57:36.735647
++select * from crontab_;
+
+# 2023-07-27 14:58:41.498750
++select * from crontab_backup_unit;
+
+# 2023-07-27 14:58:46.391255
++select * from resource_;
+
+# 2023-07-27 14:59:19.163840
++select * from backup_instance;
+
+# 2023-07-27 14:59:21.202928
++select * from instance_;
+
+# 2023-07-27 14:59:24.659330
++select * from mysql_instance_;
+
+# 2023-07-27 15:06:30.613994
++select * from resource_;
+
+# 2023-07-27 15:06:34.322708
++select * from mysql_instance_;
+
+# 2023-07-27 15:06:59.250206
++select * from unit_
+
+# 2023-07-27 15:07:14.003547
++select * from instance_;
+
+# 2023-07-27 15:07:19.911168
++select * from host_;
+
+# 2023-07-27 15:07:47.467004
++select * from mysql_instance_;
+
+# 2023-07-27 15:07:53.906205
++select * from proxy_instance_;
+
+# 2023-07-27 15:08:00.759458
++select * from mysql_instance_;
+
+# 2023-07-27 15:08:34.748096
++select * from host_;
+
+# 2023-07-27 15:09:52.574746
++select * from proxy_instance_;
+
+# 2023-07-27 15:12:52.358640
++select * from resource_;
+
+# 2023-07-27 15:14:00.347333
++select * from mysql_instance_;
+
+# 2023-07-27 15:14:05.255460
++select * from host_;
+
+# 2023-07-27 15:15:11.635931
++select * from proxy_instance_;
+
+# 2023-07-27 15:15:37.319124
++select * from host_;
+
+# 2023-07-27 15:16:12.207583
++select * from mysql_instance_;
+
+# 2023-07-27 15:16:35.595669
++select * from host_;
+
+# 2023-07-27 15:18:37.243070
++select * from mysql_instance_;
+
+# 2023-07-27 15:20:26.103299
++select * from unit_
+
+# 2023-07-27 15:20:28.727580
++select * from mysql_instance_;
+
+# 2023-07-27 15:20:58.263457
++select * from crontab_;
+
+# 2023-07-27 15:21:02.075483
++select * from crontab_backup_unit;
+
+# 2023-07-27 15:21:09.430892
++select * from instance_;
+
+# 2023-07-27 15:22:45.883540
++select * from crontab_;
+
+# 2023-07-27 15:24:16.463274
++select * from instance_;
+
+# 2023-07-27 15:30:06.223172
++select * from snapshot_
+
+# 2023-07-27 15:30:19.776257
++select * from timeline_point_
+
+# 2023-07-27 15:30:25.071699
++select * from timeline_;
+
+# 2023-07-27 15:30:29.166335
++select * from snapshot_
+
+# 2023-07-27 15:38:54.150855
++select * from crontab_;
+
+# 2023-07-27 15:39:10.995908
++select * from aio_sub_task;
+
+# 2023-07-27 15:39:21.275438
++select * from aio_total_task;
+
+# 2023-07-27 15:39:26.999559
++select * from crontab_;
+
+# 2023-07-27 15:39:37.755985
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-07-27 15:39:39.395132
++select * from crontab_;
+
+# 2023-07-27 15:40:57.922697
++select * from restore_unit_record;
+
+# 2023-07-27 15:42:16.150620
++select * from aio_total_task;
+
+# 2023-07-27 15:42:24.007182
++select * from aio_sub_task;
+
+# 2023-07-27 15:43:05.331300
++delete from aio_sub_task where data_size = 0;
+
+# 2023-07-27 15:43:07.582474
++select * from aio_sub_task;
+
+# 2023-07-27 15:48:40.215318
++select * from snapshot_
+
+# 2023-07-27 15:48:46.123968
++select * from timeline_;
+
+# 2023-07-27 15:49:27.479119
++select * from timeline_point_;
+
+# 2023-07-27 15:50:05.391395
++delete from timeline_point_ where point_timestamp is null;
+
+# 2023-07-27 15:50:07.519659
++select * from timeline_point_;
+
+# 2023-07-27 15:50:26.774931
++delete from timeline_point_ where point_timestamp =0;
+
+# 2023-07-27 15:50:28.966960
++select * from timeline_point_;
+
+# 2023-07-27 16:06:02.803199
++select * from restore_unit_record;
+
+# 2023-07-27 19:04:09.573720
++select * from mysql_instance_;
+
+# 2023-07-27 19:06:46.787758
++select * from crontab_;
+
+# 2023-07-27 19:07:00.643888
++select * from resource_;
+
+# 2023-07-27 19:07:12.403631
++select * from unit_
+
+# 2023-07-27 19:12:00.931481
++select * from timeline_point_;
+
+# 2023-07-27 19:16:32.055514
++select * from restore_node_record;
+
+# 2023-07-27 19:17:03.679938
++show create table restore_node_record;
+
+# 2023-07-27 19:17:57.128198
++show create table restore_unit_record;
+
+# 2023-07-27 19:19:17.399865
++select * from crontab_;
+
+# 2023-07-27 19:19:23.987865
++select * from unit_
+
+# 2023-07-27 19:20:01.399997
++show create table restore_unit_record;
+
+# 2023-07-27 19:24:46.263770
++select * from restore_node_record;
+
+# 2023-07-27 19:30:38.349320
++show create table restore_unit_record;
+
+# 2023-07-27 19:30:46.432648
++select * from restore_unit_record;
+
+# 2023-07-27 19:32:34.172744
++delete from restore_unit_record where 1;
+
+# 2023-07-27 19:32:42.241198
++delete from restore_node_record where 1;
+
+# 2023-07-27 19:32:44.252821
++delete from restore_unit_record where 1;
+
+# 2023-07-27 19:41:38.161018
++select * from restore_unit_record;
+
+# 2023-07-27 19:42:08.425243
++select * from restore_node_record;
+
+# 2023-07-27 19:42:23.916646
++delete from restore_node_record where 1;
+
+# 2023-07-27 19:42:29.512610
++delete from restore_unit_record where 1;
+
+# 2023-07-27 19:48:51.059337
++select * from snapshot_
+
+# 2023-07-27 19:53:56.444363
++select * from restore_node_record;
+
+# 2023-07-28 09:19:02.985943
++select * from mysql_instance_;
+
+# 2023-07-28 09:19:09.172293
++select * from instance_;
+
+# 2023-07-28 09:23:22.283299
++select * from resource_;
+
+# 2023-07-28 09:23:34.371631
++select * from mysql_instance_;
+
+# 2023-07-28 09:23:43.092181
++select * from instance_;
+
+# 2023-07-28 09:29:23.268095
++select * from mysql_instance_;
+
+# 2023-07-28 09:30:58.167861
++select * from restore_node_record;
+
+# 2023-07-28 09:33:14.255370
++select * from instance_;
+
+# 2023-07-28 09:33:17.359544
++select * from restore_node_record;
+
+# 2023-07-28 09:33:25.547649
++select * from mysql_instance_;
+
+# 2023-07-28 09:33:43.967474
++select * from restore_node_record;
+
+# 2023-07-28 09:33:50.895796
++select * from instance_;
+
+# 2023-07-28 09:34:32.638515
++delete from restore_node_record where 1;
+
+# 2023-07-28 09:34:38.856356
++delete from restore_nuit_record where 1;
+
+# 2023-07-28 09:34:51.363359
++delete from restore_unit_record where 1;
+
+# 2023-07-28 09:35:03.915761
++select * from instance_;
+
+# 2023-07-28 09:35:09.303640
++select * from restore_node_record;
+
+# 2023-07-28 09:35:36.379087
++select * from mysql_instance_;
+
+# 2023-07-28 09:40:39.859471
++select * from restore_node_record;
+
+# 2023-07-28 10:49:42.706313
++select * from entry_;
+
+# 2023-07-28 10:58:50.996563
++select * from proxy_instance_;
+
+# 2023-07-28 11:09:46.023708
++select * from restore_node_record;
+
+# 2023-07-28 11:27:20.867524
++select * from mysql_instance_;
+
+# 2023-07-28 11:27:33.282860
++select * from host_;
+
+# 2023-07-28 11:35:39.876057
++select * from restore_node_record;
+
+# 2023-07-28 11:35:51.847903
++delete from restore_node_record where 1;
+
+# 2023-07-28 11:35:57.323864
++delete from restore_unit_record where 1;
+
+# 2023-07-28 11:36:42.667756
++select * from restore_node_record;
+
+# 2023-07-28 11:36:56.772155
++select * from restore_unit_record;
+
+# 2023-07-28 11:38:09.323633
++select * from instance_;
+
+# 2023-07-28 11:41:24.171448
++select * from snapshot_
+
+# 2023-07-28 11:43:40.915338
++select * from mysql_instance_;
+
+# 2023-07-28 11:47:16.971945
++select * from resource_
+
+# 2023-07-28 11:47:34.108351
++select * from mysql_instance_;
+
+# 2023-07-28 11:49:50.616019
++select * from host_;
+
+# 2023-07-28 11:50:12.088045
++select * from proxy_instance_;
+
+# 2023-07-28 11:50:53.956636
++select * from host_;
+
+# 2023-07-28 11:50:58.920203
++select * from proxy_instance_;
+
+# 2023-07-28 11:52:05.535693
++select * from host_;
+
+# 2023-07-28 11:53:06.767380
++select * from proxy_instance_;
+
+# 2023-07-28 11:53:12.240185
++select * from mysql_instance_;
+
+# 2023-07-28 11:53:38.624417
++select * from proxy_instance_;
+
+# 2023-07-28 11:53:44.311905
++select * from mysql_instance_;
+
+# 2023-07-28 11:54:08.291832
++select * from host_;
+
+# 2023-07-28 11:54:16.719489
++select * from mysql_instance_;
+
+# 2023-07-28 11:55:42.799630
++select * from host_;
+
+# 2023-07-28 11:55:48.451333
++select * from mysql_instance_;
+
+# 2023-07-28 11:59:21.388181
++update mysql_instance_ set can_backup = 1 where 1;
+
+# 2023-07-28 11:59:23.007065
++select * from mysql_instance_;
+
+# 2023-07-28 12:00:01.476144
++update mysql_instance_ set can_backup = 1 where 1;
+
+# 2023-07-28 15:37:47.221270
++select * from timeline_point_;
+
+# 2023-07-28 15:38:46.761496
++update timeline_point_ set point_status = "success";
+
+# 2023-07-28 15:38:51.413045
++select * from timeline_point_;
+
+# 2023-07-28 15:44:51.788906
++select * from crontab_;
+
+# 2023-07-28 15:45:38.860482
++select * from total_task;
+
+# 2023-07-28 15:47:02.261380
++show create table total_task;
+
+# 2023-07-28 15:47:12.121530
++show create table aio_total_task;
+
+# 2023-07-28 15:57:53.933555
++select * from aio_sub_task;
+
+# 2023-07-28 15:57:57.217898
++select * from aio_total_task;
+
+# 2023-07-28 16:01:26.909588
++update aio_total_task set task_status="success" where id=8;
+
+# 2023-07-28 16:01:28.305032
++select * from aio_total_task;
+
+# 2023-07-28 16:29:31.366194
++select * from crontab_;
+
+# 2023-07-28 16:32:12.381781
++select * from aio_total_task;
+
+# 2023-07-28 16:33:45.112400
++update aio_total_task set task_status="success" where id=8;
+
+# 2023-07-28 16:33:46.761055
++select * from aio_total_task;
+
+# 2023-07-28 16:33:56.265752
++update aio_total_task set task_status="success" where id=11;
+
+# 2023-07-28 16:33:57.461975
++select * from aio_total_task;
+
+# 2023-07-28 16:34:18.461242
++select * from crontab_;
+
+# 2023-07-28 16:34:26.681160
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-07-28 16:34:28.301806
++select * from crontab_;
+
+# 2023-07-28 16:35:17.898574
++select * from snapshot_
+
+# 2023-07-28 16:35:27.269117
++select * from timeline_point_;
+
+# 2023-07-28 16:38:53.732916
++select * from aio_total_task;
+
+# 2023-07-28 16:41:17.133735
++select * from timeline_point_;
+
+# 2023-07-28 16:42:09.193680
++select * from crontab_;
+
+# 2023-07-28 16:42:24.173869
++select * from timeline_point_;
+
+# 2023-07-28 16:42:28.549900
++select * from aio_total_task;
+
+# 2023-07-28 16:44:26.813748
++select * from aio_sub_task;
+
+# 2023-07-28 16:44:35.221185
++select * from aio_total_task;
+
+# 2023-07-28 16:44:38.729505
++select * from crontab_;
+
+# 2023-07-28 16:49:49.568398
++select * from instance_;
+
+# 2023-07-28 16:57:53.252181
++select * from timeline_;
+
+# 2023-07-28 16:58:08.080976
++select * from binlog_;
+
+# 2023-07-28 17:01:14.041131
++select * from crontab_;
+
+# 2023-07-28 17:13:45.160345
++select * from mysql_instance_;
+
+# 2023-07-28 17:39:26.244308
++select * from host_;
+
+# 2023-07-28 17:39:35.477786
++select * from mysql_instance_;
+
+# 2023-07-28 17:40:04.906491
++select * from aio_node;
+
+# 2023-07-28 17:40:09.757778
++select * from aio_data_nodes;
+
+# 2023-07-28 17:40:13.681084
++select * from mysql_instance_;
+
+# 2023-07-28 17:40:23.205614
++select * from host_;
+
+# 2023-07-28 17:43:47.722408
++select * from mysql_instance_;
+
+# 2023-07-28 17:52:20.422583
++select * from mysql_user_;
+
+# 2023-07-31 08:45:10.472370
++select * from mysql_instance_;
+
+# 2023-07-31 08:45:28.252659
++select * from host_;
+
+# 2023-07-31 08:47:53.060393
++select * from mysql_user_;
+
+# 2023-07-31 08:48:26.763877
++show create table mysql_user_;
+
+# 2023-07-31 08:53:59.776968
++select * from resource_
+
+# 2023-07-31 08:56:49.636608
++select * from mysql_user_;
+
+# 2023-07-31 08:57:29.416693
++select * from mysql_instance_;
+
+# 2023-07-31 08:58:25.520528
++select * from mysql_user_;
+
+# 2023-07-31 08:58:49.279474
++select * from resource_
+
+# 2023-07-31 08:59:06.561195
++select * from mysql_user_;
+
+# 2023-07-31 08:59:09.964867
++select * from resource_
+
+# 2023-07-31 08:59:18.044763
++select * from mysql_instance_;
+
+# 2023-07-31 09:00:54.972228
++select * from mysql_user_;
+
+# 2023-07-31 09:03:31.808920
++select * from mysql_instance_;
+
+# 2023-07-31 09:32:28.036589
++select * from crontab_;
+
+# 2023-07-31 09:32:33.392737
++select * from aio_sub_task;
+
+# 2023-07-31 09:56:51.196360
++select * from proxy_instance_;
+
+# 2023-07-31 09:59:24.136508
++select * from mysql_instance_;
+
+# 2023-07-31 10:00:18.404191
++select * from crontab_;
+
+# 2023-07-31 10:00:30.187783
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-07-31 10:00:36.551674
++select * from crontab_;
+
+# 2023-07-31 10:00:49.980709
++select * from aio_total_task;
+
+# 2023-07-31 10:01:14.540595
++update aio_total_task set task_status="success" where id=17;
+
+# 2023-07-31 10:01:16.452139
++select * from aio_total_task;
+
+# 2023-07-31 10:01:25.612726
++update aio_total_task set task_status="success" where id=10;
+
+# 2023-07-31 10:01:26.696536
++select * from aio_total_task;
+
+# 2023-07-31 10:04:18.684982
++select * from crontab_;
+
+# 2023-07-31 10:05:04.848154
++select * from aio_total_task;
+
+# 2023-07-31 10:05:47.897082
++select * from aio_sub_task;
+
+# 2023-07-31 10:06:58.947809
++select * from crontab_;
+
+# 2023-07-31 10:07:03.823916
++select * from aio_total_task;
+
+# 2023-07-31 11:59:12.449590
++select * from crontab_;
+
+# 2023-07-31 11:59:14.877771
++select * from aio_total_task;
+
+# 2023-07-31 11:59:20.510491
++select * from crontab_;
+
+# 2023-07-31 11:59:22.674378
++select * from aio_total_task;
+
+# 2023-07-31 11:59:26.442815
++select * from crontab_;
+
+# 2023-07-31 11:59:28.614124
++select * from aio_total_task;
+
+# 2023-07-31 12:00:52.909211
++select * from aio_sub_task;
+
+# 2023-07-31 12:01:25.881676
++select * from crontab_;
+
+# 2023-07-31 12:01:35.574584
++select * from aio_total_task;
+
+# 2023-07-31 12:02:11.475075
++select * from aio_sub_task;
+
+# 2023-07-31 12:07:30.070734
++select * from aio_total_task;
+
+# 2023-07-31 12:09:49.198156
++use aio;
+
+# 2023-07-31 12:09:50.477980
++select * from aio_total_task;
+
+# 2023-07-31 12:22:03.982812
++select * from crontab_;
+
+# 2023-07-31 12:23:25.209936
++select * from aio_total_task;
+
+# 2023-07-31 12:27:53.658412
++select * from snapshot_;
+
+# 2023-07-31 12:29:01.834137
++select * from crontab_;
+
+# 2023-07-31 12:29:04.209782
++select * from resource_
+
+# 2023-07-31 12:29:20.522298
++select * from mysql_instance_;
+
+# 2023-07-31 12:30:03.593970
++update mysql_instance_ set can_backup = 1 where 1;
+
+# 2023-07-31 12:30:36.126465
++select * from unit_
+
+# 2023-07-31 14:15:06.100012
++select * from snapshot_;
+
+# 2023-07-31 14:17:43.609394
++select * from mysql_instance_;
+
+# 2023-07-31 14:41:37.475052
++select * from crontab_;
+
+# 2023-07-31 14:41:43.215745
++select * from aio_total_task;
+
+# 2023-07-31 14:41:52.599901
++select * from aio_sub_task;
+
+# 2023-07-31 14:42:04.715956
++select * from aio_total_task;
+
+# 2023-07-31 14:42:09.003766
++select * from crontab_;
+
+# 2023-07-31 14:42:58.487001
++select * from snapshot_;
+
+# 2023-07-31 15:10:06.623864
++show create table snapshot_;
+
+# 2023-07-31 15:15:29.396437
++select * from snapshot_;
+
+# 2023-07-31 15:39:34.979717
++select * from binlog_;
+
+# 2023-07-31 15:39:52.411952
++select * from snapshot_;
+
+# 2023-07-31 16:12:56.871075
++select * from mysql_instance_;
+
+# 2023-07-31 16:13:39.615521
++select * from proxy_instance_;
+
+# 2023-07-31 16:16:07.415303
++select * from mysql_instance_;
+
+# 2023-07-31 16:17:28.955131
++select * from unit_
+
+# 2023-07-31 17:03:04.380339
++select * from mysql_instance_;
+
+# 2023-07-31 17:11:32.787407
++select * from mysql_user_;
+
+# 2023-07-31 17:46:36.311199
++select * from proxy_instance_;
+
+# 2023-07-31 18:00:43.991294
++select * from host_;
+
+# 2023-07-31 18:01:33.435166
++select * from proxy_instance_;
+
+# 2023-07-31 18:01:43.398014
++select * from host_;
+
+# 2023-07-31 18:01:57.698852
++select * from proxy_instance_;
+
+# 2023-07-31 18:02:05.494128
++select * from host_;
+
+# 2023-07-31 20:53:47.118365
++select * from proxy_instance_;
+
+# 2023-07-31 20:53:56.098606
++select * from host_;
+
+# 2023-07-31 20:57:56.406515
++select * from proxy_instance_;
+
+# 2023-07-31 20:58:29.674278
++select * from host_;
+
+# 2023-07-31 21:09:28.614236
++select * from proxy_instance_;
+
+# 2023-08-01 08:56:44.517980
++select * from host_;
+
+# 2023-08-01 08:56:53.949930
++select * from proxy_instance_;
+
+# 2023-08-01 09:26:11.231863
++select * from crontab_;
+
+# 2023-08-01 10:25:05.567295
++select * from restore_node_record;
+
+# 2023-08-01 11:35:59.397866
++select * from proxy_instance_;
+
+# 2023-08-01 11:36:35.285653
++select * from host_;
+
+# 2023-08-01 11:38:08.566824
++select * from resource_;
+
+# 2023-08-01 11:39:23.557968
++select * from host_;
+
+# 2023-08-01 11:42:47.417335
++select * from proxy_instance_;
+
+# 2023-08-01 11:49:23.869304
++select * from host_;
+
+# 2023-08-01 11:51:08.597589
++select * from proxy_instance_;
+
+# 2023-08-01 11:51:33.169126
++select * from host_;
+
+# 2023-08-01 11:52:01.285416
++select * from proxy_instance_;
+
+# 2023-08-01 11:52:38.140636
++select * from host_;
+
+# 2023-08-01 11:52:51.516878
++select * from proxy_instance_;
+
+# 2023-08-01 11:53:05.256091
++select * from host_;
+
+# 2023-08-01 11:59:19.108586
++select * from proxy_instance_;
+
+# 2023-08-01 12:01:20.963997
++select * from host_;
+
+# 2023-08-01 12:01:50.024425
++select * from proxy_instance_;
+
+# 2023-08-01 12:02:08.740824
++select * from host_;
+
+# 2023-08-01 12:15:06.283940
++update host_ set `password`="DMyA0xednBFOqrXJMHayzA==" where Qh3xilky4qrBGqqoVJHiHg"==
+
+# 2023-08-01 12:15:15.780364
++update host_ set `password`="DMyA0xednBFOqrXJMHayzA==" where `password`= "Qh3xilky4qrBGqqoVJHiHg";
+
+# 2023-08-01 12:15:21.103641
++update host_ set `password`="DMyA0xednBFOqrXJMHayzA==" where `password`= "Qh3xilky4qrBGqqoVJHiHg==";
+
+# 2023-08-01 12:15:23.428699
++select * from host_;
+
+# 2023-08-01 12:17:57.584565
++select * from proxy_instance_;
+
+# 2023-08-01 12:18:03.251678
++select * from host_;
+
+# 2023-08-01 12:18:17.739786
++select * from proxy_instance_;
+
+# 2023-08-01 12:19:03.948082
++select * from mysql_instance_;
+
+# 2023-08-01 12:20:41.011697
++select * from host_;
+
+# 2023-08-01 12:22:50.816668
++select * from mysql_instance_;
+
+# 2023-08-01 12:23:38.004667
++update mysql_instance_ set can_backup = 1 where 1;
+
+# 2023-08-01 13:37:00.875936
++select * from snapshot_;
+
+# 2023-08-01 13:37:15.636542
++select * from mysql_instance_;
+
+# 2023-08-01 13:37:25.816182
++select * from instance_;
+
+# 2023-08-01 13:39:37.791850
++select * from mysql_instance_;
+
+# 2023-08-01 13:39:40.580661
++select * from snapshot_;
+
+# 2023-08-01 13:43:07.540429
++select * from binlog_;
+
+# 2023-08-01 13:50:15.183246
++show create table binlog_;
+
+# 2023-08-01 13:50:52.836142
++select * from binlog_;
+
+# 2023-08-01 13:51:00.436882
++select * from instance_;
+
+# 2023-08-01 13:51:15.155575
++select * from mysql_instance_;
+
+# 2023-08-01 13:57:03.397185
++select * from instance_;
+
+# 2023-08-01 14:00:14.844570
++select * from mysql_instance_;
+
+# 2023-08-01 14:01:13.616788
++select * from instance_;
+
+# 2023-08-01 14:01:16.264140
++select * from mysql_instance_;
+
+# 2023-08-01 14:01:23.628592
++select * from instance_;
+
+# 2023-08-01 14:08:53.108541
++select * from mysql_instance_;
+
+# 2023-08-01 14:08:56.944689
++select * from binlog_;
+
+# 2023-08-01 14:14:12.631355
++select * from 
+
+# 2023-08-01 14:14:18.655428
++select * from mysql_instance_;
+
+# 2023-08-01 14:14:31.535945
++select * from binlog_;
+
+# 2023-08-01 14:14:37.744690
++select * from instance_;
+
+# 2023-08-01 14:15:20.036532
++update binlog_ set instance_class = "MySQLInstance_" where 1;
+
+# 2023-08-01 14:15:22.315331
++select * from instance_;
+
+# 2023-08-01 14:15:24.611635
++select * from binlog_;
+
+# 2023-08-02 17:12:11.275917
++use aio;
+
+# 2023-08-02 17:12:16.790778
++select * from policy_job;
+
+# 2023-08-02 19:14:31.731091
++select * from crontab_;
+
+# 2023-08-03 09:53:52.222316
++use aio;
+
+# 2023-08-03 09:53:57.026164
++show databases;
+
+# 2023-08-07 09:37:08.468639
++show processlist;
+
+# 2023-08-07 09:40:06.847781
++use airflow;
+
+# 2023-08-07 09:40:16.120175
++select * from dag_run desc;
+
+# 2023-08-07 09:40:18.607559
++select * from dag_run;
+
+# 2023-08-07 09:45:58.792886
++show processlist;
+
+# 2023-08-07 10:29:28.632401
++select * from dag_run;
+
+# 2023-08-07 10:42:31.231616
++select * from job;
+
+# 2023-08-07 14:17:38.043440
++select * from dag_run limit 10;
+
+# 2023-08-07 14:17:56.593726
++select * from dag_run;
+
+# 2023-08-07 14:25:31.226097
++select * from dag_run limit 1;
+
+# 2023-08-07 14:26:03.870352
++select * from dag_run order by id;
+
+# 2023-08-07 14:26:13.902364
++select * from dag_run order by id desc limit 10;
+
+# 2023-08-07 14:50:10.071491
++use airflow; 
+
+# 2023-08-07 14:50:12.034741
++select * from dag_run order by id desc limit 10;
+
+# 2023-08-07 14:50:18.918254
++exit
+
+# 2023-08-07 14:50:25.402889
++use airflow; 
+
+# 2023-08-07 14:50:27.258423
++use airflow;
+
+# 2023-08-07 14:50:28.370594
++select * from dag_run order by id desc limit 10;
+
+# 2023-08-07 14:50:41.538820
++select * from dag_run order by id desc limit 1000;
+
+# 2023-08-07 14:51:09.165795
++select * from dag_run where start_date is null  order by id desc limit 1000;
+
+# 2023-08-07 15:00:59.586868
++select * from dag_run where start_date is null  order by id desc limit 10;
+
+# 2023-08-07 15:01:15.093853
++select * from dag_run where start_date is null  order by id desc limit 100;
+
+# 2023-08-07 15:01:33.950559
++select * from dag_run  order by id desc limit 100;
+
+# 2023-08-07 15:07:46.397218
++select * from dag_run  order by id desc limit 10;
+
+# 2023-08-07 15:35:11.138663
++use airflow;
+
+# 2023-08-07 15:35:16.254446
++select * from dag_run  order by id desc limit 10;
+
+# 2023-08-07 15:35:40.330322
++select * from dag_run where start_date is null  order by id desc limit 10;
+
+# 2023-08-07 16:28:51.429442
++q
+
+# 2023-08-07 16:29:23.650654
++show databases;
+
+# 2023-08-07 16:30:27.854658
++select @@sql_mode
+
+# 2023-08-07 16:34:43.841865
++show tables;
+
+# 2023-08-07 16:34:55.126540
++use airflow;
+
+# 2023-08-07 16:35:02.834330
++select table;
+
+# 2023-08-07 16:35:04.753838
++show tables;
+
+# 2023-08-07 16:35:11.414162
++select uselock;
+
+# 2023-08-07 16:35:15.182806
++show tables;
+
+# 2023-08-07 16:35:26.418561
++select * from userlock;
+
+# 2023-08-07 16:38:10.222940
++delete from userlock;
+
+# 2023-08-07 16:38:13.242285
++select * from userlock;
+
+# 2023-08-07 16:42:39.066779
++select * from userlock where id = 4;
+
+# 2023-08-07 16:45:23.597055
++start transaction;
+
+# 2023-08-07 16:45:39.862860
++select * from userlock where id = 4 for update;
+
+# 2023-08-07 16:46:19.526793
++use airflow;
+
+# 2023-08-07 16:46:23.122395
++select * from userlock where id = 4;
+
+# 2023-08-07 16:48:09.609870
++select * from userlock where id = 4 for update;
+
+# 2023-08-07 16:49:40.949718
++commit;
+
+# 2023-08-07 16:50:38.818843
++use airflow;
+
+# 2023-08-07 16:50:57.838960
++select * from userlock where id = 6 for update;
+
+# 2023-08-07 16:56:10.923775
++select * from dag_run order by id desc limit 10;
+
+# 2023-08-07 17:30:53.646519
++select * from task_instance;
+
+# 2023-08-07 17:31:31.466390
++select * from task_instance where next_kwargs is not null;
+
+# 2023-08-07 17:32:19.838155
++select * from task_instance where next_kwargs != "null";
+
+# 2023-08-07 17:47:01.162723
++select * from task_instance limit 10;
+
+# 2023-08-07 17:47:25.150922
++select * from task_instance limit 100;
+
+# 2023-08-07 18:30:22.942767
++select count(*) from task_instance;
+
+# 2023-08-08 10:28:09.479588
++use airflow;
+
+# 2023-08-08 10:29:54.316312
++show tables;
+
+# 2023-08-08 10:30:36.661861
++select * from contract;
+
+# 2023-08-08 10:30:56.938298
++select * from workscontract;
+
+# 2023-08-08 10:31:05.742193
++select * from contract;
+
+# 2023-08-08 10:31:21.462494
++select * from workscontract;
+
+# 2023-08-08 10:31:53.462062
++select * from timecontract;
+
+# 2023-08-08 10:33:27.651557
++use airflow;
+
+# 2023-08-08 10:33:34.401468
++drop table contract;
+
+# 2023-08-08 10:33:48.798618
++select * from client;
+
+# 2023-08-08 10:33:56.729844
++drop table client;
+
+# 2023-08-08 10:34:04.501976
++select * from timecontract;
+
+# 2023-08-08 10:34:08.802065
++drop table timecontract;
+
+# 2023-08-08 10:34:13.437140
++drop table workscontract;
+
+# 2023-08-08 10:34:19.002852
++drop table contract;
+
+# 2023-08-08 10:34:21.718048
++drop table client;
+
+# 2023-08-08 13:33:51.698749
++use airflow;
+
+# 2023-08-08 13:34:00.902693
++use aio;
+
+# 2023-08-08 13:34:11.105604
++select * from aio_node;
+
+# 2023-08-08 14:27:03.279467
++select * from aio_snapshot;
+
+# 2023-08-08 14:27:22.343308
++use aio;
+
+# 2023-08-08 14:27:25.010810
++select * from aio_snapshot;
+
+# 2023-08-08 14:43:52.932248
++select * from crontab;
+
+# 2023-08-08 14:45:09.054993
++select * from sub_crontab;
+
+# 2023-08-08 14:46:12.611077
++use aio;
+
+# 2023-08-08 14:46:19.540112
++select * from sub_crontab;
+
+# 2023-08-08 14:46:52.524102
++use aio;
+
+# 2023-08-08 14:46:53.903240
++select * from sub_crontab;
+
+# 2023-08-08 14:51:24.435439
++select * from policy_job;
+
+# 2023-08-08 14:51:40.784079
++select * from policy;
+
+# 2023-08-08 14:52:41.027251
++select * from policy_job;
+
+# 2023-08-08 14:52:50.807356
++select * from sub_crontab;
+
+# 2023-08-08 16:00:50.341856
++select * from aio_data_nodes;
+
+# 2023-08-08 16:01:00.623313
++select * from aio_node;
+
+# 2023-08-08 16:01:41.747648
++select * from aio_data_nodes;
+
+# 2023-08-08 16:06:44.311195
++update aio_data_nodes set worker_type=3 where id=2;
+
+# 2023-08-08 16:08:22.028327
++update aio_data_nodes set worker_type=3 where id=1;
+
+# 2023-08-08 16:09:33.911063
++update aio_data_nodes set worker_type=2 where id=1;
+
+# 2023-08-08 16:24:44.112235
++select * from crontab;
+
+# 2023-08-08 16:25:30.507841
++update crontab set state = "success" where id =2;
+
+# 2023-08-08 16:25:32.815762
++select * from crontab;
+
+# 2023-08-08 16:26:50.995888
++select * from aio_total_task;
+
+# 2023-08-08 16:27:13.091274
++update aio_total_task set task_status="success" where id=4;
+
+# 2023-08-08 16:27:15.023260
++select * from aio_total_task;
+
+# 2023-08-08 16:27:28.102937
++update aio_total_task set task_status="success" where id=5;
+
+# 2023-08-08 16:27:29.534829
++select * from aio_total_task;
+
+# 2023-08-08 16:33:07.095191
++select * from snapshot_;
+
+# 2023-08-08 16:33:10.308118
++select * from snapshot;
+
+# 2023-08-08 16:33:15.715435
++select * from aio_snapshot;
+
+# 2023-08-08 16:33:29.326934
++select * from aio_snapshot;
+
+# 2023-08-08 17:14:11.760061
++select * from restore_node_record;
+
+# 2023-08-08 17:14:45.658994
++select * from backup_unit;
+
+# 2023-08-08 17:14:50.743374
++select * from unit_;
+
+# 2023-08-08 17:15:05.883054
++select * from crontab_;
+
+# 2023-08-08 17:15:35.459759
++select * from crontab_backup_unit;
+
+# 2023-08-09 14:14:07.814687
++select * from restore_node_record;
+
+# 2023-08-09 14:14:29.399494
++select * from restore_unit_record;
+
+# 2023-08-09 15:46:45.752856
++use aio;
+
+# 2023-08-09 15:46:48.195712
++select * from restore_unit_record;
+
+# 2023-08-09 15:46:56.903147
++select * from aio_snapshot;
+
+# 2023-08-09 16:14:24.712592
++use aio;
+
+# 2023-08-09 16:14:50.691776
++use airflow;
+
+# 2023-08-09 16:25:43.656120
++use aio;
+
+# 2023-08-09 16:33:05.750932
++show processlist;
+
+# 2023-08-09 17:11:43.055760
++show variables like '%slow_query_log%';
+
+# 2023-08-10 09:46:20.394955
++use aio;
+
+# 2023-08-10 09:46:26.334577
++select * from resource_
+
+# 2023-08-10 11:56:21.866105
++use airflow;
+
+# 2023-08-10 15:03:01.114204
++select * from task_instance;
+
+# 2023-08-10 15:03:06.702064
++select * from task_instance limit 10;
+
+# 2023-08-10 15:04:44.037956
++select * from job where id=35222;
+
+# 2023-08-10 15:06:05.370009
++select * from job where id=35221;
+
+# 2023-08-10 15:06:25.649835
++select * from task_instance where job_id=35221;
+
+# 2023-08-10 15:07:56.385738
++select * from dag_run where id=5211;
+
+# 2023-08-10 15:08:47.953748
++select * from log where id=144546;
+
+# 2023-08-11 08:51:49.740805
++use airflow;
+
+# 2023-08-11 08:51:55.188523
++select * from log where id=144546;
+
+# 2023-08-11 08:52:02.496073
++select * from log limit 100;
+
+# 2023-08-11 08:52:36.692333
++select * from task_instance where job_id=35221;
+
+# 2023-08-11 08:54:38.244814
++select * from rendered_task_instance_fields limit 10;
+
+# 2023-08-11 08:55:09.143831
++select * from rendered_task_instance_fields limit 100;
+
+# 2023-08-11 08:58:56.068357
++select * from task_instance where job_id=35221;
+
+# 2023-08-11 09:04:52.724229
++show create table task_instance;
+
+# 2023-08-11 09:05:41.252006
++select * from task_instance where job_id=35221;
+
+# 2023-08-11 09:13:25.923984
++select * from task_reschedule;
+
+# 2023-08-11 09:53:54.236181
++select * from task_instance where job_id=35221;
+
+# 2023-08-11 09:58:18.699357
++select * from task_instance where job_id=35222;
+
+# 2023-08-11 09:58:32.339377
++select * from job where id=35222;
+
+# 2023-08-11 09:58:55.503863
++select * from job where id=35223;
+
+# 2023-08-11 09:59:01.455059
++select * from task_instance where job_id=35223;
+
+# 2023-08-11 09:59:20.547702
++select * from job where id=35223;
+
+# 2023-08-11 09:59:33.823054
++select * from job where id=35222;
+
+# 2023-08-11 10:52:46.737244
++select * from dag;
+
+# 2023-08-11 11:55:49.624942
++select * from task_instance where job_id=35221;
+
+# 2023-08-11 12:16:12.684234
++select * from task_instance limit 1;
+
+# 2023-08-11 12:18:07.591962
++select * from task_instance order by run_id limit 6;
+
+# 2023-08-11 12:18:41.199956
++select * from task_instance order by start_date limit 6;
+
+# 2023-08-11 12:18:54.387988
++select * from task_instance order by start_date limit 100;
+
+# 2023-08-11 14:11:44.183010
++select * from task_instance where state is null limit 10;
+
+# 2023-08-11 14:13:29.554968
++select * from dag_run where execution_date = "manual__2023-08-11T06:10:38.395543+00:00";
+
+# 2023-08-11 14:13:42.406985
++select * from dag_run order by id desc limit 10;
+
+# 2023-08-11 14:14:51.799241
++select * from dag_run where run_id = "manual__2023-08-11T06:10:38.395543+00:00";
+
+# 2023-08-11 14:27:24.759243
++use airflow;
+
+# 2023-08-11 14:27:33.446884
++select * from dag;
+
+# 2023-08-11 14:27:46.234723
++delete from dag;
+
+# 2023-08-11 14:28:13.054885
++select * from dag;
+
+# 2023-08-11 15:56:52.359077
++show databases;
+
+# 2023-08-11 16:03:55.908134
++create database if not exists airflow DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 2023-08-11 16:04:41.529858
++use airflow;
+
+# 2023-08-11 16:04:47.106587
++show tables;
+
+# 2023-08-11 16:59:48.361981
++show databases;
+
+# 2023-08-11 16:59:50.582041
++use airflow;
+
+# 2023-08-11 16:59:52.917548
++show tables;
+
+# 2023-08-14 08:54:13.700207
++use airflow;
+
+# 2023-08-14 08:56:09.635034
++select * from dag_run where run_id = "manual__2023-08-11T06:10:38.395543+00:00";
+
+# 2023-08-14 08:56:40.047387
++select * from dag_run limit 10;
+
+# 2023-08-14 09:06:47.123614
++show processlist;
+
+# 2023-08-14 09:16:18.571414
++use airflow;
+
+# 2023-08-14 09:16:22.586727
++select * from dag_run limit 10;
+
+# 2023-08-14 15:12:34.607609
++use aio;
+
+# 2023-08-14 15:12:44.106828
++select * from mysql_instance_;
+
+# 2023-08-14 15:13:10.646497
++select * from crontab_;
+
+# 2023-08-14 15:14:19.458881
++select * from unit_;
+
+# 2023-08-14 15:14:40.182482
++select * from resource_;
+
+# 2023-08-14 15:24:18.858770
++select * from crontab_;
+
+# 2023-08-14 15:39:35.363542
++select * from unit_;
+
+# 2023-08-14 15:40:08.623761
++select * from crontab_backup_unit;
+
+# 2023-08-14 15:41:56.059470
++select * from resource_;
+
+# 2023-08-14 15:42:04.004128
++select * from entry_;
+
+# 2023-08-14 15:46:29.975953
++select * from crontab_;
+
+# 2023-08-14 15:48:15.083916
++select * from entry_;
+
+# 2023-08-14 16:46:23.675576
++select * from resource_;
+
+# 2023-08-14 17:25:47.287044
++select * from unit_;
+
+# 2023-08-14 17:26:14.860086
++select * from resource_;
+
+# 2023-08-14 17:26:17.066231
++select * from unit_;
+
+# 2023-08-14 17:28:09.967587
++select * from resource_;
+
+# 2023-08-14 17:28:14.986875
++select * from unit_;
+
+# 2023-08-14 18:59:27.636680
++use airflow;
+
+# 2023-08-14 18:59:36.383806
++select * from task_instance;
+
+# 2023-08-15 11:49:05.118998
++use airflow;
+
+# 2023-08-15 11:49:10.637637
++select * from crontab_;
+
+# 2023-08-15 11:58:00.239009
++use aio;
+
+# 2023-08-15 11:58:01.550869
++select * from crontab_;
+
+# 2023-08-15 12:01:51.166317
++select * from unit_;
+
+# 2023-08-15 13:50:30.339446
++select * from snapshot_;
+
+# 2023-08-15 13:51:07.603733
++select * from aio_node;
+
+# 2023-08-15 13:51:26.959053
++select * from host_;
+
+# 2023-08-15 13:56:12.016340
++select * from resource_;
+
+# 2023-08-15 13:56:19.162054
++select * from unit_;
+
+# 2023-08-15 13:57:00.613640
++select * from aio_data_nodes;
+
+# 2023-08-15 13:57:29.589202
++show create table aio_data_nodes;
+
+# 2023-08-15 13:58:06.272183
++show create table timeline_;
+
+# 2023-08-15 13:58:16.157840
++select * from timeline_;
+
+# 2023-08-15 13:58:20.149079
++select * from timeline_point_;
+
+# 2023-08-15 14:00:38.045756
++select * from unit_;
+
+# 2023-08-15 14:00:44.957139
++select * from entry_;
+
+# 2023-08-15 14:01:11.493106
++select * from proxy_instance_;
+
+# 2023-08-15 14:01:40.945532
++select * from mysql_instance_;
+
+# 2023-08-15 14:01:47.685275
++select * from proxy_instance_;
+
+# 2023-08-15 14:02:23.929369
++select * from mysql_instance_;
+
+# 2023-08-15 14:07:17.161825
++select * from snapshot_;
+
+# 2023-08-15 14:08:00.606027
++select * from instance_;
+
+# 2023-08-15 15:58:13.022393
++select * from mysql_instance_;
+
+# 2023-08-15 15:58:36.825099
++select * from proxy_instance_;
+
+# 2023-08-15 17:48:18.862859
++select * from resource_;
+
+# 2023-08-16 11:20:18.337925
++use aio;
+
+# 2023-08-16 11:20:20.643778
++select * from resource_;
+
+# 2023-08-16 12:14:06.509681
++select * from unit_;
+
+# 2023-08-16 12:14:56.742055
++select * from resource_;
+
+# 2023-08-16 13:32:51.950969
++select * from unit_;
+
+# 2023-08-16 13:48:46.422381
++select * from instance_;
+
+# 2023-08-16 13:49:54.187093
++select * from crontab_;
+
+# 2023-08-16 13:49:55.874800
++select * from instance_;
+
+# 2023-08-16 13:52:25.546890
++select * from aio_restore;
+
+# 2023-08-16 13:52:40.323339
++select * from instance_;
+
+# 2023-08-16 13:53:32.410870
++select * from aio_data_nodes;
+
+# 2023-08-16 13:55:04.546724
++select * from instance_;
+
+# 2023-08-16 13:55:36.139291
++select * from unit_;
+
+# 2023-08-16 13:55:51.870829
++select * from instance_;
+
+# 2023-08-16 14:47:23.518188
++select * from snapshot_;
+
+# 2023-08-16 14:48:02.705320
++select * from binlog_;
+
+# 2023-08-16 14:52:35.229327
++select * from instance_;
+
+# 2023-08-16 14:52:45.365391
++select * from snapshot_;
+
+# 2023-08-16 14:53:13.397497
++select * from binlog_;
+
+# 2023-08-16 14:53:49.853743
++select * from snapshot_;
+
+# 2023-08-16 14:54:08.097259
++select * from binlog_;
+
+# 2023-08-16 14:59:09.007117
++select * from snapshot_;
+
+# 2023-08-16 14:59:27.576472
++select * from instance_;
+
+# 2023-08-16 15:00:53.681010
++update binlog_ set backup_instance_id=31 where crontab_id=20 and instance_id=41;
+
+# 2023-08-16 15:01:06.245491
++update binlog_ set backup_instance_id=32 where crontab_id=20 and instance_id=42;
+
+# 2023-08-16 15:01:15.465198
++update binlog_ set backup_instance_id=33 where crontab_id=20 and instance_id=43;
+
+# 2023-08-16 15:01:25.393610
++update binlog_ set backup_instance_id=34 where crontab_id=20 and instance_id=44;
+
+# 2023-08-16 15:01:39.229062
++select * from binlog_;
+
+# 2023-08-16 15:09:02.961489
++select * from instance_;
+
+# 2023-08-16 15:10:10.449497
++select * from binlog_;
+
+# 2023-08-16 15:10:14.545464
++select * from snapshot_;
+
+# 2023-08-16 15:10:19.177420
++select * from instance_;
+
+# 2023-08-16 15:10:24.414075
++select * from snapshot_;
+
+# 2023-08-16 15:11:23.742425
++select * from instance_;
+
+# 2023-08-16 17:32:52.006169
++select * from policy;
+
+# 2023-08-17 09:18:37.102079
++select * from instance_;
+
+# 2023-08-17 09:57:37.093776
++select * from aio_data_nodes;
+
+# 2023-08-17 13:44:52.377402
++select * from instance_;
+
+# 2023-08-17 14:09:57.641665
++select * from aio_data_nodes;
+
+# 2023-08-17 14:30:49.103955
++select * from instance_;
+
+# 2023-08-17 14:40:41.892877
++select * from instance;
+
+# 2023-08-17 14:49:03.428203
++select * from unit_;
+
+# 2023-08-17 15:19:56.068621
++select * from instance;
+
+# 2023-08-17 15:19:58.136619
++select * from instance_
+
+# 2023-08-17 16:59:22.533238
++select * from instance;
+
+# 2023-08-17 16:59:59.603702
++select * from aio_instance;
+
+# 2023-08-17 17:05:41.176117
++select * from resource_;
+
+# 2023-08-17 19:37:10.557501
++select * from aio_data_nodes;
+
+# 2023-08-17 19:37:33.732343
++show create table aio_data_nodes;
+
+# 2023-08-17 20:59:32.620352
++select * from aio_instance;
+
+# 2023-08-17 21:03:04.783475
++select * from resource_;
+
+# 2023-08-17 21:03:54.980016
++select * from unit_;
+
+# 2023-08-17 21:04:05.972917
++select * from resource_;
+
+# 2023-08-17 21:04:07.604168
++select * from unit_;
+
+# 2023-08-17 21:04:22.683534
++select * from crontab_;
+
+# 2023-08-17 21:04:48.887370
++select * from resource_;
+
+# 2023-08-17 21:05:15.600046
++select * from aio_instance;
+
+# 2023-08-17 21:05:18.575921
++select * from unit_;
+
+# 2023-08-17 21:05:28.817721
++select * from aio_data_nodes;
+
+# 2023-08-17 21:08:48.947594
++delete from aio_data_nodes where id>=9;
+
+# 2023-08-17 21:08:51.611894
++select * from aio_data_nodes;
+
+# 2023-08-17 21:23:30.504529
++select * from snapshot_;
+
+# 2023-08-17 21:24:54.324877
++select * from instance_
+
+# 2023-08-18 09:08:59.684014
++select * from crontab_;
+
+# 2023-08-18 09:09:05.624688
++select * from instance_;
+
+# 2023-08-18 09:14:31.319601
++select * from snapshot_;
+
+# 2023-08-18 09:46:35.844435
++select * from aio_instance;
+
+# 2023-08-18 09:47:39.650611
++show create table aio_instance;
+
+# 2023-08-18 09:47:54.878402
++drop table aio_instance;
+
+# 2023-08-18 09:48:46.325903
++create table aio_instance;
+
+# 2023-08-18 09:48:50.830451
++create table aio_instance
+
+# 2023-08-18 09:50:41.948013
++show create table aio_instance;
+
+# 2023-08-18 09:55:42.574163
++select * from aio_instance;
+
+# 2023-08-18 09:55:52.649667
++select * from unit_;
+
+# 2023-08-18 09:56:07.465284
++select * from resource_;
+
+# 2023-08-18 09:56:19.389669
++select * from aio_data_nodes;
+
+# 2023-08-18 09:56:40.896715
++select * from resource_;
+
+# 2023-08-18 10:04:44.045537
++select * from aio_instance;
+
+# 2023-08-18 10:05:10.621803
++select * from crontab_;
+
+# 2023-08-18 10:07:08.016015
++select * from crontab_backup_unit;
+
+# 2023-08-18 10:09:46.543463
++select * from instance_;
+
+# 2023-08-18 10:10:18.352367
++select * from snapshot_;
+
+# 2023-08-18 10:10:35.377536
++select * from instance_;
+
+# 2023-08-18 10:10:44.753664
++select * from crontab_;
+
+# 2023-08-18 10:11:35.825010
++select * from crontab_backup_unit
+
+# 2023-08-18 10:11:38.098200
++select * from crontab_backup_unit;
+
+# 2023-08-18 10:12:14.334581
++select * from resource_;
+
+# 2023-08-18 10:53:57.267547
++select * from unit_;
+
+# 2023-08-18 10:54:03.208098
++select * from mysql_instance_;
+
+# 2023-08-18 10:54:21.567772
++select * from proxy_instance_;
+
+# 2023-08-18 11:02:47.809443
++select * from host_;
+
+# 2023-08-18 13:33:37.540774
++select * from unit_;
+
+# 2023-08-18 13:35:16.561132
++select * from instance_;
+
+# 2023-08-18 13:35:32.820718
++select * from mysql_instance_;
+
+# 2023-08-18 13:39:25.425471
++select * from crontab_backup_unit;
+
+# 2023-08-18 13:39:56.372987
++select * from crontab_;
+
+# 2023-08-18 13:58:48.729156
++select * from crontab_backup_unit;
+
+# 2023-08-18 13:58:55.992684
++select * from instance_;
+
+# 2023-08-18 13:59:00.213344
++select * from unit_;
+
+# 2023-08-18 13:59:21.128477
++update crontab_ set resource_id=7;
+
+# 2023-08-18 13:59:28.317612
++select * from crontab_;
+
+# 2023-08-18 14:16:40.781582
++select * from unit_;
+
+# 2023-08-18 14:19:15.485716
++select * from resource_;
+
+# 2023-08-18 14:19:43.856778
++select * from instance_;
+
+# 2023-08-18 14:19:56.817043
++select * from aio_instance;
+
+# 2023-08-18 14:29:39.460442
++select * from resource_;
+
+# 2023-08-18 14:29:45.840599
++select * from unit_;
+
+# 2023-08-18 17:35:40.716723
++select * from resource_;
+
+# 2023-08-21 09:13:44.474862
++select * from crontab_;
+
+# 2023-08-21 10:14:07.830993
++select * from unit_;
+
+# 2023-08-21 10:29:17.859723
++select * from resource_;
+
+# 2023-08-21 10:36:28.919310
++select * from unit_;
+
+# 2023-08-21 14:09:38.940825
++select * from mysql_instance_;
+
+# 2023-08-21 14:19:11.773690
++select * from host_;
+
+# 2023-08-21 14:19:22.041292
++select * from mysql_instance_;
+
+# 2023-08-21 14:52:07.832605
++select * from instance_;
+
+# 2023-08-21 15:48:21.545414
++select * from mysql_instance_;
+
+# 2023-08-21 15:48:24.681932
++select * from proxy_instance_;
+
+# 2023-08-21 15:49:28.353290
++select * from mysql_instance_;
+
+# 2023-08-21 15:51:28.929262
++select * from proxy_instance_;
+
+# 2023-08-21 16:19:12.954874
++select * from unit_;
+
+# 2023-08-21 16:36:03.706000
++select * from resource_;
+
+# 2023-08-21 16:36:13.419299
++select * from instance_;
+
+# 2023-08-21 16:36:55.354888
++select * from aio_instance;
+
+# 2023-08-21 16:37:43.254539
++select * from instance_;
+
+# 2023-08-21 16:38:34.366603
++select * from crontab_;
+
+# 2023-08-21 16:43:21.489892
++select * from instance_;
+
+# 2023-08-21 16:43:29.373993
++select * from mysql_instance_;
+
+# 2023-08-21 16:52:07.162116
++select * from crontab_;
+
+# 2023-08-21 16:52:15.950789
++select * from mysql_instance_;
+
+# 2023-08-21 16:52:18.454789
++select * from crontab_;
+
+# 2023-08-21 16:52:30.555148
++select * from resource_;
+
+# 2023-08-21 16:53:10.493556
++select * from crontab_backup_unit;
+
+# 2023-08-21 16:53:50.786975
++select * from crontab_;
+
+# 2023-08-21 16:55:17.547678
++select * from crontab_backup_unit;
+
+# 2023-08-21 16:56:33.842472
++select * from instance_;
+
+# 2023-08-21 16:57:06.422224
++select * from aio_data_nodes;
+
+# 2023-08-21 16:57:13.838778
++select * from instance_;
+
+# 2023-08-21 16:58:10.866541
++select * from unit_;
+
+# 2023-08-21 17:01:36.577921
++select * from instance_;
+
+# 2023-08-21 17:02:43.834315
++select * from crontab_;
+
+# 2023-08-21 17:03:10.487087
++select * from resource_;
+
+# 2023-08-21 17:03:39.859615
++select * from crontab_;
+
+# 2023-08-21 17:04:35.481881
++select * from resource_;
+
+# 2023-08-21 17:04:53.238846
++select * from unit_;
+
+# 2023-08-21 17:18:34.601883
++select * from instance_;
+
+# 2023-08-21 17:20:27.222886
++select * from mysql_instance_;
+
+# 2023-08-21 17:20:37.026360
++select * from proxy_instance_;
+
+# 2023-08-21 17:20:44.586587
++select * from crontab_backup_unit;
+
+# 2023-08-21 17:21:02.979005
++select * from unit_;
+
+# 2023-08-21 17:21:54.727055
++select * from aio_data_nodes;
+
+# 2023-08-21 17:24:24.095414
++select * from instance_;
+
+# 2023-08-21 17:25:02.035140
++select * from aio_instance;
+
+# 2023-08-21 17:25:31.730301
++select * from instance_;
+
+# 2023-08-21 17:30:15.394428
++select * from aio_instance;
+
+# 2023-08-21 17:32:04.009816
++select * from aio_data_nodes;
+
+# 2023-08-21 17:32:33.323201
++delete from aio_data_nodes where id>=1;
+
+# 2023-08-21 17:32:36.815655
++delete from aio_data_nodes where id>=2;
+
+# 2023-08-21 17:32:39.258785
++select * from aio_data_nodes;
+
+# 2023-08-21 17:32:44.074527
++select * from instance_;
+
+# 2023-08-21 17:34:29.922324
++select * from crontab_;
+
+# 2023-08-21 17:34:35.398040
++select * from instance_;
+
+# 2023-08-21 17:35:58.057873
++select * from crontab_;
+
+# 2023-08-21 17:36:24.326454
++select * from resource_;
+
+# 2023-08-21 17:36:36.035493
++select * from instance_;
+
+# 2023-08-21 17:36:57.835090
++select * from crontab_backup_unit;
+
+# 2023-08-21 17:37:11.329728
++select * from resource_;
+
+# 2023-08-21 17:37:17.870779
++select * from unit_;
+
+# 2023-08-21 17:37:27.010642
++select * from instance_;
+
+# 2023-08-21 17:42:27.946964
++select * from aio_data_nodes;
+
+# 2023-08-21 17:42:32.798666
++select * from instance_;
+
+# 2023-08-21 17:42:49.642353
++select * from mysql_instance_;
+
+# 2023-08-21 17:42:53.187240
++select * from instance_;
+
+# 2023-08-21 17:43:33.494871
++select * from aio_instance;
+
+# 2023-08-21 17:43:52.390060
++select * from instance_;
+
+# 2023-08-21 17:44:45.603927
++select * from aio_instance;
+
+# 2023-08-21 17:45:36.598419
++select * from instance_;
+
+# 2023-08-21 17:46:29.863218
++select * from mysql_instance_;
+
+# 2023-08-21 17:46:54.838724
++select * from aio_instance;
+
+# 2023-08-25 10:07:30.958918
++select * from crontab;
+
+# 2023-08-25 10:11:46.562492
++select * from sync_node;
+
+# 2023-08-25 10:44:52.456088
++select * from crontab;
+
+# 2023-08-25 10:44:54.556560
++select * from crontab_
+
+# 2023-08-25 10:48:57.372534
++update crontab_ set db_type = "aio" where db_type = "aio_sync";
+
+# 2023-08-25 10:48:59.247797
++select * from crontab_
+
+# 2023-08-25 10:51:24.368601
++select * from aio_instance;
+
+# 2023-08-25 10:51:28.236409
++select * from resource_;
+
+# 2023-08-25 10:54:28.961621
++update resource_ set _type = "aio_backup" where db_type = "aio_sync";
+
+# 2023-08-25 10:54:35.110222
++update resource_ set _type = "aio_backup" where _type = "aio_sync";
+
+# 2023-08-25 10:54:36.641784
++select * from resource_;
+
+# 2023-08-25 10:54:42.317812
++select * from unit_;
+
+# 2023-08-25 10:54:55.698613
++update unit_ set type = "aio_backup" where type = "aio_sync";
+
+# 2023-08-25 10:54:58.622398
++select * from unit_;
+
+# 2023-08-25 11:04:58.081592
++select * from instance_;
+
+# 2023-08-25 11:22:22.553840
++use airflow;
+
+# 2023-08-25 11:22:26.867208
++select * from dag_tag;
+
+# 2023-08-25 11:23:07.986613
++select * from dag;
+
+# 2023-08-25 11:29:39.606748
++use aio;
+
+# 2023-08-25 11:29:47.038568
++select * from crontab_
+
+# 2023-08-25 11:40:59.157498
++select * from resource_;
+
+# 2023-08-25 11:41:28.557872
++select * from instance_;
+
+# 2023-08-25 11:41:40.225643
++update instance_ set type = "aio_backup" where type = "aio_sync";
+
+# 2023-08-25 11:57:57.835076
++select * from aio_data_nodes;
+
+# 2023-08-25 11:58:57.854070
++select * from crontab_
+
+# 2023-08-25 13:45:40.521522
++select * from binlog_;
+
+# 2023-08-25 13:45:51.697838
++select * from snapshot_;
+
+# 2023-08-25 13:46:02.173767
++select * from binlog_;
+
+# 2023-08-25 15:35:05.903840
++select * from snapshot_;
+
+# 2023-08-25 15:35:52.297916
++select * from snapshot_ where backup_instance_id=34;
+
+# 2023-08-25 15:36:48.685983
++select * from instance_;
+
+# 2023-08-25 15:38:02.053983
++select * from snapshot_ where backup_instance_id=34;
+
+# 2023-08-25 16:05:42.646559
++select * from instance_;
+
+# 2023-08-25 16:59:55.581343
++use aio;
+
+# 2023-08-25 17:00:08.436369
++show tables;
+
+# 2023-08-25 17:06:08.311262
++select * from timeline_;
+
+# 2023-08-25 17:07:06.922964
++select * from crontab_
+
+# 2023-08-25 17:07:11.942933
++select * from timeline_;
+
+# 2023-08-25 17:07:33.243121
++select * from copy_crontab;
+
+# 2023-08-25 17:07:47.891086
++select * from timeline_;
+
+# 2023-08-25 17:08:07.982932
++select * from timeline_point_;
+
+# 2023-08-25 17:35:52.293161
++select * from timeline_;
+
+# 2023-08-29 13:35:56.175163
++use aio;
+
+# 2023-08-29 13:35:58.838711
++select * from timeline_;
+
+# 2023-08-29 13:36:08.402781
++select * from timeline_point_;
+
+# 2023-08-29 13:36:41.834602
++select * from snapshot_;
+
+# 2023-08-29 13:37:31.334314
++select * from binlog_;
+
+# 2023-08-29 13:39:00.091327
++select * from aio_data_nodes;
+
+# 2023-08-29 13:39:24.543651
++select * from instance_;
+
+# 2023-08-29 13:39:53.884253
++select * from resource_;
+
+# 2023-08-29 13:40:07.843939
++select * from crontab_;
+
+# 2023-08-29 13:42:06.871715
++select * from aio_data_nodes;
+
+# 2023-08-29 13:46:38.348754
++select * from crontab_;
+
+# 2023-08-29 13:47:56.489364
++select * from instance_;
+
+# 2023-08-29 13:48:20.800068
++select * from mysql_instance_;
+
+# 2023-08-29 13:49:47.937066
++select * from instance_;
+
+# 2023-08-29 13:55:40.050818
++select * from mysql_instance_;
+
+# 2023-08-29 13:55:49.402870
++select * from binlog_;
+
+# 2023-08-29 14:00:49.670804
++select * from aio_data_nodes;
+
+# 2023-08-29 14:07:49.740677
++select * from instance_;
+
+# 2023-08-29 14:08:19.012463
++select * from aio_instance;
+
+# 2023-08-29 14:09:09.993356
++select * from instance_;
+
+# 2023-08-29 15:09:39.224443
++select * from aio_instance;
+
+# 2023-08-29 15:10:01.756328
++select * from instance_;
+
+# 2023-08-29 15:11:18.983839
++select * from aio_instance;
+
+# 2023-08-29 15:11:43.455581
++select * from instance_;
+
+# 2023-08-29 15:20:27.331822
++select * from aio_instance;
+
+# 2023-08-29 15:21:13.730963
++select * from instance_;
+
+# 2023-08-29 15:21:43.803577
++select * from aio_instance;
+
+# 2023-08-29 15:22:24.599752
++select * from instance_;
+
+# 2023-08-29 15:23:40.936521
++select * from aio_instance;
+
+# 2023-08-29 15:28:06.494908
++select * from aio_data_nodes;
+
+# 2023-08-29 16:09:59.646308
++select * from aio_instance;
+
+# 2023-08-29 16:17:08.818592
++select * from alembic_version;
+
+# 2023-08-29 16:18:24.418825
++update alembic_version set version_num="c760af297966";
+
+# 2023-08-29 16:18:26.765819
++select * from alembic_version;
+
+# 2023-08-29 17:32:37.042370
++update alembic_version set version_num="f7a2f5b618f4";
+
+# 2023-08-29 17:34:29.682330
++update alembic_version set version_num = "bbb4e50fae0c";
+
+# 2023-08-29 17:34:31.798328
++select * from alembic_version;
+
+# 2023-08-29 17:38:36.382426
++update alembic_version set version_num = "bbb4e50fae0c";
+
+# 2023-08-29 17:39:47.699978
++SELECT * FROM alembic_version;
+
+# 2023-08-29 17:43:23.579484
++update alembic_version set version_num = "9108cb34fe47";
+
+# 2023-08-29 17:43:25.543489
++select * from alembic_version;
+
+# 2023-08-29 17:46:37.844291
++update alembic_version set version_num = "bbb4e50fae0c";
+
+# 2023-08-29 17:50:21.741333
++update alembic_version set version_num = "9108cb34fe47";
+
+# 2023-08-29 17:54:46.530213
++select * from alembic_version;
+
+# 2023-08-29 18:02:30.035391
++select * from aio_instance;
+
+# 2023-08-29 18:03:12.290195
++select * from resource_;
+
+# 2023-08-29 18:03:14.567323
++select * from crontab_;
+
+# 2023-08-30 08:40:52.712134
++select * from instance_;
+
+# 2023-08-30 09:19:26.472667
++select * from crontab_;
+
+# 2023-08-30 09:19:31.960254
++select * from resource_;
+
+# 2023-08-30 09:27:32.840005
++select * from instance_;
+
+# 2023-08-30 09:55:08.431552
++select * from crontab_;
+
+# 2023-08-30 09:59:52.199979
++select * from total_task;
+
+# 2023-08-30 10:01:39.944207
++select * from aio_total_task;
+
+# 2023-08-30 10:09:46.223040
++select * from crontab_;
+
+# 2023-08-30 10:10:00.679366
++select * from unit_;
+
+# 2023-08-30 10:10:06.870907
++select * from resource_;
+
+# 2023-08-30 10:10:55.054712
++select * from crontab_;
+
+# 2023-08-30 10:11:55.510634
++select * from resource_;
+
+# 2023-08-30 10:12:41.055238
++select * from unit_;
+
+# 2023-08-30 10:17:16.225059
++select * from resource_;
+
+# 2023-08-30 10:17:29.289356
++select * from aio_data_nodes;
+
+# 2023-08-30 10:17:39.069187
++select * from instance_;
+
+# 2023-08-30 10:17:51.541859
++delete from aio_data_nodes where id>=2;
+
+# 2023-08-30 10:17:55.224994
++select * from aio_data_nodes;
+
+# 2023-08-30 10:18:02.401173
++select * from instance_;
+
+# 2023-08-30 10:19:13.953383
++select * from mysql_instance_;
+
+# 2023-08-30 10:19:38.093855
++select * from unit_;
+
+# 2023-08-30 10:19:53.292855
++select * from resource_;
+
+# 2023-08-30 10:22:51.747748
++select * from instance_;
+
+# 2023-08-30 10:24:28.811910
++select * from aio_instance;
+
+# 2023-08-30 10:24:58.431538
++select * from instance_;
+
+# 2023-08-30 10:25:22.014959
++select * from aio_instance;
+
+# 2023-08-30 10:26:10.155245
++select * from aio_data_nodes;
+
+# 2023-08-30 10:27:03.395396
++select * from aio_instance;
+
+# 2023-08-30 10:27:27.339253
++update aio_instance set src_storage_uuid="0b3355a8b4764cb7a59712a65d349878";
+
+# 2023-08-30 10:27:29.779936
++select * from aio_instance;
+
+# 2023-08-30 10:28:36.459776
++select * from instance_;
+
+# 2023-08-30 10:33:56.428875
++select * from aio_instance;
+
+# 2023-08-30 10:39:34.441256
++select * from instance_;
+
+# 2023-08-30 10:45:51.400372
++select * from crontab_;
+
+# 2023-08-30 10:46:51.280708
++select * from instance_;
+
+# 2023-08-30 10:51:37.677108
++select * from crontab_;
+
+# 2023-08-30 10:51:45.944997
++select * from aio_total_task;
+
+# 2023-08-30 13:40:47.422900
++select * from aio_sub_task;
+
+# 2023-08-30 14:09:50.614771
++select * from aio_total_task;
+
+# 2023-08-30 14:10:13.626150
++update aio_total_task set task_status="success" where id=38;
+
+# 2023-08-30 14:10:15.213961
++select * from aio_total_task;
+
+# 2023-08-30 14:10:30.990439
++update aio_total_task set task_status="success" where id=87;
+
+# 2023-08-30 14:10:32.770082
++select * from aio_total_task;
+
+# 2023-08-30 14:11:07.726394
++select * from crontab_;
+
+# 2023-08-30 14:12:19.610718
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-08-30 14:12:21.795101
++select * from crontab_;
+
+# 2023-08-30 14:17:00.364127
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-08-30 14:17:03.963171
++select * from aio_total_task;
+
+# 2023-08-30 14:17:13.819142
++update aio_total_task set task_status="success" where id=87;
+
+# 2023-08-30 14:17:15.466609
++select * from aio_total_task;
+
+# 2023-08-30 14:20:48.642762
++select * from crontab_;
+
+# 2023-08-30 14:42:04.069868
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-08-30 15:00:34.528115
++select * from timeline_;
+
+# 2023-08-30 15:01:12.215174
++select * from timeline_point_;
+
+# 2023-08-30 15:02:46.772428
++select * from snapshot_;
+
+# 2023-08-30 15:06:25.915506
++select * from binlog_;
+
+# 2023-08-30 15:06:54.465094
++select * from snapshot_;
+
+# 2023-08-30 15:07:29.989078
++select * from timeline_point_;
+
+# 2023-08-30 15:08:35.045360
++select * from timeline_
+
+# 2023-08-30 15:08:56.757880
++select * from snapshot_;
+
+# 2023-08-30 15:09:36.845028
++select * from timeline_point_;
+
+# 2023-08-30 15:10:11.809197
++select * from snapshot_;
+
+# 2023-08-30 15:10:17.784791
++select * from binlog_;
+
+# 2023-08-30 15:10:33.517947
++select * from timeline_;
+
+# 2023-08-30 15:11:24.793252
++select * from timeline_point_;
+
+# 2023-08-30 15:14:26.165716
++select * from snapshot_;
+
+# 2023-08-30 15:29:45.079317
++use airflow;
+
+# 2023-08-30 15:29:51.037462
++select * from dag_run;
+
+# 2023-08-30 15:30:27.373348
++show create table dag_run;
+
+# 2023-08-30 15:36:35.605639
++select * from timeline_point_;
+
+# 2023-08-30 15:36:38.465759
++use aio;
+
+# 2023-08-30 15:36:39.593776
++select * from timeline_point_;
+
+# 2023-08-30 15:49:37.577360
++select * from crontab_;
+
+# 2023-08-30 15:49:52.890377
++select * from unit_;
+
+# 2023-08-30 15:50:05.267628
++select * from crontab_;
+
+# 2023-08-30 15:51:37.845087
++select * from unit_;
+
+# 2023-08-30 15:51:46.593292
++select * from crontab_;
+
+# 2023-08-30 15:52:19.860304
++select * from crontab_backup_unit;
+
+# 2023-08-30 15:52:31.709021
++select * from crontab_;
+
+# 2023-08-30 15:52:33.376563
++select * from crontab_backup_unit;
+
+# 2023-08-30 15:52:44.715982
++select * from unit_;
+
+# 2023-08-30 16:02:31.280274
++select * from timeline_point_;
+
+# 2023-08-30 16:23:56.192241
++select * from snapshot_;
+
+# 2023-08-30 16:25:19.103980
++select * from timeline_point_;
+
+# 2023-08-30 16:29:39.263675
++select * from snapshot_;
+
+# 2023-08-30 16:49:04.885319
++select * from crontab_backup_unit;
+
+# 2023-08-30 16:49:08.185224
++select * from crontab_;
+
+# 2023-08-30 17:13:10.217347
++select * from timeline_point_;
+
+# 2023-08-31 09:31:21.684244
++use aio;
+
+# 2023-08-31 09:31:23.139413
++select * from timeline_point_;
+
+# 2023-08-31 10:00:22.460380
++select * from timeline_;
+
+# 2023-08-31 10:19:59.729456
++select * from binlog_;
+
+# 2023-08-31 10:28:28.037046
++select * from resource_;
+
+# 2023-08-31 10:29:42.350004
++select * from entry_;
+
+# 2023-08-31 10:30:59.557381
++select * from instance_;
+
+# 2023-08-31 10:47:17.988851
++select * from timeline_point_;
+
+# 2023-08-31 10:59:20.249154
++select * from crontab_;
+
+# 2023-08-31 11:00:07.960822
++select * from unit_;
+
+# 2023-08-31 11:22:07.860932
++select * from timeline_point_;
+
+# 2023-08-31 11:44:17.017711
++select * from instance_;
+
+# 2023-08-31 11:44:44.373936
++select * from mysql_instance_;
+
+# 2023-08-31 11:44:49.921316
++select * from instance_;
+
+# 2023-08-31 11:45:03.152846
++select * from mysql_instance_;
+
+# 2023-08-31 11:45:28.065167
++select * from instance_;
+
+# 2023-08-31 11:46:59.921295
++select * from mysql_instance_;
+
+# 2023-08-31 11:49:00.697220
++select * from proxy_instance_;
+
+# 2023-08-31 11:50:11.860575
++select * from mysql_instance_;
+
+# 2023-08-31 11:57:05.010354
++select * from crontab_;
+
+# 2023-08-31 12:00:10.640962
++select * from aio_total_task;
+
+# 2023-08-31 12:01:20.265809
++show create table aio_total_task;
+
+# 2023-08-31 12:02:25.145511
++select * from aio_total_task;
+
+# 2023-08-31 12:04:48.044413
++select * from resource_;
+
+# 2023-08-31 12:09:14.893979
++select * from aio_instance;
+
+# 2023-08-31 12:09:46.317063
++select * from instance_;
+
+# 2023-08-31 12:09:48.348653
++select * from aio_instance;
+
+# 2023-08-31 12:10:06.172988
++select * from instance_;
+
+# 2023-08-31 12:10:14.293190
++select * from aio_instance;
+
+# 2023-08-31 12:10:16.825617
++select * from mysql_instance_;
+
+# 2023-08-31 12:10:22.544972
++select * from aio_instance;
+
+# 2023-08-31 12:11:08.488193
++select * from instance_;
+
+# 2023-08-31 12:12:41.018278
++select * from aio_instance;
+
+# 2023-08-31 12:16:23.117876
++select * from instance_;
+
+# 2023-08-31 12:16:33.150258
++select * from resource_;
+
+# 2023-08-31 12:17:13.346972
++select * from crontab_;
+
+# 2023-08-31 12:17:31.750153
++select * from resource_;
+
+# 2023-08-31 12:17:41.282046
++select * from aio_instance;
+
+# 2023-08-31 12:18:38.314221
++select * from resource_;
+
+# 2023-08-31 12:18:49.949487
++select * from unit_;
+
+# 2023-08-31 12:21:20.345951
++select * from aio_instance;
+
+# 2023-08-31 12:33:15.546687
++select * from unit_;
+
+# 2023-08-31 12:35:09.098777
++select * from crontab_;
+
+# 2023-08-31 13:32:42.877862
++select * from instance_;
+
+# 2023-08-31 13:32:47.880252
++select * from aio_instance;
+
+# 2023-08-31 13:52:06.918355
++select * from instance_;
+
+# 2023-08-31 13:52:11.602166
++select * from aio_instance;
+
+# 2023-08-31 13:52:13.297524
++select * from instance_;
+
+# 2023-08-31 14:03:16.777211
++select * from snapshot_;
+
+# 2023-08-31 14:06:35.665312
++select * from mysql_instance_;
+
+# 2023-08-31 14:07:37.173632
++select * from instance_;
+
+# 2023-08-31 14:11:07.562589
++select * from snapshot_;
+
+# 2023-08-31 14:23:08.183570
++select * from aio_instance;
+
+# 2023-08-31 14:26:20.993915
++select * from instance_;
+
+# 2023-08-31 16:10:17.646676
++select * from aio_instance;
+
+# 2023-08-31 16:10:23.418428
++select * from instance_;
+
+# 2023-08-31 16:10:40.118772
++select * from mysql_instance_;
+
+# 2023-08-31 16:13:20.322340
++select * from instance_;
+
+# 2023-09-01 09:55:29.286478
++use aio;
+
+# 2023-09-01 09:55:30.905871
++select * from instance_;
+
+# 2023-09-01 09:55:34.700011
++select * from mysql
+
+# 2023-09-01 09:55:38.822636
++select * from mysql_instance_;
+
+# 2023-09-01 14:51:02.217384
++use aio;
+
+# 2023-09-01 14:51:07.288863
++select * from timeline_point_;
+
+# 2023-09-01 15:00:36.210781
++use aio;
+
+# 2023-09-01 15:00:37.282291
++select * from timeline_point_;
+
+# 2023-09-01 15:00:51.730348
++select * from snapshot_;
