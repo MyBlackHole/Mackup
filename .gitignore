@@ -1,1 +1,2 @@
 *.log
+.config/clash/cache.db
