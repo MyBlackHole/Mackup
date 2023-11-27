@@ -15492,3 +15492,84 @@
 
 # 2023-11-24 17:40:42.303799
 +select * from physical_restore_;
+
+# 2023-11-27 11:34:05.353659
++use aio;
+
+# 2023-11-27 11:34:07.917087
++show databases;
+
+# 2023-11-27 11:34:16.109654
++use airflow;
+
+# 2023-11-27 11:34:19.225915
++show tables;
+
+# 2023-11-27 11:37:03.281276
++use airflow;
+
+# 2023-11-27 11:37:06.641944
++show databases;
+
+# 2023-11-27 11:41:49.180823
++use aio;
+
+# 2023-11-27 11:41:55.841929
++select * from alembic_version
+
+# 2023-11-27 11:41:57.717713
++select * from alembic_version;
+
+# 2023-11-27 11:42:04.617055
++update alembic_version set version_num = "4b7513ff8ef7";
+
+# 2023-11-27 11:42:44.921413
++update alembic_version set version_num = "4c8598aca2b2";
+
+# 2023-11-27 11:44:43.397663
++update alembic_version set version_num = ";
+
+# 2023-11-27 11:44:47.314066
++update alembic_version set version_num = "";
+
+# 2023-11-27 11:51:42.654074
++show databases;
+
+# 2023-11-27 11:51:46.429927
++show tables;
+
+# 2023-11-27 11:51:57.965482
++drop database aio;
+
+# 2023-11-27 11:52:00.529879
++create database if not exists aio DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 2023-11-27 11:52:02.929057
++show tables;
+
+# 2023-11-27 11:52:05.661334
++show databases;
+
+# 2023-11-27 11:53:04.117748
++use aio;
+
+# 2023-11-27 11:53:06.957494
++show tables;
+
+# 2023-11-27 11:54:37.177684
++select * from alembic_version;
+
+# 2023-11-27 15:57:38.813908
++select * from crontab;
+
+# 2023-11-27 16:08:39.377877
++select * from aio_data_nodes
+
+# 2023-11-27 17:09:12.841670
++use aio;
+
+# 2023-11-27 17:09:31.849602
++select * from aio_total_task;
+
+# 2023-11-27 17:25:34.009664
++select * from aio_data_nodes

@@ -25,3 +25,4 @@ run.cdm.sh
 compile_commands.json
 aio.scheduler.debug
 aio.airflow.web.debug
+frontend-dist-*
