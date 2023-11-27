@@ -11026,3 +11026,4469 @@
 
 # 2023-09-01 15:00:51.730348
 +select * from snapshot_;
+
+# 2023-09-04 10:16:34.094989
++use aio;
+
+# 2023-09-04 10:16:39.834473
++select * from aio_data_nodes;
+
+# 2023-09-04 15:14:57.003420
++select * from snapshot_;
+
+# 2023-09-04 15:31:46.677100
++select * from timeline_point_;
+
+# 2023-09-04 15:32:36.448203
++update timeline_point_ set point_status = "failed" where id =2;
+
+# 2023-09-04 15:32:38.064225
++select * from timeline_point_;
+
+# 2023-09-04 15:45:48.282377
++select * from crontab_;
+
+# 2023-09-04 15:46:17.937270
++select * from timeline_point_;
+
+# 2023-09-04 15:46:26.249579
++select * from crontab_;
+
+# 2023-09-04 15:47:05.438020
++select * from timeline_point_;
+
+# 2023-09-04 15:48:49.793896
++select * from unit_;
+
+# 2023-09-04 15:50:37.109821
++select * from crontab_;
+
+# 2023-09-04 15:51:14.454162
++select * from resource_;
+
+# 2023-09-04 15:51:23.994173
++select * from crontab_;
+
+# 2023-09-04 15:56:29.077905
++update crontab_ set attribute="{'crontab_only':44}" where id=45;
+
+# 2023-09-04 15:56:40.359379
++update crontab_ set attribute="{\"crontab_only\":44}" where id=45;
+
+# 2023-09-04 15:56:42.001755
++select * from crontab_;
+
+# 2023-09-04 16:06:29.152656
++use aio;
+
+# 2023-09-04 16:06:30.528851
++select * from crontab_;
+
+# 2023-09-04 16:06:38.616273
++select * from snapshot_;
+
+# 2023-09-04 16:06:56.068116
++select * from timeline_point_;
+
+# 2023-09-04 16:07:14.428968
++select * from snapshot_;
+
+# 2023-09-04 16:08:37.695388
++select * from snapshot_;
+
+# 2023-09-04 16:27:04.073896
++select * from timeline_point_;
+
+# 2023-09-04 16:27:31.573870
++delete from timeline_point_ where id > 10;
+
+# 2023-09-04 16:27:33.693485
++select * from timeline_point_;
+
+# 2023-09-04 16:29:43.105268
++delete from snapshot_ where id>=37;
+
+# 2023-09-04 16:29:45.269253
++select * from snapshot_;
+
+# 2023-09-04 16:37:22.534892
++select * from snapshot_;
+
+# 2023-09-04 16:37:38.414885
++select * from timeline_point_;
+
+# 2023-09-04 16:38:53.543653
++select * from snapshot_;
+
+# 2023-09-04 16:40:10.239395
++select * from timeline_point_;
+
+# 2023-09-04 16:43:46.322440
++select * from snapshot_;
+
+# 2023-09-04 16:47:37.167780
++select * from timeline_point_;
+
+# 2023-09-04 16:47:42.004152
++select * from snapshot_;
+
+# 2023-09-04 16:47:52.672064
++select * from timeline_point_;
+
+# 2023-09-04 16:49:20.140730
++select * from snapshot_;
+
+# 2023-09-04 16:49:30.472466
++select * from timeline_point_;
+
+# 2023-09-04 17:16:11.976909
++select * from aio_data_nodes;
+
+# 2023-09-04 17:31:34.808118
++use aio;
+
+# 2023-09-04 17:31:38.135151
++select * from snapshot_;
+
+# 2023-09-04 17:31:40.519584
++select * from timeline_point_;
+
+# 2023-09-05 13:34:07.278290
++use aio;
+
+# 2023-09-05 13:34:25.945935
++select * from aio_data_nodes;
+
+# 2023-09-05 13:35:57.897938
++select * from resource_;
+
+# 2023-09-05 13:36:05.501515
++select * from crontab_;
+
+# 2023-09-05 13:36:21.398081
++select * from instance_;
+
+# 2023-09-05 13:36:42.309340
++select * from aio_data_nodes;
+
+# 2023-09-05 13:36:48.693175
++select * from crontab_;
+
+# 2023-09-05 13:36:55.669971
++select * from instance_;
+
+# 2023-09-05 13:37:36.644622
++update instance_ set storage_id=31 where id=45;
+
+# 2023-09-05 13:37:39.232213
++select * from instance_;
+
+# 2023-09-05 13:37:45.567185
++update instance_ set storage_id=31 where crontab_id=45;
+
+# 2023-09-05 13:37:47.181821
++select * from instance_;
+
+# 2023-09-05 14:39:43.655246
++select * from aio_data_nodes;
+
+# 2023-09-05 17:18:41.813122
++select * from restore_unit_record;
+
+# 2023-09-05 17:19:25.793043
++select * from restore_node_record;
+
+# 2023-09-06 15:12:09.922283
++select * from snapshot_;
+
+# 2023-09-06 15:12:23.598537
++delete from snapshot_ where crontab_id=44;
+
+# 2023-09-06 15:12:25.966362
++select * from snapshot_;
+
+# 2023-09-06 15:12:31.286178
++select * from timeline_point_;
+
+# 2023-09-06 15:12:47.409919
++delete from timeline_point_ where crontab_id=44;
+
+# 2023-09-06 15:12:50.405821
++delete from timeline_point_ where crontab_id=45;
+
+# 2023-09-06 15:12:52.409727
++select * from timeline_point_;
+
+# 2023-09-06 16:20:18.359508
++select * from snapshot_;
+
+# 2023-09-06 16:35:15.271257
++use aio;
+
+# 2023-09-06 16:35:16.545804
++select * from snapshot_;
+
+# 2023-09-06 16:35:44.806594
++delete from snapshot_ where id?63;
+
+# 2023-09-06 16:35:49.270526
++delete from snapshot_ where id>63;
+
+# 2023-09-06 16:35:51.429469
++select * from snapshot_;
+
+# 2023-09-06 16:35:57.108499
++delete from snapshot_ where id>=63;
+
+# 2023-09-06 16:35:59.069491
++select * from snapshot_;
+
+# 2023-09-06 16:36:04.021783
++select * from timeline_point_;
+
+# 2023-09-06 16:36:21.857027
++delete from timeline_point_ where id>=43;
+
+# 2023-09-06 16:36:23.898136
++select * from timeline_point_;
+
+# 2023-09-06 16:46:39.903186
++select * from crontab_;
+
+# 2023-09-06 17:07:35.719418
++select * from timeline_point_;
+
+# 2023-09-06 17:52:58.850981
++select * from binlog_;
+
+# 2023-09-06 17:53:50.263242
++select * from timeline_;
+
+# 2023-09-06 17:55:21.559112
++select * from binlog_;
+
+# 2023-09-06 18:02:39.079542
++select * from tdsql_proxylog;
+
+# 2023-09-06 18:03:52.339435
++select * from binlog_;
+
+# 2023-09-06 19:34:34.297343
++select * from aio_data_nodes;
+
+# 2023-09-06 19:35:04.249102
++delete from aio_data_nodes where id=32;
+
+# 2023-09-06 19:35:22.012817
++select * from aio_devices;
+
+# 2023-09-06 19:35:32.092541
++delete from aio_devices where id=3;
+
+# 2023-09-06 19:35:35.161259
++delete from aio_data_nodes where id=32;
+
+# 2023-09-06 19:36:11.309653
++delete from aio_total_task where data_node_id=32;
+
+# 2023-09-06 19:36:19.160601
++delete from aio_data_nodes where id=32;
+
+# 2023-09-06 20:06:14.728116
++exit
+
+# 2023-09-07 09:02:33.247206
++use aio;
+
+# 2023-09-07 09:02:55.706962
++select * from aio_devices;
+
+# 2023-09-07 09:03:11.059267
++select * from binlog_;
+
+# 2023-09-07 09:06:06.305335
++select * from resource_;
+
+# 2023-09-07 09:06:23.278009
++select * from crontab_;
+
+# 2023-09-07 09:22:18.586204
++select * from binlog_;
+
+# 2023-09-07 09:24:42.861108
++select * from binlog_ where instance_id = 43;
+
+# 2023-09-07 09:30:59.805428
++sel
+
+# 2023-09-07 09:31:05.923135
++select * from binlog_ where instance_id = 43;
+
+# 2023-09-07 09:47:30.080479
++exit
+
+# 2023-09-07 11:28:11.352033
++use aio;
+
+# 2023-09-07 11:28:17.748156
++select * from aio_user;
+
+# 2023-09-07 15:46:18.128363
++select * from crontab_;
+
+# 2023-09-07 15:46:24.725705
++select * from resource_;
+
+# 2023-09-07 15:46:35.034195
++select * from unit_;
+
+# 2023-09-07 15:46:53.287757
++select * from crontab_;
+
+# 2023-09-07 15:47:02.391099
++select * from unit_;
+
+# 2023-09-07 16:06:26.511877
++select * from instance_;
+
+# 2023-09-07 16:08:40.489934
++use aio;
+
+# 2023-09-07 16:08:42.169908
++select * from instance_;
+
+# 2023-09-07 16:09:01.085317
++select * from backup_instance_;
+
+# 2023-09-07 16:09:23.865636
++select * from mysql_instance_;
+
+# 2023-09-07 16:09:30.526454
++select * from antdb_instance_;
+
+# 2023-09-07 16:09:36.061762
++select * from proxy_instance_;
+
+# 2023-09-07 16:14:31.502183
++select * from crontab_;
+
+# 2023-09-07 16:15:22.833879
++select * from resource_;
+
+# 2023-09-07 16:18:44.362461
++select * from aio_data_nodes;
+
+# 2023-09-07 16:19:03.985539
++select * from instance_;
+
+# 2023-09-07 16:20:46.316623
++select * from aio_instance;
+
+# 2023-09-07 16:23:01.480174
++select * from crontab_;
+
+# 2023-09-07 17:42:08.158892
++use aio;
+
+# 2023-09-07 17:42:08.623819
++ls
+
+# 2023-09-07 17:42:10.751933
++use aio;
+
+# 2023-09-07 17:49:53.852176
++select * from crontab_;
+
+# 2023-09-07 17:50:30.187694
++select * from aio_user;
+
+# 2023-09-07 20:19:19.300246
++use aio;
+
+# 2023-09-07 20:19:21.383879
++select * from aio_user;
+
+# 2023-09-07 20:21:03.194346
++select * from common_config;
+
+# 2023-09-08 10:37:37.527516
++select * from snapshot_;
+
+# 2023-09-08 10:39:28.814903
++select * from timeline_point_;
+
+# 2023-09-08 10:41:21.757634
++select * from binlog_ ;
+
+# 2023-09-08 11:14:37.518759
++select * from crontab_;
+
+# 2023-09-08 11:26:30.569801
++use aio;
+
+# 2023-09-08 11:26:32.112291
++select * from crontab_;
+
+# 2023-09-08 11:26:43.604443
++use aio;
+
+# 2023-09-08 11:26:44.520770
++select * from crontab_;
+
+# 2023-09-08 12:19:44.774114
++use aio;
+
+# 2023-09-08 12:19:46.948627
++select * from crontab_;
+
+# 2023-09-08 12:20:10.945375
++select * from resource_;
+
+# 2023-09-08 12:20:39.931933
++select * from timeline_point_;
+
+# 2023-09-08 12:20:51.829105
++delete from timeline_point_ where id>10
+
+# 2023-09-08 12:20:53.809488
++select * from timeline_point_;
+
+# 2023-09-08 12:21:04.045181
++select * from snapshot_;
+
+# 2023-09-08 12:23:49.883814
++delete from snapshot_ where crontab_id is null;
+
+# 2023-09-08 12:23:51.732318
++select * from snapshot_;
+
+# 2023-09-08 12:24:04.642965
++select * from timeline_point_;
+
+# 2023-09-08 13:32:40.700784
++select * from binlog_ ;
+
+# 2023-09-08 13:33:09.601589
++select * from binlog_ group by instance_id;
+
+# 2023-09-08 13:33:42.197050
++select max(binlog_end_date) from binlog_ group by instance_id;
+
+# 2023-09-08 13:33:49.269222
++select * from binlog_ group by instance_id;
+
+# 2023-09-08 13:33:52.873208
++select * from binlog_;
+
+# 2023-09-08 13:34:02.209242
++select * from timeline_;
+
+# 2023-09-08 13:34:51.213243
++select * from binlog_;
+
+# 2023-09-08 13:34:57.581339
++select max(binlog_end_date) from binlog_ group by instance_id;
+
+# 2023-09-08 13:41:19.964845
++select * from timeline_;
+
+# 2023-09-08 13:43:05.648087
++select * from binlog_;
+
+# 2023-09-08 13:52:23.757366
++select * from timeline_;
+
+# 2023-09-08 14:05:42.367801
++show create table aio_instance;
+
+# 2023-09-08 14:11:18.281247
++select * from aio_instance;
+
+# 2023-09-08 14:11:54.901760
++select * from aio_data_nodes;
+
+# 2023-09-08 14:12:14.145739
++select * from aio_instance;
+
+# 2023-09-08 14:14:21.496727
++select * from crontab_;
+
+# 2023-09-08 14:33:03.811924
++select * from timeline_;
+
+# 2023-09-08 16:32:52.053844
++select * from aio_instance;
+
+# 2023-09-08 16:32:59.291525
++select * from aio_instance order by id;
+
+# 2023-09-08 16:33:05.739415
++select * from aio_instance order by id desc;
+
+# 2023-09-08 16:39:37.061645
++select * from mysql_instance_;
+
+# 2023-09-08 16:40:21.720989
++select * from aio_instance;
+
+# 2023-09-08 16:40:35.305640
++select * from mysql_instance_;
+
+# 2023-09-08 16:40:45.185317
++select * from aio_instance;
+
+# 2023-09-08 16:40:57.485296
++select * from instance_;
+
+# 2023-09-08 16:41:37.497539
++select * from binlog_;
+
+# 2023-09-08 16:42:17.557734
++select * from instance_;
+
+# 2023-09-08 17:10:34.431373
++select * from snapshot_;
+
+# 2023-09-08 17:12:47.712178
++select * from binlog_;
+
+# 2023-09-08 17:15:30.706722
++select * from instance_;
+
+# 2023-09-11 09:42:37.518006
++use aio;
+
+# 2023-09-11 09:42:42.573334
++select * from binlog_;
+
+# 2023-09-11 09:52:52.821726
++show create table timeline_;
+
+# 2023-09-11 10:03:04.945392
++select * from instance_;
+
+# 2023-09-11 12:19:02.489611
++select * from resource_;
+
+# 2023-09-11 15:02:56.500105
++use aio;
+
+# 2023-09-11 15:02:59.230524
++select * from resource_;
+
+# 2023-09-11 15:03:05.398901
++select * from crontab_;
+
+# 2023-09-11 15:16:54.994488
++select * from binlog_;
+
+# 2023-09-11 15:18:28.392187
++select * from binlog_ where instance_id = 43;
+
+# 2023-09-11 15:49:05.231407
++select * from aio_data_nodes;
+
+# 2023-09-11 16:20:12.759365
++select * from crontab_;
+
+# 2023-09-11 16:21:00.222745
++select * from binlog_
+
+# 2023-09-11 16:21:09.770473
++show create table binlog_;
+
+# 2023-09-11 16:31:16.787922
++select * from restore_unit_record;
+
+# 2023-09-11 16:31:27.820220
++select * from restore_node_record;
+
+# 2023-09-11 16:34:05.620499
++select * from restore_unit_record;
+
+# 2023-09-11 16:40:41.888023
++select * from crontab_;
+
+# 2023-09-11 16:42:18.232527
++select * from instance_;
+
+# 2023-09-11 16:42:28.939961
++select * from aio_data_nodes;
+
+# 2023-09-11 17:45:20.373680
++select * from binlog_
+
+# 2023-09-11 17:45:43.940567
++delete from binlog_ where crontab_id = 48;
+
+# 2023-09-11 17:45:46.220749
++select * from binlog_
+
+# 2023-09-11 17:57:36.241159
++select * from timeline_;
+
+# 2023-09-11 17:58:19.752738
++select * from binlog_
+
+# 2023-09-11 18:04:49.393004
++select * from timeline_;
+
+# 2023-09-12 09:06:31.949661
++select * from snapshot_;
+
+# 2023-09-12 09:06:36.477692
++select * from binlog_
+
+# 2023-09-12 09:09:34.413849
++select * from timeline_;
+
+# 2023-09-12 09:09:44.261375
++delete from binlog_ where crontab_id = 48;
+
+# 2023-09-12 09:13:39.656735
++select * from timeline_;
+
+# 2023-09-12 09:14:21.724565
++select * from binlog_
+
+# 2023-09-12 09:16:06.548770
++select * from timeline_;
+
+# 2023-09-12 09:22:04.027746
++delete from timeline_ where id > 1;
+
+# 2023-09-12 09:22:05.782994
++select * from timeline_;
+
+# 2023-09-12 09:35:47.755428
++select * from binlog_
+
+# 2023-09-12 09:35:55.086378
++delete from binlog_ where crontab_id = 48;
+
+# 2023-09-12 09:38:45.963095
++select * from binlog_
+
+# 2023-09-12 09:38:56.574050
++select * from timeline_;
+
+# 2023-09-12 10:29:44.316387
++select * from alembic_version
+
+# 2023-09-12 10:30:12.968192
++update alembic_version set version_num = "8766824265c8";
+
+# 2023-09-12 10:50:56.026094
++select * from operator;
+
+# 2023-09-12 10:51:23.145317
++select * from instance_;
+
+# 2023-09-12 10:55:32.208277
++drop table operator;
+
+# 2023-09-12 10:55:39.417205
++select * from operator;
+
+# 2023-09-12 10:57:19.045206
++show create table binlog_;
+
+# 2023-09-12 10:58:02.365245
++select * from operator;
+
+# 2023-09-12 10:58:05.481526
++show create table binlog_;
+
+# 2023-09-12 12:20:55.667557
++select * from operator;
+
+# 2023-09-12 12:21:06.259813
++select * from aio_data_nodes;
+
+# 2023-09-12 12:21:36.980360
++update instance_ set storage_id=31 where crontab_id=45;
+
+# 2023-09-12 12:21:51.035854
++select * from aio_data_nodes;
+
+# 2023-09-12 12:21:54.375242
++select * from operator;
+
+# 2023-09-12 12:22:06.955783
++update operator set storage_id=31 where crontab_id=49;
+
+# 2023-09-12 12:35:46.839702
++select * from binlog_
+
+# 2023-09-12 14:16:47.081005
++delete from binlog_ where crontab_id = 48;
+
+# 2023-09-12 14:18:09.157229
++select * from crontab_;
+
+# 2023-09-12 14:18:16.556884
++select * from binlog_
+
+# 2023-09-12 14:18:25.413053
++select * from timeline_;
+
+# 2023-09-12 15:13:27.696259
++select * from crontab_;
+
+# 2023-09-12 15:21:43.312596
++select * from aio_node;
+
+# 2023-09-12 15:22:17.580061
++select * from mysql_instance_;
+
+# 2023-09-12 16:20:41.093402
++select * from aio_node;
+
+# 2023-09-12 16:31:33.321267
++select * from crontab_;
+
+# 2023-09-12 16:43:28.356854
++update crontab_ set attribute="{\"threads\": 4, \"generation\": 1, \"enable_global_consistency\": false, \"gtm_backup_node_id\": 8}" where id=20;
+
+# 2023-09-12 16:43:30.620920
++select * from crontab_;
+
+# 2023-09-12 16:43:37.057310
++select * from instance_;
+
+# 2023-09-12 16:43:39.505383
++select * from operator;
+
+# 2023-09-12 16:43:53.457577
++update crontab_ set attribute="{\"threads\": 4, \"generation\": 1, \"enable_global_consistency\": false, \"gtm_backup_node_id\": 1}" where id=20;
+
+# 2023-09-12 16:43:56.841344
++select * from operator;
+
+# 2023-09-12 16:44:00.261177
++select * from crontab_;
+
+# 2023-09-12 16:53:15.761514
++select * from mysql_instance_;
+
+# 2023-09-12 16:53:37.125666
++select * from host_;
+
+# 2023-09-12 16:56:33.421469
++update host_ set `port`=22 where `port` = 1022;
+
+# 2023-09-12 16:56:35.028985
++select * from host_;
+
+# 2023-09-12 16:59:12.745423
++select * from crontab_;
+
+# 2023-09-12 16:59:27.265268
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-12 17:39:12.893172
++select * from crontab_;
+
+# 2023-09-12 17:39:14.965729
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-12 18:00:50.737742
++select * from aio_sub_task;
+
+# 2023-09-12 18:02:11.737175
++select * from aio_sub_task where id=387;
+
+# 2023-09-13 10:25:25.730678
++select * from crontab_;
+
+# 2023-09-13 10:25:38.266918
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-13 10:26:12.094953
++select * from crontab_;
+
+# 2023-09-13 10:33:29.430922
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-13 10:39:55.286927
++select * from crontab_;
+
+# 2023-09-13 13:34:01.211254
++select * from aio_sub_task;
+
+# 2023-09-13 13:34:15.144168
++select * from aio_total_task;
+
+# 2023-09-13 13:34:46.281193
++delete from aio_sub_task where data_size = 0;
+
+# 2023-09-13 13:35:08.600342
++select * from aio_total_task;
+
+# 2023-09-13 13:35:39.292196
++delete from aio_sub_task where task_status="running"
+
+# 2023-09-13 13:35:43.320703
++select * from aio_total_task;
+
+# 2023-09-13 13:35:49.600086
++select * from aio_sub_task;
+
+# 2023-09-13 13:35:57.952698
++delete from aio_sub_task where state="running"
+
+# 2023-09-13 13:36:12.436894
++select * from crontab_;
+
+# 2023-09-13 13:36:25.808630
++delete from aio_total_task where task_status="running"
+
+# 2023-09-13 13:36:32.996444
++select * from crontab_;
+
+# 2023-09-13 13:48:09.342105
++select * from unit_;
+
+# 2023-09-13 13:48:14.142484
++select * from backup_unit_;
+
+# 2023-09-13 14:08:21.353439
++select * from crontab_;
+
+# 2023-09-13 14:08:29.745188
++select * from aio_sub_task;
+
+# 2023-09-13 14:08:39.629607
++select * from aio_total_task;
+
+# 2023-09-13 14:11:26.621204
++delete from aio_total_task where task_status="running"
+
+# 2023-09-13 14:11:31.528978
++delete from aio_sub_task where state="running"
+
+# 2023-09-13 14:11:34.718306
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-13 14:11:59.285327
++select * from aio_total_task;
+
+# 2023-09-13 14:12:46.365221
++delete from aio_sub_task where state="running"
+
+# 2023-09-13 14:12:52.246132
++delete from aio_total_task where task_status="running"
+
+# 2023-09-13 14:12:54.528948
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-13 14:13:27.345348
++select * from aio_total_task;
+
+# 2023-09-13 14:13:56.336976
++select * from crontab_;
+
+# 2023-09-13 15:30:33.543420
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-09-13 15:30:37.111436
++delete from aio_total_task where task_status="running"
+
+# 2023-09-13 15:30:42.679813
++delete from aio_sub_task where task_status="running"
+
+# 2023-09-13 15:30:51.223709
++delete from aio_sub_task where state="running"
+
+# 2023-09-13 16:21:23.268569
++select * from timeline_point_;
+
+# 2023-09-13 17:22:13.846644
++select * from resource_;
+
+# 2023-09-13 17:22:19.454164
++select * from unit_;
+
+# 2023-09-13 17:22:27.358068
++select * from operator;
+
+# 2023-09-13 17:22:36.926873
++select * from mysql_instance_;
+
+# 2023-09-13 17:23:10.998784
++select * from host_;
+
+# 2023-09-13 17:23:30.430144
++select * from mysql_instance_;
+
+# 2023-09-13 17:25:06.798343
++select * from timeline_point_;
+
+# 2023-09-13 17:25:13.698222
++select * from aio_total_task;
+
+# 2023-09-13 17:25:19.018088
++select * from aio_sub_task;
+
+# 2023-09-13 17:27:27.298430
++select * from timeline_point_;
+
+# 2023-09-13 17:27:34.233712
++select * from aio_total_task;
+
+# 2023-09-13 17:29:56.781951
++select * from aio_sub_task;
+
+# 2023-09-13 17:30:04.854190
++select * from timeline_point_;
+
+# 2023-09-13 17:30:13.962485
++select * from snapshot_;
+
+# 2023-09-13 17:30:20.654771
++select * from timeline_point_;
+
+# 2023-09-13 17:32:38.894588
++select * from aio_sub_task;
+
+# 2023-09-13 17:32:43.619119
++select * from aio_total_task;
+
+# 2023-09-13 18:37:47.385624
++select * from binlog_
+
+# 2023-09-13 18:38:00.265224
++delete from binlog_ where crontab_id = 20;
+
+# 2023-09-13 18:39:04.469535
++select * from binlog_
+
+# 2023-09-14 09:44:54.158343
++select * from mysql_instance_;
+
+# 2023-09-14 09:45:18.410531
++select * from resource_;
+
+# 2023-09-14 09:45:24.666686
++select * from unit_;
+
+# 2023-09-14 09:46:18.906016
++select * from mysql_instance_ where backup_unit_id = 17;
+
+# 2023-09-14 10:01:31.991641
++select * from resource_;
+
+# 2023-09-14 10:01:41.214420
++select * from unit_;
+
+# 2023-09-14 10:01:57.475535
++select * from mysql_instance_ where backup_unit_id = 90;
+
+# 2023-09-14 10:02:07.026707
++select * from host_;
+
+# 2023-09-14 10:28:50.244638
++select * from mysql_instance_ where backup_unit_id = 90;
+
+# 2023-09-14 10:29:52.850652
++select * from mysql_user_;
+
+# 2023-09-14 10:34:00.855288
++select * from proxy_instance_ where backup_unit_id=90;
+
+# 2023-09-14 10:36:20.010537
++select * from proxy_instance_;
+
+# 2023-09-14 10:36:54.274829
++select * from proxy_instance_ where backup_unit_id=90;
+
+# 2023-09-14 10:37:25.718328
++select * from host_;
+
+# 2023-09-14 10:37:39.846721
++select * from proxy_instance_ where backup_unit_id=90;
+
+# 2023-09-14 10:39:08.211692
++select * from resource_;
+
+# 2023-09-14 10:39:22.643148
++select * from mysql_instance_;
+
+# 2023-09-14 10:43:50.074705
++select * from host_;
+
+# 2023-09-14 10:44:06.426710
++select * from proxy_instance_ where backup_unit_id=90;
+
+# 2023-09-14 10:44:10.279054
++select * from proxy_instance_;
+
+# 2023-09-14 10:47:30.272211
++select * from host_;
+
+# 2023-09-14 10:47:41.271624
++select * from proxy_instance_;
+
+# 2023-09-14 10:48:34.666864
++select * from resource_;
+
+# 2023-09-14 10:48:51.119246
++select * from crontab_;
+
+# 2023-09-14 10:50:38.694875
++select * from instance_;
+
+# 2023-09-14 10:50:41.098809
++select * from operator;
+
+# 2023-09-14 10:51:11.748195
++select * from snapshot_;
+
+# 2023-09-14 10:52:19.698807
++select * from crontab_;
+
+# 2023-09-14 11:01:20.787925
++select * from snapshot_;
+
+# 2023-09-14 11:05:47.143770
++select * from crontab_;
+
+# 2023-09-14 11:05:49.683974
++select * from resource_;
+
+# 2023-09-14 11:14:05.508338
++select * from mysql_instance_;
+
+# 2023-09-14 11:21:30.889272
++select * from proxy_instance_;
+
+# 2023-09-14 11:52:17.274869
++select * from resource_;
+
+# 2023-09-14 11:52:47.502571
++select * from unit_;
+
+# 2023-09-14 11:54:45.454497
++select * from mysql_instance_;
+
+# 2023-09-14 16:45:42.508558
++select * from binlog_
+
+# 2023-09-14 18:14:31.360354
++select * from resource_;
+
+# 2023-09-14 18:14:41.808093
++select * from crontab_;
+
+# 2023-09-15 09:59:50.832274
++select * from binlog_
+
+# 2023-09-15 10:04:46.027886
++select * from snapshot_;
+
+# 2023-09-15 10:05:06.283540
++select * from binlog_
+
+# 2023-09-15 10:14:29.495440
++select * from binlog_ where instance_id = 42 and crontab_id=20;
+
+# 2023-09-15 10:17:56.807831
++select * from binlog_;
+
+# 2023-09-15 10:27:29.907710
++update binlog_ set instance_class= where 1;
+
+# 2023-09-15 10:27:31.243419
++select * from binlog_;
+
+# 2023-09-15 10:27:38.115927
++update binlog_ set instance_class="MySQLInstance_" where 1;
+
+# 2023-09-15 10:27:40.143223
++sel
+
+# 2023-09-15 10:27:43.759546
++select * from binlog_;
+
+# 2023-09-15 11:30:41.387618
++select * from mount_unit_result
+
+# 2023-09-15 11:30:45.604633
++select * from mount_unit_result;
+
+# 2023-09-15 11:31:02.315487
++select * from mount_node_result
+
+# 2023-09-15 11:31:16.267454
++select * from restore_node_record;
+
+# 2023-09-15 11:31:51.211857
++select * from restore_unit_record;
+
+# 2023-09-15 11:32:06.851845
++select * from restore_node_record;
+
+# 2023-09-15 11:32:32.924065
++select * from restore_unit_record;
+
+# 2023-09-15 13:36:23.444570
++select * from restore_node_record;
+
+# 2023-09-15 14:31:44.946455
++select * from restore_unit_record;
+
+# 2023-09-15 14:31:50.255010
++select * from restore_node_record;
+
+# 2023-09-15 14:32:07.138939
++select * from mount_node_result
+
+# 2023-09-15 14:32:10.982431
++select * from mount_unit_result;
+
+# 2023-09-15 14:36:01.194902
++select * from restore_node_record;
+
+# 2023-09-18 09:56:32.707984
++use aio;
+
+# 2023-09-18 09:56:39.327236
++select * from crontab_;
+
+# 2023-09-18 09:58:06.138927
++select * from restore_node_record;
+
+# 2023-09-18 09:58:33.646824
++select * from restore_unit_record;
+
+# 2023-09-18 09:58:46.498252
++select * from restore_node_record;
+
+# 2023-09-18 10:10:31.155016
++select * from restore_unit_record;
+
+# 2023-09-18 10:11:16.271414
++select * from restore_node_record;
+
+# 2023-09-18 10:11:36.536330
++select * from restore_node_record where id=258;
+
+# 2023-09-18 10:11:43.595220
++select attribute from restore_node_record where id=258;
+
+# 2023-09-18 10:30:19.707027
++select attribute from restore_unit_record;
+
+# 2023-09-18 10:30:24.030208
++select * from restore_unit_record;
+
+# 2023-09-18 10:38:24.797830
++select * from restore_node_record;
+
+# 2023-09-18 15:24:33.723724
++show databases;
+
+# 2023-09-18 15:24:38.623079
++use test;
+
+# 2023-09-18 15:27:44.651360
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 15:31:01.796287
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-18 15:33:35.239629
++ ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-18 15:34:40.142421
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 15:37:21.563111
++use oceanbase;
+
+# 2023-09-18 15:37:31.158917
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 15:39:10.743758
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 15:39:42.987099
++alter system archivelog;
+
+# 2023-09-18 15:40:47.492589
++alter system backup database;
+
+# 2023-09-18 15:40:58.699243
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 15:42:18.467381
++alter system backup database;
+
+# 2023-09-18 16:23:23.431114
++ ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-18 16:25:58.445733
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 16:38:32.741675
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126%3A80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 16:45:00.705569
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126\:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 16:46:47.886265
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=\'192.168.30.126:80\'&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:07:31.365118
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-18 17:07:46.355905
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=\'192.168.30.126:80\'&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:07:58.343549
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:08:16.435574
++ ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-18 17:08:22.244347
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-18 17:08:46.515897
++SHOW PARAMETERS LIKE 'backup_zone'\G
+
+# 2023-09-18 17:09:00.287562
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 17:10:02.843638
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-18 17:10:07.987963
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 17:10:29.311354
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:14:26.036744
++ALTER SYSTEM SET backup_dest='oss://mybucket1?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:15:26.039989
++ALTER SYSTEM SET backup_dest='oss://mybackup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:15:31.079292
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 17:15:35.375057
++use oceanbase;
+
+# 2023-09-18 17:15:38.026879
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 17:16:56.555654
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
++
+
+# 2023-09-18 17:17:09.396023
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-09-18 17:18:09.511924
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-09-18 17:18:32.943891
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-18 17:20:41.623809
++ALTER SYSTEM SET backup_dest='oss://mybackup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:24:10.343954
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:26:03.231869
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-18 17:35:37.340363
++SHOW PARAMETERS LIKE 'backup_log_archive_option'\G
+
+# 2023-09-18 17:36:04.175540
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:37:46.603787
++ALTER SYSTEM ARCHIVELOG;
+
+# 2023-09-18 17:37:59.691195
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:38:10.672014
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-18 17:52:20.651990
++alter system noarchivelog;
+
+# 2023-09-19 08:44:37.253831
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 08:47:11.564561
++alter system noarchivelog;
+
+# 2023-09-19 08:47:15.116548
++ALTER SYSTEM CANCEL DELETE BACKUP;
+
+# 2023-09-19 08:47:33.588949
++SELECT tenant_id,status FROM oceanbase.__all_virtual_backup_clean_info;
+
+# 2023-09-19 08:55:49.005042
++show 
+
+# 2023-09-19 08:55:51.584267
++show databases;
+
+# 2023-09-19 08:56:16.227363
++USE oceanbase;
+
+# 2023-09-19 08:56:24.220878
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-09-19 08:57:07.803760
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 08:57:16.028646
++exit
+
+# 2023-09-19 08:57:52.853306
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 08:57:58.329527
++use oceanbase;
+
+# 2023-09-19 08:57:59.809293
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:00:01.696945
++SHOW PARAMETERS LIKE 'backup_dest_option'\G
+
+# 2023-09-19 09:03:29.233975
++ALTER SYSTEM DELETE BACKUPPIECE piece_id;
+
+# 2023-09-19 09:03:34.392635
++ALTER SYSTEM DELETE BACKUPPIECE 1002;
+
+# 2023-09-19 09:04:19.741728
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:30:50.630238
++ALTER SYSTEM DELETE BACKUPPIECE 1002;
+
+# 2023-09-19 09:31:00.425606
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:31:01.461044
++y
+
+# 2023-09-19 09:31:14.456484
++alter system noarchivelog;
+
+# 2023-09-19 09:31:32.637720
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-19 09:31:40.213184
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:31:43.524893
++use oceanbase;
+
+# 2023-09-19 09:31:46.137124
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:32:16.902314
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:33:19.819075
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126@3A80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:33:35.170273
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126%3A80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:33:47.566362
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:34:24.413725
++ALTER SYSTEM SET backup_dest='oss://mybackup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:34:51.942527
++ALTER SYSTEM SET backup_dest='oss://mybackup?host=192.168.30.126:&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:35:12.282263
++ALTER SYSTEM SET backup_dest='oss://mybackup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:35:17.382467
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:35:39.145965
++ALTER SYSTEM SET backup_dest='oss://my?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:36:02.706152
++ALTER SYSTEM SET backup_dest='oss://my?host=192.168.30.12&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:36:14.926335
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:36:41.338117
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=\'192.168.30.126:80\'&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:37:02.182214
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126%3A&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:54:10.963003
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126%3A80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:54:21.458275
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:54:29.674824
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:54:39.934848
++ALTER SYSTEM SET backup_dest='oss://mybucket1?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:54:49.906622
++ALTER SYSTEM SET backup_dest='oss://MMbucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:55:00.991039
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 09:55:09.762673
++SHOW PARAMETERS LIKE 'backup_dest_option'\G
+
+# 2023-09-19 09:55:30.078387
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-19 09:56:09.490897
++ALTER SYSTEM SET backup_dest='oss://bucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 09:56:19.626798
++ALTER SYSTEM SET backup_dest='oss://mybucket?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:01:09.158302
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:01:26.790981
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:05:43.017621
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:14:07.294398
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:15:05.829215
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:15:12.566671
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126:80&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:15:22.105964
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:15:39.114169
++ALTER SYSTEM SET backup_dest='oss://backu?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:15:48.922225
++ALTER SYSTEM SET backup_dest='oss://backupppp?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:16:10.286547
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:16:49.198394
++ALTER SYSTEM SET backup_dest='oss://backup1?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 10:27:00.134129
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-19 11:14:04.468431
++select * from resource_;
+
+# 2023-09-19 11:14:07.412404
++select * from unit_;
+
+# 2023-09-19 11:25:50.420147
++select * from mysql_instance_;
+
+# 2023-09-19 11:29:21.645929
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2;
+
+# 2023-09-19 11:33:01.513354
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2;select ip as node_ipaddr, user_name as node_os_username from gdb_cityinstall_omm;
+
+# 2023-09-19 11:33:06.416571
++select ip as node_ipaddr, user_name as node_os_username from gdb_cityinstall_omm;
+
+# 2023-09-19 11:33:25.123939
++select ip as node_ipaddr, user_name as node_os_username from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 11:33:44.668522
++select * from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 11:35:19.388643
++select host_ip as node_ipaddr, appuser_name as node_os_username from goldendb_omm.gdb_cityinstall_clustermanager;
+
+# 2023-09-19 11:35:29.048087
++select * from goldendb_omm.gdb_cityinstall_clustermanager;
+
+# 2023-09-19 11:37:09.148598
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2;select ip as node_ipaddr, user_name as node_os_username from gdb_cityinstall_omm;
+
+# 2023-09-19 11:37:12.256048
++select * from goldendb_omm.gdb_cityinstall_clustermanager;
+
+# 2023-09-19 11:37:34.308369
++select * from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 11:40:10.292419
++select cluster_id, db_id, group_id, db_name, db_ip, db_port, db_status, parent_id from db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:41:10.764224
++select cluster_id, db_id, group_id, db_name, db_ip, db_port, db_status, parent_id from mds.db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:41:33.772517
++select * from mds.db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:43:59.373242
++select * from entry_;
+
+# 2023-09-19 11:45:23.653126
++select * from mds.db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:45:38.280399
++select cluster_id, db_id, group_id, db_name, db_ip, db_port, db_status, parent_id from mds.db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:48:07.484296
++select * from mds.db_info where db_role = 0 and cluster_id = 3;
+
+# 2023-09-19 11:49:05.075946
++select a.proxy_name, a.proxy_id, a.proxy_ip as node_ipaddr, b.cluster_id, c.appuser_name as node_os_username from mds.proxy_info as a join mds.cluster_proxy_bind_info as b join goldendb_omm.gdb_cityinstall_dbproxy as c on a.proxy_id=b.proxy_id and a.proxy_ip=c.host_ip and a.proxy_port=c.listen_port where a.proxy_status=1 and b.status=0;
+
+# 2023-09-19 11:50:47.163776
++select * from proxy_instance_;
+
+# 2023-09-19 11:58:15.484893
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2;select ip as node_ipaddr, user_name as node_os_username from gdb_cityinstall_omm;
+
+# 2023-09-19 11:58:44.460070
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2;select ip as node_ipaddr, user_name as node_os_username from gdb_cityinstall_omm when b.db_cluster_id=3;
+
+# 2023-09-19 11:59:18.736168
++select a.gtm_id, b.db_cluster_id, a.gtm_backup, a.gtm_ip as node_ipaddr, c.appuser_name as node_os_username from mds.gtm_info as a join mds.gtm_db_bind_info as b join goldendb_omm.gdb_cityinstall_gtm as c on a.gtm_cluster_id=b.gtm_cluster_id and a.gtm_ip=c.gtm_ip and a.gtm_port=c.listen_port and a.gtm_srcport=c.source_port where a.gtm_status=2 and b.db_cluster_id = 3;
+
+# 2023-09-19 12:04:34.644547
++select * from mysql_instance_;
+
+# 2023-09-19 12:05:21.144753
++select * from crontab_;
+
+# 2023-09-19 12:06:51.507089
++select * from restore_unit_record;
+
+# 2023-09-19 12:07:14.134979
++select * from restore_node_record;
+
+# 2023-09-19 12:08:38.215779
++delete from restore_unit_record where 1;
+
+# 2023-09-19 12:08:43.619198
++delete from restore_node_record where 1;
+
+# 2023-09-19 12:08:45.586444
++delete from restore_unit_record where 1;
+
+# 2023-09-19 12:09:03.382764
++select * from entry_;
+
+# 2023-09-19 12:09:23.163160
++select * from resource_;
+
+# 2023-09-19 12:10:13.943227
++select * from entry_;
+
+# 2023-09-19 12:10:48.187264
++select * from mysql_instance_;
+
+# 2023-09-19 12:10:51.291051
++select * from proxy_instance_;
+
+# 2023-09-19 12:13:03.883104
++select ip as node_ipaddr, user_name as node_os_username from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 12:13:12.795488
++select ip as node_ipaddr, user_name as node_os_username from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 12:13:24.022981
++select * from goldendb_omm.gdb_cityinstall_omm;
+
+# 2023-09-19 12:17:15.955022
++select host_ip as node_ipaddr, appuser_name as node_os_username from goldendb_omm.gdb_cityinstall_clustermanager;
+
+# 2023-09-19 12:17:23.823740
++select * from goldendb_omm.gdb_cityinstall_clustermanager;
+
+# 2023-09-19 12:19:21.667055
++select * from resource_;
+
+# 2023-09-19 12:20:07.044807
++select * from proxy_instance_;
+
+# 2023-09-19 13:35:29.931490
++select * from host_;
+
+# 2023-09-19 13:36:15.103839
++select * from mysql_instance_;
+
+# 2023-09-19 13:36:46.451378
++select * from mysql_user_;
+
+# 2023-09-19 13:37:10.103562
++select * from mysql_instance_;
+
+# 2023-09-19 13:37:52.576105
++select * from mysql_user_;
+
+# 2023-09-19 13:39:18.825537
++select * from mysql_instance_;
+
+# 2023-09-19 13:39:59.277709
++select * from resource_;
+
+# 2023-09-19 13:40:36.642219
++select * from mysql_instance_;
+
+# 2023-09-19 13:40:41.994106
++select * from mysql_user_;
+
+# 2023-09-19 13:40:44.001491
++select * from mysql_instance_;
+
+# 2023-09-19 13:40:46.265115
++select * from host_;
+
+# 2023-09-19 13:47:20.274006
++select * from mysql_instance_;
+
+# 2023-09-19 13:48:20.893291
++select * from host_;
+
+# 2023-09-19 14:09:44.657536
++select * from proxy_instance_;
+
+# 2023-09-19 14:10:01.705420
++select * from mysql_instance_;
+
+# 2023-09-19 14:10:25.957300
++select * from proxy_instance_;
+
+# 2023-09-19 14:11:39.765216
++select * from host_;
+
+# 2023-09-19 14:11:49.138864
++select * from proxy_instance_;
+
+# 2023-09-19 14:11:57.329086
++select * from host_;
+
+# 2023-09-19 14:14:13.167335
++select * from proxy_instance_;
+
+# 2023-09-19 14:15:25.250059
++select * from host_;
+
+# 2023-09-19 14:15:30.804682
++select * from proxy_instance_;
+
+# 2023-09-19 14:15:34.156501
++select * from host_;
+
+# 2023-09-19 14:15:41.872201
++select * from proxy_instance_;
+
+# 2023-09-19 14:16:13.605029
++select * from host_;
+
+# 2023-09-19 14:16:28.168683
++select * from proxy_instance_;
+
+# 2023-09-19 14:16:34.728551
++select * from host_;
+
+# 2023-09-19 14:16:37.418545
++select * from proxy_instance_;
+
+# 2023-09-19 14:17:25.576716
++select * from host_;
+
+# 2023-09-19 14:17:34.288377
++select * from proxy_instance_;
+
+# 2023-09-19 14:18:23.781399
++select * from host_;
+
+# 2023-09-19 14:20:35.460441
++select * from proxy_instance_;
+
+# 2023-09-19 14:29:22.069925
++select * from mysql_instance_;
+
+# 2023-09-19 14:31:38.580600
++select * from unit_;
+
+# 2023-09-19 14:32:01.940539
++select * from operator;
+
+# 2023-09-19 14:32:15.945419
++select * from crontab_;
+
+# 2023-09-19 15:42:57.693219
++select * from aio_data_nodes;
+
+# 2023-09-19 15:44:36.368297
++select * from unit_;
+
+# 2023-09-19 15:44:42.780227
++select * from crontab_;
+
+# 2023-09-19 15:58:51.482618
++ALTER SYSTEM SET backup_dest='oss://backup?host=192.168.30.126&access_id=bNkZp8WKDMziff8x6hOz&access_key=OvygWaWLqxDBmCeMth3PovD12p4DZL1I5eSLNGD3';
+
+# 2023-09-19 15:58:58.124236
++ls
+
+# 2023-09-19 15:59:21.732430
++alter system archivelog;
+
+# 2023-09-19 15:59:33.612051
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 15:59:39.104645
++use oceanbase;
+
+# 2023-09-19 15:59:40.529284
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 16:00:13.402623
++alter system backup database;
+
+# 2023-09-19 16:00:17.652054
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 16:01:59.276246
++alter system backup database;
+
+# 2023-09-19 16:02:46.924517
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 16:02:50.048468
++use oceanbase;
+
+# 2023-09-19 16:02:51.156470
++j
+
+# 2023-09-19 16:02:53.095984
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-19 16:02:58.016084
++alter system backup database;
+
+# 2023-09-19 16:04:37.223745
++ALTER SYSTEM BACKUP BACKUPSET ALL;
+
+# 2023-09-19 16:05:20.371673
++SHOW PARAMETERS LIKE 'backup_dest_option'\G
+
+# 2023-09-19 16:06:37.558536
++ALTER SYSTEM BACKUP BACKUPSET ALL;
+
+# 2023-09-19 16:06:40.872468
++SHOW PARAMETERS LIKE 'backup_dest_option'\G
+
+# 2023-09-20 11:26:10.511276
++use aio;
+
+# 2023-09-20 11:26:18.671936
++select * from pro
+
+# 2023-09-20 11:26:21.966622
++select * from proxy_instance_;
+
+# 2023-09-20 13:41:33.758234
++select * from reload_template;
+
+# 2023-09-20 19:26:00.306641
++select * from resource_;
+
+# 2023-09-20 19:26:54.395105
++select * from entry_;
+
+# 2023-09-20 19:27:05.863218
++select * from unit_;
+
+# 2023-09-20 19:27:21.595494
++select * from instance_;
+
+# 2023-09-20 19:27:24.730809
++select * from mysql_instance_;
+
+# 2023-09-20 19:27:56.910390
++select * from proxy_instance_;
+
+# 2023-09-21 14:37:23.236184
++select * from resource_;
+
+# 2023-09-21 14:37:25.908070
++select * from crontab_;
+
+# 2023-09-21 14:38:11.999709
++select * from resource_;
+
+# 2023-09-21 15:31:58.748219
++select * from mysql_instance_;
+
+# 2023-09-21 15:32:00.696164
++select * from proxy_instance_;
+
+# 2023-09-21 15:33:00.167934
++select * from mysql_instance_;
+
+# 2023-09-21 15:33:12.735609
++select * from entry_;
+
+# 2023-09-21 15:33:17.310861
++select * from resource_;
+
+# 2023-09-21 15:33:21.075043
++select * from unit_;
+
+# 2023-09-21 16:17:44.451598
++select * from resource_;
+
+# 2023-09-21 16:17:59.555392
++select * from aio_data_nodes;
+
+# 2023-09-21 17:27:39.660993
++select * from policy;
+
+# 2023-09-21 17:43:36.040279
++show create table reload;
+
+# 2023-09-21 17:43:48.163889
++ALTER TABLE reload DROP INDEX
+
+# 2023-09-21 17:43:50.790745
++show create table reload;
+
+# 2023-09-21 17:43:58.671352
++ALTER TABLE reload DROP INDEX reload_ibfk_1;
+
+# 2023-09-21 17:44:12.431623
++show create table reload;
+
+# 2023-09-21 17:44:31.171794
++ALTER TABLE reload DROP INDEX host_id;
+
+# 2023-09-21 17:44:39.428288
++ALTER TABLE reload DROP INDEX "reload_ibfk_1";
+
+# 2023-09-21 17:44:46.599866
++ALTER TABLE reload DROP INDEX 'reload_ibfk_1';
+
+# 2023-09-21 17:44:51.704273
++show create table reload;
+
+# 2023-09-21 17:47:51.728575
++ALTER TABLE reload DROP FOREIGN KEY 'reload_ibfk_1';
+
+# 2023-09-21 17:47:56.492114
++ALTER TABLE reload DROP FOREIGN KEY reload_ibfk_1;
+
+# 2023-09-21 17:48:15.771777
++show create table reload;
+
+# 2023-09-21 17:48:21.027729
++ALTER TABLE reload DROP FOREIGN KEY reload_ibfk_2;
+
+# 2023-09-21 17:48:24.632106
++ALTER TABLE reload DROP FOREIGN KEY reload_ibfk_3;
+
+# 2023-09-21 17:48:27.789031
++ALTER TABLE reload DROP FOREIGN KEY reload_ibfk_4;
+
+# 2023-09-21 18:23:56.698492
++select * from aio_total_task;
+
+# 2023-09-21 18:28:50.251255
++select * from reload
+
+# 2023-09-21 18:28:55.631092
++select * from host_;
+
+# 2023-09-21 18:35:40.143400
++select * from reload
+
+# 2023-09-22 10:26:24.092493
++use oceanbase;
+
+# 2023-09-22 10:26:39.376031
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 10:27:59.360766
++ALTER SYSTEM SET backup_dest='oss://ob-192168110147/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 10:29:30.795446
++alter system archivelog;
+
+# 2023-09-22 10:30:05.132254
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 10:30:29.149905
++alter system archivelog;
+
+# 2023-09-22 10:30:50.043775
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-22 10:30:53.883833
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 10:30:57.411701
++ALTER SYSTEM SET backup_dest='oss://ob-192168110147/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 10:31:00.967686
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 10:31:05.407744
++alter system archivelog;
+
+# 2023-09-22 10:32:14.547268
++alter system noarchivelog;
+
+# 2023-09-22 10:33:25.047440
++ALTER SYSTEM SET backup_dest='oss://ob-192168110147?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 10:33:38.283015
++alter system archivelog;
+
+# 2023-09-22 10:47:44.414718
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 10:56:03.688836
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 10:56:30.711762
++alter system archivelog;
+
+# 2023-09-22 10:56:38.263805
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 11:04:51.444143
++alter system backup database;
+
+# 2023-09-22 11:24:50.677984
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 11:37:52.281677
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 12:02:21.499914
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:24:41.763918
++alter system backup database;
+
+# 2023-09-22 12:26:05.932595
++ALTER SYSTEM SET backup_dest='oss://backuptest?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:26:12.651790
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 12:26:33.747425
++ALTER SYSTEM SET backup_dest='oss://backuptest1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:26:40.540124
++ALTER SYSTEM SET backup_dest='oss://backuptest?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:28:01.727555
++ALTER SYSTEM SET backup_dest='oss://backuptest/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:28:12.723482
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:28:16.176007
++use oceanbase;
+
+# 2023-09-22 12:28:17.631878
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:28:28.562892
++alter system noarchivelog;
+
+# 2023-09-22 12:28:35.687794
++ALTER SYSTEM SET backup_dest='oss://backuptest/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:28:40.443438
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:29:06.619642
++alter system noarchivelog;
+
+# 2023-09-22 12:29:09.483292
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:32:22.056284
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
++
+
+# 2023-09-22 12:32:27.288644
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:32:44.524038
++ALTER SYSTEM SET backup_dest='oss://backuptest/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:32:48.611324
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:33:05.035514
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 12:33:14.848063
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:33:18.428386
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 12:33:26.155555
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:34:59.007885
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:36:48.531941
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:36:54.935755
++alter system noarchivelog;
+
+# 2023-09-22 12:37:02.047465
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:37:45.768656
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:37:49.220234
++DROP TENANT tenant_name
+
+# 2023-09-22 12:37:52.007814
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:37:58.803225
++DROP TENANT woodyrent_1692670586;
+
+# 2023-09-22 12:38:04.652060
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:38:11.372501
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:38:23.880272
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:39:01.452090
++DROP TENANT woodyrent_1692670586 FORCE;
+
+# 2023-09-22 12:39:05.711054
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:39:07.903937
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:39:30.955630
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4', ZONE_LIST=('zone1','zone2','zone3'), PRIMARY_ZONE='zone1;zone2,zone3', RESOURCE_POOL_LIST=('pool1');
+
+# 2023-09-22 12:39:37.364164
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:39:51.667322
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4';
+
+# 2023-09-22 12:40:32.872267
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-09-22 12:40:53.711933
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4', ZONE_LIST=('zone1','zone2','zone3'), PRIMARY_ZONE='zone1;zone2,zone3', RESOURCE_POOL_LIST=('ob_unit03');
+
+# 2023-09-22 12:40:58.112214
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-09-22 12:41:11.552925
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4', ZONE_LIST=('zone1','zone2','zone3'), PRIMARY_ZONE='zone1;zone2,zone3', RESOURCE_POOL_LIST=('1004');
+
+# 2023-09-22 12:41:26.527610
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-09-22 12:45:32.128186
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 12:45:39.879942
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:46:06.115666
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 12:46:19.484475
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4', ZONE_LIST=('zone1','zone2','zone3'), PRIMARY_ZONE='zone1;zone2,zone3', RESOURCE_POOL_LIST=('pool_wdg_t_1_zone2_eex');
+
+# 2023-09-22 12:46:23.907848
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 12:46:48.356174
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4',  RESOURCE_POOL_LIST=('pool_wdg_t_1_zone2_eex');
+
+# 2023-09-22 12:47:12.371806
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 12:47:23.427801
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:47:36.266949
++ALTER SYSTEM SET backup_dest='oss://backuptest/test1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 12:47:51.283690
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:48:25.511570
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:49:29.507732
++CREATE RESOURCE POOL pool1 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone1','zone2','zone3');
+
+# 2023-09-22 12:49:38.908286
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-09-22 12:50:14.475514
++CREATE RESOURCE POOL pool1 UNIT='config_wdg_t_1_zone3_aio_pcr',UNIT_NUM=1,ZONE_LIST=('zone1','zone2','zone3');
+
+# 2023-09-22 12:50:26.340064
++CREATE RESOURCE POOL pool1 UNIT='config_wdg_t_1_zone3_aio_pcr',UNIT_NUM=1,ZONE_LIST=('zone1','zone3');
+
+# 2023-09-22 12:50:57.932203
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 12:51:24.012002
++CREATE TENANT IF NOT EXISTS tenant2 CHARSET='utf8mb4',  RESOURCE_POOL_LIST=('pool1');
+
+# 2023-09-22 12:51:48.560165
++CREATE TENANT IF NOT EXISTS tenant3 CHARSET='utf8mb4',  RESOURCE_POOL_LIST=('pool2');
+
+# 2023-09-22 12:51:54.712228
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 12:52:09.675679
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:52:29.179271
++alter system archivelog;
+
+# 2023-09-22 12:52:32.547864
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 12:56:47.323853
++alter system backup database;
+
+# 2023-09-22 12:57:58.719329
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-09-22 12:58:12.683158
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-09-22 12:58:47.660240
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 13:44:48.481450
++use aio;
+
+# 2023-09-22 13:44:56.384168
++select * from reload
+
+# 2023-09-22 14:29:11.118774
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 17:22:49.414574
++use oceanbase;
+
+# 2023-09-22 17:26:21.476917
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 17:26:45.500731
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
++
+
+# 2023-09-22 17:27:26.857240
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 17:27:31.129727
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 17:27:37.788854
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-09-22 17:34:06.937316
++SELECT * FROM oceanbase.gv$tenant;
+
+# 2023-09-22 17:34:54.197347
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 17:35:26.820582
++ALTER SYSTEM SET backup_dest='oss://backuptest/backup1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 17:35:53.285414
++alter system archivelog;
+
+# 2023-09-22 17:36:00.132956
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 17:40:50.713078
++alter system archivelog;
+
+# 2023-09-22 17:40:57.221276
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-22 18:59:57.357376
++ALTER SYSTEM SET backup_dest='oss://backuptest1?host=192.168.30.126&access_id=root&access_key=123456';
+
+# 2023-09-22 19:00:02.217073
++alter system archivelog;
+
+# 2023-09-22 19:00:06.584931
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-22 19:00:10.320588
++use oceanbase;
+
+# 2023-09-22 19:00:12.200603
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-25 09:20:02.527854
++use aio;
+
+# 2023-09-25 09:20:05.514974
++select * from reload
+
+# 2023-09-25 09:20:16.482827
++select * from resource_;
+
+# 2023-09-25 09:24:49.680839
++select * from mysql_instance_;
+
+# 2023-09-25 09:24:59.929940
++select * from host_;
+
+# 2023-09-25 09:25:53.413989
++select * from mysql_instance_;
+
+# 2023-09-25 10:18:30.667619
++select * from host_;
+
+# 2023-09-25 13:52:05.009311
++select * from crontab_;
+
+# 2023-09-25 13:52:40.461736
++select * from unit_;
+
+# 2023-09-25 13:55:11.174062
++select * from mysql_instance_;
+
+# 2023-09-25 13:56:00.609125
++select * from crontab_backup_unit;
+
+# 2023-09-25 13:58:54.041483
++select * from mysql_instance_;
+
+# 2023-09-25 14:35:10.076845
++select * from proxy_instance_;
+
+# 2023-09-25 15:20:30.739775
++select * from restore_node_record
+
+# 2023-09-25 16:40:20.457137
++select * from unit_;
+
+# 2023-09-25 16:40:51.389065
++update unit_ set type = "goldendb_backup" where 1;
+
+# 2023-09-25 16:40:53.145567
++select * from unit_;
+
+# 2023-09-26 15:52:52.783925
++select * from mysql_instance_;
+
+# 2023-09-27 15:01:27.822176
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-27 15:01:32.329286
++use oceanbase;
+
+# 2023-09-27 15:01:34.025654
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-27 15:01:42.188444
++alter system noarchivelog;
+
+# 2023-09-27 15:01:45.502374
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-27 15:02:58.375715
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-09-27 15:03:08.628178
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-27 15:03:30.197006
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-09-27 15:03:33.215439
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-09-27 15:52:23.315389
++select * from policy;
+
+# 2023-09-27 15:52:35.230117
++select * from policy_job;
+
+# 2023-09-27 15:59:44.438548
++select * from resource_;
+
+# 2023-09-27 15:59:47.674339
++select * from crontab_;
+
+# 2023-09-27 15:59:50.466771
++select * from resource_;
+
+# 2023-09-27 16:00:07.642510
++select * from mysql_instance_;
+
+# 2023-09-27 16:01:17.417809
++select * from host_;
+
+# 2023-09-27 16:01:23.090160
++select * from proxy_instance_;
+
+# 2023-09-27 16:02:54.849701
++select * from host_;
+
+# 2023-09-27 16:03:13.253962
++select * from resource_;
+
+# 2023-09-27 16:04:00.038198
++select * from mysql_instance_;
+
+# 2023-09-27 16:05:07.862135
++select * from proxy_instance_;
+
+# 2023-09-27 16:05:43.062304
++select * from unit_;
+
+# 2023-09-27 16:05:53.538486
++select * from mysql_instance_;
+
+# 2023-09-27 16:06:01.867082
++select * from unit_;
+
+# 2023-09-27 16:08:50.086394
++select * from crontab_;
+
+# 2023-09-27 16:09:12.920284
++select * from proxy_instance_;
+
+# 2023-09-27 16:13:37.893002
++select * from mysql_instance_;
+
+# 2023-09-27 16:13:44.268698
++select * from proxy_instance_;
+
+# 2023-09-27 16:45:55.658253
++select * from aio_data_nodes;
+
+# 2023-09-27 16:51:10.102286
++select * from operator;
+
+# 2023-09-27 16:51:17.522640
++select * from aio_data_nodes;
+
+# 2023-09-27 16:52:11.165855
++update operator set storage_id=1;
+
+# 2023-09-27 16:52:15.021684
++select * from operator;
+
+# 2023-10-07 11:29:13.287854
++show databases;
+
+# 2023-10-07 11:29:16.799070
++use aio;
+
+# 2023-10-07 11:29:20.411604
++show tables;
+
+# 2023-10-07 11:29:54.255025
++select * from aio_total_task;
+
+# 2023-10-07 13:51:08.283004
++select * from crontab_;
+
+# 2023-10-07 14:11:24.262509
++show databases;
+
+# 2023-10-07 14:19:17.822840
++select * from crontab_;
+
+# 2023-10-07 14:19:19.840046
++show databases;
+
+# 2023-10-07 14:20:01.995535
++use aio;
+
+# 2023-10-07 14:20:09.439370
++show tables;
+
+# 2023-10-07 14:43:25.295506
++use aio;
+
+# 2023-10-07 14:43:26.882866
++select * from crontab_;
+
+# 2023-10-07 14:43:34.070822
++select * from resource_;
+
+# 2023-10-07 14:43:36.598548
++select * from crontab_;
+
+# 2023-10-07 14:51:15.515150
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES (goldendb, goldendb_test, tenant, 102, plan_backup, 0, 0, 0, 1048576, {"threads": 4, "enable_global_consistency": false, "generation": 1, "gtm_backup_node_id": 34}, 2023-10-07 14:45:39.684842, 2023-10-07 14:45:39.684864, Asia/Shanghai)
+
+# 2023-10-07 14:52:02.438368
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES (goldendb, goldendb_test, tenant, 102, plan_backup, 0, 0, 0, 1048576, {\\"threads\\": 4, \\"enable_global_consistency\\": false, \\"generation\\": 1, \\"gtm_backup_node_id\\": 34}, 2023-10-07 14:45:39.684842, 2023-10-07 14:45:39.684864, Asia/Shanghai)
+
+# 2023-10-07 14:52:27.611247
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES (goldendb, goldendb_test, tenant, 102, plan_backup, 0, 0, 0, 1048576, {\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}, 2023-10-07 14:45:39.684842, 2023-10-07 14:45:39.684864, Asia/Shanghai)
+
+# 2023-10-07 14:52:51.026772
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES (goldendb, goldendb_test, tenant, 102, plan_backup, 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", 2023-10-07 14:45:39.684842, 2023-10-07 14:45:39.684864, Asia/Shanghai)
+
+# 2023-10-07 14:53:06.751167
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES (goldendb, goldendb_test, tenant, 102, plan_backup, 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", 2023-10-07 14:45:39, 2023-10-07 14:45:39, Asia/Shanghai)
+
+# 2023-10-07 14:54:05.882805
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES ("goldendb", 'goldendb_test", "tenant", 102, "plan_backup", 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", "2023-10-07 14:45:39", "2023-10-07 14:45:39", "Asia/Shanghai")
+
+# 2023-10-07 14:54:23.798860
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES ("goldendb", "goldendb_test", "tenant", 102, "plan_backup", 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", "2023-10-07 14:45:39", "2023-10-07 14:45:39", "Asia/Shanghai")
+
+# 2023-10-07 14:54:33.410997
++select * from crontab_;
+
+# 2023-10-07 14:56:00.478569
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES ("goldendb", "goldendb_test", "tenant", 102, "plan_backup", 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", "2023-10-07 14:45:39", "2023-10-07 14:45:39", "Asia/Shanghai")
+
+# 2023-10-07 14:56:05.622681
++select * from crontab_;
+
+# 2023-10-07 14:56:23.818426
++update crontab_ set id=51 where 1;
+
+# 2023-10-07 14:56:25.302770
++select * from crontab_;
+
+# 2023-10-07 14:56:43.454351
++update crontab_ set full_backup_times=1 where 1;
+
+# 2023-10-07 14:56:45.167451
++select * from crontab_;
+
+# 2023-10-07 14:56:52.426825
++select * from resource_;
+
+# 2023-10-07 14:57:33.875914
++select * from crontab_;
+
+# 2023-10-07 15:08:32.712252
++show databases;
+
+# 2023-10-07 15:09:28.795582
++use aio;
+
+# 2023-10-07 15:09:33.230881
++INSERT INTO crontab_ (db_type, name, crontab_type, resource_id, state, full_backup_times, inc_backup_times, log_backup_times, block_size, attribute, create_time, update_time, time_zone) VALUES ("goldendb", "goldendb_test", "tenant", 102, "plan_backup", 0, 0, 0, 1048576, "{\"threads\": 4, \"enable_global_consistency\": false, \"generation\": 1, \"gtm_backup_node_id\": 34}", "2023-10-07 14:45:39", "2023-10-07 14:45:39", "Asia/Shanghai")
+
+# 2023-10-07 15:09:36.259866
++update crontab_ set full_backup_times=1 where 1;
+
+# 2023-10-07 15:09:49.948418
++update crontab_ set id=51 where 1;
+
+# 2023-10-07 15:12:55.444573
++select * from mysql_instance_;
+
+# 2023-10-07 15:13:01.180665
++select * from snapshot_;
+
+# 2023-10-07 15:13:10.052460
++select * from timeline_;
+
+# 2023-10-07 15:29:12.020764
++select * from snapshot_;
+
+# 2023-10-07 15:31:25.461192
++delete from snapshot_;
+
+# 2023-10-07 15:31:27.814073
++select * from snapshot_;
+
+# 2023-10-08 11:02:10.730761
++use  
+
+# 2023-10-08 11:02:13.721496
++use aio;
+
+# 2023-10-08 11:02:17.186882
++select * from timeline_;
+
+# 2023-10-08 11:02:26.099130
++select * from binlog_;
+
+# 2023-10-08 11:03:23.918327
++select * from operator;
+
+# 2023-10-08 11:03:35.982653
++select * from binlog_;
+
+# 2023-10-08 11:03:53.742453
++select * from binlog_ group by backup_in;
+
+# 2023-10-08 11:03:55.003009
++select * from binlog_;
+
+# 2023-10-08 11:04:23.446466
++select instance_id from binlog_ group by instance_id;
+
+# 2023-10-08 11:12:06.446177
++select * from operator;
+
+# 2023-10-08 11:13:12.969369
++select * from aio_total_task;
+
+# 2023-10-08 14:11:08.876982
++select * from aio_sub_task;
+
+# 2023-10-08 15:34:36.650734
++show databases;
+
+# 2023-10-08 15:34:41.797611
++use aio;
+
+# 2023-10-08 15:34:50.433373
++show tables;
+
+# 2023-10-08 15:35:24.290251
++show create table aio_instance;
+
+# 2023-10-08 15:37:48.545764
++show create table instance;
+
+# 2023-10-09 09:39:28.165407
++use aio;
+
+# 2023-10-09 09:39:32.440370
++create table aio_instance;
+
+# 2023-10-09 09:39:40.509106
++create table resource_;
+
+# 2023-10-09 09:39:48.473319
++create show from resource_;
+
+# 2023-10-09 09:39:59.156597
++show tables;
+
+# 2023-10-09 09:40:03.367791
++select * from resource_;
+
+# 2023-10-09 09:40:22.960352
++show create table resource_;
+
+# 2023-10-09 09:46:00.192510
++show create table unit_;
+
+# 2023-10-09 09:47:49.324527
++show create table instance;
+
+# 2023-10-09 09:47:56.528415
++show create table mysql_instance_;
+
+# 2023-10-09 09:48:30.424334
++select * from resource_;
+
+# 2023-10-09 09:48:33.976303
++select * from mysql_instance_;
+
+# 2023-10-09 09:49:31.277556
++select * from operator;
+
+# 2023-10-09 09:49:39.496686
++show create table operator
+
+# 2023-10-09 09:50:43.949237
++show create table binlog_;
+
+# 2023-10-09 09:51:40.481305
++show create table aio_binlog;
+
+# 2023-10-09 09:51:47.500491
++select * from binlog_;
+
+# 2023-10-09 09:51:49.527780
++show create table aio_binlog;
+
+# 2023-10-09 09:51:55.960528
++show create table snapshot_;
+
+# 2023-10-09 09:53:24.368252
++show create table aio_node
+
+# 2023-10-09 09:54:08.644791
++show create table timeline_;
+
+# 2023-10-09 09:56:00.273299
++show create table aio_total_task
+
+# 2023-10-09 09:56:54.156388
++show create table aio_sub_task;
+
+# 2023-10-09 09:57:46.712998
++select * from timeline_point_;
+
+# 2023-10-09 09:57:54.240901
++show create table timeline_point_;
+
+# 2023-10-09 10:46:30.258144
++show create table crontab_;
+
+# 2023-10-09 10:59:15.217743
++show create table crontab_backup_unit;
+
+# 2023-10-09 11:04:49.204422
++show create table restore_unit_record;
+
+# 2023-10-09 11:08:52.873489
++show create table restore_node_record;
+
+# 2023-10-09 11:15:47.801863
++show create table aio_data_nodes;
+
+# 2023-10-09 13:41:46.699456
++show create table host_;
+
+# 2023-10-09 13:45:54.184689
++select * from resource_;
+
+# 2023-10-09 14:30:31.432570
++select * from snapshot_;
+
+# 2023-10-09 14:39:44.603176
++select * from entry_;
+
+# 2023-10-09 14:39:50.444094
++show create table entry_;
+
+# 2023-10-09 15:25:09.858575
++show create table mysql_instance_;
+
+# 2023-10-09 17:55:56.429565
++select * from crontab_;
+
+# 2023-10-10 09:22:05.341766
++select * from aio_data_nodes
+
+# 2023-10-10 09:41:08.305944
++select * from aio_total_task;
+
+# 2023-10-10 09:42:41.271107
++select * from aio_sub_task
+
+# 2023-10-10 09:43:16.025897
++select * from aio_total_task;
+
+# 2023-10-10 09:45:44.125887
++select * from aio_sub_task
+
+# 2023-10-10 09:53:45.790347
++select * from snapshot_;
+
+# 2023-10-10 09:53:51.488203
++select * from binlog_;
+
+# 2023-10-10 09:53:57.990149
++select * from snapshot_;
+
+# 2023-10-10 09:58:42.266768
++select * from binlog_;
+
+# 2023-10-10 09:59:58.094303
++select * from snapshot_;
+
+# 2023-10-10 10:01:23.369236
++select * from restore_unit_record;
+
+# 2023-10-10 10:02:33.287698
++select * from restore_node_record;
+
+# 2023-10-10 10:14:17.057583
++select * from aio_sub_task
+
+# 2023-10-10 10:50:03.727522
++select * from aio_data_nodes
+
+# 2023-10-10 11:03:58.405724
++select * from snapshot_;
+
+# 2023-10-10 11:06:40.893983
++select * from crontab_;
+
+# 2023-10-10 11:11:08.194080
++update crontab_ set state="plan_backup" where 1;
+
+# 2023-10-10 11:12:28.146146
++select * from snapshot_;
+
+# 2023-10-10 14:53:20.650430
++select * from binlog_;
+
+# 2023-10-10 15:18:35.111738
++select * from restore_unit_record;
+
+# 2023-10-20 10:11:28.019710
++use aio;
+
+# 2023-10-20 10:11:32.970884
++select * from aio_data_nodes
+
+# 2023-10-20 10:11:41.567191
++delete from aio_data_nodes;
+
+# 2023-10-20 10:11:50.487284
++delete from aio_devices;
+
+# 2023-10-20 10:11:52.678809
++delete from aio_data_nodes;
+
+# 2023-10-20 10:12:00.699502
++delete from aio_total_task;
+
+# 2023-10-20 10:12:04.395197
++delete from aio_data_nodes;
+
+# 2023-10-20 16:14:25.438953
++select * from aio_data_nodes
+
+# 2023-10-24 09:38:40.592333
++use aio;
+
+# 2023-10-24 09:38:42.995437
++select * from aio_data_nodes
+
+# 2023-10-24 09:38:48.383467
++select * from aio_devices;
+
+# 2023-10-24 09:38:57.431683
++delete from aio_devices;
+
+# 2023-10-24 09:39:02.219536
++delete from aio_total_task;
+
+# 2023-10-24 09:39:06.361971
++delete from aio_data_nodes;
+
+# 2023-10-24 09:39:12.619612
++delete from snapshot_
+
+# 2023-10-24 09:39:16.776115
++delete from aio_data_nodes;
+
+# 2023-10-24 09:39:43.354837
++delete from crontab_;
+
+# 2023-10-24 09:39:48.834592
++delete from crontab_backup_unit;
+
+# 2023-10-24 09:39:52.318767
++delete from crontab_;
+
+# 2023-10-24 09:39:56.938835
++delete from timeline_point_;
+
+# 2023-10-24 09:40:00.267493
++delete from timeline_;
+
+# 2023-10-24 09:40:02.923572
++delete from crontab_;
+
+# 2023-10-24 09:40:27.642233
++delete from resource_;
+
+# 2023-10-24 15:33:04.790355
++use aio;
+
+# 2023-10-24 15:33:10.145910
++select * from timeline_;
+
+# 2023-10-24 19:00:04.332133
++select * from resource_;
+
+# 2023-10-25 10:40:37.460959
++use aio;
+
+# 2023-10-25 10:40:58.118480
++select * from event;
+
+# 2023-10-25 11:54:07.065846
++select * from resource_;
+
+# 2023-10-25 12:05:43.446416
++use oceanbase;
+
+# 2023-10-25 12:05:47.793982
++show tables;
+
+# 2023-10-25 12:06:07.157588
++select * from __all_zone;
+
+# 2023-10-25 12:17:09.253175
++use oceanbase;
+
+# 2023-10-25 12:17:30.033687
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-10-25 12:17:48.749705
++CREATE RESOURCE UNIT unit1 MAX_CPU 4, MAX_MEMORY '5G', MAX_IOPS 128,MAX_DISK_SIZE '10G', MAX_SESSION_NUM 64, MIN_CPU=4, MIN_MEMORY= '5G', MIN_IOPS=128;
+
+# 2023-10-25 12:17:51.581240
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-10-25 12:18:07.629834
++CREATE RESOURCE UNIT unit1 MAX_CPU 4, MAX_MEMORY '5G', MAX_IOPS 128,MAX_DISK_SIZE '10G', MAX_SESSION_NUM 64, MIN_CPU=4, MIN_MEMORY= '5G', MIN_IOPS=128;
+
+# 2023-10-25 12:18:22.109086
++show tables;
+
+# 2023-10-25 12:19:15.220847
++select * from __all_unit;
+
+# 2023-10-25 12:19:45.622357
++show tables;
+
+# 2023-10-25 12:19:57.397490
++select * from __all_unit_config;
+
+# 2023-10-25 12:20:52.881899
++CREATE RESOURCE POOL pool1 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone1');
+
+# 2023-10-25 12:21:00.245967
++CREATE RESOURCE POOL pool2 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone2');
+
+# 2023-10-25 12:21:35.616832
++SELECT * FROM oceanbase.__all_resource_pool;
+
+# 2023-10-25 12:30:26.222889
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-10-25 15:27:25.801809
++ls
+
+# 2023-10-25 15:27:38.860903
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-10-25 15:27:53.972914
++SELECT * FROM oceanbase.gv$unit;
+
+# 2023-10-25 15:28:08.192490
++show tables;
+
+# 2023-10-25 15:28:21.769001
++SELECT * FROM __all_tenant;
+
+# 2023-10-25 15:29:53.316182
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-10-25 15:29:59.932899
++show tables;
+
+# 2023-10-25 15:30:27.436351
++SELECT * FROM oceanbase.__all_resource_pool;
++
+
+# 2023-10-25 18:01:54.937914
++select * from crontab_;
+
+# 2023-10-25 18:58:22.766828
++use airflow;
+
+# 2023-10-25 18:58:26.482037
++select * from xcom;
+
+# 2023-10-25 19:19:16.016341
++CREATE RESOURCE UNIT config_pool4_xzp MAX_CPU '4.0', MIN_CPU '4.0',MAX_MEMORY '5368709120.0',MIN_IOPS 128,MAX_IOPS 128,MAX_DISK_SIZE '536870912.0', MAX_SESSION_NUM 64;
+
+# 2023-10-25 19:19:21.827912
++show  
+
+# 2023-10-25 19:19:23.879166
++show tables;
+
+# 2023-10-25 19:20:06.463252
++CREATE RESOURCE UNIT config_pool4_xzp MAX_CPU 4.0, MIN_CPU 4.0,MAX_MEMORY 5368709120.0,MIN_IOPS 128,MAX_IOPS 128,MAX_DISK_SIZE 536870912.0, MAX_SESSION_NUM 64;
+
+# 2023-10-25 19:20:26.628055
++CREATE RESOURCE UNIT config_pool4_xzp MAX_CPU 4, MIN_CPU 4,MAX_MEMORY 5368709120,MIN_IOPS 128,MAX_IOPS 128,MAX_DISK_SIZE 536870912, MAX_SESSION_NUM 64;
+
+# 2023-10-26 14:11:55.006030
++SELECT * FROM oceanbase.__all_unit_config;
+
+# 2023-10-26 14:12:29.045841
++show tables;
+
+# 2023-10-26 14:12:50.693415
++select * from __all_resource_pool;
+
+# 2023-10-26 14:14:25.620708
++show tables;
+
+# 2023-10-26 14:14:55.488122
++select * from __all_zone;
+
+# 2023-10-26 14:16:27.945354
++SELECT * FROM gv$unit;
+
+# 2023-10-26 14:17:30.331480
++SELECT * FROM oceanbase.__all_virtual_sys_parameter_stat WHERE name='__easy_memory_limit';
+
+# 2023-10-26 14:20:06.708761
++select * from __all_resource_pool;
+
+# 2023-10-26 14:28:49.926832
++select a.zone,concat(a.svr_ip,':',a.svr_port) observer, cpu_total, cpu_assigned, (cpu_total-cpu_assigned) cpu_free, mem_total/1024/1024/1024 mem_total_gb, mem_assigned/1024/1024/1024 mem_assign_gb, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb 
++from __all_virtual_server_stat a join __all_server b on (a.svr_ip=b.svr_ip and a.svr_port=b.svr_port)
++order by a.zone, a.svr_ip;
+
+# 2023-10-26 14:30:17.448794
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 14:30:54.636022
++select a.zone,concat(a.svr_ip,':',a.svr_port) observer, cpu_total, cpu_assigned, (cpu_total-cpu_assigned) cpu_free, mem_total/1024/1024/1024 mem_total_gb, mem_assigned/1024/1024/1024 mem_assign_gb, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb 
++from __all_virtual_server_stat a join __all_server b on (a.svr_ip=b.svr_ip and a.svr_port=b.svr_port)
++order by a.zone, a.svr_ip;
+
+# 2023-10-26 14:31:47.928675
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_assigned-disk_total)/1024/1024/1024 disk_free from __all_virtual_server_stat;
++
+
+# 2023-10-26 14:32:21.107748
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 14:33:33.709138
++select * from __all_virtual_disk_stat;
+
+# 2023-10-26 14:41:54.838330
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 14:42:13.651305
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 14:45:01.849602
++CREATE RESOURCE UNIT config_pool3_dac MAX_CPU 4.0, MIN_CPU 4.0,MAX_MEMORY 5368709120,MIN_IOPS 128,MAX_IOPS 128,MAX_DISK_SIZE 536870912, MAX_SESSION_NUM 64;
+
+# 2023-10-26 14:45:26.179433
++CREATE RESOURCE UNIT unit1 MAX_CPU 4.0, MIN_CPU 4.0,MAX_MEMORY 5368709120,MIN_IOPS 128,MAX_IOPS 128,MAX_DISK_SIZE 536870912, MAX_SESSION_NUM 64;
+
+# 2023-10-26 14:45:45.743675
++select * from __all_unit_config;
+
+# 2023-10-26 14:46:26.111823
++CREATE RESOURCE POOL pool_pool3_gzz UNIT config_pool3_dac, UNIT_NUM 1, ZONE_LIST ('zone2');
+
+# 2023-10-26 14:46:39.952107
++CREATE RESOURCE POOL pool_pool3_gzz UNIT config_pool3_dac, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 14:46:42.359439
++CREATE RESOURCE POOL pool_pool3_gzz UNIT config_pool3_dac, UNIT_NUM 1, ZONE_LIST ('zone3');
+
+# 2023-10-26 14:46:50.399678
++select * from __all_unit_config;
+
+# 2023-10-26 14:47:49.209425
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_assigned-disk_total)/1024/1024/1024 disk_free from __all_virtual_server_stat;
++
+
+# 2023-10-26 14:49:22.468947
++select zone_name, (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_assigned-disk_total)/1024/1024/1024 disk_free from __all_virtual_server_stat;
++
+
+# 2023-10-26 14:49:41.307748
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 14:49:53.247611
++select zone, (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_assigned-disk_total)/1024/1024/1024 disk_free from __all_virtual_server_stat;
++
+
+# 2023-10-26 15:39:59.443331
++select * from __all_unit_config;
+
+# 2023-10-26 15:41:12.208798
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:41:25.727974
++select * from __all_unit_config;
+
+# 2023-10-26 15:42:15.588458
++select sum(max_disk_size) from __all_unit_config;
+
+# 2023-10-26 15:42:27.671647
++select sum(max_disk_size)/ 1024/1024/1024 from __all_unit_config;
+
+# 2023-10-26 15:42:40.176861
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:42:59.488089
++select sum(disk_total) from __all_virtual_server_stat;
+
+# 2023-10-26 15:43:09.568164
++select sum(disk_total)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 15:44:54.172678
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:45:08.011903
++select sum(disk_assigned)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 15:45:14.863318
++select sum(disk_total)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 15:45:21.092405
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:45:44.440847
++select sum(max_disk_size)/ 1024/1024/1024 from __all_unit_config;
+
+# 2023-10-26 15:45:51.212352
++select * from __all_unit_config;
+
+# 2023-10-26 15:49:09.520523
++show tables;
+
+# 2023-10-26 15:49:40.529485
++select * from __all_tenant;
+
+# 2023-10-26 15:50:25.007527
++select * from __all_resource_pool;
+
+# 2023-10-26 15:51:32.584595
++select * from __all_tenant;
+
+# 2023-10-26 15:51:51.248099
++select * from __all_unit_config;
+
+# 2023-10-26 15:53:04.248663
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:57:50.022458
++CREATE RESOURCE POOL pool_pool4_gzz UNIT sys_unit_config, UNIT_NUM 1, ZONE_LIST ('zone2');
+
+# 2023-10-26 15:58:07.852822
++CREATE RESOURCE POOL pool_pool4_gzz UNIT sys_unit_config, UNIT_NUM 1, ZONE_LIST ('zone3');
+
+# 2023-10-26 15:58:10.057433
++CREATE RESOURCE POOL pool_pool4_gzz UNIT sys_unit_config, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 15:58:23.273375
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 15:58:37.357541
++select * from __all_resource_pool;
+
+# 2023-10-26 15:58:50.501917
++select * from __all_unit_config;
+
+# 2023-10-26 15:59:30.768787
++select sum(disk_total)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 15:59:41.126177
++select sum(disk_assigned)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 16:00:20.497789
++select * from __all_unit_config;
+
+# 2023-10-26 16:03:36.282359
++alter resource unit sys_unit_config max_disk_size=220902004736;
+
+# 2023-10-26 16:03:42.895164
++select * from __all_unit_config;
+
+# 2023-10-26 16:03:51.935664
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 16:04:10.687300
++select sum(disk_assigned)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 16:08:45.073918
++select * from __all_unit_config;
+
+# 2023-10-26 16:09:03.822349
++CREATE RESOURCE POOL pool_pool4_gzz UNIT unit1, UNIT_NUM 1, ZONE_LIST ('zone3');
+
+# 2023-10-26 16:09:09.090755
++CREATE RESOURCE POOL pool_pool4_gzz UNIT unit1, UNIT_NUM 1, ZONE_LIST ('zone2');
+
+# 2023-10-26 16:09:11.474665
++CREATE RESOURCE POOL pool_pool4_gzz UNIT unit1, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 16:09:17.767083
++select sum(disk_assigned)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 16:10:01.226013
++select sum(disk_total)/1024/1024/1024 from __all_virtual_server_stat;
+
+# 2023-10-26 16:10:53.076160
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 16:11:07.106306
++select * from __all_unit_config;
+
+# 2023-10-26 16:11:43.090318
++CREATE RESOURCE POOL pool_gzz UNIT config_pool4_xzp, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 16:12:10.254572
++select * from __all_zone;
+
+# 2023-10-26 16:12:54.243000
++select * from __all_unit_config;
+
+# 2023-10-26 16:13:09.206432
++select * from __all_resource_pool;
+
+# 2023-10-26 16:14:10.721156
++select * from __all_zone;
+
+# 2023-10-26 16:14:25.741875
++select * from gv@unit;
+
+# 2023-10-26 16:14:34.292069
++show tables;
+
+# 2023-10-26 16:15:05.257304
++select * from gv$unit;
+
+# 2023-10-26 16:17:00.260007
++select (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 16:17:53.640829
++select zone, (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 16:19:54.368735
++select * from gv$unit;
+
+# 2023-10-26 16:23:53.048424
++CREATE RESOURCE POOL pool_gzz UNIT config_pool3_pyq, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 16:26:11.452977
++alter resource unit config_pool4_pyq max_cpu=3.0;
+
+# 2023-10-26 16:26:28.624421
++alter resource unit config_pool3_pyq max_cpu=3.0;
+
+# 2023-10-26 16:26:49.285458
++alter resource unit config_pool3_pyq max_cpu=3.0, min_cpu=1.0;
+
+# 2023-10-26 16:27:05.188729
++select * from __all_unit_config;
+
+# 2023-10-26 16:27:19.593013
++CREATE RESOURCE POOL pool_gzz UNIT config_pool3_pyq, UNIT_NUM 1, ZONE_LIST ('zone1');
+
+# 2023-10-26 16:27:40.993688
++select zone, (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-26 16:59:04.210730
++select * from __all_zone;
+
+# 2023-10-26 17:00:48.768796
++select * from oceanbase.__all_server;
++
+
+# 2023-10-26 17:03:22.448843
++select * from gv$unit;
+
+# 2023-10-26 17:05:26.096452
++select * from oceanbase.gv$unit;
+
+# 2023-10-26 17:06:10.940712
++select * from __all_unit_config;
+
+# 2023-10-26 17:06:50.877221
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 17:07:33.633405
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-26 18:41:57.087735
++select * from __all_unit_config;
+
+# 2023-10-26 18:45:21.523752
++select * from __all_virtual_server_stat;
+
+# 2023-10-26 18:46:24.804457
++select * from __all_unit_config;
+
+# 2023-10-26 18:46:42.883822
++select * from gv$unit;
+
+# 2023-10-27 09:09:48.062063
++select * from __all_unit_config;
+
+# 2023-10-27 09:10:01.985455
++select * from __all_unit_config;
+
+# 2023-10-27 09:10:36.158503
++select * from __all_unit_config\G
+
+# 2023-10-27 09:11:33.813414
++alter resource unit config_pool3_pyq max_disk_size=320902004736;
+
+# 2023-10-27 19:10:15.827485
++select * from __all_unit_config\G
+
+# 2023-10-27 19:10:18.525542
++select * from __all_unit_config;
+
+# 2023-10-27 19:10:30.429213
++select zone, (cpu_total-cpu_assigned) cpu_free, (mem_total-mem_assigned)/1024/1024/1024 mem_free_gb, (disk_total-disk_assigned)/1024/1024/1024 disk_free from __all_virtual_server_stat;
+
+# 2023-10-27 19:10:51.921185
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-27 19:11:01.653412
++select * from oceanbase.gv$unit;
+
+# 2023-10-27 19:11:27.673444
++select sum(max_memory) from oceanbase.gv$unit;
+
+# 2023-10-27 19:12:32.573631
++select * from __all_zone;
+
+# 2023-10-27 19:12:43.729127
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-27 19:12:51.621454
++select * from oceanbase.gv$unit;
+
+# 2023-10-27 19:13:32.193003
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-27 19:13:53.329727
++select sum(mem_total) from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-27 19:28:12.955753
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-30 11:08:41.958200
++select sum(mem_total) from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-30 11:08:47.513667
++select * from oceanbase.__all_virtual_server_stat;
+
+# 2023-10-30 11:19:54.320498
++select * from oceanbase.gv$unit;
+
+# 2023-10-30 11:20:45.432937
++select * from __all_tenant;
+
+# 2023-10-30 11:27:39.809485
++select * from backup_unit_;
+
+# 2023-10-30 11:27:46.944905
++use aio;
+
+# 2023-10-30 11:27:48.025458
++select * from backup_unit_;
+
+# 2023-10-30 11:38:55.453700
++select * from resource_;
+
+# 2023-10-30 14:11:04.822341
++DROP TENANT t1 FORCE;
+
+# 2023-10-30 14:11:07.499364
++select * from __all_tenant;
+
+# 2023-10-30 14:11:18.682057
++DROP TENANT tenant1_1698635669 FORCE;
+
+# 2023-10-30 14:11:24.418630
++DROP TENANT tenant2_1698635669 FORCE;
+
+# 2023-10-30 14:11:56.142183
++SELECT * FROM oceanbase.__all_resource_pool;
++
+
+# 2023-10-30 14:12:08.230771
++DROP RESOURCE POOL pool_name;
+
+# 2023-10-30 14:12:12.007868
++SELECT * FROM oceanbase.__all_resource_pool;
+
+# 2023-10-30 14:12:40.839493
++DROP RESOURCE POOL pool_gzz;
+
+# 2023-10-30 14:12:44.438984
++SELECT * FROM oceanbase.__all_resource_pool;
+
+# 2023-10-30 14:12:52.959251
++DROP RESOURCE POOL pool_pool3_gzz;
+
+# 2023-10-30 14:12:57.578998
++SELECT * FROM oceanbase.__all_resource_pool;
+
+# 2023-10-30 14:15:23.186603
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
++
+
+# 2023-10-30 14:15:26.074090
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-10-30 14:16:03.163313
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
++
+
+# 2023-10-30 14:16:05.159315
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-10-30 16:06:45.391662
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-10-30 16:06:50.731842
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-10-30 16:06:57.015667
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-10-30 16:07:12.471679
++select * from __all_tenant;
+
+# 2023-10-30 16:07:24.679384
++SELECT * FROM oceanbase.__all_resource_pool;
+
+# 2023-10-31 10:49:59.235006
++delete from aio_data_nodes;
+
+# 2023-10-31 10:50:10.869882
++select * from aio_data_nodes;
+
+# 2023-10-31 10:50:18.350212
++delete from aio_data_nodes where id=4;
+
+# 2023-10-31 10:50:21.817848
++select * from aio_data_nodes;
+
+# 2023-10-31 11:47:47.026601
++select * from policy;
+
+# 2023-10-31 11:48:09.329489
++select * from policy_batch;
+
+# 2023-10-31 11:48:13.740603
++select * from policy_job;
+
+# 2023-11-01 10:18:49.950271
++use oceanbase;
+
+# 2023-11-01 10:18:54.513435
++select * from __all_tenant;
+
+# 2023-11-01 10:20:02.606284
++show tables;
+
+# 2023-11-01 10:20:26.930795
++select * from __all_resource_pool;
+
+# 2023-11-01 10:20:49.198646
++select * from __all_resource_unit;
+
+# 2023-11-01 10:20:53.318204
++select * from __all_unit;
+
+# 2023-11-01 10:21:24.985950
++select * from __all_unit_config;
+
+# 2023-11-01 10:21:46.136983
++CREATE RESOURCE UNIT unit1 MAX_CPU 4, MAX_MEMORY '5G', MAX_IOPS 128,MAX_DISK_SIZE '10G', MAX_SESSION_NUM 64, MIN_CPU=4, MIN_MEMORY= '5G', MIN_IOPS=128;
+
+# 2023-11-01 10:21:47.385523
++select * from __all_unit_config;
+
+# 2023-11-01 10:22:28.689506
++CREATE RESOURCE POOL pool1 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone1','zone3');
+
+# 2023-11-01 10:22:39.013366
++CREATE RESOURCE POOL pool2 UNIT='unit2',UNIT_NUM=1,ZONE_LIST=('zone1','zone3');
+
+# 2023-11-01 10:22:44.989666
++CREATE RESOURCE POOL pool2 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone1','zone3');
+
+# 2023-11-01 10:22:52.296886
++CREATE RESOURCE POOL pool2 UNIT='unit1',UNIT_NUM=1,ZONE_LIST=('zone2');
+
+# 2023-11-01 10:23:30.586392
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4'  RESOURCE_POOL_LIST=('pool1');
+
+# 2023-11-01 10:23:42.783617
++CREATE TENANT IF NOT EXISTS tenant1 CHARSET='utf8mb4',  RESOURCE_POOL_LIST=('pool1');
+
+# 2023-11-01 10:23:52.975552
++CREATE TENANT IF NOT EXISTS tenant2 CHARSET='utf8mb4',  RESOURCE_POOL_LIST=('pool2');
+
+# 2023-11-01 10:23:58.799528
++show tables;
+
+# 2023-11-01 10:24:04.755462
++show databases;
+
+# 2023-11-01 10:24:14.078166
++use test;
+
+# 2023-11-01 10:24:22.526372
++show tables;
+
+# 2023-11-01 10:24:31.054941
++use oceanbase;
+
+# 2023-11-01 11:53:27.406335
++SHOW PARAMETERS LIKE 'backup_dest'\G
++
+
+# 2023-11-01 11:53:30.509855
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-01 11:55:24.546221
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-01 12:27:34.669310
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-01 12:27:38.220672
++alter system archivelog;
+
+# 2023-11-01 12:30:07.969304
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
++
+
+# 2023-11-01 12:30:11.153125
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-01 14:10:57.641086
++alter system noarchivelog;
+
+# 2023-11-01 14:11:00.388920
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-01 14:11:02.741453
++alter system noarchivelog;
+
+# 2023-11-01 14:11:05.680699
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-01 14:37:21.363971
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-01 14:37:31.291444
++alter system archivelog;
+
+# 2023-11-01 14:37:38.262898
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-01 14:42:01.342983
++alter system backup database;
+
+# 2023-11-01 14:42:05.839344
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-01 14:42:27.395166
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-01 14:43:12.279211
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-01 14:43:29.495038
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-01 14:52:03.787471
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-01 14:52:05.904072
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-01 14:53:23.763913
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-01 14:53:37.623865
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-01 15:26:04.224530
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-01 15:26:08.201331
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-01 15:39:53.627831
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-01 15:40:05.995475
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-01 15:40:18.930115
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-01 16:26:02.495781
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-01 16:26:06.923705
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-01 16:30:03.543621
++alter system archivelog;
+
+# 2023-11-01 16:30:14.703327
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-01 16:34:40.315133
++alter system backup database;
+
+# 2023-11-01 16:34:54.015598
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-01 16:34:58.887105
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-01 18:01:05.684304
++use oceanbase;
+
+# 2023-11-01 18:01:07.195831
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-01 18:01:19.752697
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-02 12:17:05.348038
++use oceanbase;
+
+# 2023-11-02 12:17:08.991461
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 12:17:14.798844
++SELECT * FROM CDB_OB_BACKUP_BACKUPSET_JOB;
+
+# 2023-11-02 12:17:20.359397
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-02 12:19:29.922853
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-02 12:19:42.327031
++alter system archivelog;
+
+# 2023-11-02 12:19:52.498219
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 12:21:39.987529
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-02 12:23:50.927438
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-02 12:23:59.119357
++alter system archivelog;
+
+# 2023-11-02 12:24:04.795383
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 12:32:28.579408
++alter system backup database;
+
+# 2023-11-02 12:32:37.098782
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 13:39:05.150019
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-02 13:43:56.901020
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 13:44:04.469112
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 13:44:07.109683
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 13:44:09.869703
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 13:44:13.121350
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-02 13:46:51.548941
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 13:46:54.453443
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 13:52:21.287967
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-02 13:52:40.183061
++alter system archivelog;
+
+# 2023-11-02 13:54:19.634653
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 13:56:31.599701
++ALTER SYSTEM CANCEL ALL BACKUP FORCE;
+
+# 2023-11-02 13:56:36.223401
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 13:56:45.903209
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 13:56:49.215587
++alter system archivelog;
+
+# 2023-11-02 13:57:34.467374
++ALTER SYSTEM SET backup_dest='oss://wdg1?host=192.168.78.212&access_id=123&access_key=123';
+
+# 2023-11-02 13:57:38.067400
++alter system archivelog;
+
+# 2023-11-02 13:58:41.095195
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 14:07:05.559671
++alter system backup database;
+
+# 2023-11-02 14:07:12.375368
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 14:10:35.044029
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
++
+
+# 2023-11-02 14:28:53.442996
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-02 14:30:40.316209
++alter system backup database;
+
+# 2023-11-02 14:30:47.065321
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-02 14:31:47.542185
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 14:31:52.626040
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-02 14:32:24.196872
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 14:32:40.883020
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-02 14:33:56.796396
++SELECT * FROM oceanbase.__all_resource_pool;
++
+
+# 2023-11-02 14:36:06.760036
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 14:36:09.867187
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-02 14:36:12.842476
++select * from oceanbase.__all_server;
+
+# 2023-11-02 14:36:28.671509
++SELECT * FROM CDB_OB_BACKUP_SET_DETAILS;
+
+# 2023-11-02 14:40:20.343482
++SELECT * FROM CDB_OB_BACKUP_PROGRESS;
+
+# 2023-11-02 14:40:30.471594
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 14:41:47.166920
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-11-02 14:43:39.195461
++SHOW PARAMETERS;
+
+# 2023-11-02 14:47:48.851412
++SHOW PARAMETERS LIKE 'backup_cluster_id'\G
+
+# 2023-11-02 14:47:52.187553
++SHOW PARAMETERS LIKE 'backup_cluster'\G
+
+# 2023-11-02 14:47:56.770741
++SHOW PARAMETERS LIKE 'cluster'\G
+
+# 2023-11-02 14:48:56.683451
++select * from v$ob_cluster;
+
+# 2023-11-02 14:50:20.911118
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-02 14:50:56.267273
++alter system noarchivelog;
+
+# 2023-11-02 14:51:02.818712
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-02 14:51:08.567211
++SELECT * FROM CDB_OB_BACKUP_ARCHIVELOG;
+
+# 2023-11-02 14:51:33.879255
++SHOW PARAMETERS LIKE 'backup_dest'\G
+
+# 2023-11-02 14:51:52.894329
++select * from __all_tenant;
+
+# 2023-11-02 14:51:57.787532
++ALTER SYSTEM RESTORE tenant01_1693208031 FROM tenant1 at "oss://wdg1?host=192.168.78.212&access_id=123&access_key=123" UNTIL "2023-11-02 14:30:43" WITH "backup_cluster_name=wdg80140141142&backup_cluster_id=1675402848&pool_list=pool_2222_sgd";
+
+# 2023-11-02 14:52:13.371455
++select * from __all_tenant;
+
+# 2023-11-02 14:52:16.099861
++use oceanbase;
+
+# 2023-11-02 14:52:18.231428
++select * from __all_tenant;
+
+# 2023-11-02 14:52:37.911693
++ALTER SYSTEM RESTORE tenant01_1693208031 FROM tenant1 at "oss://wdg1?host=192.168.78.212&access_id=123&access_key=123" UNTIL "2023-11-02 14:30:43" WITH "backup_cluster_name=wdg80140141142&backup_cluster_id=1675402848&pool_list=pool_2222_sgd";
+
+# 2023-11-02 14:54:48.491762
++ALTER SYSTEM SET restore_concurrency = 10;
+
+# 2023-11-02 14:54:51.883177
++ALTER SYSTEM RESTORE tenant01_1693208031 FROM tenant1 at "oss://wdg1?host=192.168.78.212&access_id=123&access_key=123" UNTIL "2023-11-02 14:30:43" WITH "backup_cluster_name=wdg80140141142&backup_cluster_id=1675402848&pool_list=pool_2222_sgd";
+
+# 2023-11-02 14:55:08.443411
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-11-02 14:55:20.246645
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
++
+
+# 2023-11-02 14:55:23.599420
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-11-02 14:56:46.895047
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-11-02 14:56:48.715530
++SELECT * FROM oceanbase.CDB_OB_RESTORE_PROGRESS;
+
+# 2023-11-02 14:57:38.306943
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-11-02 14:58:19.203381
++select * from __all_tenant;
+
+# 2023-11-02 15:19:44.219940
++SELECT * FROM oceanbase.CDB_OB_RESTORE_HISTORY;
+
+# 2023-11-06 17:17:01.261659
++show tables;
+
+# 2023-11-06 17:17:03.181251
++show databases;
+
+# 2023-11-06 17:17:28.641667
++create database if not exists test DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 2023-11-06 17:17:32.989209
++show databases;
+
+# 2023-11-06 17:17:44.013538
++SHOW VARIABLES LIKE 'auto_inc%';
+
+# 2023-11-06 17:19:08.845544
++use test;
+
+# 2023-11-06 17:22:36.877056
++CREATE TABLE `user` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++);
++
+
+# 2023-11-06 17:22:45.701615
++select * from `user`
+
+# 2023-11-06 17:22:58.333172
++CREATE TABLE `user1` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++);
+
+# 2023-11-06 17:23:10.701235
++insert into user values(10, "foo");
+
+# 2023-11-06 17:23:14.637369
++insert into user values(0, 10, "foo");
+
+# 2023-11-06 17:23:16.469284
++select * from `user`
+
+# 2023-11-06 17:23:24.941100
++insert into user values(0, 10, "foo");
+
+# 2023-11-06 17:23:27.613299
++select * from `user`
+
+# 2023-11-06 17:23:40.377042
++insert into user1 values(1, 10, "foo");
+
+# 2023-11-06 17:23:42.440189
++select * from `user`
+
+# 2023-11-06 17:23:44.789294
++select * from `user1`
+
+# 2023-11-06 17:24:11.670149
++SET @@auto_increment_increment=2;
+
+# 2023-11-06 17:24:40.037181
++insert into user (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:24:42.541112
++select * from `user`
+
+# 2023-11-06 17:25:05.705101
++SHOW VARIABLES LIKE 'auto_inc%';
+
+# 2023-11-06 17:25:11.521288
++insert into user (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:25:12.557186
++select * from `user`
+
+# 2023-11-06 17:25:20.313758
++insert into user (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:25:21.901499
++select * from `user`
+
+# 2023-11-06 17:25:33.165904
++insert into user1 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:25:35.117088
++select * from `user1`
+
+# 2023-11-06 17:25:47.897982
++SHOW VARIABLES LIKE 'auto_inc%';
+
+# 2023-11-06 17:30:27.083028
++CREATE TABLE `user1` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2;
+
+# 2023-11-06 17:30:35.993306
++SHOW VARIABLES LIKE 'auto_inc%';
+
+# 2023-11-06 17:30:48.669526
++CREATE TABLE `user1` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2 offset=1;
+
+# 2023-11-06 17:31:57.008652
++CREATE TABLE `user1` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2;
+
+# 2023-11-06 17:31:59.468710
++use test;
+
+# 2023-11-06 17:33:50.548936
++CREATE TABLE `user1` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2;
+
+# 2023-11-06 17:33:57.883197
++CREATE TABLE `user2` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2;
+
+# 2023-11-06 17:34:07.769475
++CREATE TABLE `user3` (
++`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
++`score` int(10) unsigned NOT NULL,
++`name` varbinary(255) NOT NULL,
++PRIMARY KEY (`id`)
++) auto_increment=2;
+
+# 2023-11-06 17:34:15.008020
++insert into user2 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:34:17.136874
++select * from `user2`
+
+# 2023-11-06 17:34:34.136104
++insert into user2 (id, score, `name`) values(1, 10000, "hole5");
+
+# 2023-11-06 17:34:35.629155
++select * from `user2`
+
+# 2023-11-06 17:34:41.808588
++insert into user2 (id, score, `name`) values(3, 10000, "hole5");
+
+# 2023-11-06 17:34:46.547039
++select * from `user2`
+
+# 2023-11-06 17:34:49.685285
++insert into user2 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:34:50.649300
++select * from `user2`
+
+# 2023-11-06 17:34:55.713339
++insert into user2 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:34:57.981250
++select * from `user2`
+
+# 2023-11-06 17:35:07.861135
++insert into user2 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:35:10.109530
++select * from `user2`
+
+# 2023-11-06 17:35:24.045134
++insert into user4 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:35:27.705762
++insert into user3 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:35:29.173355
++select * from `user2`
+
+# 2023-11-06 17:35:32.249221
++select * from `user3`
+
+# 2023-11-06 17:35:40.589043
++insert into user3 (score, `name`) values(10000, "hole5");
+
+# 2023-11-06 17:35:41.725561
++select * from `user3`
+
+# 2023-11-06 17:38:46.285600
++CREATE TABLE IF NOT EXISTS `runoob_tbl`(
++   `runoob_id` INT UNSIGNED AUTO_INCREMENT,
++   `runoob_title` VARCHAR(100) NOT NULL,
++   `runoob_author` VARCHAR(40) NOT NULL,
++   `submission_date` DATE,
++   PRIMARY KEY ( `runoob_id` )
++)ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=2;
+
+# 2023-11-06 17:38:57.277069
++CREATE TABLE IF NOT EXISTS `runoob_tbl_2`(
++   `runoob_id` INT UNSIGNED AUTO_INCREMENT,
++   `runoob_title` VARCHAR(100) NOT NULL,
++   `runoob_author` VARCHAR(40) NOT NULL,
++   `submission_date` DATE,
++   PRIMARY KEY ( `runoob_id` )
++)ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=2;
+
+# 2023-11-09 09:40:08.909967
++show databases;
+
+# 2023-11-09 09:43:02.308579
++use aio;
+
+# 2023-11-09 09:43:05.529033
++show tables;
+
+# 2023-11-09 10:59:12.130797
++SHOW VARIABLES LIKE 'log_bin';
+
+# 2023-11-09 11:05:57.190096
++select * from aio_data_nodes;
+
+# 2023-11-09 11:06:03.173119
++select * from aio_node;
+
+# 2023-11-09 11:08:21.085237
++show grants for root;
+
+# 2023-11-09 16:33:53.857382
++select * from aio_data_nodes;
+
+# 2023-11-14 11:51:25.230505
++show databases;
+
+# 2023-11-14 11:54:05.877439
++use airflow;
+
+# 2023-11-14 11:54:07.845169
++show databases;
+
+# 2023-11-14 11:54:24.237239
++show tables;
+
+# 2023-11-14 11:55:51.405460
++show databases;
+
+# 2023-11-14 11:56:14.353414
++use aio;
+
+# 2023-11-14 11:56:16.709598
++show tables;
+
+# 2023-11-14 12:03:05.073717
++drop database aio;
+
+# 2023-11-14 12:03:30.213441
++create database if not exists aio DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# 2023-11-14 12:13:59.640407
++show tables;
+
+# 2023-11-14 12:14:01.337574
++use aio;
+
+# 2023-11-14 12:14:02.751035
++show tables;
+
+# 2023-11-15 10:37:23.116882
++select * from resource_;
+
+# 2023-11-15 10:37:32.344364
++select * from aio_resource;
+
+# 2023-11-15 10:37:40.452332
++select * from resource_;
+
+# 2023-11-15 10:37:47.167899
++select * from unit_;
+
+# 2023-11-15 10:37:58.039696
++select * from backup_unit_;
+
+# 2023-11-15 10:38:23.464629
++select * from backup_instance_;
+
+# 2023-11-15 10:42:46.092624
++select * from sub_crontab
+
+# 2023-11-15 11:46:18.261270
++select * from crontab_;
+
+# 2023-11-15 11:47:28.197549
++select * from sub_crontab
+
+# 2023-11-15 11:47:29.725329
++select * from crontab_;
+
+# 2023-11-15 11:47:31.081159
++select * from sub_crontab
+
+# 2023-11-15 11:47:33.624866
++select * from policy_job;
+
+# 2023-11-15 11:53:59.568330
++select * from timeline_point_
+
+# 2023-11-15 11:54:44.296551
++select * from snapshot_;
+
+# 2023-11-15 14:59:57.472223
++select * from total_task;
+
+# 2023-11-15 15:00:01.704508
++select * from aio_total_task;
+
+# 2023-11-15 15:41:04.779460
++select * from aio_sub_task;
+
+# 2023-11-15 18:07:07.695641
++select * from aio_total_task;
+
+# 2023-11-17 15:24:19.573502
++use aio;
+
+# 2023-11-17 15:24:24.807112
++select * from aio_data_nodes;
+
+# 2023-11-17 16:24:16.947613
++select * from mount_unit;
+
+# 2023-11-17 16:24:31.872086
++select * from resource_;
+
+# 2023-11-17 16:24:37.484298
++select * from aio_resource;
+
+# 2023-11-17 16:46:41.107736
++select * from mount_unit_result;
+
+# 2023-11-17 16:46:53.512574
++delete from mount_unit_result;
+
+# 2023-11-17 16:47:08.908217
++select * from aio_total_task;
+
+# 2023-11-17 16:47:42.164544
++delete from aio_total_task where id =255;
+
+# 2023-11-17 16:47:44.996298
++delete from mount_unit_result;
+
+# 2023-11-17 16:47:57.624538
++select * from mount_result;
+
+# 2023-11-17 16:48:05.980422
++delete from mount_result;
+
+# 2023-11-17 16:48:10.859915
++delete from mount_unit_result;
+
+# 2023-11-17 16:50:01.752529
++select * from aio_data_nodes;
+
+# 2023-11-20 10:26:54.584761
++select * from policy;
+
+# 2023-11-20 10:27:03.328019
++select * from policy_batch
+
+# 2023-11-20 10:27:06.960631
++select * from policy_job
+
+# 2023-11-20 11:14:40.358979
++select * from policy
+
+# 2023-11-20 11:15:27.535972
++select * from policy_job
+
+# 2023-11-20 11:15:40.888499
++select * from policy
+
+# 2023-11-20 11:16:09.760801
++select * from policy_job;
+
+# 2023-11-20 11:16:14.456001
++select * from policy;
+
+# 2023-11-20 11:25:34.088814
++select * from policy_job;
+
+# 2023-11-20 11:33:10.220379
++select * from crontab_;
+
+# 2023-11-20 13:35:00.887431
++select * from policy_job;
+
+# 2023-11-20 14:53:36.608546
++select * from policy;
+
+# 2023-11-20 14:56:04.826818
++select * from policy_job;
+
+# 2023-11-21 09:58:07.343989
++select * from aio_data_nodes;
+
+# 2023-11-21 09:58:14.396069
++select * from aio_data_nodes\G
+
+# 2023-11-22 08:39:14.252074
++select * from aio_total_task;
+
+# 2023-11-22 08:39:52.293050
++select * from total_task;
+
+# 2023-11-22 08:45:02.628996
++select * from aio_total_task;
+
+# 2023-11-22 10:57:06.128387
++select * from aio_volumes;
+
+# 2023-11-22 10:57:09.657016
++select * from snapshot_;
+
+# 2023-11-22 10:57:24.128991
++select * from aio_volumes;
+
+# 2023-11-22 10:57:26.240803
++select * from aio_total_task;
+
+# 2023-11-22 10:57:40.012571
++select * from snapshot_;
+
+# 2023-11-22 10:57:56.468972
++select * from snapshot_ where execution_batch="1700032015909"
+
+# 2023-11-22 10:58:16.956462
++select * from timeline_point_;
+
+# 2023-11-22 12:18:46.112680
++select * from aio_total_task;
+
+# 2023-11-22 15:40:00.784818
++use aio;
+
+# 2023-11-22 15:40:04.055510
++select * from crontab_;
+
+# 2023-11-22 15:40:09.383637
++select * from crontab;
+
+# 2023-11-22 16:09:27.320144
++select * from aio_volumes;
+
+# 2023-11-22 16:10:00.079753
++select * from snapshot_;
+
+# 2023-11-22 16:10:06.876437
++select * from aio_volumes;
+
+# 2023-11-22 16:51:37.252693
++ls
+
+# 2023-11-22 16:51:38.704663
++select * from aio_volumes;
+
+# 2023-11-22 16:59:11.237190
++select * from aio_snapshot;
+
+# 2023-11-22 17:26:27.340055
++select * from resource;
+
+# 2023-11-22 17:26:29.648372
++select * from resource_;
+
+# 2023-11-22 17:28:54.667949
++select * from aio_resource;
+
+# 2023-11-22 17:29:19.196368
++select * from crontab;
+
+# 2023-11-22 17:30:08.716634
++select * from aio_resource;
+
+# 2023-11-22 17:35:00.068450
++select * from aio_snapshot;
+
+# 2023-11-22 17:37:13.140593
++select * from aio_timeline_point;
+
+# 2023-11-22 17:45:17.176297
++select * from aio_snapshot;
+
+# 2023-11-22 17:50:38.332350
++select * from aio_node;
+
+# 2023-11-22 17:53:06.896522
++select * from aio_snapshot;
+
+# 2023-11-22 18:07:24.951497
++select * from aio_node;
+
+# 2023-11-22 18:07:35.632426
++select len(*) from aio_node;
+
+# 2023-11-22 18:07:42.516779
++select count(*) from aio_node;
+
+# 2023-11-22 19:41:07.797314
++select * from physical_restore;
+
+# 2023-11-22 19:41:11.172482
++select * from physical_restore_;
+
+# 2023-11-22 19:41:13.824920
++select * from physical_restore
+
+# 2023-11-23 09:35:00.422879
++select * from timeline_point_;
+
+# 2023-11-23 09:35:11.082239
++select * from aio_timeline_point;
+
+# 2023-11-24 09:02:45.987190
++select * from archive_trigger_record;
+
+# 2023-11-24 09:07:42.545920
++select * from archive_trigger_record\G
+
+# 2023-11-24 09:14:50.917776
++select * from archive_trigger_record
+
+# 2023-11-24 09:15:07.418100
++delete from archive_trigger_record where id=4;
+
+# 2023-11-24 09:15:09.489492
++select * from archive_trigger_record
+
+# 2023-11-24 09:17:36.730072
++select * from alembic_version;
+
+# 2023-11-24 09:19:23.329364
++update alembic_version set version_num = 4b7513ff8ef7";
+
+# 2023-11-24 09:19:30.195219
++update alembic_version set version_num = "4b7513ff8ef7";
+
+# 2023-11-24 09:19:32.386019
++select * from alembic_version;
+
+# 2023-11-24 09:20:07.978833
++select * from archive_trigger_record
+
+# 2023-11-24 09:20:20.913386
++select * from physical_restore;
+
+# 2023-11-24 09:20:23.685444
++select * from physical_restore_;
+
+# 2023-11-24 12:04:36.031695
++select * from snapshot_;
+
+# 2023-11-24 12:04:48.581106
++select * from aio_snapshot;
+
+# 2023-11-24 12:31:00.809683
++select * from policy;
+
+# 2023-11-24 12:34:44.506249
++select * from policy_job;
+
+# 2023-11-24 12:36:37.173996
++select * from policy;
+
+# 2023-11-24 13:44:15.630251
++select * from archive_trigger_record
+
+# 2023-11-24 13:49:50.117707
++select * from aio_total_task;
+
+# 2023-11-24 13:50:32.929870
++select * from aio_total_task where execution_batch = "1700790259450";
+
+# 2023-11-24 13:52:26.622067
++select * from archive_trigger_record
+
+# 2023-11-24 15:19:21.609866
++select * from aio_total_task;
+
+# 2023-11-24 15:20:01.146103
++delete from aio_total_task where task_type="running";
+
+# 2023-11-24 15:20:03.890311
++select * from aio_total_task;
+
+# 2023-11-24 15:20:19.446264
++delete from aio_total_task where task_status="running";
+
+# 2023-11-24 15:20:22.009968
++sel
+
+# 2023-11-24 15:20:24.877702
++select * from aio_total_task;
+
+# 2023-11-24 15:20:37.854161
++select * from aio_sub_task;
+
+# 2023-11-24 15:21:57.201875
++select total_task_id from aio_sub_task;
+
+# 2023-11-24 15:22:10.134457
++select distinct(id) from aio_sub_task;
+
+# 2023-11-24 15:22:31.330039
++select id from aio_sub_task;
+
+# 2023-11-24 15:22:47.317949
++select distinct(total_task_id) from aio_sub_task;
+
+# 2023-11-24 15:22:59.513962
++select id, distinct(total_task_id) from aio_sub_task;
+
+# 2023-11-24 15:23:50.557146
++select * from aio_sub_task;
+
+# 2023-11-24 15:24:11.606202
++delete from aio_sub_task where task_status="running";
+
+# 2023-11-24 15:24:20.186026
++select * from aio_sub_task;
+
+# 2023-11-24 15:24:26.561914
++delete from aio_sub_task where state="running";
+
+# 2023-11-24 15:27:25.241616
++select * from sub_task;
+
+# 2023-11-24 15:27:42.821911
++select * from aio_total_task;
+
+# 2023-11-24 15:28:05.953762
++select * from total_task_stat;
+
+# 2023-11-24 15:29:19.426291
++delete from total_task_stat where task_type="archive_s3_restore";
+
+# 2023-11-24 15:29:30.645193
++select * from total_task_stat;
+
+# 2023-11-24 16:20:33.360627
++use aio;
+
+# 2023-11-24 16:20:38.955755
++select * from archive_trigger_record
+
+# 2023-11-24 16:35:15.463328
++select * from aio_data_nodes
+
+# 2023-11-24 17:40:39.875923
++select * from physical_restore;
+
+# 2023-11-24 17:40:42.303799
++select * from physical_restore_;

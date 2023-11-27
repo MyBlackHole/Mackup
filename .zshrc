@@ -85,6 +85,7 @@ plugins=(
   zsh-history-substring-search
   vi-mode
   tmux
+  kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -138,8 +139,8 @@ GO_PATH=$HOME/go
 if [ -d "$GO_PATH" ]; then
     export PATH=$GO_PATH/bin:$PATH
 
-    # golang 
-    export GOPROXY="https://goproxy.io,direct"
+    # # golang 
+    # export GOPROXY="https://goproxy.io,direct"
 fi
 
 # Android sdk
@@ -148,8 +149,8 @@ if [ -d "$ANDROID_SDK_PATH" ]; then
     export PATH=$ANDROID_SDK_PATH/platform-tools:$PATH
 fi
 
-export http_proxy="http://127.0.0.1:1080"
-export https_proxy="http://127.0.0.1:1080"
+export HTTP_PROXY="http://127.0.0.1:1080"
+export HTTPS_PROXY="http://127.0.0.1:1080"
 # export all_proxy="socks5://127.0.0.1:1080"
 
 # zsh 解释 *
@@ -178,7 +179,8 @@ if [ -d "$PYENV_ROOT" ]; then
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
     # 启用默认环境
-    pyenv activate default
+    # pyenv activate default
+    pyenv activate default-3.10
 fi
 
 # musl
@@ -214,6 +216,12 @@ if [ -d "$PYTHON_BLACK_PATH" ]; then
     export PATH=$PYTHON_BLACK_PATH:$PATH
 fi
 
+# # kubectl
+# if [ -f "$HOME/.kube/config" ]; then
+#     # 导入自动提示
+#     source < (kubectl completion zsh)
+# fi
+
 # patchelf
 PATCHELF_ROOT="/media/black/Data/lib/patchelf/patchelf_master"
 if [ -d "$PATCHELF_ROOT" ]; then
@@ -231,6 +239,12 @@ NVIM_PATH="/opt/nvim"
 if [ -d "$NVIM_PATH" ]; then
     export PATH=$NVIM_PATH/bin:$PATH
 fi
+
+
+if [ -f "/usr/local/bin/helm" ]; then
+    source <(helm completion zsh)
+fi
+
 # >>> xmake >>>
 test -f "/home/black/.xmake/profile" && source "/home/black/.xmake/profile"
 # <<< xmake <<<

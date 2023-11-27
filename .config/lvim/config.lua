@@ -284,7 +284,7 @@ lvim.plugins = {
 vim.api.nvim_create_autocmd(
     "BufWinEnter",
     {
-        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" },
+        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" , "*.md"},
         -- enable wrap mode for json files only
         command = "%s/[\\u0d]//ge",
     }
