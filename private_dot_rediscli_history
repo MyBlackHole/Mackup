@@ -1,3 +1,22 @@
+SELECT 0
+KEYS *
+SELECT 1
+KEYS *
+SELECT 8
+KEYS *
+TYPE _kombu.binding.celery
+SELECT 8
+KEYS *
+TYPE _kombu.binding.celery.pidbox
+TYPE _kombu.binding.celery
+FLUSHALL
+KEYS *
+KEYS * 
+get unacked_index
+TYPE unacked_index
+FLUSHALL
+KEYS *
+SELECT 9
 KEYS *
 FLUSHALL
 KEYS *
@@ -78,23 +97,3 @@ SELECT 2
 KEYS *
 SELECT 3
 KEYS *
-INFO
-KEYS *
-SELECT 1
-KEYS *
-SELECT 2
-KEYS 
-KEYS *
-SELECT 3
-KEYS *
-SELECT 3
-KEYS *
-exit
-KEYS *
-Ke
-KEYS * 
-SELECT *
-KEYS *
-SELECT 1
-KEYS *
-SUBSCRIBE 111

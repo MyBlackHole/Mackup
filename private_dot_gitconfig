@@ -18,24 +18,3 @@
 [safe]
 	directory = /home/black/Documents/aio-airflow
 	directory = /home/black/Documents/aio-cdm
-	directory = /media/black/Data/Documents/github/C/bcc
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
-	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
-	directory = /media/black/Data/Documents/github/C/bcc
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
-	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
-	directory = /media/black/Data/Documents/github/C/bcc
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
-	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
-	directory = /media/black/Data/Documents/github/C/bcc
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
-	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
-	directory = /media/black/Data/Documents/github/C/bcc
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
-	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
-	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
-	directory = /home/black/Documents/aio-lib

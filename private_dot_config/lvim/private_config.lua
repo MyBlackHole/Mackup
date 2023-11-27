@@ -269,6 +269,13 @@ lvim.plugins = {
                 "Toggle Flash Search"
             },
         },
+    },
+    {
+        "Mythos-404/xmake.nvim",
+        lazy = true,
+        event = "BufReadPost xmake.lua",
+        config = true,
+        dependencies = { "MunifTanjim/nui.nvim", "nvim-lua/plenary.nvim" },
     }
 }
 
@@ -284,7 +291,7 @@ lvim.plugins = {
 vim.api.nvim_create_autocmd(
     "BufWinEnter",
     {
-        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld" , "*.md"},
+        pattern = { "*.py", "*.c", "*.h", "*.cpp", "Makefile", "*.s", "*.ld", "*.S", "*.mk", "*.html", "*.md"},
         -- enable wrap mode for json files only
         command = "%s/[\\u0d]//ge",
     }

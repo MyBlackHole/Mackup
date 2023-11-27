@@ -15,3 +15,5 @@ randomMixedPort: false
 shortcutTun: ""
 systemTheme: false
 useSystemEmoji: true
+checkForUpdates: true
+editProfileWithCFWEditor: true
