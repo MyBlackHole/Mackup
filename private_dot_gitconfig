@@ -1,0 +1,41 @@
+[user]
+	email = 1358244533@qq.com
+	name = black
+[core]
+	excludesfile = /home/black/.gitignore
+	editor = lvim
+	quotepath = false
+	excludesfile = /home/black/.gitignore
+	safecrlf = true
+; [https]
+; 	proxy = http://127.0.0.1:1080
+; [http]
+; 	proxy = http://127.0.0.1:1080
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[safe]
+	directory = /home/black/Documents/aio-airflow
+	directory = /home/black/Documents/aio-cdm
+	directory = /media/black/Data/Documents/github/C/bcc
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
+	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
+	directory = /media/black/Data/Documents/github/C/bcc
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
+	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
+	directory = /media/black/Data/Documents/github/C/bcc
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
+	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
+	directory = /media/black/Data/Documents/github/C/bcc
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
+	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
+	directory = /media/black/Data/Documents/github/C/bcc
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/blazesym
+	directory = /media/black/Data/Documents/github/C/bcc/src/cc/libbpf
+	directory = /media/black/Data/Documents/github/C/bcc/libbpf-tools/bpftool
+	directory = /home/black/Documents/aio-lib
