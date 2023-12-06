@@ -148,7 +148,7 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1641911497:0;cd Reverse-Engineering
 : 1641911637:0;lvim 0x0002-64-bit-immediate-values/main.s
 : 1641911660:0;rm -rf Reverse-Engineering
-: 1641912786:0;lvim reading-code-of-nginx-1.9.2/nginx-1.9.2/正僨��胁�达弃�语泃�.c
+: 1641912786:0;lvim reading-code-of-nginx-1.9.2/nginx-1.9.2/正僨??胁?达弃?语泃?.c
 : 1641913504:0;git add pipe_learn/
 : 1641913511:0;git commit -m "pipe"
 : 1641913867:0;ninja -C out -t compdb cxx cc 
@@ -300,7 +300,7 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1642696665:0;git commit -m "store"
 : 1642696689:0;npm i axios -S
 : 1642697070:0;git commit -m "axios"
-: 1642697195:0;git commit -m "修惴� router"
+: 1642697195:0;git commit -m "修惴? router"
 : 1642697304:0;git commit -m "router-view"
 : 1642697489:0;git commit -m "vuex"
 : 1642718452:0;cd vite-project
@@ -308,7 +308,7 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1642718538:0;lvim src/App.vue
 : 1642719058:0;git commit -m "element-plus"
 : 1642719158:0;npm install unplugin-vue-components -D
-: 1642719606:0;git commit -m "unpluin-vue-components 惬��郼�求导僥�"
+: 1642719606:0;git commit -m "unpluin-vue-components 惬??郼?求导僥?"
 : 1642720904:0;git commit -m "Hme_Login"
 : 1642720992:0;cd vue3_elementPlus_ts
 : 1642720997:0;cd src/assets/
@@ -317,7 +317,7 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1642721112:0;lvim element_ui.less
 : 1642721945:0;git commit -m "login_vue"
 : 1642722214:0;git commit -m "login_rules"
-: 1642723617:0;git commit -m "布�局容價�"
+: 1642723617:0;git commit -m "布?局容價?"
 : 1642724112:0;git add.
 : 1642724121:0;git commit -m "menu"
 : 1642725184:0;git commit -m "children_router"
@@ -455,7 +455,7 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1643421661:0;pactl set-sink-volume 2 -5% 
 : 1643421892:0;xbacklight +5
 : 1643421911:0;xbacklight -5
-: 1643421995:0;烮��im
+: 1643421995:0;烮??im
 : 1643422175:0;amixer -c 1 scontrols
 : 1643422203:0;aplay -l
 : 1643422275:0;sudo vim /etc/asound.conf
@@ -505,7 +505,7 @@ P\
 : 1643471082:0;sudo echo 255 > /sys/class/backlight/amdgpu_bl0/brightness
 : 1643471088:0;sudo su 
 : 1643471278:0;nmcli device wifi  connect SDSD_5G password 1358244533
-: 1643551196:0;rm -rf 惼�烁�认\ 40009.crdownload
+: 1643551196:0;rm -rf 惼?烁?认\ 40009.crdownload
 : 1643551249:0;cd Desktop
 : 1643551296:0;cd node_modules
 : 1643551304:0;rm -rf node_modules
@@ -543,7 +543,6 @@ P\
 : 1643778925:0;open screen.png
 : 1643778981:0;set GOOS=windows
 : 1643779004:0;set GOARCH=amd64
-: 1643779008:0;go build
 : 1643779013:0;file 2
 : 1643779255:0;./2
 : 1643779259:0;rm -rf 2
@@ -653,7 +652,7 @@ exit
 : 1643810327:0;clash-linux-amd64-v1.9.0 --help
 : 1643811264:0;clash-linux-amd64-v1.9.0 
 : 1643812135:0;tar zxvf Clash.for.Windows-0.19.6-x64-linux.tar.gz
-: 1643813795:0;rm 惼�烁�认\ 840272.crdownload
+: 1643813795:0;rm 惼?烁?认\ 840272.crdownload
 : 1643813802:0;tar zxvf Clash.for.Windows-0.19.7-x64-linux.tar.gz
 : 1643813819:0;mv Clash\ for\ Windows-0.19.6-x64-linux Clash
 : 1643814251:0;lvim ~/.config/clash/profiles/list.yml
@@ -726,7 +725,6 @@ exit
 : 1644121132:0;sudo apt install clang-format
 : 1644130743:0;udisksctl --help
 : 1644130767:0;udevadm --help
-: 1644130823:0;fanyi monitor
 : 1644130842:0;udevadm monitor --help
 : 1644130931:0;udisksctl evadm --help
 : 1644131544:0;tar ztvf uClibc-ng-1.0.36.tar
@@ -831,10 +829,10 @@ exit
 : 1644238799:0;git commit -m "dynamic_array"
 : 1644238991:0;lvim raylib_learn/BUILD.gn
 : 1644239184:0;gn
-: 1644239378:0;pkg-config raylib  �libs  �cflags
-: 1644239398:0;pkg-config opencv  �libs  �cflags
-: 1644239403:0;pkg-config opencv  �libs
-: 1644239429:0;pkg-config raylib  �libs 
+: 1644239378:0;pkg-config raylib  ?libs  ?cflags
+: 1644239398:0;pkg-config opencv  ?libs  ?cflags
+: 1644239403:0;pkg-config opencv  ?libs
+: 1644239429:0;pkg-config raylib  ?libs 
 : 1644239437:0;pkg-config raylib
 : 1644239459:0;pkg-config raylib --list-all
 : 1644239489:0;pkg-config raylib --cflags
@@ -846,8 +844,8 @@ exit
 : 1644243662:0;find ./ -size 10M
 : 1644243712:0;cd books/
 : 1644243735:0;ls |grep linux
-: 1644244536:0;lvim 都�僼�系僨��.md
-: 1644244966:0;lvim 〃�0day\ RCE〃�Horde\ Groupware\ Webmail\ Edition\ RCE.md
+: 1644244536:0;lvim 都?僼?系僨??.md
+: 1644244966:0;lvim 〃?0day\ RCE〃?Horde\ Groupware\ Webmail\ Edition\ RCE.md
 : 1644667863:0;lvim app.py
 : 1644667878:0;cd fastapi_learn
 : 1644667882:0;python3 app.py
@@ -1251,7 +1249,7 @@ git push -u origin main
 : 1646410801:0;git remote add origin git@github.com:MyBlackHole/Mackup.git
 : 1646411080:0;git push origin --force main
 : 1646411139:0;git push --delete origin master
-: 1646412082:0;仃�烺��
+: 1646412082:0;仃?烺??
 : 1646444585:0;cd /media/black/Data/Documents/docker
 : 1646444588:0;mkdir ZABBIX
 : 1646444592:0;cd ZABBIX
@@ -1350,8 +1348,8 @@ git push -u origin main
 : 1646491865:0;sudo apt -o Acquire::http::proxy="http://127.0.0.1:1080" install unrar
 : 1646491879:0;unrar --help
 : 1646491884:0;unrar help
-: 1646492051:0;unrar  它�浩老布�烿�诃�僭��.rar 
-: 1646492059:0;unrar x 它�浩老布�烿�诃�僭��.rar
+: 1646492051:0;unrar  它?浩老布?烿?诃?僭??.rar 
+: 1646492059:0;unrar x 它?浩老布?烿?诃?僭??.rar
 : 1646492092:0;open 1.pdf
 : 1646492120:0;mv 1.pdf 2.pdf /media/black/Data/Documents/PDF
 : 1646492131:0;open 2.pdf
@@ -1388,11 +1386,11 @@ git push -u origin main
 : 1647151596:0;sudo rfcomm bind /dev/rfcomm0
 : 1647151648:0;sudo 
 : 1647151941:0;sudo rfcomm bind /dev/rfcomm0 F8:4E:17:4B:57:72
-: 1647151945:0;逃�度僳�
+: 1647151945:0;逃?度僳?
 : 1647151948:0;sudo cat > /dev/rfcomm0
 : 1647151982:0;bluemoon
 : 1647151995:0;bluemoon --help
-: 1647152012:0;bluemoon -A linux 迃�惮�胳��烩��耳惼�
+: 1647152012:0;bluemoon -A linux 迃?惮?胳??烩??耳惼?
 : 1647152051:0;bluemoon -A F8:4E:17:4B:57:72
 : 1647152123:0;hcitool scan
 : 1647152155:0;l2ping -i hci0 -c 4 F8:4E:17:4B:57:72
@@ -1455,11 +1453,11 @@ git push -u origin main
 : 1648268834:0;git add sys_select_learn/
 : 1648268837:0;git add ioctl_learn/
 : 1648270175:0;lvim semaphore_learn/sem_post_test.c
-: 1648278024:0;cd 惵�学
+: 1648278024:0;cd 惵?学
 : 1648278028:0;wget http://jxz1.j9p.com/pc/2022lylfxqsjcb.pdf
 : 1648278057:0;evince 2022lylfxqsjcb.pdf
-: 1648278093:0;mv 2022lylfxqsjcb.pdf 2022惽��永乃�考�烀��惵�学夃�乃�僥�书僿�烁�篃�惵�一惵�亃�惵�七�逃�烴�烩��.pdf
-: 1648297042:0;evince 1-尃�烁��谷郁�烻�课稃�系僨��乃�Elasticsearch.pdf
+: 1648278093:0;mv 2022lylfxqsjcb.pdf 2022惽??永乃?考?烀??惵?学夃?乃?僥?书僿?烁?篃?惵?一惵?亃?惵?七?逃?烴?烩??.pdf
+: 1648297042:0;evince 1-尃?烁??谷郁?烻?课稃?系僨??乃?Elasticsearch.pdf
 : 1648297742:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
 : 1648297754:0;sudo bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1648298621:0;cd /media/black/Data/Documents/PDF
@@ -1502,7 +1500,7 @@ git push -u origin main
 : 1648815376:0;bluetoothctl connect E3:BF:A6:48:D2:1E
 : 1648815541:0;bluetoothctl pair --help
 : 1648815628:0;bluetoothctl remove E3:BF:A6:4B:D2:1E
-: 1648825035:0;git commit -m "僰��并"
+: 1648825035:0;git commit -m "僰??并"
 : 1649240486:0;bluetoothctl help
 : 1649495271:0;lvim DataStruct_learn/hash/test.c
 : 1649496725:0;fanyi contains
@@ -1575,7 +1573,7 @@ git push -u origin main
 : 1650066474:0;cd gvfs
 : 1650066657:0;jmtpfs --help
 : 1650068031:0;cd /run/user/1000/gvfs/mtp:host=blackshark_SHARK_KTUS-A0_66ee4fb8
-: 1650068044:0;fusermount 僦��郣�孃�储设夃�
+: 1650068044:0;fusermount 僦??郣?孃?储设夃?
 : 1650068049:0;cd /mnt
 : 1650076024:0;lsusb
 : 1650076526:0;man jmtpfs
@@ -1595,7 +1593,7 @@ git push -u origin main
 : 1650077015:0;mkdir MTP
 : 1650077017:0;sudo mkdir MTP
 : 1650077061:0;cd /run/user/1000/gvfs/
-: 1650077075:0;sudo mount /media/black/MTP/僦��郣�孃�储设夃�
+: 1650077075:0;sudo mount /media/black/MTP/僦??郣?孃?储设夃?
 : 1650077084:0;sudo umount /media/black/MTP/
 : 1650077109:0;jmtpfs -device=1,6 /media/black/MTP
 : 1650077137:0;sudo mount /media/black/MTP/
@@ -1669,7 +1667,7 @@ git push -u origin main
 : 1650559250:0;cd .config/lvim/
 : 1650559291:0;pip install --user mackup
 : 1650559708:0;rm .
-: 1650559716:0;rm -rf 惼�烁�认\ *
+: 1650559716:0;rm -rf 惼?烁?认\ *
 : 1650559730:0;cd AllBackup
 : 1650559738:0;rm -rf AllBackup
 : 1650674604:0;lvim DataStruct_learn/Tree/rbtree.c
@@ -1692,7 +1690,7 @@ git push -u origin main
 : 1650979230:0;rm -rf .cache/microsoft-edge-dev
 : 1650979544:0;rm -rf .config/microsoft-edge	
 : 1650979571:0;sudo apt purge microsoft-edge-stable
-: 1650979642:0;rm 惼�烁�认\ 227784.crdownload
+: 1650979642:0;rm 惼?烁?认\ 227784.crdownload
 : 1650980048:0;sudo dpkg --configure -a
 : 1650980080:0;ps aux|grep micro
 : 1650980107:0;sudo dpkg --install microsoft-edge-dev_100.0.1169.1-1_amd64.deb
@@ -1717,7 +1715,7 @@ git push -u origin main
 : 1651379460:0;nmcli connection add 
 : 1651469661:0;cd /media/black/Data/Downloads/deb
 : 1651470024:0;cd Reading-and-comprehense-twemproxy0.4.1
-: 1651470035:0;lvim 惷�心�.c
+: 1651470035:0;lvim 惷?心?.c
 : 1651470082:0;sudo apt install bear
 : 1651470529:0;aclocal
 : 1651470598:0;autoscan
@@ -1775,20 +1773,20 @@ git push -u origin main
 : 1652278203:0;screenkey --show-settings
 : 1652278570:0;git commit -m "screenkey"
 : 1652278617:0;lvim .gitconfig
-: 1652320069:0;find ./ -name *僰�它�髃�*
+: 1652320069:0;find ./ -name *僰?它?髃?*
 : 1652324921:0;sudo apt install libreoffice
 : 1652326220:0;cd PDF
-: 1652326255:0;mv ~/Documents/僰�它�髃�.pdf .
+: 1652326255:0;mv ~/Documents/僰?它?髃?.pdf .
 : 1652326342:0;sudo apt install libreoffice-l10n-zh-cn
-: 1652326405:0;libreoffice 僰�它�髃�.pdf
+: 1652326405:0;libreoffice 僰?它?髃?.pdf
 : 1652326729:0;mkdir Docx
-: 1652326806:0;mv ~/Documents/僰�它�髃�.docx .
-: 1652330851:0;rm 僰�它�髃�.pdf
-: 1652330858:0;evince 僰�它�髃�.pdf
+: 1652326806:0;mv ~/Documents/僰?它?髃?.docx .
+: 1652330851:0;rm 僰?它?髃?.pdf
+: 1652330858:0;evince 僰?它?髃?.pdf
 : 1652368146:0;pow
 : 1652435034:0;lvim grammar_learn/hello.go
 : 1652435045:0;go run grammar_learn/hello.go
-: 1652445718:0;libreoffice 僰�它�髃�.docx
+: 1652445718:0;libreoffice 僰?它?髃?.docx
 : 1652493670:0;docker pull mysql:latest
 : 1652493758:0;docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
 : 1652509718:0;docker pull redis:latest
@@ -1846,56 +1844,56 @@ git push -u origin main
 : 1653094373:0;mkdir linux
 : 1653094415:0;git clone https://github.com/dunwu/linux-tutorial.git
 : 1653094457:0;cd codes/shell
-: 1653094516:0;lvim 惭��惭��促�僯�.sh
+: 1653094516:0;lvim 惭??惭??促?僯?.sh
 : 1653097707:0;tput --help
 : 1653097721:0;tput sgr0
 : 1653097813:0;tput cols
 : 1653097820:0;tput colors
-: 1653098158:0;mkdir 僿�惼�胤��惼�
+: 1653098158:0;mkdir 僿?惼?胤??惼?
 : 1653098179:0;cd /media/black/Data/Documents/Code/shell
-: 1653098181:0;cd shell_learn/僿�惼�胤��惼�
+: 1653098181:0;cd shell_learn/僿?惼?胤??惼?
 : 1653098183:0;lvim echo.sh
 : 1653098203:0;bash echo.sh
-: 1653098313:0;touch exit僱�令.sh
+: 1653098313:0;touch exit僱?令.sh
 : 1653098487:0;echo $
-: 1653098533:0;bash exit僱�令.sh
+: 1653098533:0;bash exit僱?令.sh
 : 1653098652:0;bash printf.sh
 : 1653098805:0;expr 10 / 3
 : 1653098809:0;expr 10 / 4
 : 1653098822:0;expr 10 / 11
 : 1653098917:0;lvim 1.sh
-: 1653098942:0;mkdir 示侃�
-: 1653098948:0;mv 1.* 示侃�
-: 1653098980:0;bash expr惩�胁��惵�学迃�箃�.sh
+: 1653098942:0;mkdir 示侃?
+: 1653098948:0;mv 1.* 示侃?
+: 1653098980:0;bash expr惩?胁??惵?学迃?箃?.sh
 : 1653099046:0;bc --help
 : 1653099158:0;bc 1 + 1
 : 1653099170:0;bc
-: 1653099241:0;bash 使烴�僦��聃�郧��它�僰��讃�箃�胁�达弃�.sh
-: 1653099338:0;bash 使烴�惶�惫�僯�惩�胁��惵�学迃�箃�.sh
-: 1653099410:0;bash 僯��弃�僯�烺��使烴�.sh
-: 1653099819:0;cd 僿�惼�胤��惼�
-: 1653099826:0;bash 僯��郧��使烴�示侃�.sh
-: 1653100168:0;bash 僼�胤��惼�中使烴�bc.sh
+: 1653099241:0;bash 使烴?僦??聃?郧??它?僰??讃?箃?胁?达弃?.sh
+: 1653099338:0;bash 使烴?惶?惫?僯?惩?胁??惵?学迃?箃?.sh
+: 1653099410:0;bash 僯??弃?僯?烺??使烴?.sh
+: 1653099819:0;cd 僿?惼?胤??惼?
+: 1653099826:0;bash 僯??郧??使烴?示侃?.sh
+: 1653100168:0;bash 僼?胤??惼?中使烴?bc.sh
 : 1653100706:0;expr 10 + 10
 : 1653100713:0;expr --help
 : 1653100744:0;expr index hello ll
 : 1653100757:0;expr index hello z
-: 1653100799:0;bash 孃�符串使烴�示侃�.sh
-: 1653101153:0;bash 惵�练�使烴�示侃�.sh
-: 1653101795:0;bash 惸�示惷�郷�僲��烹�彃�考�.sh
-: 1653102145:0;bash 惸�示系练�僯��郧��僲��转乃�孃�符.sh
-: 1653102222:0;bash 注郧��示侃�.sh
-: 1653102593:0;bash 逃�迃�僯��弃�僯�胮�徃�彃�僩��惷�惼��并烴��惨��僴�一惶��件僰��.sh
+: 1653100799:0;bash 孃?符串使烴?示侃?.sh
+: 1653101153:0;bash 惵?练?使烴?示侃?.sh
+: 1653101795:0;bash 惸?示惷?郷?僲??烹?彃?考?.sh
+: 1653102145:0;bash 惸?示系练?僯??郧??僲??转乃?孃?符.sh
+: 1653102222:0;bash 注郧??示侃?.sh
+: 1653102593:0;bash 逃?迃?僯??弃?僯?胮?徃?彃?僩??惷?惼??并烴??惨??僴?一惶??件僰??.sh
 : 1653102628:0;cat log.220521
-: 1653103466:0;nmcli device wifi delete 僰�它�髃�烺��iPad
-: 1653103530:0;nmcli device wifi connect 僰�它�髃�烺��iPad password 1358244533
+: 1653103466:0;nmcli device wifi delete 僰?它?髃?烺??iPad
+: 1653103530:0;nmcli device wifi connect 僰?它?髃?烺??iPad password 1358244533
 : 1653115195:0;cd /media/black/Data/Documents/Code/shell/shell_learn
-: 1653115233:0;mkdir 惮�僨�
-: 1653115237:0;lvim 惮�僨�/惭��惭��促�僯�.sh
+: 1653115233:0;mkdir 惮?僨?
+: 1653115237:0;lvim 惮?僨?/惭??惭??促?僯?.sh
 : 1653115320:0;at
 : 1653115335:0;sudo apt install at
-: 1653115367:0;bash 惮�僨�/惭��惭��促�僯�.sh
-: 1653115371:0;cd 惮�僨�
+: 1653115367:0;bash 惮?僨?/惭??惭??促?僯?.sh
+: 1653115371:0;cd 惮?僨?
 : 1653115393:0;at --help
 : 1653115399:0;at -h
 : 1653115420:0;at -V
@@ -1909,22 +1907,22 @@ git push -u origin main
 : 1653115830:0;trap -h
 : 1653115905:0;trap 
 : 1653115911:0;trap -l
-: 1653115975:0;bash 惭��惭��促�僯�.sh
-: 1653116287:0;bash 惭��惭��胤��惼�烺��退僧�.sh
-: 1653116372:0;bash 移郹�惭��惭��.sh
-: 1653116401:0;git commit -m "惮�僨�"
-: 1653116415:0;mkdir 想��佃�符
-: 1653116488:0;cd 想��佃�符
-: 1653116491:0;bash 僥�系迃�箃�符.sh
-: 1653116506:0;bash 僥�系迃�箃�符.sh 1 2
-: 1653116510:0;bash 僥�系迃�箃�符.sh 2 1
-: 1653116577:0;bash 孃�符串迃�箃�符.sh
-: 1653116678:0;bash 布�尃�迃�箃�符.sh
-: 1653116753:0;bash 惶��件浃�诃�迃�箃�符.sh
-: 1653116837:0;bash 箃�惼�迃�箃�符.sh
+: 1653115975:0;bash 惭??惭??促?僯?.sh
+: 1653116287:0;bash 惭??惭??胤??惼?烺??退僧?.sh
+: 1653116372:0;bash 移郹?惭??惭??.sh
+: 1653116401:0;git commit -m "惮?僨?"
+: 1653116415:0;mkdir 想??佃?符
+: 1653116488:0;cd 想??佃?符
+: 1653116491:0;bash 僥?系迃?箃?符.sh
+: 1653116506:0;bash 僥?系迃?箃?符.sh 1 2
+: 1653116510:0;bash 僥?系迃?箃?符.sh 2 1
+: 1653116577:0;bash 孃?符串迃?箃?符.sh
+: 1653116678:0;bash 布?尃?迃?箃?符.sh
+: 1653116753:0;bash 惶??件浃?诃?迃?箃?符.sh
+: 1653116837:0;bash 箃?惼?迃?箃?符.sh
 : 1653117245:0;cat test.iX5gse
 : 1653117262:0;rm test.iX5gse
-: 1653117270:0;bash 僨��建临惷�惶��件.sh
+: 1653117270:0;bash 僨??建临惷?惶??件.sh
 : 1653117285:0;rm test.sIyLQo
 : 1653117700:0;cd dir.TpszXE
 : 1653117740:0;rm -rf dir.TpszXE
@@ -1945,15 +1943,15 @@ git push -u origin main
 : 1653119077:0;rm temp.cB7L7I
 : 1653119079:0;rm temp.cUNNk2
 : 1653119082:0;rm temp.ZeYuYi 
-: 1653119118:0;bash 僨��建临惷�烻�彃�.sh
+: 1653119118:0;bash 僨??建临惷?烻?彃?.sh
 : 1653119366:0;rm -rf dir.Kisxjw
-: 1653119378:0;bash 惶��件路徃�想��佃�.sh
+: 1653119378:0;bash 惶??件路徃?想??佃?.sh
 : 1653120259:0;basename
 : 1653120268:0;echo $0
 : 1653120340:0;dirname
 : 1653120347:0;dirname `pwd`
-: 1653120413:0;bash 读惶��件.sh
-: 1653120474:0;git commit -m "惶��件想��佃�"
+: 1653120413:0;bash 读惶??件.sh
+: 1653120474:0;git commit -m "惶??件想??佃?"
 : 1653120581:0;strings --help
 : 1653120788:0;bash grep.sh "grep.sh" file
 : 1653120792:0;bash grep.sh
@@ -1962,20 +1960,20 @@ git push -u origin main
 : 1653120896:0;bash grep.sh grep.sh bash
 : 1653121193:0;git restore *
 : 1653121213:0;git restore --staged .
-: 1653121225:0;cd 惶��件想��佃�
+: 1653121225:0;cd 惶??件想??佃?
 : 1653121241:0;cd shell_learn
-: 1653121250:0;git add 想��佃�符/
-: 1653121268:0;git commit -m "想��佃�符"
-: 1653121278:0;git add 僿�惼�胤��惼�/
-: 1653121291:0;git commit -m "僿�惼�胤��惼�"
-: 1653121301:0;cd 惿�惩�惻�惭��惶��惼�
+: 1653121250:0;git add 想??佃?符/
+: 1653121268:0;git commit -m "想??佃?符"
+: 1653121278:0;git add 僿?惼?胤??惼?/
+: 1653121291:0;git commit -m "僿?惼?胤??惼?"
+: 1653121301:0;cd 惿?惩?惻?惭??惶??惼?
 : 1653121304:0;cd sed
 : 1653121440:0;rm test1
-: 1653122073:0;bash sed缃�较�價�僿�烁�.sh
+: 1653122073:0;bash sed缃?较?價?僿?烁?.sh
 : 1653122185:0;sed 's/lazy/ht/' ./test\
 
 : 1653122187:0;sed 's/lazy/ht/' ./test
-: 1653122262:0;bash sed惶��件想��佃�.sh
+: 1653122262:0;bash sed惶??件想??佃?.sh
 : 1653122319:0;sed '/last/ht/' ./test
 : 1653122327:0;sed '/last/' ./test
 : 1653122331:0;sed 's/last/ht/' ./test
@@ -2031,11 +2029,11 @@ p\
 : 1653183089:0;cd /media/black/Data/Documents/Code/linux/linux-tutorial/codes/shell
 : 1653183099:0;mkdir mysql
 : 1653183116:0;lvim mvcc.sh
-: 1653210246:0;lvim grammar_learn/郹��僨�僧�惵�惩�胁��惷�郷�.py
-: 1653210271:0;mkdir -p grammar_learn/郹��僨�僧�惵�惩�胁��惷�郷�/
-: 1653210274:0;lvim grammar_learn/郹��僨�僧�惵�惩�胁��惷�郷�/1.py
-: 1653210865:0;python3 grammar_learn/郹��僨�僧�惵�惩�胁��惷�郷�/thread.py
-: 1653211959:0;python3 grammar_learn/郹��僨�僧�惵�惩�胁��惷�郷�/futures.py
+: 1653210246:0;lvim grammar_learn/郹??僨?僧?惵?惩?胁??惷?郷?.py
+: 1653210271:0;mkdir -p grammar_learn/郹??僨?僧?惵?惩?胁??惷?郷?/
+: 1653210274:0;lvim grammar_learn/郹??僨?僧?惵?惩?胁??惷?郷?/1.py
+: 1653210865:0;python3 grammar_learn/郹??僨?僧?惵?惩?胁??惷?郷?/thread.py
+: 1653211959:0;python3 grammar_learn/郹??僨?僧?惵?惩?胁??惷?郷?/futures.py
 : 1653271785:0;ud
 : 1653460215:0;go get github.com/nametake/golangci-lint-langserver@latest
 : 1653461270:0;lvim cache_learn/main.go
@@ -2065,28 +2063,28 @@ p\
 : 1653473539:0;rm bubble
 : 1653473881:0;cd dome/gin_dome
 : 1653474214:0;rm -rf gin_dome
-: 1653478392:0;lvim 僯��尃�.go
+: 1653478392:0;lvim 僯??尃?.go
 : 1653478610:0;mkdir HelloWord
-: 1653478619:0;lvim ../第一个go稃�広�.go
-: 1653478626:0;mv ../第一个go稃�広�.go .
-: 1653478644:0;go run 第一个go稃�広�.go
+: 1653478619:0;lvim ../第一个go稃?広?.go
+: 1653478626:0;mv ../第一个go稃?広?.go .
+: 1653478644:0;go run 第一个go稃?広?.go
 : 1653478672:0;lvim hello.go
 : 1653478676:0;rm hello.go
-: 1653478756:0;go build 第一个go稃�広�.go
-: 1653478759:0;rm 第一个go稃�広�
+: 1653478756:0;go build 第一个go稃?広?.go
+: 1653478759:0;rm 第一个go稃?広?
 : 1653478885:0;echo "kjoj" > /dev/stdout
-: 1653478905:0;cat 第一个go稃�広�.go
+: 1653478905:0;cat 第一个go稃?広?.go
 : 1653478924:0;echo "kjoj" > /dev/stderr
 : 1653478934:0;echo "kjoj" > /dev/stdin
 : 1653479541:0;go mod init HelloWord
-: 1653479586:0;lvim 第一个go稃�広�.go
+: 1653479586:0;lvim 第一个go稃?広?.go
 : 1653479760:0;cp -rf HelloWord Init
 : 1653479765:0;cd Init
-: 1653479775:0;mv 第一个go稃�広�.go init.go
+: 1653479775:0;mv 第一个go稃?広?.go init.go
 : 1653479796:0;go mod init init
-: 1653479864:0;mv Init Init僧�惵�
-: 1653479905:0;cd Init僧�惵�
-: 1653480020:0;git commit -m "golang init 僧�惵�"
+: 1653479864:0;mv Init Init僧?惵?
+: 1653479905:0;cd Init僧?惵?
+: 1653480020:0;git commit -m "golang init 僧?惵?"
 : 1653480025:0;cd HelloWord
 : 1653480039:0;git commit -m "golang helloword"
 : 1653480174:0;mkdir CMD
@@ -2135,52 +2133,52 @@ p\
 : 1653487123:0;gdb ./MOD
 : 1653487290:0;lvim /usr/lib/go-1.18/src/runtime/sys_linux_amd64.s
 : 1653487312:0;rm MOD
-: 1653491147:0;mkdir 僯��郧��
-: 1653491151:0;cd 僯��郧��
+: 1653491147:0;mkdir 僯??郧??
+: 1653491151:0;cd 僯??郧??
 : 1653523600:0;fanyi feature
 : 1653523611:0;fanyi preview
 : 1653523724:0;rm -rf Clash.for.Windows-0.19.17-x64-linux.tar.gz
 : 1653523747:0;rm -rf nginx-1.18.0.tar.gz
 : 1653523820:0;tar zxvf Clash.for.Windows-0.19.19-x64-linux.tar.gz
 : 1653523831:0;mv Clash\ for\ Windows-0.19.19-x64-linux Clash
-: 1653524618:0;mkdir 类僾��转惭��
-: 1653524621:0;cd 类僾��转惭��
-: 1653524927:0;cd grammar_learn/类僾��转惭��
-: 1653526579:0;mkdir 类僾��僦��孃�
-: 1653526581:0;cd 类僾��僦��孃�
-: 1653526765:0;cd ../类僾��僦��孃�
+: 1653524618:0;mkdir 类僾??转惭??
+: 1653524621:0;cd 类僾??转惭??
+: 1653524927:0;cd grammar_learn/类僾??转惭??
+: 1653526579:0;mkdir 类僾??僦??孃?
+: 1653526581:0;cd 类僾??僦??孃?
+: 1653526765:0;cd ../类僾??僦??孃?
 : 1653527596:0;lvim 1.go
-: 1653527607:0;lvim 惵�练�.go
-: 1653527611:0;lvim 惮�僯�.go
-: 1653530241:0;mkdir 迃�箃�符
-: 1653530247:0;cd 迃�箃�符
-: 1653530344:0;cd ../迃�箃�符
-: 1653532795:0;mkdir 胮�僯��烴�惨�较�僥�
-: 1653532797:0;cd 胮�僯��烴�惨�较�僥�
-: 1653533138:0;cd ../胮�僯��烴�惨�较�僥�
+: 1653527607:0;lvim 惵?练?.go
+: 1653527611:0;lvim 惮?僯?.go
+: 1653530241:0;mkdir 迃?箃?符
+: 1653530247:0;cd 迃?箃?符
+: 1653530344:0;cd ../迃?箃?符
+: 1653532795:0;mkdir 胮?僯??烴?惨?较?僥?
+: 1653532797:0;cd 胮?僯??烴?惨?较?僥?
+: 1653533138:0;cd ../胮?僯??烴?惨?较?僥?
 : 1653533159:0;j
 : 1653533605:0;13 jdfj
-: 1653533646:0;mkdir 流稃�惮�僨�
-: 1653533650:0;cd 流稃�惮�僨�
-: 1653536252:0;cd ../流稃�惮�僨�
-: 1653544539:0;cd grammar_learn/流稃�惮�僨�
-: 1653560855:0;mkdir 僧�惵�
-: 1653560858:0;cd 僧�惵�
-: 1653560961:0;cd ../僧�惵�
+: 1653533646:0;mkdir 流稃?惮?僨?
+: 1653533650:0;cd 流稃?惮?僨?
+: 1653536252:0;cd ../流稃?惮?僨?
+: 1653544539:0;cd grammar_learn/流稃?惮?僨?
+: 1653560855:0;mkdir 僧?惵?
+: 1653560858:0;cd 僧?惵?
+: 1653560961:0;cd ../僧?惵?
 : 1653563639:0;json_pp --help
-: 1653565774:0;lvim 惶��件读、僦��.go
-: 1653567872:0;mkdir 僬�僰��僧�惵�
-: 1653567875:0;cd 僬�僰��僧�惵�
-: 1653567968:0;cd grammar_learn/僬�僰��僧�惵�
-: 1653568366:0;mkdir 郷�僬��
-: 1653568372:0;cd 郷�僬��
-: 1653568585:0;cd ../郷�僬��
-: 1653570293:0;lvim defer使烴�.go
-: 1653570312:0;lvim recover使烴�.go
-: 1653570404:0;lvim panic使烴�.go
-: 1653570423:0;lvim select使烴�.go
-: 1653570515:0;mkdir 孃�符串
-: 1653570518:0;cd 孃�符串
+: 1653565774:0;lvim 惶??件读、僦??.go
+: 1653567872:0;mkdir 僬?僰??僧?惵?
+: 1653567875:0;cd 僬?僰??僧?惵?
+: 1653567968:0;cd grammar_learn/僬?僰??僧?惵?
+: 1653568366:0;mkdir 郷?僬??
+: 1653568372:0;cd 郷?僬??
+: 1653568585:0;cd ../郷?僬??
+: 1653570293:0;lvim defer使烴?.go
+: 1653570312:0;lvim recover使烴?.go
+: 1653570404:0;lvim panic使烴?.go
+: 1653570423:0;lvim select使烴?.go
+: 1653570515:0;mkdir 孃?符串
+: 1653570518:0;cd 孃?符串
 : 1653570847:0;cd strings_learn/2
 : 1653570850:0;lvim 2.go
 : 1653573010:0;mkdir drone
@@ -2191,23 +2189,23 @@ p\
 : 1653573300:0;mv GITHUB github
 : 1653573351:0;mv fanqiang/ github
 : 1653573357:0;lvim lvim/install.sh
-: 1653573898:0;mkdir 惷�郷�
-: 1653573900:0;cd 惷�郷�
-: 1653573934:0;cd ../惷�郷�
-: 1653574884:0;mkdir 僦��置僧�惵�
-: 1653574889:0;cd 僦��置僧�惵�
-: 1653574918:0;cd ../僦��置僧�惵�
-: 1653575492:0;mkdir 郴��误夃�烰��
-: 1653575508:0;mv recover使烴�.go 郴��误夃�烰��
-: 1653575510:0;cd 郴��误夃�烰��
-: 1653575515:0;mv recover使烴�.go main.go
-: 1653575525:0;cd ../郴��误夃�烰��
-: 1653576567:0;mkdir 胧�它�乃�郴��误
-: 1653576578:0;mv panic使烴�.go 胧�它�乃�郴��误
-: 1653576582:0;cd 胧�它�乃�郴��误
-: 1653576589:0;mv panic使烴�.go main.go
-: 1653576812:0;cd ../胧�它�乃�郴��误
-: 1653577076:0;mkdir 惵�练�
+: 1653573898:0;mkdir 惷?郷?
+: 1653573900:0;cd 惷?郷?
+: 1653573934:0;cd ../惷?郷?
+: 1653574884:0;mkdir 僦??置僧?惵?
+: 1653574889:0;cd 僦??置僧?惵?
+: 1653574918:0;cd ../僦??置僧?惵?
+: 1653575492:0;mkdir 郴??误夃?烰??
+: 1653575508:0;mv recover使烴?.go 郴??误夃?烰??
+: 1653575510:0;cd 郴??误夃?烰??
+: 1653575515:0;mv recover使烴?.go main.go
+: 1653575525:0;cd ../郴??误夃?烰??
+: 1653576567:0;mkdir 胧?它?乃?郴??误
+: 1653576578:0;mv panic使烴?.go 胧?它?乃?郴??误
+: 1653576582:0;cd 胧?它?乃?郴??误
+: 1653576589:0;mv panic使烴?.go main.go
+: 1653576812:0;cd ../胧?它?乃?郴??误
+: 1653577076:0;mkdir 惵?练?
 : 1653658925:0;cd gin01
 : 1653660331:0;go install golang.org/x/tools/gopls
 : 1653660336:0;go install golang.org/x/tools/gopls@latest
@@ -2251,7 +2249,7 @@ p\
 : 1653695810:0;jmtpfs -l
 : 1653695826:0;sudo jmtpfs -o allow_other -device=1,8 /media/black/MTP
 : 1653695842:0;sudo jmtpfs -o allow_other -device=1,5 /media/black/MTP
-: 1653695854:0;cd 僦��郣�孃�储设夃�
+: 1653695854:0;cd 僦??郣?孃?储设夃?
 : 1653695858:0;cd Download
 : 1653695872:0;cp jt.tar.gz ~/Downloads
 : 1653695917:0;sudo fusermount -u MTP
@@ -2390,7 +2388,7 @@ p\
 : 1653784613:0;go mod init rand
 : 1653784812:0;cd math_learn
 : 1653784815:0;cd rand
-: 1653785393:0;cd 惵�练�
+: 1653785393:0;cd 惵?练?
 : 1653792869:0;go env
 : 1653792889:0;cd /usr/lib/go-1.18/pkg/tool/linux_amd64
 : 1653793059:0;cd /usr/lib/go-1.18/
@@ -2411,35 +2409,35 @@ p\
 : 1653795393:0;lvim test/live_syscall.go
 : 1653807206:0;lvim slice.go
 : 1653808447:0;go run slice.go
-: 1653808464:0;mkdir 僨��烩��
-: 1653810195:0;cd 僨��烩��
-: 1653810203:0;cd 郻��僰��
-: 1653810374:0;lvim 惵�练�/main.go
-: 1653810387:0;lvim 郻��僰��/main.go
-: 1653811323:0;cd ../惵�练�
-: 1653811650:0;cd ../郻��僰��
-: 1653812989:0;lvim 孃�符串
-: 1653813551:0;cd ../孃�符串
+: 1653808464:0;mkdir 僨??烩??
+: 1653810195:0;cd 僨??烩??
+: 1653810203:0;cd 郻??僰??
+: 1653810374:0;lvim 惵?练?/main.go
+: 1653810387:0;lvim 郻??僰??/main.go
+: 1653811323:0;cd ../惵?练?
+: 1653811650:0;cd ../郻??僰??
+: 1653812989:0;lvim 孃?符串
+: 1653813551:0;cd ../孃?符串
 : 1653814495:0;lvim strings_learn/1.go
 : 1653815153:0;cd ../strconv_learn
 : 1653815444:0;cd ../grammar_learn/
 : 1653815691:0;cd defer
-: 1653815692:0;go run defer使烴�.go
+: 1653815692:0;go run defer使烴?.go
 : 1653815910:0;cd grammar_learn/defer
-: 1653817886:0;cd ../僻��调�僧�惵�
+: 1653817886:0;cd ../僻??调?僧?惵?
 : 1653819661:0;fg 
-: 1653819726:0;cd ../惬��郲��
-: 1653824209:0;lvim 练�惾��佃�/main.go
-: 1653824459:0;cd ../练�惾��佃�
-: 1653826768:0;cd ../都��僰��对豃�
-: 1653827086:0;mkdir 惶�泃�
-: 1653827093:0;lvim 惶�泃�/main.go
-: 1653827211:0;cd ../惶�泃�
-: 1653827586:0;mkdir 继惩�
-: 1653827605:0;lvim 继惩�/main.go
-: 1653827835:0;cd ../继惩�
-: 1653828128:0;cd ../惮�僯�
-: 1653832769:0;lvim 郴��误夃�烰��/main.go
+: 1653819726:0;cd ../惬??郲??
+: 1653824209:0;lvim 练?惾??佃?/main.go
+: 1653824459:0;cd ../练?惾??佃?
+: 1653826768:0;cd ../都??僰??对豃?
+: 1653827086:0;mkdir 惶?泃?
+: 1653827093:0;lvim 惶?泃?/main.go
+: 1653827211:0;cd ../惶?泃?
+: 1653827586:0;mkdir 继惩?
+: 1653827605:0;lvim 继惩?/main.go
+: 1653827835:0;cd ../继惩?
+: 1653828128:0;cd ../惮?僯?
+: 1653832769:0;lvim 郴??误夃?烰??/main.go
 : 1653832965:0;go run error.go
 : 1653833278:0;lvim error.go
 : 1653834095:0;lvim init.go
@@ -2447,14 +2445,13 @@ p\
 : 1653834194:0;lvim time_learn/main.go
 : 1653834264:0;lvim os_learn/1.go
 : 1653834359:0;cd ../os_learn
-: 1653834971:0;rm -rf test
 : 1653835114:0;rm -rf test*
 : 1653835231:0;echo "kjlk" > test.txt
 : 1653835238:0;cat test.txt
 : 1653872536:0;sudo sus
 : 1653872738:0;lspci
 : 1653872978:0;nmcli device wifi connect Jingling_Wi-Fi5 password jl888888
-: 1653873162:0;lvim grammar_learn/僭��稃�.go
+: 1653873162:0;lvim grammar_learn/僭??稃?.go
 : 1653873509:0;sudo dpkg --install com.alibabainc.dingtalk_1.4.0.20425_amd64.deb
 : 1653874405:0;cd /media/black/Data/Documents/JL
 : 1653874411:0;lvim server/app/analysis/api/api.go
@@ -2624,7 +2621,7 @@ p\
 : 1653992146:0;ps exit
 : 1653992528:0;cd /media/black/Data/Documents/JL/jt/server/app/resource/config
 : 1653992594:0;cd ~/Downloads
-: 1653993491:0;lvim grammar_learn/惮�僯�/main.go
+: 1653993491:0;lvim grammar_learn/惮?僯?/main.go
 : 1653993794:0;cd 2
 : 1653993811:0;rm .\~lock.Book1.xlsx\#
 : 1653994045:0;cd 1/j
@@ -2638,13 +2635,13 @@ p\
 : 1654008270:0;cp ../SetCellValue/Book1.xlsx .
 : 1654008316:0;cp ../NewFile/Book1.xlsx .
 : 1654008528:0;libreoffice Book2.xlsx
-: 1654009774:0;cp 导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx /media/black/Data/Documents/Code/Go/go_learn/excelize_learn/xuri/OpenFile/
+: 1654009774:0;cp 导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx /media/black/Data/Documents/Code/Go/go_learn/excelize_learn/xuri/OpenFile/
 : 1654009874:0;libreoffice Book3.xlsx
 : 1654010157:0;fg
 : 1654047741:0;fanyi cell
 : 1654050923:0;fanyi Left
 : 1654050941:0;fanyi Quantity
-: 1654050959:0;fanyi 広�孃�
+: 1654050959:0;fanyi 広?孃?
 : 1654050980:0;fanyi inventory
 : 1654051979:0;lvim testing_learn/roman/roman.go
 : 1654052462:0;go test testing_learn/roman/roman
@@ -2666,8 +2663,8 @@ p\
 : 1654068265:0;lvim jt_erp_check_table_test.go
 : 1654069149:0;go test -v . -run="TestGetCheckCellIdInfo"
 : 1654070280:0;fanyi product
-: 1654070560:0;rm 惼�烁�认\ 206714.crdownload
-: 1654070569:0;evince ERP系练�＃�jt_erp_0001＃�.pdf 
+: 1654070560:0;rm 惼?烁?认\ 206714.crdownload
+: 1654070569:0;evince ERP系练?＃?jt_erp_0001＃?.pdf 
 : 1654071928:0;go test -v . -run="TestGetCellInventoryBatch"
 : 1654074681:0;lvim .ssh/id_rsa.pub
 : 1654074860:0;cd opentelemetry_learn
@@ -2703,14 +2700,14 @@ p\
 : 1654155637:0;cd ls
 : 1654155646:0;cd plugin
 : 1654155649:0;cd xlsx
-: 1654155728:0;cp /media/black/Data/Documents/Code/Go/go_learn/excelize_learn/xuri/OpenFile/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx .
+: 1654155728:0;cp /media/black/Data/Documents/Code/Go/go_learn/excelize_learn/xuri/OpenFile/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx .
 : 1654155734:0;lvim xlsx.go
-: 1654155816:0;fanyi 烻��点
-: 1654155832:0;fanyi 樃�惽�
-: 1654156504:0;fanyi 胁��
-: 1654156517:0;fanyi 僨��
+: 1654155816:0;fanyi 烻??点
+: 1654155832:0;fanyi 樃?惽?
+: 1654156504:0;fanyi 胁??
+: 1654156517:0;fanyi 僨??
 : 1654156793:0;cd strconv_learn
-: 1654158058:0;fanyi 偃�移
+: 1654158058:0;fanyi 偃?移
 : 1654158134:0;fanyi 左
 : 1654159319:0;libreoffice xlsx.go
 : 1654162810:0;go test -v . -run="TestCheckTemplateExcelExport"
@@ -2723,7 +2720,7 @@ p\
 : 1654166702:0;fanyi done
 : 1654167087:0;lvim riscv_learn/riscv-operating-system-mooc/code/os/09-lock/start.S
 : 1654221675:0;udisksctl mount -b /dev/sdd1
-: 1654221707:0;cp ubuntu-21.10-desktop-amd64.iso /media/black/微PE工僥�箱/
+: 1654221707:0;cp ubuntu-21.10-desktop-amd64.iso /media/black/微PE工僥?箱/
 : 1654237118:0;fdisk --help
 : 1654237127:0;fdisk -l
 : 1654237132:0;sudo fdisk -l
@@ -2736,38 +2733,38 @@ p\
 : 1654312478:0;lvim gin03/blogger/main.go
 : 1654312769:0;cd gin_learn/upfile
 : 1654312776:0;go mod init upfile
-: 1654313469:0;curl -X POST 127.0.0.1:8080/upload --form 'file=@"/home/black/Documents/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx"'\
+: 1654313469:0;curl -X POST 127.0.0.1:8080/upload --form 'file=@"/home/black/Documents/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx"'\
 
-: 1654314166:0;cd grammar_learn/僯��尃�
-: 1654328699:0;lvim grammar_learn/类僾��转惭��/main.go
-: 1654328862:0;cd 类僾��惶�言
-: 1654328962:0;cd 僯��尃�
-: 1654330061:0;cd ../类僾��惶�言
-: 1654330780:0;cd ../僯��尃�
-: 1654337204:0;cd 毃�较�
-: 1654338156:0;cd ../练�惾��佃�/胮�僯��惀��签
-: 1654338535:0;fanyi 惯��述
+: 1654314166:0;cd grammar_learn/僯??尃?
+: 1654328699:0;lvim grammar_learn/类僾??转惭??/main.go
+: 1654328862:0;cd 类僾??惶?言
+: 1654328962:0;cd 僯??尃?
+: 1654330061:0;cd ../类僾??惶?言
+: 1654330780:0;cd ../僯??尃?
+: 1654337204:0;cd 毃?较?
+: 1654338156:0;cd ../练?惾??佃?/胮?僯??惀??签
+: 1654338535:0;fanyi 惯??述
 : 1654338563:0;fanyi describe
 : 1654387072:0;cd Python/python_learn
 : 1654387098:0;fd *wifi
 : 1654387103:0;fd *wifi*
 : 1654387260:0;cd pywifi_learn
 : 1654387271:0;pip install pywifi
-: 1654399726:0;evince ERP系练�＃�jt_erp_0001＃�.pdf
-: 1654401890:0;lvim grammar_learn/郻��僰��/main.go
-: 1654401978:0;fanyi 僮��僯�
+: 1654399726:0;evince ERP系练?＃?jt_erp_0001＃?.pdf
+: 1654401890:0;lvim grammar_learn/郻??僰??/main.go
+: 1654401978:0;fanyi 僮??僯?
 : 1654403920:0;fanyi affected
 : 1654426915:0;lvim xorm_learn/update/main.go
 : 1654431553:0;cd xorm_learn
 : 1654431554:0;cd update
-: 1654477306:0;git commit -m "惸�示惩�惼��符僯�"
+: 1654477306:0;git commit -m "惸?示惩?惼??符僯?"
 : 1654477534:0;mackup list|grep tmux
 : 1654477581:0;lvim .mackup/picom.cfg
-: 1654479070:0;fanyi 导僥�
+: 1654479070:0;fanyi 导僥?
 : 1654479130:0;lvim gin_learn/upfile/main.go
 : 1654481577:0;cd sling_learn
-: 1654481578:0;cd 惶��件七�载
-: 1654482956:0;fanyi 导僧�
+: 1654481578:0;cd 惶??件七?载
+: 1654482956:0;fanyi 导僧?
 : 1654483752:0;cd excelize_learn
 : 1654483754:0;cd xuri
 : 1654483757:0;cd OpenFile
@@ -2776,7 +2773,7 @@ p\
 : 1654485098:0;cd cmd/erp
 : 1654486025:0;cd ../../logic/inventory
 : 1654486036:0;go test -v . -run="TestCheckFromInfo"
-: 1654486255:0;cp ../../../../plugin/xlsx/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx .
+: 1654486255:0;cp ../../../../plugin/xlsx/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx .
 : 1654486615:0;cp ~/Downloads/CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx .
 : 1654488736:0;go
 : 1654489625:0;go test -v . -run="TestCheckFromDataInfoListToExcel
@@ -2784,9 +2781,9 @@ p\
 : 1654498577:0;curl http://file2.jiutiandata.com/CheckFromDataInfoListToExcel_20220606145557_902984 -o CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx
 : 1654500051:0;go test -v . -run="TestExcelToCheckFromDataInfoList"
 : 1654500158:0;go test -v . -run="TestUpdateCheckFromInfo"
-: 1654501719:0;fanyi 七�载
-: 1654502180:0;fanyi 工僥�
-: 1654502568:0;cp 导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx ~/Documents/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx
+: 1654501719:0;fanyi 七?载
+: 1654502180:0;fanyi 工僥?
+: 1654502568:0;cp 导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx ~/Documents/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx
 : 1654502612:0;cd /media/black/Data/Documents/curl
 : 1654502622:0;curl --location --request POST 'http://erp.jldatas.com/api/v1/push/common/upload_file' \\
 --header 'Proxy-Connection: keep-alive' \\
@@ -2799,10 +2796,10 @@ p\
 --header 'Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8' \\
 --header 'Cookie: _ga_X9NKQBTYHM=GS1.1.1638258341.19.1.1638259742.60; _ga=GA1.2.1068536288.1637291431; account=Andy; Hm_lvt_9c972a0abc516c1213a17e4716d9d628=1648261652,1648518092,1648602879,1648778523; Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwMTEsIm9wZXJhdG9ySWQiOjEwMTEsInN5c0NvZGUiOjAsImV4cCI6MTY1MTM3MDUzMiwiaXNzIjoianQtd2ViLWFwaSIsIm5iZiI6MTY0ODc3NzUzMn0.HDVdCSN41VUE4RxA0iW2_xEZ_DhfEs0R5bvTI1CZUvs; Hm_lpvt_9c972a0abc516c1213a17e4716d9d628=1648779815' \\
 --form 'key="fbm-pda-1.3.1"' \\
---form 'file=@"/home/black/Documents/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx"'\
+--form 'file=@"/home/black/Documents/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx"'\
 
 : 1654502683:0;cd ~/Documents
-: 1654502691:0;libreoffice 导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx
+: 1654502691:0;libreoffice 导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx
 : 1654502722:0;curl --location --request POST 'http://erp.jldatas.com/api/v1/push/common/upload_file' \\
 --header 'Proxy-Connection: keep-alive' \\
 --header 'Accept: application/json, text/plain, */*' \\
@@ -2814,14 +2811,14 @@ p\
 --header 'Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8' \\
 --header 'Cookie: _ga_X9NKQBTYHM=GS1.1.1638258341.19.1.1638259742.60; _ga=GA1.2.1068536288.1637291431; account=Andy; Hm_lvt_9c972a0abc516c1213a17e4716d9d628=1648261652,1648518092,1648602879,1648778523; Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwMTEsIm9wZXJhdG9ySWQiOjEwMTEsInN5c0NvZGUiOjAsImV4cCI6MTY1MTM3MDUzMiwiaXNzIjoianQtd2ViLWFwaSIsIm5iZiI6MTY0ODc3NzUzMn0.HDVdCSN41VUE4RxA0iW2_xEZ_DhfEs0R5bvTI1CZUvs; Hm_lpvt_9c972a0abc516c1213a17e4716d9d628=1648779815' \\
 --form 'key="fbm-pda-1.3.1"' \\
---form 'file=@"/home/black/Documents/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx"'
+--form 'file=@"/home/black/Documents/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx"'
 : 1654502741:0;curl http://file1.jiutiandata.com/push_file_20220606160524_113824 -o 1.xlsx
 : 1654502808:0;go test -v . -run="TestCheckFromDataInfoListToExcel"
 : 1654502828:0;curl http://file2.jiutiandata.com/CheckFromDataInfoListToExcel_20220606160650_736356 -o CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx
 : 1654502833:0;libreoffice CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx
-: 1654503270:0;rm server/app/erp/logic/inventory/导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx
+: 1654503270:0;rm server/app/erp/logic/inventory/导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx
 : 1654503280:0;rm server/app/erp/logic/inventory/CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx
-: 1654503314:0;git commit -m "烻��点惵�惭�导僧� v1.0.1"
+: 1654503314:0;git commit -m "烻??点惵?惭?导僧? v1.0.1"
 : 1654503412:0;lvim server/app/erp/logic/purchase/plan_tmp/purchase_plan_logic_tmp.go 
 : 1654504250:0;curl --location --request POST 'http://127.0.0.1:8801/api/v1/erp/inventory/check/check_from_excel_export' \\
 --header 'Accept: application/json, text/plain, */*' \\
@@ -2847,16 +2844,16 @@ p\
 : 1654505604:0;dlv debug ./jt_erp
 : 1654507245:0;libreoffice 1.xlsx
 : 1654507425:0;dlv debug ./jt_erp.go
-: 1654507932:0;git commit -m "烻��点惵�惭�导僧� v1.0.2 修惴� jt_erp_check_data 惻�惶� 0 失败郷�郂��"
+: 1654507932:0;git commit -m "烻??点惵?惭?导僧? v1.0.2 修惴? jt_erp_check_data 惻?惶? 0 失败郷?郂??"
 : 1654508517:0;/opt/apps
-: 1654509112:0;git commit -m "烻��点惵�惭�导僧� v1.0.3 添僪��烻�惮�导僥�惵�惭�惮�僯�"
+: 1654509112:0;git commit -m "烻??点惵?惭?导僧? v1.0.3 添僪??烻?惮?导僥?惵?惭?惮?僯?"
 : 1654509130:0;git branch --list
 : 1654509168:0;git branch -l
 : 1654509171:0;git branch -l -a
 : 1654509420:0;lvim server/app/erp/logic/inventory/check_logic.go
 : 1654509757:0;cd server/app/erp/data/inventory
 : 1654509774:0;go test -v . -run="TestGetCheckIdInfo"
-: 1654511519:0;git commit -m "烻��点惵�惭�导僧� v1.0.4 惴�僶��惶�泃�迃�僻��练�惾��"
+: 1654511519:0;git commit -m "烻??点惵?惭?导僧? v1.0.4 惴?僶??惶?泃?迃?僻??练?惾??"
 : 1654512863:0;git checkout -bmaster check_excel
 : 1654512872:0;git checkout -b check_excel
 : 1654512892:0;git branch -d master
@@ -2890,10 +2887,10 @@ p\
 : 1654913318:0;lvim server/app/erp/data/inventory/jt_erp_cell_inventory_table.go
 : 1654913510:0;go mod download github.com/cockroachdb/apd
 : 1654932688:0;rm 1.xlsx
-: 1654932690:0;rm 导僧�徃�烻��点僲��导僥�樃�惽�2.xlsx
+: 1654932690:0;rm 导僧?徃?烻??点僲??导僥?樃?惽?2.xlsx
 : 1654932697:0;rm CheckFromDataInfoListToExcel_20220606113457_509750_.xlsx
-: 1654932735:0;rm 惼�烁�认\ 62978.crdownload
-: 1654932736:0;rm ERP系练�＃�jt_erp_0001＃�.pdf
+: 1654932735:0;rm 惼?烁?认\ 62978.crdownload
+: 1654932736:0;rm ERP系练?＃?jt_erp_0001＃?.pdf
 : 1654933049:0;git clone git@github.com:torvalds/linux.git --depth 1
 : 1654933499:0;sudo apt install ibus-rime
 : 1654934104:0;ibus engine list
@@ -2912,18 +2909,18 @@ p\
 : 1654938272:0;go help test|grep debug
 : 1654938902:0;git clone git@github.com:qyuhen/book.git --depth 1
 : 1654938935:0;cd book
-: 1654938941:0;evince C\ 学乃�笃�记.pdf
-: 1654939117:0;evince Go\ 学乃�笃�记\ 第僥�烩��\ 七�僭�\ -\ 郂��觃�.pdf
+: 1654938941:0;evince C\ 学乃?笃?记.pdf
+: 1654939117:0;evince Go\ 学乃?笃?记\ 第僥?烩??\ 七?僭?\ -\ 郂??觃?.pdf
 : 1654940384:0;evince gopher2015/qyuhen.pdf 
-: 1654940502:0;evince Go\ 1.5\ 溃�烀�僩��惾��\ ＃�书签烩��＃�.pdf
+: 1654940502:0;evince Go\ 1.5\ 溃?烀?僩??惾??\ ＃?书签烩??＃?.pdf
 : 1654950057:0;nmcli device wifi show
 : 1654996343:0;cd pkg/mod/4d63.com/gochecknoglobals@v0.1.0/checknoglobals/testdata/src/0
 : 1654996346:0;lvim code.go
 : 1654996395:0;cd pkg/mod/github.com/docker/go-connections@v0.4.0/sockets
 : 1654996400:0;lvim unix_socket.go
-: 1654996909:0;git commit -m "lvim 黃�认惩��开惪��僯��"
+: 1654996909:0;git commit -m "lvim 黃?认惩??开惪??僯??"
 : 1654997593:0;git add .config/lvim/config.lua
-: 1654997608:0;git commit -m "lvim 惩��开烻�对胁��僯�"
+: 1654997608:0;git commit -m "lvim 惩??开烻?对胁??僯?"
 : 1654997709:0;lvim go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_lru.go
 : 1654999665:0;cd /media/black/Data/Documents/Code/Go/
 : 1654999706:0;lvim src/runtime/proc.go
@@ -2963,7 +2960,7 @@ p\
 : 1655602399:0;git log -g
 : 1655602440:0;git restore 2.py
 : 1655602460:0;git branch -b test
-: 1655605534:0;git commit -m "惬��郲��"
+: 1655605534:0;git commit -m "惬??郲??"
 : 1655605555:0;lvim unsafe_learn/unsafe_Pointer.go
 : 1655605817:0;lvim sync_learn/main.go
 : 1655606041:0;mkdir publicChain
@@ -2986,7 +2983,7 @@ p\
 : 1655620402:0;git commit -m "publicChain CreateBlockChainWithGenesisBlock"
 : 1655621010:0;git commit -m "publicChain blockChain.Add"
 : 1655621683:0;git commit -m "publicChain NewProofOfWork"
-: 1655623179:0;git commit -m "publicChain 僨��建惶�烺��工佃�郧��证惸��对豃�"
+: 1655623179:0;git commit -m "publicChain 僨??建惶?烺??工佃?郧??证惸??对豃?"
 : 1655624442:0;lvim blc/proof_of_work.go
 : 1655625431:0;git commit -m "publicChain prepareData"
 : 1655626516:0;git commit -m "publicChain (proofOfWork *ProofOfWork) IsValid"
@@ -2996,7 +2993,7 @@ p\
 : 1655627866:0;cd boltdb/bolt
 : 1655627886:0;go mod init open
 : 1655627905:0;lvim my.db
-: 1655628969:0;git commit -m "publicChain 広�僨��僬��惨��孃�胪�惵�练� 僯��広�僨��僬��惨�� Block"
+: 1655628969:0;git commit -m "publicChain 広?僨??僬??惨??孃?胪?惵?练? 僯??広?僨??僬??惨?? Block"
 : 1655630004:0;git commit -m "boltdb 1"
 : 1655630608:0;go run open.go
 : 1655630676:0;git commit -m "boltdb view put get "
@@ -3012,7 +3009,7 @@ p\
 : 1656079575:0;cd go.uuid_learn
 : 1656079579:0;go run uuid.go
 : 1656080785:0;git commit -m "---"
-: 1656085588:0;nmcli device wifi connect 僰�它�髃�烺��iPad
+: 1656085588:0;nmcli device wifi connect 僰?它?髃?烺??iPad
 : 1656114008:0;go install github.com/syndtr/goleveldb/leveldb
 : 1656114016:0;go install github.com/syndtr/goleveldb/leveldb@latest
 : 1656114031:0;cd go/bin
@@ -3091,7 +3088,7 @@ p\
 : 1656144995:0;sudo chattr -i hello.log
 : 1656145002:0;./fcntl_F_WRLCK_test
 : 1656145009:0;lsattr hello.log
-: 1656145318:0;git commit -m "惶��件郴�-建议郴�"
+: 1656145318:0;git commit -m "惶??件郴?-建议郴?"
 : 1656145753:0;ls db
 : 1656145771:0;cat db/LOG
 : 1656145810:0;cat LOCK
@@ -3150,7 +3147,6 @@ p\
 : 1656511101:0;cd bbdev_app
 : 1656511166:0;sudo apt install libdpdk-dev
 : 1656511638:0;pkg-config --exists libdpdk
-: 1656511685:0;lvim main.c
 : 1656511877:0;cd /usr/include/dpdk/
 : 1656511889:0;lvim rte_common.h
 : 1656511953:0;git restore main.c
@@ -3180,14 +3176,14 @@ p\
 : 1656805342:0;git checkout ubuntu
 : 1656805347:0;git checkout -b ubuntu
 : 1656805357:0;git commit -m "ubuntu"
-: 1656807675:0;git commit -m "郂��胩�"
+: 1656807675:0;git commit -m "郂??胩?"
 : 1656807701:0;lvim test/main.go
-: 1656808917:0;git commit -m "语泃�髃�亮"
+: 1656808917:0;git commit -m "语泃?髃?亮"
 : 1656810003:0;lvim opencv-learn/opencv1/Hough-Transform/hough_circles.py
 : 1656810579:0;pip install opencv-python
-: 1656810898:0;lvim opencv-learn/OpenCV-Python/ch37-烩�征僬�郥��/37.2-对ORB惯��述符迃�胁��胻�僪��僬�郥��.py
-: 1656811247:0;cd opencv-learn/OpenCV-Python/ch37-烩�征僬�郥��/
-: 1656811255:0;python3 37.5-FLANN僬�郥��價�.py
+: 1656810898:0;lvim opencv-learn/OpenCV-Python/ch37-烩?征僬?郥??/37.2-对ORB惯??述符迃?胁??胻?僪??僬?郥??.py
+: 1656811247:0;cd opencv-learn/OpenCV-Python/ch37-烩?征僬?郥??/
+: 1656811255:0;python3 37.5-FLANN僬?郥??價?.py
 : 1656812298:0;cd deb/
 : 1656812336:0;sudo dpkg --install drawio-amd64-17.2.1.deb
 : 1656813806:0;rm code_1.64.2-1644445741_amd64.deb
@@ -3351,7 +3347,7 @@ rustup update nightly\
 : 1657802765:0;cd /media/black/Data/Documents/Code/Python/python_learn
 : 1657802843:0;lvim tensorflow_learn/Tensorflow-/Tensorflow/5_2_CNN_MNIST.py
 : 1657804015:0;cd pytorch_learn/Deep-Learning-with-PyTorch-Tutorials
-: 1657804027:0;cd lesson05-惩��僦��惵�孃�郷�郂��
+: 1657804027:0;cd lesson05-惩??僦??惵?孃?郷?郂??
 : 1657804106:0;python3 mnist_train.py
 : 1658015130:0;update-desktop-database --help
 : 1658015139:0;do-release-upgrade 
@@ -3370,6 +3366,7 @@ rustup update nightly\
 : 1658443858:0;ssh root@8.134.106.141
 : 1658548323:0;sudo apt --fix-broken install
 : 1658548391:0;bash ./install.sh
+: 1658548578:0;lvim .gitignore
 : 1658548832:0;d
 : 1658548836:0;d 1
 : 1658548841:0;d --help
@@ -3378,10 +3375,10 @@ rustup update nightly\
 : 1658585283:0;perf --help
 : 1658585313:0;sudo apt install linux-tools-generic
 : 1658595098:0;ranger
-: 1658595201:0;rm 惼�烁�认\ 263256.crdownload
-: 1658595204:0;rm 惼�烁�认\ 201034.crdownload
-: 1658595205:0;rm 惼�烁�认\ 296541.crdownload
-: 1658595207:0;rm 惼�烁�认\ 918610.crdownload
+: 1658595201:0;rm 惼?烁?认\ 263256.crdownload
+: 1658595204:0;rm 惼?烁?认\ 201034.crdownload
+: 1658595205:0;rm 惼?烁?认\ 296541.crdownload
+: 1658595207:0;rm 惼?烁?认\ 918610.crdownload
 : 1658595210:0;cd Telegram\ Desktop
 : 1658597527:0;sudo umount /dev/sda1
 : 1658597567:0;umount /dev/sda1 
@@ -3456,7 +3453,7 @@ rustup update nightly\
 : 1659104905:0;sudo apt autoremove
 : 1659184634:0;lvim .config/dlv/config.yml
 : 1659198480:0;udisksctl mount -b /dev/sdb
-: 1659198564:0;cp install.wim /media/black/微PE工僥�箱/
+: 1659198564:0;cp install.wim /media/black/微PE工僥?箱/
 : 1659199393:0;cp Win11_Chinese\(Simplified\)_x64v1.iso /media/black/3CDF6A4440807D46
 : 1659201560:0;lvim .mysql_history 
 : 1659201630:0;cd VirtualBox\ VMs
@@ -3469,925 +3466,230 @@ rustup update nightly\
 : 1659229506:0;bluetoothctl connect E3:BF:A6:08:D2:1E
 : 1659229520:0;bluetoothctl connect E3:BF:A6:0B:D2:1E
 : 1659229529:0;bluetoothctl connect E3:BF:A6:07:D2:1E
-: 1659229540:0;bluetoothctl --help
-: 1659229574:0;bluetoothctl scan on
 : 1659229606:0;bluetoothctl pair E3:BF:A6:0C:D2:1E
-: 1659229638:0;bluetoothctl
-: 1659229682:0;bluetoothctl --help
-: 1659229709:0;bluetoothctl devices
 : 1659229729:0;bluetoothctl remove E3:BF:A6:06:D2:1E
 : 1659229732:0;bluetoothctl remove E3:BF:A6:09:D2:1E
 : 1659229736:0;bluetoothctl remove E3:BF:A6:08:D2:1E
 : 1659229741:0;bluetoothctl remove E3:BF:A6:07:D2:1E
 : 1659229745:0;bluetoothctl remove E3:BF:A6:0A:D2:1E
 : 1659229754:0;bluetoothctl remove E3:BF:A6:0B:D2:1E
-: 1659229757:0;bluetoothctl devices
-: 1659229771:0;bluetoothctl --help
-: 1659229813:0;udisksctl mount -b /dev/sda1
 : 1659229814:0;cd /media/black/Data/Downloads/ISO
-: 1659229815:0;ls
 : 1659229827:0;dd if=../ISO/ubuntu-21.10-desktop-amd64.iso of=/dev/sdb bs=4M
 : 1659229831:0;sudo dd if=../ISO/ubuntu-21.10-desktop-amd64.iso of=/dev/sdb bs=4M
-: 1659230553:0;reboot
-: 1659234372:0;sudo apt update
-: 1659234399:0;apt list --upgradable
-: 1659234532:0;ls
-: 1659234561:0;docker ps
-: 1659234772:0;docker start redis-test
-: 1659234774:0;docker start mysql-test
-: 1659234935:0;udisksctl mount -b /dev/sda1
-: 1659234940:0;cd /media/black/Data/Documents
-: 1659234940:0;ls
-: 1659234946:0;cd Code/Go/go_learn
-: 1659235225:0;ls
-: 1659235228:0;lvim dome/goleveldb-annotated/test/main.go
-: 1659235237:0;git pull 
-: 1659235246:0;git status
-: 1659235250:0;git add .
 : 1659235264:0;cd dome/ledisdb
-: 1659235264:0;ls
-: 1659235275:0;git status
-: 1659235434:0;cd ..
-: 1659235434:0;ls
 : 1659235755:0;git rm --cached ledisdb
 : 1659235764:0;git rm --cached -f ledisdb
 : 1659235773:0;git rm --cached -f nutsdb
-: 1659235774:0;ls
-: 1659235785:0;cd ..
-: 1659235786:0;ls
-: 1659235803:0;git status
-: 1659235819:0;ls
-: 1659238811:0;poweroff
-: 1659256334:0;sudo apt update
-: 1659256370:0;apt list --upgradable
-: 1659256407:0;ls
-: 1659256448:0;lvim dome/goleveldb-annotated/test/main.go
-: 1659256451:0;ls
-: 1659256558:0;udisksctl mount -b /dev/sda1
-: 1659256560:0;cd /media/black/Data/Documents
-: 1659256561:0;ls
-: 1659256599:0;cd Code/Go/go_learn
-: 1659256601:0;lvim dome/goleveldb-annotated/test/main.go
 : 1659266488:0;cd /usr/share/applications
-: 1659266488:0;ls
 : 1659266515:0;lvim hplj1020.desktop
-: 1659266552:0;exit
-: 1659267525:0;cd 
-: 1659267526:0;ls
 : 1659268161:0;sudo apt install synaptic 
 : 1659268197:0;synaptic --help
-: 1659280432:0;poweroff
-: 1659450543:0;sudo apt update
-: 1659450628:0;apt list --upgradable
-: 1659450633:0;sudo apt upgrade 
-: 1659451312:0;sudo apt update
-: 1659452148:0;apt list --upgradable
-: 1659453780:0;sudo apt upgrade 
-: 1659454916:0;reboot
-: 1659454952:0;poweroff
-: 1659531644:0;reboot
-: 1659532342:0;ls
-: 1659532370:0;udisksctl mount -b /dev/sda1
-: 1659532374:0;cd /media/black/Data/Documents
-: 1659532375:0;cd ..
-: 1659532378:0;cd Downloads
-: 1659532378:0;ls
-: 1659532381:0;cd ISO
-: 1659532381:0;ls
-: 1659533467:0;wget https://software.download.prss.microsoft.com/dbazure/Win10_21H2_Chinese\(Simplified\)_x64.iso\?t\=d9871616-5ad5-488a-acf6-2e03978c7067\&e\=1659618828\&h\=be7e4c6672599e832aafb06a8df918a8d1cdd8e879c2f638140693656b85da93
-: 1659533475:0;unset https_proxy
-: 1659533477:0;unset http_proxy
 : 1659533478:0;wget https://software.download.prss.microsoft.com/dbazure/Win10_21H2_Chinese\(Simplified\)_x64.iso\?t\=d9871616-5ad5-488a-acf6-2e03978c7067\&e\=1659618828\&h\=be7e4c6672599e832aafb06a8df918a8d1cdd8e879c2f638140693656b85da93
-: 1659535094:0;ls
 : 1659535100:0;rm Win10_21H2_Chinese\(Simplified\)_x64.iso\?t=d9871616-5ad5-488a-acf6-2e03978c7067\&e=1659618828\&h=be7e4c6672599e832aafb06a8df918a8d1cdd8e879c2f638140693656b85da93
-: 1659535101:0;ls
-: 1659535104:0;rm 惼�烁�认\ 176768.crdownload
-: 1659535105:0;ls
-: 1659539230:0;poweroff
-: 1659566502:0;nautilus .
-: 1659566897:0;reboot
+: 1659535104:0;rm 惼?烁?认\ 176768.crdownload
 : 1659706279:0;sudo update-grub2
 : 1659706306:0;sudo grub-install
-: 1659706312:0;reboot
-: 1659783074:0;sudo apt update
-: 1659754326:0;apt list --upgradable
-: 1659754330:0;sudo apt upgrade 
-: 1659765307:0;sudo apt update
-: 1659765327:0;apt list --upgradable
-: 1659765331:0;sudo apt upgrade 
-: 1659765335:0;reboot
-: 1659765365:0;sudo apt upgrade 
-: 1659765369:0;sudo apt update
-: 1659765391:0;apt list --upgradable
-: 1659765395:0;sudo apt upgrade 
-: 1659765419:0;lvim 
-: 1659765424:0;unset http_proxy
-: 1659765426:0;unset https_proxy
-: 1659765427:0;lvim 
-: 1659765685:0;reboot
-: 1659772253:0;udisksctl mount -b /dev/sda1
-: 1659772255:0;cd /media/black/Data/Documents
-: 1659772256:0;ls
-: 1659772257:0;cd Code
-: 1659772259:0;ls
-: 1659772262:0;cd Go/go_learn
-: 1659772265:0;lvim dome/goleveldb-annotated/test/main.go
 : 1659772860:0;fanyi snapshot
 : 1659772878:0;fanyi acquire
-: 1659777042:0;exit
-: 1659777046:0;reboot
-: 1659838799:0;bluetoothctl devices
 : 1659838816:0;bluetoothctl connect E3:BF:A6:0C:D2:1E
-: 1659838977:0;bluetoothctl scan on
 : 1659839096:0;bluetoothctl pair E3:BF:A6:0D:D2:1E
-: 1659839107:0;bluetoothctl scan on
-: 1659839123:0;bluetoothctl
-: 1659839895:0;sudo apt update
 : 1659840153:0;udisksctl mount -b /dev/nvme0n1p1
-: 1659840264:0;sudo umount /dev/nvme0n1p1
-: 1659840519:0;cd /boot/efi
-: 1659840520:0;ls
-: 1659840522:0;sudo su
-: 1659841733:0;sudo apt install refind
 : 1659841763:0;sudo apt remove refind
-: 1659841770:0;sudo apt install refind
 : 1659841803:0;refind-install
 : 1659841827:0;refind-mkdefault
-: 1659841834:0;sudo refind-install
-: 1659841845:0;sudo refind-mkdefault
 : 1659841861:0;cd /boot/efi
-: 1659841864:0;sudo su
-: 1659842161:0;ls
-: 1659842167:0;udisksctl mount -b /dev/sda1
-: 1659842168:0;ls
-: 1659842171:0;cd /media/black/Data/Documents
-: 1659842172:0;ls
-: 1659842250:0;cd ..
-: 1659842251:0;ls
-: 1659842255:0;cd Documents
-: 1659842256:0;ls
-: 1659842261:0;cd ZFDM
-: 1659842261:0;ls
-: 1659842270:0;cd ..
-: 1659842271:0;ls
-: 1659842276:0;cd etcd
-: 1659842277:0;ls
-: 1659842278:0;cd ..
-: 1659842279:0;ls
 : 1659842290:0;mv etcd docker/
-: 1659842290:0;ls
 : 1659842303:0;cd Docx
-: 1659842303:0;ls
-: 1659842305:0;cd ..
-: 1659842306:0;ls
 : 1659842313:0;mv Docx docx
-: 1659842313:0;ls
 : 1659842327:0;mv md docx
-: 1659842328:0;ls
 : 1659842357:0;mv pdf docx
-: 1659842357:0;ls
-: 1659842434:0;cd Code
-: 1659842435:0;ls
-: 1659842437:0;cd ..
-: 1659842437:0;ls
 : 1659842449:0;mv yaml docx
-: 1659842450:0;ls
-: 1659842552:0;cd docx
-: 1659842552:0;ls
-: 1659842563:0;cd ..
-: 1659842564:0;ls
-: 1659842569:0;cd gitlab
-: 1659842570:0;ls
-: 1659842572:0;cd gitlab-runner
-: 1659842572:0;ls
-: 1659842574:0;cd ..
-: 1659842575:0;ls
-: 1659842579:0;cd ..
-: 1659842579:0;ls
 : 1659842645:0;cd graylog
-: 1659842646:0;ls
-: 1659842648:0;cd ..
-: 1659842648:0;l
 : 1659842660:0;mv graylog docker
-: 1659842661:0;ls
 : 1659842680:0;cd JL
-: 1659842682:0;ls
-: 1659842683:0;cd ..
-: 1659842684:0;ls
-: 1659842688:0;cd lvim
-: 1659842688:0;ls
-: 1659842689:0;cd ..
-: 1659842690:0;ls
-: 1659842698:0;cd curl
-: 1659842699:0;ls
-: 1659842700:0;cd ..
-: 1659842700:0;ls
 : 1659842708:0;mv docx/md .
-: 1659842708:0;ls
 : 1659842713:0;mv docx/pdf .
 : 1659842720:0;mv docx/yaml .
-: 1659842720:0;ls
-: 1659842726:0;cd sql
-: 1659842726:0;l
-: 1659842728:0;ls
-: 1659842732:0;cd ..
-: 1659842733:0;ls
-: 1659842747:0;cd Istio_learn
-: 1659842748:0;ls
-: 1659842751:0;cd md
-: 1659842751:0;ls
-: 1659842754:0;cd ..
-: 1659842754:0;ls
 : 1659842756:0;cd istio
-: 1659842756:0;ls
-: 1659842758:0;cd ...
-: 1659842758:0;ls
 : 1659842764:0;cd postman
-: 1659842766:0;ls
-: 1659842770:0;lvim ES僿�惼�想��佃�.postman_collection.json
-: 1659842777:0;ls
-: 1659842778:0;cd ..
-: 1659842779:0;ls
+: 1659842770:0;lvim ES僿?惼?想??佃?.postman_collection.json
 : 1659842831:0;cd vsdx
-: 1659842831:0;ls
-: 1659842833:0;cd ..
-: 1659842833:0;ls
-: 1659842923:0;cd Kubernetes
-: 1659842924:0;ls
-: 1659842925:0;cd ..
-: 1659842927:0;ls
-: 1659842940:0;cd envoy
-: 1659842940:0;ls
-: 1659842941:0;cd ..
-: 1659842941:0;ls
-: 1659842950:0;cd telepresence
-: 1659842951:0;ls
-: 1659842952:0;cd ..
-: 1659842953:0;ls
 : 1659842995:0;cd SOA
-: 1659842995:0;ls
-: 1659842999:0;cd 惼��僪��注僦��
-: 1659842999:0;ls
-: 1659843001:0;cd ..
-: 1659843001:0;ls
-: 1659843002:0;cd ..
-: 1659843003:0;ls
-: 1659843007:0;cd Kubernetes
-: 1659843007:0;ls
-: 1659843008:0;cd ..
-: 1659843009:0;ls
-: 1659843030:0;cd JL/jt
-: 1659843031:0;l
-: 1659843032:0;ls
-: 1659843034:0;git pull
-: 1659843054:0;cd ..
-: 1659843055:0;ls
-: 1659843056:0;l
-: 1659843057:0;ls
-: 1659843058:0;cd ..
-: 1659843058:0;ls
-: 1659843060:0;cd ZFDM
-: 1659843061:0;ls
-: 1659843063:0;cd ..
-: 1659843064:0;ls
-: 1659843076:0;cd github
-: 1659843077:0;ls
-: 1659843085:0;cd ..
-: 1659843085:0;ls
-: 1659843091:0;cd Code/Go/go_learn
-: 1659843092:0;ls
-: 1659843093:0;git pull
-: 1659843113:0;ls
-: 1659845152:0;lvim dome/goleveldb-annotated/test/main.go
-: 1659860337:0;reboot
-: 1659870454:0;udisksctl mount -b /dev/sda1
-: 1659870836:0;cd /media/black/Data/Documents
-: 1659870836:0;ls
-: 1659870842:0;cd Code/Go/go_learn
-: 1659870844:0;lvim dome/goleveldb-annotated/test/main.go
-: 1659871268:0;ls
-: 1659871273:0;cd 
-: 1659871273:0;s
-: 1659871274:0;ls
-: 1659871276:0;cd /media/black/Data/Documents
-: 1659871281:0;ls
-: 1659871376:0;exit
-: 1659885813:0;cd /media/black/Data/Documents
-: 1659885816:0;cd pdf
-: 1659885817:0;ls
+: 1659842999:0;cd 惼??僪??注僦??
 : 1659885818:0;evince PlantUML_Language_Reference_Guide_zh.pdf
-: 1659886238:0;poweroff
-: 1659967002:0;exit
-: 1659967006:0;poweroff
-: 1660139134:0;sudo apt update
-: 1660139173:0;apt list --upgradable
-: 1660139177:0;sudo apt upgrade 
-: 1660139891:0;reboot
-: 1660140415:0;sudo apt update
-: 1660140439:0;apt list --upgradable
 : 1660140463:0;nvim
-: 1660411920:0;sudo apt update
-: 1660411952:0;apt list --upgradable
-: 1660411960:0;sudo apt upgrade 
 : 1660412010:0;lvim ~/.tmux.conf
-: 1660414061:0;udisksctl mount -b /dev/sda1
-: 1660414063:0;cd /media/black/Data/Documents
-: 1660414064:0;ls
-: 1660414072:0;cd Code
-: 1660414072:0;ls
-: 1660414074:0;cd Go/go_learn
-: 1660414075:0;ls
-: 1660414078:0;lvim grammar_learn/1.go
-: 1660414086:0;git status
-: 1660414091:0;git pull
-: 1660415210:0;poweroff
-: 1660467694:0;udisksctl mount -b /dev/sda1
-: 1660467696:0;cd /media/black/Data/Documents
-: 1660467697:0;ls
-: 1660467706:0;lvim dome/goleveldb-annotated/test/main.go
-: 1660467714:0;cd Code/Go/go_learn
 : 1660467716:0;lvim dome/goleveldb-annotated/test/main.go
-: 1660468748:0;mount /dev/nvme0n1p1 /media/black/EFI
 : 1660468756:0;mkdir /media/black/EFI
 : 1660468764:0;sudo mkdir /media/black/EFI
 : 1660468768:0;mount /dev/nvme0n1p1 /media/black/EFI
-: 1660468771:0;sudo mount /dev/nvme0n1p1 /media/black/EFI
-: 1660468781:0;cd /media/black/EFI
-: 1660468787:0;sudo su
-: 1660471586:0;exit
-: 1660482437:0;reboot
-: 1660576541:0;sudo mount /dev/nvme0n1p1 /media/black/EFI
-: 1660576547:0;cd /media/black/EFI
 : 1660576555:0;sudo umount /dev/nvme0n1p1
 : 1660576565:0;sudo mount /dev/nvme0n1p1 /media/black/EFI
-: 1660576569:0;sudo su
-: 1660576723:0;ls
-: 1660576726:0;poweroff
-: 1660661337:0;sudo apt update
-: 1660661389:0;apt list --upgradable
-: 1660661394:0;sudo apt upgrade 
-: 1660661886:0;lvim 
-: 1660662425:0;ls
-: 1660662429:0;cd Documents/Mackup
-: 1660662430:0;ls
-: 1660662431:0;cd 
-: 1660662431:0;ls
-: 1660662438:0;udisksctl mount -b /dev/sda1
 : 1660662440:0;cd /media/black/EFI
-: 1660662442:0;cd ..
-: 1660662443:0;ls
 : 1660662445:0;cd Data
-: 1660662447:0;ls
-: 1660662449:0;cd Documents
-: 1660662450:0;ls
-: 1660662452:0;cd Code
-: 1660662452:0;ls
-: 1660662455:0;cd C/C_learn
-: 1660662455:0;ls
-: 1660662510:0;lvim compile_commands.json
-: 1660662889:0;ls
-: 1660662891:0;git status
 : 1660662904:0;lvim crypto-algorithms_learn/des.c
-: 1660663255:0;git status
-: 1660663258:0;git add .
-: 1660663266:0;git commit -m "惀�弃�调�惵�"
-: 1660663269:0;git push
-: 1660663290:0;exit
-: 1660665417:0;poweroff
-: 1660832823:0;ls
-: 1660832849:0;lvim .config/i3/config
-: 1660833221:0;nautilus .
-: 1660833275:0;ls
-: 1660833283:0;cd /media/black/Data/Downloads/
-: 1660833287:0;cd tar
-: 1660833287:0;ls
+: 1660663266:0;git commit -m "惀?弃?调?惵?"
 : 1660833341:0;xz Clash.Meta-linux-amd64-v1.12.0.gz
-: 1660833345:0;ls
 : 1660833378:0;xz --help
 : 1660833390:0;unxz Clash.Meta-linux-amd64-v1.12.0.gz.xz
-: 1660833391:0;ls
-: 1660833442:0;nautilus .
-: 1660833460:0;ls
-: 1660833466:0;./Clash.Meta-linux-amd64 
-: 1660833477:0;ls
-: 1660833484:0;cd linux
-: 1660833485:0;ls
-: 1660833487:0;cd ..
-: 1660833488:0;ls
 : 1660833522:0;mv Clash.Meta-linux-amd64 ~/
-: 1660833522:0;ls
-: 1660833523:0;cd 
-: 1660833525:0;ls
-: 1660833526:0;cd 
-: 1660833526:0;ls
 : 1660834581:0;./Clash.Meta-linux-amd64
 : 1660834587:0;./Clash.Meta-linux-amd64 --help
-: 1660834625:0;ls
-: 1660834714:0;./Clash.Meta-linux-amd64 -t
-: 1660834731:0;lvim .config/clash/config.yaml
-: 1660834945:0;./Clash.Meta-linux-amd64 -t
-: 1660834949:0;./Clash.Meta-linux-amd64 
-: 1660834970:0;lvim .config/clash/config.yaml
-: 1660834977:0;./Clash.Meta-linux-amd64 
-: 1660834986:0;lsof -i:1080
 : 1660834999:0;kill -9 1934
-: 1660835001:0;lsof -i:1080
-: 1660835003:0;./Clash.Meta-linux-amd64 
-: 1660835033:0;lvim .config/clash/config.yaml
-: 1660835068:0;./Clash.Meta-linux-amd64 -t
 : 1660835071:0;./Clash.Meta-linux-amd64 
-: 1660835320:0;lvim .config/clash/config.yaml
 : 1660835333:0;./Clash.Meta-linux-amd64 -t
-: 1660835341:0;lvim .config/clash/config.yaml
-: 1660835442:0;ls
 : 1660835453:0;lvim .config/clash/profiles/1643853510968.yml
-: 1660835483:0;ls
-: 1660835488:0;lvim .config/i3/config
-: 1660835493:0;reboot
-: 1660835531:0;exit
-: 1660835537:0;lvim .config/i3/config
 : 1660835545:0;lvim .config/clash/config.yaml
-: 1660835576:0;/opt/Clash/cfw
-: 1660835600:0;udisksctl mount -b /dev/sda1
-: 1660835605:0;cd Documents/Mackup
-: 1660835607:0;git status
 : 1660835615:0;git restore .config/clash/config.yaml
-: 1660835617:0;/opt/Clash/cfw
 : 1660835626:0;lsof -i:1080
-: 1660835634:0;ps aux|grep cfw
 : 1660835640:0;kill -9 156
 : 1660835644:0;kill -9 1604
-: 1660835651:0;ps aux|grep cfw
 : 1660835657:0;kill -9 1606
 : 1660835659:0;kill -9 1671
 : 1660835662:0;ps aux|grep cfw
-: 1660835665:0;/opt/Clash/cfw
-: 1660835833:0;reboot
 : 1660837124:0;ip
-: 1660837127:0;ip route
-: 1660837135:0;python3 -m http.server
 : 1660837182:0;ufw status
-: 1660837188:0;sudo ufw status
-: 1660837234:0;python3 -m http.server
-: 1660837882:0;poweroff
-: 1660919618:0;cd Documents/Mackup
-: 1660919621:0;git fetch
-: 1660919641:0;git status
-: 1660919643:0;git add .
 : 1660919648:0;git commit -m "tmux"
-: 1660919652:0;git push origin ubuntu:ubuntu
-: 1660919763:0;git status
 : 1660919808:0;rm  .config/clash/profiles/
 : 1660919812:0;rm -r  .config/clash/profiles/
-: 1660919813:0;ls
 : 1660919822:0;rm .config/clash/config.yaml
 : 1660919826:0;rm .config/clash/sub.yaml
-: 1660919829:0;git status
-: 1660919847:0;git checkout mac .config/clash/1.yaml
 : 1660920068:0;git checkout mac:.config/clash/1.yaml
 : 1660920170:0;git checkout mac .config/clash/1.yaml
 : 1660920180:0;git checkout origin/mac .config/clash/1.yaml
 : 1660920184:0;git checkout origin/mac .config/clash/2.yaml
 : 1660920188:0;git checkout origin/mac .config/clash/3.yaml
 : 1660920191:0;git checkout origin/mac .config/clash/4.yaml
-: 1660920195:0;git status
-: 1660920222:0;git add .
-: 1660920227:0;git commit -m "clash"
-: 1660920240:0;reboot
-: 1660920280:0;ls
-: 1660920287:0;cd Documents/Mackup
 : 1660920303:0;lvim .config/clash/cfw-settings.yaml
-: 1660920464:0;ls
 : 1660920467:0;cd .config/clash
-: 1660920468:0;ls
 : 1660920478:0;mv 1.yaml ~/Documents
 : 1660920483:0;mv 2.yaml ~/Documents
 : 1660920487:0;mv 3.yaml ~/Documents
 : 1660920493:0;mv 4.yaml ~/Documents
-: 1660920493:0;ls
 : 1660920557:0;lvim iKuuu.yaml
-: 1660920566:0;ls
 : 1660920575:0;mv iKuuu.yaml ~/Documents/
-: 1660920584:0;ls
 : 1660920586:0;cd profiles
-: 1660920587:0;ls
 : 1660920589:0;lvim list.yml
-: 1660920619:0;git status
-: 1660920624:0;git add .
-: 1660920627:0;git commit -m "clash"
-: 1660920630:0;git push origin ubuntu:ubuntu
-: 1660920695:0;git status
-: 1660920698:0;git add .
-: 1660920699:0;git commit -m "clash"
-: 1660920701:0;git push origin ubuntu:ubuntu
-: 1660920937:0;cd 
-: 1660920939:0;cd /media/black/Data/Downloads/
-: 1660920941:0;cd tar
-: 1660920942:0;ls
-: 1660920948:0;wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/153697551/793a5a56-ad31-4306-89af-6e734cd6ef17\?X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Credential\=AKIAIWNJYAX4CSVEH53A%2F20220819%2Fus-east-1%2Fs3%2Faws4_request\&X-Amz-Date\=20220819T145218Z\&X-Amz-Expires\=300\&X-Amz-Signature\=d4eb510577475b8070611fb18ac0066e6ca0607e683e68568485c3f11bcb8737\&X-Amz-SignedHeaders\=host\&actor_id\=0\&key_id\=0\&repo_id\=153697551\&response-content-disposition\=attachment%3B%20filename%3DClash.for.Windows-0.19.27-x64-linux.tar.gz\&response-content-type\=application%2Foctet-stream
-: 1660921062:0;unset https_proxy
-: 1660921064:0;unset http_proxy
-: 1660921066:0;wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/153697551/793a5a56-ad31-4306-89af-6e734cd6ef17\?X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Credential\=AKIAIWNJYAX4CSVEH53A%2F20220819%2Fus-east-1%2Fs3%2Faws4_request\&X-Amz-Date\=20220819T145218Z\&X-Amz-Expires\=300\&X-Amz-Signature\=d4eb510577475b8070611fb18ac0066e6ca0607e683e68568485c3f11bcb8737\&X-Amz-SignedHeaders\=host\&actor_id\=0\&key_id\=0\&repo_id\=153697551\&response-content-disposition\=attachment%3B%20filename%3DClash.for.Windows-0.19.27-x64-linux.tar.gz\&response-content-type\=application%2Foctet-stream
-: 1660921072:0;source ~/.zshrc
 : 1660921074:0;wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/153697551/793a5a56-ad31-4306-89af-6e734cd6ef17\?X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Credential\=AKIAIWNJYAX4CSVEH53A%2F20220819%2Fus-east-1%2Fs3%2Faws4_request\&X-Amz-Date\=20220819T145218Z\&X-Amz-Expires\=300\&X-Amz-Signature\=d4eb510577475b8070611fb18ac0066e6ca0607e683e68568485c3f11bcb8737\&X-Amz-SignedHeaders\=host\&actor_id\=0\&key_id\=0\&repo_id\=153697551\&response-content-disposition\=attachment%3B%20filename%3DClash.for.Windows-0.19.27-x64-linux.tar.gz\&response-content-type\=application%2Foctet-stream
 : 1660922669:0;gzip --help
 : 1660922705:0;gzip Clash.Meta-linux-amd64-v1.12.0.gz
 : 1660922736:0;tar zxvf Clash.for.Windows-0.19.27-x64-linux.tar.gz
-: 1660922741:0;ls
 : 1660922747:0;mv Clash\ for\ Windows-0.19.27-x64-linux Clash
-: 1660922748:0;ls
 : 1660922760:0;rm -rf /opt/Clash
 : 1660922764:0;sudo rm -rf /opt/Clash
 : 1660922773:0;mv Clash /opt/
 : 1660922779:0;sudo mv Clash /opt/
 : 1660922782:0;cd /opt
-: 1660922782:0;ls
 : 1660922784:0;cd Clash
-: 1660922786:0;cd ..
-: 1660922786:0;ls
 : 1660922790:0;cd containerd
-: 1660922791:0;ls
-: 1660922792:0;cd 
-: 1660922793:0;ls
 : 1660922797:0;rm Clash.Meta-linux-amd64
-: 1660922798:0;ls
-: 1660922802:0;cd /opt/Clash
-: 1660922802:0;ls
-: 1660922806:0;cd 
-: 1660922806:0;ls
-: 1660922808:0;/opt/Clash/cfw
-: 1660922860:0;cd /media/black/Data/Documents
-: 1660922860:0;ls
-: 1660922863:0;cd Code
-: 1660922864:0;ls
 : 1660922870:0;cd dpdk
-: 1660922871:0;ls
 : 1660922882:0;lvim app/meson.build
-: 1660923351:0;cd ..
-: 1660923353:0;ls
 : 1660923363:0;cd mysql
-: 1660923365:0;ls
-: 1660923439:0;cd ..
-: 1660923441:0;ls
-: 1660923462:0;cd tauri
-: 1660923464:0;ls
 : 1660923467:0;cd tauri-app
-: 1660923468:0;ls
 : 1660923500:0;npm run
 : 1660923507:0;npm run tauri build
 : 1660923548:0;lvim src/main.ts
-: 1660923878:0;ls
-: 1660923885:0;lvim tsconfig.json
-: 1660923889:0;ls
-: 1660923890:0;cd ..
-: 1660923890:0;ls
-: 1660923891:0;cd ..
-: 1660923892:0;ls
-: 1660923897:0;cd Lua
-: 1660923898:0;ls
-: 1660923899:0;cd ..
-: 1660923899:0;ls
-: 1660923905:0;cd vulhub
-: 1660923906:0;ls
 : 1660923918:0;lvim contributors.md
 : 1660923940:0;lvim gitlist/0.6.0-rce/README.md
-: 1660923977:0;git pull
-: 1660924110:0;ranger 
-: 1660924203:0;exit
-: 1660924207:0;cd nginx
-: 1660924208:0;ls
 : 1660924214:0;cd CVE-2013-4547
-: 1660924214:0;ls
 : 1660924227:0;docker-compose start
-: 1660924233:0;docker-compose up --build -d
-: 1660924422:0;exit
-: 1660924594:0;cd 
-: 1660924594:0;ls
-: 1660924596:0;cd Documents
-: 1660924596:0;ls
 : 1660924608:0;mv 1.yaml "1.yaml "
-: 1660924609:0;ls
-: 1660924729:0;exit
 : 1660924734:0;ranger 
 : 1660924958:0;cd nginx/CVE-2013-4547/www/uploadfiles
-: 1660924958:0;ls
-: 1660924960:0;cd ..
-: 1660924962:0;ls
-: 1660924963:0;cd ..
-: 1660924964:0;ls
 : 1660924967:0;cd php-fpm
-: 1660924968:0;ls
 : 1660924971:0;lvim www.conf
-: 1660924974:0;cd ..
-: 1660924974:0;ls
 : 1660925102:0;cp www/index.php ~/Documents/"index.php "
-: 1660925860:0;docker ps
 : 1660925878:0;docker exec -it cve-2013-4547_nginx_1 bash
-: 1660926895:0;cd 
-: 1660926895:0;ls
-: 1660926897:0;cd Documents
-: 1660926897:0;ls
 : 1660926900:0;lvim 1.yaml\  
-: 1660927583:0;ls
-: 1660927584:0;cd ..
-: 1660927584:0;ls
-: 1660927587:0;cd -
-: 1660927588:0;ls
-: 1660927591:0;git status
-: 1660927602:0;cd -
-: 1660927603:0;ls
-: 1660927609:0;cd Penetration_Testing_POC
-: 1660927609:0;ls
-: 1660927614:0;git pull
 : 1660957104:0;fanyi redir
 : 1660957114:0;fanyi route
 : 1660957124:0;npm i -g fanyi
-: 1660957297:0;exit
-: 1660957928:0;sudo apt update
-: 1660957978:0;apt list --upgradable
-: 1660957986:0;sudo apt upgrade
-: 1660960062:0;reboot
 : 1660997916:0;umount /dev/sdb2 
-: 1660997918:0;udisksctl mount -b /dev/sda1
-: 1660997970:0;cd /media/black/Data/Documents
-: 1660997971:0;ls
-: 1660997977:0;cd Code
-: 1660997978:0;ls
-: 1660997980:0;cd Rust
-: 1660997981:0;ls
-: 1660997989:0;cd rust_learn
-: 1660997989:0;ls
 : 1660998050:0;lvim holleword/Cargo.toml
 : 1660998274:0;cargo run
-: 1660998676:0;exit
-: 1660999376:0;cd ..
-: 1660999376:0;ls
-: 1660999377:0;cd ..
-: 1660999377:0;ls
-: 1660999379:0;cd C
-: 1660999379:0;ls
-: 1660999383:0;cd C_learn
-: 1660999390:0;ls
 : 1661003223:0;lvim TCP-IP-NetworkNote_learn/ch01/BUILD.gn
-: 1661003872:0;ninja -C out
-: 1661003898:0;gn gen out
-: 1661003930:0;ninja -C out
-: 1661004438:0;sudo apt-get update
 : 1661004484:0;sudo apt-get build-essential tar curl zip unzip
 : 1661004492:0;sudo apt-get build-dep tar curl zip unzip
 : 1661004510:0;sudo apt-get install build-essential tar curl zip unzip
-: 1661004990:0;exit
-: 1661004992:0;ls
-: 1661004992:0;cd 
-: 1661004993:0;ls
-: 1661005004:0;cd /media/black/Data/Documents/github
-: 1661005005:0;ls
 : 1661005018:0;cd fd
-: 1661005018:0;ls
-: 1661005022:0;cd ..
-: 1661005024:0;ls
-: 1661005049:0;git clone https://github.com/Microsoft/vcpkg.git
-: 1661005076:0;ls
-: 1661005081:0;cd dome
-: 1661005082:0;ls
 : 1661005122:0;lvim linux0.11-kernel-code/include/a.out.h
 : 1661005131:0;lvim linux0.11-kernel-code/include/const.h
-: 1661005138:0;ls
 : 1661005147:0;lvim linux0.11-kernel-code/include/signal.h
-: 1661005171:0;ls
 : 1661005205:0;lvim io_uring-echo-server/io_uring_echo_server.c
-: 1661005211:0;cd ..
-: 1661005211:0;ls
 : 1661005270:0;git clone https://github.com/Microsoft/vcpkg.git
 : 1661005597:0;git clone git@github.com:benhoyt/inih.git
-: 1661005610:0;cd inih
-: 1661005611:0;ls
-: 1661005628:0;lvim meson.build
 : 1661005647:0;lvim ini.h
 : 1661005731:0;lvim meson_options.txt
 : 1661005736:0;lvim ini.c
 : 1661005771:0;lvim meson.build
-: 1661005808:0;lvim README.md
-: 1661005838:0;cd ..
 : 1661005849:0;git clone git@github.com/Microsoft/vcpkg.git
 : 1661005867:0;git clone git@github.com:Microsoft/vcpkg.git
-: 1661006118:0;ls
 : 1661006121:0;mkdir C
-: 1661006123:0;ls
 : 1661006130:0;mv vcpkg C
-: 1661006131:0;ls
 : 1661006135:0;mv inih C
-: 1661006135:0;ls
 : 1661006143:0;cd FlashDB
-: 1661006144:0;ls
 : 1661006148:0;lvim src/fdb.c
-: 1661006152:0;ls
-: 1661006153:0;cd ..
-: 1661006154:0;ls
 : 1661006160:0;mv FlashDB C
-: 1661006161:0;ls
 : 1661006166:0;lvim fanqiang/README.md
-: 1661006171:0;ls
 : 1661006191:0;mkdir Rust
 : 1661006196:0;mv fd Rust
-: 1661006208:0;ls
-: 1661006213:0;mkdir CVE
 : 1661006231:0;mv Kernelhub CVE
 : 1661006236:0;mv cve CVE
-: 1661006237:0;ls
 : 1661006250:0;mv ripgrep Rust
-: 1661006251:0;ls
-: 1661006256:0;cd C
-: 1661006256:0;ls
-: 1661006271:0;cd vcpkg
-: 1661006272:0;ls
 : 1661006276:0;./bootstrap-vcpkg.sh
-: 1661006337:0;./vcpkg install inih
 : 1661006364:0;./vcpkg integrate install
-: 1661006368:0;./vcpkg install inih
-: 1661006575:0;unset http_proxy
-: 1661006577:0;unset https_proxy
 : 1661006578:0;./vcpkg install inih
-: 1661007007:0;ls
-: 1661007304:0;cd ..
-: 1661007305:0;ls
-: 1661007307:0;cd inih
-: 1661007308:0;ls
-: 1661007328:0;exit
-: 1661007343:0;ninja -C out
-: 1661007381:0;gdb ./out/obj/TCP-IP-NetworkNote_learn/ch01/fd_seri 
-: 1661007435:0;ninja -C out
 : 1661007439:0;gdb ./out/obj/TCP-IP-NetworkNote_learn/ch01/fd_seri 
-: 1661009934:0;git status
-: 1661009937:0;git add .
 : 1661009945:0;git commit -m "openssl EVP"
-: 1661009950:0;git push
-: 1661009964:0;poweroff
-: 1661059446:0;cd /media/black/Data/Documents/github
-: 1661059448:0;udisksctl mount -b /dev/sda1
-: 1661059449:0;cd /media/black/Data/Documents/github
-: 1661059450:0;ls
-: 1661059454:0;cd ..
-: 1661059454:0;ls
-: 1661059457:0;cd Code/C/C_learn
-: 1661059458:0;ls
-: 1661059639:0;lvim grammar_learn/1.c
-: 1661060517:0;gn gen out
-: 1661060519:0;ninja -C out
-: 1661060548:0;./out/obj/grammar_learn/define_test
-: 1661060596:0;ninja -C out
-: 1661060597:0;./out/obj/grammar_learn/define_test
-: 1661060727:0;ninja -C out
 : 1661060728:0;./out/obj/grammar_learn/define_test
-: 1661060813:0;ls
 : 1661060817:0;cd grammar_learn
-: 1661060817:0;s
-: 1661060818:0;ls
 : 1661060824:0;gcc -E define_test.c
-: 1661061092:0;git status
-: 1661061097:0;git add .
 : 1661061108:0;git commit -m "define"
 : 1661061444:0;lvim /usr/src/linux-headers-5.15.0-43-generic/kernel/cgroup/Makefile 
-: 1661061662:0;sudo apt install linux-source
 : 1661061778:0;cd /usr/src
-: 1661061779:0;ls
-: 1661061795:0;cd linux-source-5.15.0
-: 1661061796:0;ls
 : 1661061820:0;tar jxvf linux-source-5.15.0.tar.bz2
-: 1661061824:0;sudo tar jxvf linux-source-5.15.0.tar.bz2
-: 1661061862:0;ls
-: 1661061871:0;cd ..
-: 1661061872:0;ls
 : 1661061887:0;sudo tar jxvf linux-source-5.15.0.tar.bz2
 : 1661061923:0;cd linux-source-5.15.0
-: 1661061924:0;ls
 : 1661061934:0;sudo rm -rf linux-source-5.15.0
-: 1661061936:0;ls
 : 1661062098:0;find . -name "*list*" 
 : 1661062116:0;lvim lib/klist.c
 : 1661062218:0;lvim ./include/linux/list.h
-: 1661062295:0;exit
-: 1661062355:0;ls
-: 1661062358:0;ls -alh
-: 1661062567:0;lvim ~/.zsh_history
-: 1661062693:0;ls
 : 1661062800:0;chmod -R 664 *
-: 1661062811:0;ls -alh
-: 1661062830:0;cd sys_epoll_learn
-: 1661062831:0;ls
-: 1661062844:0;cd sys_epoll_learn
 : 1661062855:0;chmod -R 764 *
 : 1661062858:0;cd sys_epoll_learn
-: 1661062859:0;ls
-: 1661062870:0;cd ..
-: 1661062871:0;ls
-: 1661062879:0;git status
 : 1661063036:0;git update-index --add --chmod=-x BUILD.gn
-: 1661063038:0;git status
-: 1661063042:0;ls -alh
 : 1661063061:0;git commit -m "Build"
-: 1661063063:0;git status
-: 1661063068:0;ls -alh
-: 1661063075:0;git push
-: 1661063101:0;git status
-: 1661063339:0;ninja -C out
 : 1661063448:0;find . -type f -name "*.c" |xargs grep -g
 : 1661063452:0;find . -type f -name "*.c" |xargs grep "-g"
 : 1661063459:0;find . -type f -name "*.c" |xargs grep "g"
 : 1661063464:0;find . -type f -name "*.c" |xargs grep "\-g"
 : 1661063476:0;find . -type f -name "*.c" |xargs grep "\"\-g"
 : 1661063489:0;find . -type f -name "*.gn" |xargs grep "\"\-g"
-: 1661063559:0;git status
-: 1661063561:0;git add .
-: 1661063567:0;git commit -m "Build Wall"
-: 1661063569:0;git push
 : 1661063670:0;grep -rl "\"\-g"
 : 1661063736:0;sed -i 's/\"\-g/\"\-g \-Wall/g' grep -rl "\"\-g"
 : 1661063745:0;sed -i 's/\"\-g/\"\-g \-Wall/g' `grep -rl "\"\-g"`
-: 1661063748:0;git status
-: 1661063769:0;ninja -C out
-: 1661063776:0;git status
-: 1661063779:0;git restore .
-: 1661063784:0;git status
 : 1661063833:0;sed -i 's/\"\-g/\"\-g\", \"\-Wall/g' `grep -rl "\"\-g"`
-: 1661063845:0;git status
-: 1661063859:0;ninja -C out
-: 1661063908:0;git diff
 : 1661063972:0;git restore CVE/
-: 1661063976:0;git diff
 : 1661064043:0;git restore dome/
-: 1661064046:0;git diff
-: 1661064055:0;ninja -C out
-: 1661064060:0;git status
-: 1661064062:0;git add .
-: 1661064065:0;git commit -m "Build Wall"
-: 1661064067:0;git push
-: 1661064169:0;git status
-: 1661064188:0;ninja -C out
 : 1661064238:0;sudo apt install liburing-dev
-: 1661064259:0;ninja -C out
 : 1661064265:0;lvim ../liburing_learn/io_uring_test.c
 : 1661064270:0;lvim liburing_learn/io_uring_test.c
 : 1661064366:0;sudo apt install libcheck
 : 1661064382:0;cd dome/bloomd
-: 1661064382:0;ls
 : 1661064392:0;lvim BUILD.gn
-: 1661064427:0;cd /media/black/Data/Documents/github
-: 1661064429:0;cd C
-: 1661064430:0;ls
-: 1661064432:0;cd vcpkg
-: 1661064433:0;ls
 : 1661064440:0;./vcpkg install check
 : 1661064479:0;cd buildtrees/check
-: 1661064479:0;ls
-: 1661064484:0;cd src
-: 1661064485:0;ls
 : 1661064486:0;cd 87df2900e8-b0bb8b3243.clean
-: 1661064487:0;ls
-: 1661064500:0;mkdir build
-: 1661064501:0;cd build
-: 1661064508:0;cmake ../
-: 1661064519:0;ls
-: 1661064528:0;make 
-: 1661064538:0;sudo make install
-: 1661064625:0;cd ...
-: 1661064625:0;ls
-: 1661064627:0;cd ...
-: 1661064627:0;ls
 : 1661064630:0;cd inih
-: 1661064631:0;ls
-: 1661064633:0;cd src
-: 1661064633:0;ls
 : 1661064635:0;cd e4f45dfc2b-b18291717f.clean
-: 1661064635:0;ls
-: 1661064645:0;mkdir build
-: 1661064647:0;cd build
-: 1661064647:0;ls
-: 1661064657:0;cmake ../
-: 1661064659:0;ls
-: 1661064662:0;make
-: 1661064667:0;sudo make install
-: 1661064907:0;ninja -C out
-: 1661064910:0;cd -
-: 1661064911:0;ls
-: 1661064912:0;ninja -C out
 : 1661065001:0;lvim unistd_learn/fork5_test.c
-: 1661065170:0;ninja -C out
-: 1661065193:0;git status
-: 1661065227:0;git add .
 : 1661065231:0;git commit -m "Build Wall"
-: 1661065233:0;git push
 : 1661067528:0;cd .....
-: 1661067528:0;ls
-: 1661067531:0;cd ..
-: 1661067532:0;ls
-: 1661067537:0;./vcpkg install coost
-: 1661067593:0;./vcpkg install coost:x64-linux
 : 1661067606:0;./vcpkg install coost:x64
 : 1661067614:0;./vcpkg install coost:x64-linux
 : 1661067745:0;./vcpkg --help
 : 1661067751:0;./vcpkg update
-: 1661067756:0;git pull
 : 1661067796:0;git integrate zsh
 : 1661067802:0;./vcpkg integrate zsh
 : 1661067814:0;./vcpkg upgrade
@@ -4396,326 +3698,82 @@ rustup update nightly\
 : 1661068021:0;./vcpkg install coost:
 : 1661068022:0;./vcpkg install coost
 : 1661068094:0;cd ports/
-: 1661068095:0;l
-: 1661068096:0;ls
 : 1661068116:0;lvim inih/CMakeLists.txt
-: 1661068431:0;ls
 : 1661068487:0;lvim yara/CMakeLists.txt
-: 1661068493:0;ls
 : 1661068510:0;cd co
-: 1661068511:0;ls
 : 1661068516:0;lvim portfile.cmake
-: 1661068671:0;cd ...
-: 1661068672:0;ls
-: 1661068895:0;cd 
-: 1661068896:0;ls
-: 1661068898:0;cd /media/black/Data/Documents/github
-: 1661068900:0;ls
 : 1661068912:0;mkdir CPP
-: 1661068912:0;ls
 : 1661068915:0;cd CPP
-: 1661068916:0;ls
 : 1661068963:0;git clone git@github.com:idealvin/coost.git
-: 1661068978:0;ls
 : 1661068980:0;cd coost
-: 1661068980:0;ls
-: 1661068983:0;mkdir build
-: 1661068985:0;cd build
 : 1661068988:0;cmake ../
-: 1661068992:0;make
 : 1661069023:0;sudo make install
-: 1661069628:0;ninja -C out
 : 1661069650:0;./out/obj/argp_learn/argp_parse_test
 : 1661069652:0;./out/obj/argp_learn/argp_parse_test --help
-: 1661070762:0;ninja -C out
 : 1661070768:0;./out/obj/argp_learn/argp_parse_test_1 --help
-: 1661072565:0;ninja -C out
 : 1661072573:0;./out/obj/argp_learn/argp_parse_test_2 --help
 : 1661072679:0;./out/obj/argp_learn/argp_parse_test_2 1 2
-: 1661077729:0;ninja -C out
-: 1661077778:0;./out/obj/inih_learn/ini_parse_test -c /media/black/Data/Documents/Code/C/C_learn/inih_learn/test.ini
-: 1661077942:0;ninja -C out
-: 1661077944:0;./out/obj/inih_learn/ini_parse_test -c /media/black/Data/Documents/Code/C/C_learn/inih_learn/test.ini
-: 1661078114:0;ninja -C out
 : 1661078116:0;./out/obj/inih_learn/ini_parse_test -c /media/black/Data/Documents/Code/C/C_learn/inih_learn/test.ini
-: 1661078125:0;git status
-: 1661078127:0;git add .
 : 1661078164:0;git commit -m "argp statres.st_mode"
-: 1661078169:0;git status
-: 1661078171:0;git push
-: 1661081013:0;git status
-: 1661081018:0;cd /media/black/Data/Documents/github
-: 1661081019:0;ls
-: 1661081023:0;cd ..
-: 1661081024:0;ls
-: 1661081029:0;cd ..
-: 1661081031:0;cd Downloads
-: 1661081031:0;ls
 : 1661081034:0;cd ISO
-: 1661081034:0;s
-: 1661081035:0;ls
 : 1661081080:0;udisksctl mount -b /dev/sda2
 : 1661081085:0;cd /media/black/3CDF6A4440807D46
-: 1661081086:0;ls
-: 1661081092:0;cd 
-: 1661081092:0;ls
-: 1661081105:0;udisksctl mount -b /dev/sdb1
 : 1661081108:0;udisksctl mount -b /dev/sdb2
-: 1661081114:0;cd /media/black/微PE工僥�箱
-: 1661081115:0;ls
-: 1661081121:0;reboot
-: 1661174043:0;lvim ~/.zshrc
-: 1661174087:0;udisksctl mount -b /dev/sda1
-: 1661174146:0;cd /media/black/Data/Documents/github/C/
-: 1661174146:0;ls
 : 1661174149:0;cd vcpkg
-: 1661174149:0;ls
 : 1661174176:0;mv scripts/vcpkg_completion.zsh ~/.config/
 : 1661174190:0;cp ~/.config/vcpkg_completion.zsh .
-: 1661174190:0;ls
 : 1661174201:0;mv vcpkg_completion.zsh scripts/
-: 1661174215:0;ls
 : 1661174239:0;lvim bootstrap-vcpkg.sh
-: 1661174250:0;ls
 : 1661174295:0;mv ~/.zshrc
-: 1661174304:0;lvim ~/.zshrc
-: 1661174344:0;ls
 : 1661174404:0;lvim README_zh_CN.md
 : 1661174494:0;sudo apt install librust-vcpkg-dev
-: 1661174507:0;cd 
-: 1661174508:0;ls
-: 1661175121:0;cd /media/black/Data/Documents/Code/C/C_learn
-: 1661179230:0;poweroff
-: 1661259582:0;reboot
-: 1661267490:0;poweroff
-: 1661524907:0;sudo apt update
-: 1661524934:0;apt list --upgradable
-: 1661524939:0;exit
-: 1661524944:0;poweroff
-: 1661606221:0;sudo apt upgrade
-: 1661606423:0;udisksctl mount -b /dev/sda1
-: 1661606425:0;cd /media/black/Data/Documents/Code/C/C_learn
-: 1661606430:0;lvim grammar_learn/1.c
-: 1661607077:0;lvim grammar_learn/2.c
-: 1661607395:0;cd /media/black/Data/Documents/
-: 1661607395:0;ls
-: 1661607405:0;cd github
-: 1661607405:0;ls
-: 1661607407:0;cd ..
-: 1661607408:0;ls
 : 1661607416:0;tmux --help
 : 1661607431:0;tmux version
 : 1661607435:0;tmux --version
 : 1661607440:0;tmux -v
 : 1661607445:0;tmux -V
-: 1661609194:0;poweroff
-: 1661642770:0;udisksctl mount -b /dev/sda1
-: 1661642772:0;cd /media/black/Data/Documents/
-: 1661642819:0;fanyi dmenu
-: 1661642849:0;unset https_proxy
-: 1661642851:0;unset http_proxy
 : 1661642853:0;fanyi dmenu
-: 1661642867:0;cd Code/C/C_learn
-: 1661642868:0;lvim grammar_learn/2.c
-: 1661643296:0;cd 
-: 1661643300:0;cd /media/black/Data/Documents/lvim
-: 1661643301:0;ls
-: 1661643303:0;lvim install.sh
 : 1661643344:0;curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
 : 1661643349:0;rm install.sh
 : 1661643366:0;curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh -o install.sh
-: 1661643369:0;lvim install.sh
-: 1661643411:0;cd 
 : 1661643430:0;cd ~/.config/lvim/
-: 1661643433:0;ls
 : 1661643439:0;lvim ignore
-: 1661643443:0;cd 
-: 1661643463:0;cd .local/share/lunarvim/
-: 1661643464:0;ls
-: 1661643466:0;cd lvim
-: 1661643467:0;ls
-: 1661643469:0;git pull
-: 1661643481:0;lvim Makefile
-: 1661643498:0;git log
-: 1661643581:0;cd 
-: 1661643581:0;ls
 : 1661643586:0;cd /media/black/Data/Documents/lvim
-: 1661643587:0;ls
 : 1661643595:0;chmod -R 755 install.sh
-: 1661643596:0;ls
-: 1661643599:0;./install.sh
-: 1661643732:0;source ~/.zshrc
-: 1661643733:0;./install.sh
 : 1661643912:0;lvim ~/.npmrc
 : 1661643945:0;npm --help
 : 1661643993:0;npm config set https-proxy http://127.0.0.1:1080
-: 1661644001:0;./install.sh
-: 1661644060:0;cd 
-: 1661644061:0;ls
-: 1661644064:0;cd /media/black/Data/Documents/
-: 1661644064:0;ls
 : 1661644124:0;lvim tmux-client-29662.log
-: 1661644128:0;cd 
-: 1661644133:0;cd Documents/Mackup
-: 1661644133:0;ls
-: 1661644135:0;git status
-: 1661644141:0;lvim .npmrc
-: 1661644154:0;lvim .zshrc
-: 1661644172:0;lvim .config/lvim/config.lua
-: 1661644184:0;./install.sh
 : 1661644222:0;npm config set http-proxy http://127.0.0.1:1080
-: 1661644224:0;./install.sh
-: 1661644270:0;source ~/.zshrc
-: 1661644273:0;./install.sh
-: 1661644392:0;lvim .config/lvim/config.lua
-: 1661644397:0;lvim .npmrc
-: 1661644475:0;lvim install.sh
 : 1661644525:0;yarn config set https-proxy http://127.0.0.1:1080
 : 1661644530:0;yarn config set http-proxy http://127.0.0.1:1080
-: 1661644533:0;lvim install.sh
-: 1661644536:0;./install.sh
 : 1661644639:0;lvim install.sh
 : 1661644695:0;yarn global add tree-sitter-cli
 : 1661644748:0;yarn global add neovim
-: 1661644756:0;./install.sh
-: 1661644788:0;exit
 : 1661644806:0;lvim .npmrc
-: 1661644824:0;lvim ~/.yarnrc
-: 1661644848:0;unset http_proxy
-: 1661644849:0;unset https_proxy
-: 1661644853:0;./install.sh
 : 1661644903:0;rm -rf ~/.local/share/lunarvim
 : 1661644919:0;rm -rf ~/.config/lvim
 : 1661644921:0;rm -rf ~/.config/lvim.old
-: 1661644926:0;./install.sh
-: 1661645388:0;source ~/.zshrc
-: 1661645390:0;./install.sh
-: 1661645420:0;git restore .config/lvim/config.lua
-: 1661645427:0;lvim grammar_learn/2.c
-: 1661645564:0;source ~/.zshrc
-: 1661645566:0;lvim grammar_learn/2.c
-: 1661645600:0;git status
-: 1661645615:0;lvim .zshrc
-: 1661645633:0;git status
-: 1661645636:0;git add .
-: 1661645642:0;git commit -m "lvim"
-: 1661645645:0;git push
-: 1661645650:0;git push origin ubuntu:ubuntu
-: 1661645748:0;exit
-: 1661649479:0;cd /media/black/Data/Documents/
-: 1661649480:0;ls
-: 1661649482:0;cd 
-: 1661649490:0;cd Documents/Mackup
-: 1661649492:0;git status
-: 1661649501:0;lvim .config/lvim/config.lua
 : 1661649524:0;ln -s .config/lvim/config.lua ~/.config/lvim/config.lua
 : 1661649529:0;ln -sf .config/lvim/config.lua ~/.config/lvim/config.lua
-: 1661649534:0;cd /media/black/Data/Documents/
-: 1661649536:0;cd Code/C/C_learn
-: 1661649539:0;lvim grammar_learn/2.c
-: 1661649551:0;cd 
-: 1661649553:0;cd Documents/Mackup
-: 1661649556:0;lvim .config/lvim/config.lua
-: 1661649578:0;mackup --help
-: 1661649585:0;mackup restore
-: 1661649602:0;mackup --help
-: 1661649610:0;mackup backup
-: 1661649615:0;lvim grammar_learn/2.c
-: 1661649641:0;mackup --help
-: 1661649662:0;mackup uninstall
-: 1661649666:0;mackup backup
-: 1661649679:0;lvim grammar_learn/2.c
-: 1661649703:0;lvim .mackup/lvim.cfg
-: 1661649717:0;cd 
-: 1661649721:0;lvim .config/lvim/config.lua
 : 1661649726:0;cd .config/lvim
-: 1661649727:0;ls
 : 1661649729:0;rm config.lua
-: 1661649733:0;cd 
-: 1661649735:0;ls -alh
-: 1661649738:0;cd -
 : 1661649778:0;ln -sf /home/black/Documents/Mackup/.config/lvim/config.lua config.lua
 : 1661649784:0;lvim config.lua
-: 1661649787:0;cd -
-: 1661649789:0;cd /media/black/Data/Documents/
-: 1661649791:0;cd Code/C/C_learn
-: 1661649792:0;lvim grammar_learn/2.c
-: 1661649795:0;exit
-: 1661649819:0;lvim grammar_learn/2.c
-: 1661650143:0;docker ps
-: 1661650149:0;docker start mysql-test
 : 1661650178:0;sudo apt install mycli
-: 1661650192:0;docker ps
 : 1661650197:0;mycli 
-: 1661650212:0;mycli -u root
-: 1661650490:0;exit
-: 1661650493:0;mycli -u root
-: 1661652397:0;exit
-: 1661652399:0;lvim 
-: 1661653281:0;exit
-: 1661672817:0;udisksctl mount -b /dev/sda1
-: 1661672822:0;cd /media/black/Data/Documents/Code/C/C_learn
-: 1661672825:0;lvim grammar_learn/2.c
 : 1661672862:0;./out/obj/grammar_learn/static_test.ninja
 : 1661672882:0;./out/obj/grammar_learn/static_test
-: 1661674973:0;reboot
-: 1661686504:0;udisksctl mount -b /dev/sda1
-: 1661686509:0;cd /media/black/Data/Documents/Code/C/C_learn
-: 1661686511:0;lvim grammar_learn/2.c
-: 1661698017:0;ninja -C out
-: 1661698185:0;./out/obj/grammar_learn/int_test
-: 1661698195:0;ninja -C out
 : 1661698198:0;./out/obj/grammar_learn/int_test
 : 1661698710:0;./out/obj/stdio_learn/putchar_test
-: 1661698967:0;./out/obj/stdio_learn/write_test
-: 1661699100:0;ninja -C out
 : 1661699102:0;./out/obj/stdio_learn/write_test
-: 1661699665:0;ninja -C out
 : 1661699857:0;./out/obj/stdio_learn/buf_test
 : 1661699864:0;./out/obj/stdio_learn/fflush_test
-: 1661699935:0;git status
-: 1661699938:0;git add .
 : 1661699951:0;git commit -m "buf fflush"
-: 1661699958:0;git status
-: 1661699962:0;git push 
-: 1661700276:0;poweroff
-: 1662036121:0;cd /media/black/Data/Downloads
-: 1662036123:0;ls
-: 1662036125:0;cd deb
-: 1662036125:0;ls
 : 1662036141:0;sudo dpkg --install rustdesk-1.1.9.deb
-: 1662036306:0;cd 
-: 1662036307:0;ls
-: 1662036309:0;exit
 : 1662036348:0;cd /media/black/Data/
-: 1662036349:0;ls
-: 1662036354:0;cd Downloads
-: 1662036354:0;ls
 : 1662036364:0;cd ../Documents/Code
-: 1662036364:0;ls
-: 1662036375:0;cd Rust
-: 1662036376:0;ls
-: 1662036381:0;cd rustdesk
-: 1662036382:0;ls
-: 1662036385:0;git pull
-: 1662036406:0;ls
 : 1662036412:0;lvim manifest.xml
-: 1662037004:0;git status
-: 1662037006:0;cd 
-: 1662037008:0;git status
-: 1662037011:0;exit
-: 1662039063:0;ls
-: 1662039071:0;cd /media/black/Data/Documents/Code
-: 1662039071:0;ls
-: 1662039075:0;cd Go
-: 1662039076:0;ls
-: 1662039081:0;cd ..
-: 1662039081:0;ls
-: 1662039084:0;cd ..
-: 1662039084:0;ls
-: 1662039088:0;cd github
-: 1662039088:0;ls
-: 1662039094:0;cd 
 : 1662041602:0;poweroff
 : 1662136632:0;sudo apt update
 : 1662136648:0;ap
@@ -4842,7 +3900,7 @@ rustup update nightly\
 : 1662209277:0;find . -type f -name "*.pdf" |grep TCP
 : 1662209299:0;cd ebook-2/04_network
 : 1662209301:0;ls
-: 1662209312:0;evince TCP-IP详解僭�I.pdf
+: 1662209312:0;evince TCP-IP详解僭?I.pdf
 : 1662209795:0;exit
 : 1662210084:0;sudo apt install sock
 : 1662210459:0;go get -u github.com/zeromicro/go-zero
@@ -5909,7 +4967,7 @@ rustup update nightly\
 : 1662860081:0;cd Penetration_Testing_POC
 : 1662860081:0;ls
 : 1662860267:0;ls -alh |grep mac
-: 1662860281:0;lvim maccms_v10孃�僼�CSRF漃�洃�僯�僂��僪��任惤��账僯�.md
+: 1662860281:0;lvim maccms_v10孃?僼?CSRF漃?洃?僯?僂??僪??任惤??账僯?.md
 : 1662860326:0;ls
 : 1662861110:0;cd ..
 : 1662861111:0;ls
@@ -5956,7 +5014,7 @@ rustup update nightly\
 : 1662861360:0;ls
 : 1662861361:0;cd ..
 : 1662861361:0;ls
-: 1662861389:0;fanyi 想��佃�
+: 1662861389:0;fanyi 想??佃?
 : 1662861404:0;exit
 : 1662861421:0;mv linux LinuxOperate
 : 1662861422:0;ls
@@ -6534,9 +5592,9 @@ rustup update nightly\
 : 1663079478:0;ls
 : 1663079481:0;cd Downloads
 : 1663079482:0;ls
-: 1663079487:0;rm 惼�烁�认\ 708434.crdownload
-: 1663079490:0;rm 惼�烁�认\ 709947.crdownload
-: 1663079492:0;rm 惼�烁�认\ 904636.crdownload 
+: 1663079487:0;rm 惼?烁?认\ 708434.crdownload
+: 1663079490:0;rm 惼?烁?认\ 709947.crdownload
+: 1663079492:0;rm 惼?烁?认\ 904636.crdownload 
 : 1663079492:0;ls
 : 1663079500:0;tar zxvf jt.tar.gz
 : 1663079512:0;exit
@@ -6585,8 +5643,8 @@ rustup update nightly\
 : 1663284858:0;ls
 : 1663284861:0;cd platform/
 : 1663284862:0;ls
-: 1663284870:0;cp -rf amzad /media/black/微PE工僥�箱
-: 1663284876:0;cd /media/black/微PE工僥�箱
+: 1663284870:0;cp -rf amzad /media/black/微PE工僥?箱
+: 1663284876:0;cd /media/black/微PE工僥?箱
 : 1663284877:0;ls
 : 1663284880:0;poweroff
 : 1663330686:0;reboot
@@ -6765,7 +5823,7 @@ rustup update nightly\
 : 1663392378:0;fanyi unique
 : 1663395348:0;lvim server/app/platform/amzad/form/amz_ad_page_form.go
 : 1663395910:0;udisksctl mount -b /dev/sdb1
-: 1663395913:0;cd /media/black/微PE工僥�箱
+: 1663395913:0;cd /media/black/微PE工僥?箱
 : 1663395914:0;ls
 : 1663395925:0;lvim amzad/sdk/v2/reports/reports.go
 : 1663395981:0;exit
@@ -6775,7 +5833,7 @@ rustup update nightly\
 : 1663396837:0;lvim zero-examples/bloom/bloom.go
 : 1663398463:0;fanyi SimpleDate
 : 1663398470:0;fanyi Simple
-: 1663398657:0;fanyi 开姃�
+: 1663398657:0;fanyi 开姃?
 : 1663399593:0;dlv test ./server/app/platform/amzad/logic -- -test.v -test.run TestPullAllReporting
 : 1663399643:0;unset https_proxy
 : 1663399645:0;unset http_proxy
@@ -6824,7 +5882,7 @@ rustup update nightly\
 : 1663423514:0;fanyi Ignore
 : 1663423655:0;git status
 : 1663423673:0;git restore server/app/platform/amzad/form/list_amz_ad_sys_map_form.go
-: 1663423932:0;fanyi 开姃�
+: 1663423932:0;fanyi 开姃?
 : 1663425691:0;cd /media/black/Data/Documents/
 : 1663425693:0;ls
 : 1663425699:0;cd Go/go_learn/
@@ -6930,11 +5988,11 @@ rustup update nightly\
 : 1663544267:0;ls
 : 1663544287:0;cd /media/black/Data/Documents/
 : 1663544287:0;ls
-: 1663544291:0;cd /media/black/微PE工僥�箱
+: 1663544291:0;cd /media/black/微PE工僥?箱
 : 1663544292:0;ls
 : 1663544304:0;mv amzad amzad_bat
-: 1663544306:0;cp server/app/platform/amzad /media/black/微PE工僥�箱/
-: 1663544309:0;cp -r server/app/platform/amzad /media/black/微PE工僥�箱/
+: 1663544306:0;cp server/app/platform/amzad /media/black/微PE工僥?箱/
+: 1663544309:0;cp -r server/app/platform/amzad /media/black/微PE工僥?箱/
 : 1663544312:0;ls
 : 1663544316:0;poweroff
 : 1663591852:0;udisksctl mount -b /dev/sda1
@@ -7458,13 +6516,13 @@ rustup update nightly\
 : 1665581200:0;lvim server/app/platform/amzad/logic/sp.go
 : 1665581203:0;git status
 : 1665581205:0;git add .
-: 1665581218:0;git commit -m "僰�僪�惪��僯��"
+: 1665581218:0;git commit -m "僰?僪?惪??僯??"
 : 1665581220:0;git push 
 : 1665581224:0;git push origin ubuntu:ubuntu
 : 1665581233:0;exit
 : 1665582270:0;git status
 : 1665582273:0;git add .
-: 1665582296:0;git commit -m "僻��惸�bug"
+: 1665582296:0;git commit -m "僻??惸?bug"
 : 1665582306:0;git push origin feature-amz-ad-report
 : 1665582310:0;git status
 : 1665582357:0;unset https_proxy
@@ -7883,7 +6941,7 @@ rustup update nightly\
 : 1682652648:0;ls -alh
 : 1682652657:0;git status
 : 1682652671:0;git add .
-: 1682652692:0;git commit -m "练�一"
+: 1682652692:0;git commit -m "练?一"
 : 1682652695:0;git status
 : 1682652709:0;lvim INSTALL.md
 : 1682652733:0;lvim .mackup.cfg
@@ -7937,7 +6995,7 @@ rustup update nightly\
 : 1682659893:0;git diff
 : 1682659909:0;git status
 : 1682659911:0;git add .
-: 1682659928:0;git commit -m "僯��涃� pylsp 僰�烴�"
+: 1682659928:0;git commit -m "僯??涃? pylsp 僰?烴?"
 : 1682659932:0;git push
 : 1682659962:0;ls
 : 1682659969:0;cd Documents/MyBlackHole
@@ -8291,12 +7349,12 @@ rustup update nightly\
 : 1683165601:0;ls
 : 1683165608:0;cd aio-cdm/
 : 1683165609:0;ls
-: 1683165630:0;lvim docs/AIO\ CDM\ 溃�烀�它�裃�郣�署惶��惁�.md 
+: 1683165630:0;lvim docs/AIO\ CDM\ 溃?烀?它?裃?郣?署惶??惁?.md 
 : 1683166463:0;unset https_proxy
 : 1683166465:0;unset http_proxy
-: 1683166467:0;lvim docs/AIO\ CDM\ 溃�烀�它�裃�郣�署惶��惁�.md 
+: 1683166467:0;lvim docs/AIO\ CDM\ 溃?烀?它?裃?郣?署惶??惁?.md 
 : 1683166531:0;source ~/.zshrc
-: 1683166533:0;lvim docs/AIO\ CDM\ 溃�烀�它�裃�郣�署惶��惁�.md 
+: 1683166533:0;lvim docs/AIO\ CDM\ 溃?烀?它?裃?郣?署惶??惁?.md 
 : 1683166730:0;lvim
 : 1683166742:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1683166787:0;ls
@@ -8421,7 +7479,7 @@ rustup update nightly\
 : 1683179093:0;sl
 : 1683179098:0;cd Downloads
 : 1683179098:0;ls
-: 1683179101:0;lvim 广巃�teledb.txt
+: 1683179101:0;lvim 广巃?teledb.txt
 : 1683179114:0;ls -alh
 : 1683179192:0;ssh root@192.168.90.204
 : 1683179773:0;cd /media/black/Data/Documents/github/Cpp/
@@ -8553,7 +7611,7 @@ rustup update nightly\
 : 1683191063:0;ls
 : 1683191065:0;cd teledb
 : 1683191065:0;ls
-: 1683191071:0;open udal烴�惨�惬��僭��.pdf
+: 1683191071:0;open udal烴?惨?惬??僭??.pdf
 : 1683192246:0;cd /media/black/Data/Documents/Python
 : 1683192252:0;lvim pymysql_learn/test.py
 : 1683192469:0;ps aux|grep mysql
@@ -8586,7 +7644,7 @@ rustup update nightly\
 : 1683195848:0;fanyi tenant
 : 1683196232:0;git status
 : 1683196233:0;git add .
-: 1683196258:0;git commit -m "胁�僥�� teledb 惮�僨�僯� db 促�息"
+: 1683196258:0;git commit -m "胁?僥?? teledb 惮?僨?僯? db 促?息"
 : 1683196260:0;git push
 : 1683196883:0;lvim airflow/airflow/dags/test_dag.py
 : 1683196889:0;umount /dev/sda1
@@ -8616,7 +7674,7 @@ rustup update nightly\
 : 1683249193:0;cd kazoo_learn
 : 1683249194:0;ls
 : 1683249198:0;python3 select_all.py
-: 1683249376:0;fanyi 烨�
+: 1683249376:0;fanyi 烨?
 : 1683249748:0;python3 select_all.py
 : 1683250583:0;cd Documents/MyBlackHole
 : 1683250591:0;grep -rl lvm
@@ -8636,7 +7694,7 @@ rustup update nightly\
 : 1683252517:0;lvim ~/select_all_teledb.txt
 : 1683252636:0;ls
 : 1683253356:0;lvim database/Teledb/error.md
-: 1683253444:0;fanyi 郷�郂��
+: 1683253444:0;fanyi 郷?郂??
 : 1683253554:0;lvim ~/select_all_teledb.txt
 : 1683253704:0;lvim ~/select_all.txt
 : 1683253728:0;ls
@@ -8824,7 +7882,7 @@ rustup update nightly\
 : 1683271041:0;ls
 : 1683271042:0;git status
 : 1683271048:0;git add .
-: 1683271064:0;fanyi 修夃�
+: 1683271064:0;fanyi 修夃?
 : 1683271076:0;fanyi repair
 : 1683271082:0;git commit -m "clash error repair"
 : 1683271085:0;git push
@@ -9031,7 +8089,7 @@ rustup update nightly\
 : 1683338864:0;echo $AIRFLOW__CELERY_BROKER_TRANSPORT_OPTIONS__VISIBILITY_TIMEOUT
 : 1683339034:0;git status
 : 1683339039:0;git add .
-: 1683339182:0;git commit -m "修惴� �僯�见性趃�惷�为 +inf �"
+: 1683339182:0;git commit -m "修惴? ?僯?见性趃?惷?为 +inf ?"
 : 1683339201:0;git push origin fix_visibility_timeout:fix_visibility_timeout
 : 1683339329:0;ipython3
 : 1683339941:0;git checkout -b build_test
@@ -9136,6 +8194,7 @@ rustup update nightly\
 : 1683351898:0;mackup --help
 : 1683351925:0;git status
 : 1683351934:0;lvim .python_history
+<<<<<<< HEAD
 : 1701127071:0;cd 
 : 1701127075:0;ls -ahl
 : 1701127076:0;b
@@ -9184,7 +8243,7 @@ rustup update nightly\
 : 1701127580:0;git switch -C ubuntu_home
 : 1701127582:0;git status
 : 1701127584:0;git add .
-: 1701127619:0;git commit -m "惻�惭�� home macback 为 chezmoi"
+: 1701127619:0;git commit -m "惻?惭?? home macback 为 chezmoi"
 : 1701127621:0;git status
 : 1701127636:0;git switch ubuntu
 : 1701127652:0;git switch main
@@ -9327,7 +8386,7 @@ rustup update nightly\
 : 1701271322:0;free -h
 : 1701271335:0;git status
 : 1701271339:0;git add .
-: 1701271372:0;git commit -m "胁�僥�� nfs_remove 迃�稃�"
+: 1701271372:0;git commit -m "胁?僥?? nfs_remove 迃?稃?"
 : 1701271398:0;git push my zh_master
 : 1701271409:0;git diff HEAD HEAD^
 : 1701271426:0;lvim fs/nfsd/vfs.c
@@ -9372,7 +8431,7 @@ rustup update nightly\
 : 1701479391:0;zpool list
 : 1701480934:0;git status
 : 1701480936:0;git add .
-: 1701480948:0;git commit -m "修惴�练�惾�� zfs xfs"
+: 1701480948:0;git commit -m "修惴?练?惾?? zfs xfs"
 : 1701481018:0;zfs list
 : 1701481047:0;zfs create -V 1G xfs_test/xfs_test_1
 : 1701481050:0;sudo zfs create -V 1G xfs_test/xfs_test_1
@@ -9426,7 +8485,7 @@ rustup update nightly\
 : 1701486896:0;git status
 : 1701486900:0;git diff
 : 1701486904:0;git add .
-: 1701487054:0;git commit -m "xfs log filesystem 恃�夃�"
+: 1701487054:0;git commit -m "xfs log filesystem 恃?夃?"
 : 1701487068:0;git checkout v4.19
 : 1701487477:0;fanyi trans
 : 1701501672:0;cd Documents/MyBlackHole
@@ -9454,7 +8513,7 @@ rustup update nightly\
 : 1701502004:0;lvim .clang-format
 : 1701502714:0;git status
 : 1701502718:0;git add .
-: 1701502732:0;git commit -m "调�惵� scsi 佃�置"
+: 1701502732:0;git commit -m "调?惵? scsi 佃?置"
 : 1701502734:0;git push
 : 1701503462:0;cat /sys/kernel/debug/tracing
 : 1701503465:0;sudo cat /sys/kernel/debug/tracing
@@ -9579,7 +8638,7 @@ rustup update nightly\
 : 1701521881:0;git fetch 
 : 1701522860:0;ls
 : 1701522875:0;fd -I -t executable
-: 1701522914:0;lvim src/sql/session/ObSQLSessionMgr它�烮�怃�路.md
+: 1701522914:0;lvim src/sql/session/ObSQLSessionMgr它?烮?怃?路.md
 : 1701523067:0;git status
 : 1701523905:0;fanyi submit
 : 1701524169:0;git status
@@ -9791,11 +8850,11 @@ rustup update nightly\
 : 1701697090:0;mc rm -r --force LGP/back099/openssh-9.3p1/
 : 1701697110:0;mc ls LGP/back099
 : 1701697130:0;mc rm -r --force LGP/back099/openssh-9.3p1_src
-: 1701697151:0;mc rm -r --force LGP/back099/主仃�它�侃�-50.47_192.168.50.48_3306-5585fb3d175f/
+: 1701697151:0;mc rm -r --force LGP/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/
 : 1701697337:0;mc ls LGP/back099
 : 1701697350:0;mc rm -r --force LGP/back099/mysql_data/
 : 1701697358:0;mc ls LGP/back099
-: 1701697399:0;mc cp -r LGP/back099/crontab-郻��群-a480904620e6/ ./test
+: 1701697399:0;mc cp -r LGP/back099/crontab-郻??群-a480904620e6/ ./test
 : 1701697418:0;ls
 : 1701697421:0;mc ls LGP/back099
 : 1701697442:0;mc rm -r --force LGP/back099/openssh-9.3p1.tar.gz
@@ -9805,7 +8864,7 @@ rustup update nightly\
 : 1701786008:0;udisksctl mount -b /dev/sda1
 : 1701786016:0;cd /media/black/Data/Documents/AIO/aio-cdm
 : 1701786062:0;lvim aio/services/storage_service.py
-: 1701786106:0;fanyi 惽��郹��
+: 1701786106:0;fanyi 惽??郹??
 : 1701786265:0;cd /media/black/Data/Documents/github/Python/minio-py
 : 1701786266:0;ls
 : 1701786272:0;lvim examples/put_object.py
@@ -10053,7 +9112,7 @@ rustup update nightly\
 : 1702118859:0;git status
 : 1702118862:0;git push
 : 1702118973:0;ls
-: 1702118979:0;lvim sqlmodel_learn/樃�僾��夃�态.py
+: 1702118979:0;lvim sqlmodel_learn/樃?僾??夃?态.py
 : 1702119384:0;cd /media/black/Data/Documents/AIO/aio-cdm
 : 1702119386:0;git status
 : 1702119396:0;git switch feature-v3-goldendb
@@ -10089,7 +9148,7 @@ rustup update nightly\
 : 1702127727:0;git log
 : 1702127731:0;git status
 : 1702127732:0;git add .
-: 1702127767:0;git commit -m "亃�解 put part Stream Parallel "
+: 1702127767:0;git commit -m "亃?解 put part Stream Parallel "
 : 1702129430:0;cd /media/black/Data/Documents/github/Python
 : 1702129431:0;ls
 : 1702129433:0;cd full-stack-fastapi-postgresql
@@ -10115,7 +9174,7 @@ rustup update nightly\
 : 1702131567:0;ls
 : 1702131572:0;cd Python/
 : 1702131573:0;ls
-: 1702131579:0;lvim sqlmodel_learn/樃�僾��夃�态.py
+: 1702131579:0;lvim sqlmodel_learn/樃?僾??夃?态.py
 : 1702131801:0;docker ps
 : 1702131807:0;docker start mysql-test
 : 1702131819:0;mycli -h 127.0.0.1 -u black -p1358
@@ -10147,21 +9206,21 @@ rustup update nightly\
 : 1702132412:0;docker ps
 : 1702132425:0;mycli -h 127.0.0.1 -u root -p123456
 : 1702132534:0;cd sqlmodel_learn
-: 1702132540:0;python3 胁�夃�态.py
+: 1702132540:0;python3 胁?夃?态.py
 : 1702132596:0;pip install --upgrade sqlalchemy
 : 1702132626:0;pip install --upgrade sqlmodel
-: 1702132650:0;python3 胁�夃�态.py
+: 1702132650:0;python3 胁?夃?态.py
 : 1702132696:0;mycli -h 127.0.0.1 -u root -p123456
 : 1702133531:0;cd /media/black/Data/Documents/github/Python/full-stack-fastapi-postgresql
 : 1702133532:0;ls
 : 1702133549:0;lvim src/backend/app/app/models.py
-: 1702134196:0;python3 胁�夃�态.py
+: 1702134196:0;python3 胁?夃?态.py
 : 1702134247:0;mycli -h 127.0.0.1 -u root -p123456
-: 1702134399:0;python3 胁�夃�态.py
-: 1702134905:0;lvim sqlmodel_learn/樃�僾��夃�态.py
-: 1702137010:0;python3 胁�夃�态.py
+: 1702134399:0;python3 胁?夃?态.py
+: 1702134905:0;lvim sqlmodel_learn/樃?僾??夃?态.py
+: 1702137010:0;python3 胁?夃?态.py
 : 1702139996:0;pip install pydantic-sqlalchemy
-: 1702140018:0;lvim sqlmodel_learn/樃�僾��夃�态.py
+: 1702140018:0;lvim sqlmodel_learn/樃?僾??夃?态.py
 : 1702170125:0;sudo /usr/share/bcc/tools/opensnoop
 : 1702170163:0;sudo /usr/share/bcc/tools/opensnoop ~/1.txt
 : 1702170178:0;sudo /usr/share/bcc/tools/opensnoop
@@ -10180,7 +9239,7 @@ rustup update nightly\
 : 1702170952:0;git status
 : 1702170955:0;git add database/
 : 1702170957:0;git status
-: 1702170968:0;git commit -m "修惴� mysql 烻�彃�练�惾��"
+: 1702170968:0;git commit -m "修惴? mysql 烻?彃?练?惾??"
 : 1702170970:0;git status
 : 1702170971:0;git push
 : 1702170978:0;git status
@@ -10271,3 +9330,2026 @@ rustup update nightly\
 : 1702199910:0;ls
 : 1702199935:0;chezmoi status
 : 1702199944:0;chezmoi add .zsh_history
+=======
+: 1701047743:0;git status 
+: 1701047752:0;mackup uninstall
+: 1701047761:0;git status 
+: 1701047762:0;git diff
+: 1701047768:0;ls -alh
+: 1701047770:0;cd 
+: 1701047770:0;ls
+: 1701047772:0;ls -alh
+: 1701047802:0;chezmoi init
+: 1701047841:0;lvim BH.md
+: 1701047992:0;cd .local/share/chezmoi
+: 1701047992:0;ls
+: 1701047994:0;git status 
+: 1701048109:0;chezmoi init --help
+: 1701048135:0;chezmoi init git@github.com:MyBlackHole/Mackup.git ubuntu
+: 1701048145:0;chezmoi init git@github.com:MyBlackHole/Mackup.git 
+: 1701048148:0;ls
+: 1701048151:0;git config --list
+: 1701048211:0;chezmoi init git@github.com:MyBlackHole/Mackup.git --branch ubuntu
+: 1701048214:0;cd ..
+: 1701048215:0;ls
+: 1701048216:0;cd chezmoi
+: 1701048217:0;ls
+: 1701048219:0;git status 
+: 1701048220:0;cd ..
+: 1701048220:0;ls
+: 1701048222:0;rm -rf chezmoi
+: 1701048226:0;chezmoi init git@github.com:MyBlackHole/Mackup.git --branch ubuntu
+: 1701048240:0;cd chezmoi
+: 1701048240:0;ls
+: 1701048242:0;ls -alh
+: 1701048293:0;cd ..
+: 1701048294:0;ls
+: 1701048299:0;rm -rf Mackup
+: 1701048299:0;ls
+: 1701048341:0;cd 
+: 1701048342:0;ls
+: 1701048358:0;chezmoi add ~/.zshrc
+: 1701048361:0;git status 
+: 1701048364:0;ls
+: 1701048373:0;chezmoi add ~/.zsh_history
+: 1701048899:0;ls -alh
+: 1701048909:0;chezmoi cd
+: 1701048910:0;ls
+: 1701048917:0;git status 
+: 1701048923:0;cat private_dot_zsh_history
+: 1701048981:0;chezmoi apply --verbose
+: 1701049051:0;chezmoi managed
+: 1701049072:0;cd /media/black/Data/Documents
+: 1701049076:0;cd AIO/aio-cdm
+: 1701049077:0;ls
+: 1701049079:0;git fetch
+: 1701049090:0;git status 
+: 1701049097:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701049098:0;git fetch
+: 1701049575:0;git rebase origin/test
+: 1701049580:0;git status 
+: 1701049596:0;pyenv activate cdm
+: 1701049611:0;git status 
+: 1701049619:0;lvim aio/api/callback/common_
+: 1701049623:0;lvim aio/api/callback/common_api.py
+: 1701049636:0;git status 
+: 1701049638:0;git add .
+: 1701049646:0;git rebase --continue
+: 1701049649:0;git status 
+: 1701049657:0;git push 
+: 1701049674:0;git push origin feature-ltlgk --force
+: 1701049724:0;git switch feature-ltlgk-1
+: 1701049727:0;git status 
+: 1701049732:0;git rebase origin/test
+: 1701049743:0;git status 
+: 1701049782:0;git add .
+: 1701049783:0;git status 
+: 1701049790:0;git rebase --continue
+: 1701049803:0;git push origin feature-ltlgk-1
+: 1701049811:0;git push origin feature-ltlgk-1 --force
+: 1701050047:0;git status 
+: 1701050052:0;pyenv activate airflow
+: 1701050066:0;chezmoi cd
+: 1701050067:0;ls
+: 1701050071:0;ls -alh
+: 1701050075:0;cd 
+: 1701050092:0;chezmoi ~/.zshenv
+: 1701050111:0;chezmoi add ~/.zshenv
+: 1701050116:0;chezmoi add ~/.tmux.conf
+: 1701050118:0;chezmoi add ~/.tmux.conf.local
+: 1701050123:0;chezmoi add ~/.rediscli_history
+: 1701050126:0;chezmoi add ~/.python_history
+: 1701050130:0;chezmoi add ~/.psql_history
+: 1701050138:0;chezmoi add ~/.p10k.zsh
+: 1701050142:0;chezmoi add ~/.npmrc
+: 1701050150:0;chezmoi add ~/.mysql_history
+: 1701050156:0;chezmoi add ~/.myclirc
+: 1701050164:0;chezmoi add ~/.mycli-history
+: 1701050171:0;chezmoi add ~/.gitconfig
+: 1701050174:0;chezmoi add ~/.gitignore
+: 1701050229:0;ls -alh .git
+: 1701050237:0;ls -alh
+: 1701050258:0;chezmoi add ~/.gdbinit
+: 1701050279:0;chezmoi add ~/.config/clash/config.yaml
+: 1701050290:0;ls
+: 1701050295:0;ls -alh
+: 1701050313:0;chezmoi add ~/.config/clash/cfw-settings.yaml
+: 1701050318:0;cd private_dot_config/private_clash
+: 1701050319:0;ls
+: 1701050320:0;cd ..
+: 1701050320:0;ls
+: 1701050321:0;cd ..
+: 1701050322:0;ls
+: 1701050323:0;ls -alh
+: 1701050330:0;cd .gradle
+: 1701050331:0;ls
+: 1701050332:0;cd ..
+: 1701050332:0;ls
+: 1701050336:0;cd .config
+: 1701050336:0;ls
+: 1701050347:0;chezmoi add ~/.config/picom/picom.conf 
+: 1701050357:0;chezmoi add ~/.config/polybar/
+: 1701050371:0;cd private_dot_config/polybar
+: 1701050372:0;ls
+: 1701050395:0;chezmoi add ~/.config/lvim/
+: 1701050402:0;chezmoi add ~/.config/clangd/config.yaml
+: 1701050408:0;chezmoi add ~/.config/terminator/config 
+: 1701050417:0;chezmoi add ~/.config/i3/
+: 1701050424:0;chezmoi add ~/.config/neofetch/config.conf 
+: 1701050429:0;lvim neofetch/config.conf 
+: 1701050443:0;ls
+: 1701050444:0;cd ..
+: 1701050444:0;ls
+: 1701050466:0;chezmoi add ~/.config/asciinema
+: 1701050474:0;cd ..
+: 1701050475:0;ls
+: 1701050477:0;ls -alh
+: 1701050503:0;git status 
+: 1701050514:0;git add .
+: 1701050515:0;git status 
+: 1701050545:0;git commit -m "chezmoi 惻?惭??"
+: 1701050552:0;git push 
+: 1701050560:0;git status 
+: 1701050566:0;ls -alh
+: 1701050575:0;rm -rf .config .gdbinit .git .gitconfig .gitignore .gradle .mackup .mackup.cfg .mycli-history .myclirc .mysql_history .npmrc .p10k.zsh .psql_history .python_history .rediscli_history .tmux.conf .tmux.conf.local .zshenv .zsh_history .zshrc 
+: 1701050576:0;ls
+: 1701050578:0;ls -alh
+: 1701050585:0;git status 
+: 1701050602:0;cd ..
+: 1701050602:0;ls
+: 1701050608:0;rm -rf chezmoi
+: 1701050616:0;chezmoi init git@github.com:MyBlackHole/Mackup.git --branch ubuntu
+: 1701050629:0;cd chezmoi
+: 1701050629:0;ls
+: 1701050643:0;rm -rf .config .gdbinit .gitconfig .gitignore .gradle .mackup .mackup.cfg .mycli-history .myclirc .mysql_history .npmrc .p10k.zsh .psql_history .python_history .rediscli_history .tmux.conf .tmux.conf.local .zshenv .zsh_history .zshrc 
+: 1701050644:0;git status 
+: 1701050646:0;git add .
+: 1701050650:0;cd 
+: 1701050651:0;ls
+: 1701050659:0;git commit -m "移郹? mackup"
+: 1701050663:0;git push 
+: 1701050674:0;chezmoi managed
+: 1701050702:0;cd 
+: 1701050724:0;chezmoi add ~/.config/clash/profiles/
+: 1701050745:0;chezmoi cd
+: 1701050746:0;ls
+: 1701050751:0;git status 
+: 1701050754:0;git add .
+: 1701050759:0;git commit -m "clash 胁?僥??"
+: 1701050761:0;git push
+: 1701050794:0;git status 
+: 1701050869:0;black_21_12b0 aio
+: 1701052951:0;ssh root@192.168.78.212
+: 1701053018:0;git fetch
+: 1701053026:0;git switch test
+: 1701053028:0;git pull
+: 1701053034:0;git fetch
+: 1701053037:0;git switch test
+: 1701053038:0;git pull
+: 1701053130:0;ssh root@192.168.78.213
+: 1701053575:0;cd 
+: 1701053575:0;ls
+: 1701053617:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701053618:0;ls
+: 1701053619:0;git switch test
+: 1701053622:0;git status 
+: 1701053630:0;lvim ~/.gitignore
+: 1701053648:0;git status 
+: 1701053649:0;ls
+: 1701053653:0;lvim ~/.gitignore
+: 1701053658:0;git status 
+: 1701053661:0;ls
+: 1701053669:0;rm -rf dist.zip
+: 1701053670:0;ls
+: 1701053672:0;git fetch
+: 1701053674:0;ls
+: 1701053683:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701053686:0;ls
+: 1701053688:0;cd dist
+: 1701053689:0;ls
+: 1701053689:0;cd ..
+: 1701053690:0;ls
+: 1701053692:0;pwd
+: 1701054201:0;lvim airflow/dags/aio_tasks/sync_tasks.py
+: 1701054561:0;ssh root@192.168.90.41
+: 1701054688:0;./run.cdm.sh
+: 1701055365:0;git status 
+: 1701055368:0;git add .
+: 1701055371:0;git status 
+: 1701055380:0;git restore .
+: 1701056040:0;mycli -h 192.168.30.123 -u root -p123456
+: 1701056042:0;mycli -h 192.168.78.212 -u root -pp@3Sw0rd
+: 1701056115:0;docker volume ls
+: 1701056229:0;mycli -h 192.168.78.212 -u root -pp@3Sw0rd
+: 1701056423:0;git status 
+: 1701056425:0;git restore .
+: 1701056427:0;git status 
+: 1701056431:0;git restore .
+: 1701056434:0;git restore --staged .
+: 1701056435:0;git status 
+: 1701056438:0;git restore .
+: 1701056440:0;git status 
+: 1701056441:0;git fetch
+: 1701056445:0;git pull
+: 1701056490:0;./run.cdm.create.table.sh
+: 1701057457:0;git status 
+: 1701057460:0;git add .
+: 1701057474:0;git commit -m "migrations 修惴? 98"
+: 1701057488:0;git push
+: 1701057602:0;git commit -m "〃?f-19755866〃?migrations 修惴? 98"
+: 1701057606:0;git log
+: 1701057654:0;git commit --amend
+: 1701057684:0;git status 
+: 1701057686:0;git log
+: 1701057688:0;git push
+: 1701057698:0;git pull
+: 1701057700:0;git status 
+: 1701057705:0;git log
+: 1701057718:0;git commit --amend
+: 1701057727:0;git log
+: 1701057744:0;git switch feature-ltlgk-1
+: 1701057748:0;git rebase test
+: 1701057751:0;git status 
+: 1701057789:0;git add .
+: 1701057792:0;git rebase --continue
+: 1701057795:0;git status 
+: 1701057806:0;git switch test
+: 1701057822:0;git switch -C migrations-bug
+: 1701057825:0;git push 
+: 1701057831:0;git push origin migrations-bug
+: 1701057838:0;git fetch
+: 1701057844:0;git rebase origin/test
+: 1701057847:0;git status 
+: 1701057849:0;git push origin migrations-bug
+: 1701057859:0;git push origin migrations-bug --force
+: 1701057862:0;git log
+: 1701058801:0;cd Downloads
+: 1701058802:0;ls
+: 1701058807:0;sftp root@192.168.78.213
+: 1701058829:0;git status 
+: 1701058835:0;git fetch
+: 1701058903:0;cd Downloads
+: 1701058903:0;ls
+: 1701058907:0;sftp root@192.168.78.212
+: 1701059670:0;chezmoi cd
+: 1701059676:0;git status 
+: 1701060347:0;cd 
+: 1701060349:0;lvim /usr/local/frp/frpc.toml
+: 1701063055:0;git pull
+: 1701063056:0;ls
+: 1701063059:0;make
+: 1701063253:0;ls
+: 1701063265:0;cd build/
+: 1701063265:0;ls
+: 1701063269:0;cd generate
+: 1701063269:0;ls
+: 1701063271:0;cd ..
+: 1701063271:0;ls
+: 1701063272:0;cd ..
+: 1701063273:0;ls
+: 1701063291:0;cd dist/
+: 1701063291:0;ls
+: 1701063292:0;cd ..
+: 1701063293:0;ls
+: 1701063318:0;fd --no-ignore dist
+: 1701063340:0;lvim Makefile
+: 1701063351:0;make release-dist
+: 1701063354:0;ls
+: 1701063357:0;rm -rf dist
+: 1701063360:0;make release-dist
+: 1701063367:0;rm -rf frontend-dist-3.9.1.0.tar
+: 1701063368:0;ls
+: 1701063371:0;make
+: 1701063378:0;lvim Makefile
+: 1701063428:0;ls
+: 1701063435:0;lvim README.
+: 1701063438:0;lvim README.md
+: 1701063452:0;yarn build
+: 1701063459:0;lvim README.md
+: 1701063465:0;ls
+: 1701063469:0;yarn install
+: 1701063486:0;lvim README.zh-CN.md
+: 1701063547:0;ls
+: 1701063554:0;cd build
+: 1701063555:0;ls
+: 1701063556:0;tree
+: 1701063559:0;cd ..
+: 1701063560:0;ls
+: 1701063573:0;git status 
+: 1701063581:0;git rebase .
+: 1701063584:0;git restore .
+: 1701063586:0;git status 
+: 1701063588:0;ls
+: 1701063597:0;yarn build
+: 1701063723:0;lvim ~/.mc/config.json
+: 1701063739:0;mc ls BHOSS
+: 1701063742:0;mc ls BHOSS/wdg1
+: 1701063753:0;mc rm  BHOSS/wdg1/test
+: 1701063757:0;mc rm  --help
+: 1701063768:0;mc rm -r BHOSS/wdg1/test
+: 1701063774:0;mc ls BHOSS/wdg1
+: 1701063791:0;mc rm --recursive BHOSS/wdg1/test
+: 1701063805:0;mc rm --recursive BHOSS/wdg1/test/
+: 1701063810:0;mc rm  BHOSS/wdg1/test/
+: 1701063812:0;mc ls BHOSS/wdg1
+: 1701063818:0;ls
+: 1701063825:0;cd dist
+: 1701063825:0;ls
+: 1701063827:0;cd ..
+: 1701063827:0;s
+: 1701063828:0;ls
+: 1701063830:0;cd dist
+: 1701063831:0;ls
+: 1701063921:0;tre
+: 1701063923:0;tree
+: 1701063948:0;cd ..
+: 1701063948:0;s
+: 1701063949:0;ls
+: 1701063955:0;yarn build
+: 1701064168:0;git log
+: 1701064312:0;npm install -g increase-memory-limit
+: 1701064427:0;increase-memory-limit
+: 1701064432:0;yarn build
+: 1701064516:0;git status 
+: 1701064548:0;mc rm --recursive --force BHOSS/wdg1/test/
+: 1701064564:0;mc ls BHOSS/wdg1
+: 1701064567:0;mc rm --recursive --force BHOSS/wdg1/test2
+: 1701064569:0;mc ls BHOSS/wdg1
+: 1701064579:0;mc rm --recursive --force BHOSS/wdg1/gdb_test1-619e84e1b41e/
+: 1701064581:0;mc ls BHOSS/wdg1
+: 1701064588:0;mc rm --recursive --force BHOSS/wdg1/crontab-110145-619e84e1b41e/
+: 1701064644:0;mc ls BHOSS/wdg1
+: 1701064655:0;mc ls BHOSS/wdg1/archive-20231122-15-19/
+: 1701064661:0;mc rm --recursive --force BHOSS/wdg1/archive-20231122-15-19/
+: 1701064666:0;mc ls BHOSS/wdg1
+: 1701064701:0;htop
+: 1701064876:0;echo $HTTP_PROXY
+: 1701064881:0;yarn build
+: 1701064927:0;unset http_proxy
+: 1701064930:0;unset HTTP_PROXY
+: 1701064933:0;unset HTTPS_PROXY
+: 1701064943:0;lvim ~/.yarnrc
+: 1701065153:0;yarn install
+: 1701065244:0;lvim vite.config.ts
+: 1701065405:0;yarn build
+: 1701065489:0;s
+: 1701065490:0;ls
+: 1701065492:0;rm -rf yarn.lock 
+: 1701065497:0;yarn build
+: 1701065500:0;git status 
+: 1701065503:0;git restore .
+: 1701065506:0;lvim yarn.lock
+: 1701065537:0;ps axu|grep yarn
+: 1701065562:0;htop
+: 1701065635:0;ls
+: 1701065639:0;lvim package.json
+: 1701066420:0;yarn preview
+: 1701066556:0;lvim Makefile
+: 1701066588:0;yarn serve
+: 1701066650:0;increase-memory-limit
+: 1701066653:0;yarn serve
+: 1701066672:0;git status 
+: 1701066678:0;cd mock
+: 1701066680:0;cd ..
+: 1701066680:0;ls
+: 1701066682:0;cd node_modules
+: 1701066682:0;ls
+: 1701066683:0;git status 
+: 1701066684:0;cd ..
+: 1701066685:0;ls
+: 1701066764:0;rm -rf dist
+: 1701066770:0;mv ~/Downloads/frontend-dist-3.9.1.0.tar .
+: 1701066774:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701066775:0;ls
+: 1701066777:0;cd dist
+: 1701066778:0;ls
+: 1701066778:0;cd ..
+: 1701066779:0;ls
+: 1701067527:0;grep -E "terserOptions"
+: 1701067534:0;lvim vite.config.ts
+: 1701067972:0;yarn install
+: 1701068009:0;yarn build
+: 1701068019:0;git status 
+: 1701068040:0;yarn install
+: 1701068045:0;yarn build
+: 1701068084:0;ls
+: 1701068086:0;lvim /media/black/Data/Documents/AIO/aio-vue3/node_modules/rollup/package.json
+: 1701068163:0;rm -rf dist
+: 1701068172:0;yarn build
+: 1701068238:0;yarn serve
+: 1701068253:0;fd parseAst
+: 1701068261:0;grep -E "parseAst"
+: 1701068276:0;lvim node_modules/rollup/package.json
+: 1701068343:0;rm --rf node_modules
+: 1701068347:0;rm -rf node_modules
+: 1701068351:0;yarn install
+: 1701068381:0;yarn build
+: 1701068394:0;lvim /media/black/Data/Documents/AIO/aio-vue3/node_modules/vite/dist/node/cli.js
+: 1701068452:0;lvim package.json
+: 1701068585:0;yarn install
+: 1701068593:0;yarn build
+: 1701068652:0;fd rollup
+: 1701068827:0;lvim tsconfig.json
+: 1701068849:0;yarn build
+: 1701068854:0;lvim tsconfig.json
+: 1701068963:0;ls
+: 1701068965:0;lvim package.json
+: 1701068980:0;yarn install
+: 1701069007:0;yarn build
+: 1701069023:0;git diff
+: 1701069072:0;lvim package.json
+: 1701069094:0;yarn install
+: 1701069114:0;yarn build
+: 1701069139:0;git fetch
+: 1701069167:0;git pull
+: 1701069170:0;git status 
+: 1701069171:0;git fetch
+: 1701069175:0;git diff
+: 1701069212:0;git status 
+: 1701069282:0;lvim package.json
+: 1701069341:0;yarn install
+: 1701069377:0;yarn build
+: 1701069397:0;git status 
+: 1701069502:0;git fetch
+: 1701069638:0;ls
+: 1701069639:0;cd dist
+: 1701069640:0;ls
+: 1701069641:0;cd ..
+: 1701069641:0;ls
+: 1701069838:0;git fetch
+: 1701069845:0;yarn serve
+: 1701069909:0;git fetch
+: 1701069914:0;git pull
+: 1701069917:0;git status 
+: 1701069920:0;git diff
+: 1701069929:0;git restore .
+: 1701069930:0;git status 
+: 1701069934:0;yarn install
+: 1701069953:0;yarn build
+: 1701069970:0;git status 
+: 1701070129:0;git switch test
+: 1701070131:0;git pull
+: 1701070135:0;git switch test
+: 1701070137:0;git log
+: 1701070156:0;git status 
+: 1701070157:0;git add .
+: 1701070192:0;git commit -m "〃?f-19755866〃?v2 callback/total_tasks end_time required False"
+: 1701070194:0;git push 
+: 1701070263:0;increase-memory-limit
+: 1701070266:0;yarn build
+: 1701070327:0;git status 
+: 1701070330:0;rm -rf node_modules
+: 1701070339:0;yarn install
+: 1701070343:0;lvim package.json
+: 1701070366:0;yarn build
+: 1701070389:0;lvim package.json
+: 1701070615:0;top
+: 1701070617:0;htop
+: 1701070620:0;yarn build
+: 1701070691:0;export NODE_OPTIONS=--max_old_space_size=4096
+: 1701070694:0;yarn build
+: 1701070946:0;git status 
+: 1701071049:0;git fetch
+: 1701071052:0;git pull
+: 1701071054:0;git log
+: 1701071062:0;yarn build
+: 1701071245:0;ssh root@192.168.78.214
+: 1701071722:0;./run.cdm.sh
+: 1701072135:0;sftp root@192.168.90.40
+: 1701072147:0;sftp root@192.168.90.41
+: 1701072840:0;lvim 
+: 1701072989:0;lvim 1.json
+: 1701073101:0;./run.cdm.sh
+: 1701073197:0;git status 
+: 1701073214:0;rm 1.json
+: 1701073246:0;git fetch
+: 1701073413:0;git status 
+: 1701073418:0;black_21_12b0 aio
+: 1701073453:0;git status 
+: 1701073458:0;git add .
+: 1701073475:0;git commit -m "〃?f-19755866〃?触僯??惩??僬??"
+: 1701073477:0;git push
+: 1701074377:0;git status 
+: 1701074379:0;git add .
+: 1701074391:0;git commit -m "〃?f-19755866〃?僰??并僯?惵?"
+: 1701074392:0;git push 
+: 1701074399:0;sftp root@192.168.90.41
+: 1701074479:0;git fetch
+: 1701074485:0;git switch feature-ltlgk
+: 1701074487:0;git fetch
+: 1701074489:0;git pull
+: 1701074496:0;yarn build
+: 1701075557:0;git status 
+: 1701075560:0;git add .
+: 1701075563:0;black_21_12b0 airflow
+: 1701075570:0;git status 
+: 1701075590:0;git commit -m "〃?f-19755866〃?s3_type 胮?僯?? bug"
+: 1701075592:0;git pull
+: 1701075594:0;git push 
+: 1701075642:0;ssh root@192.168.90.42
+: 1701078006:0;git status 
+: 1701078010:0;black_21_12b0 aio
+: 1701078014:0;git status 
+: 1701078015:0;git add .
+: 1701078018:0;git commit -m "〃?f-19755866〃?s3_type 胮?僯?? bug"
+: 1701078020:0;git push 
+: 1701078026:0;git fetch
+: 1701078029:0;git pull
+: 1701078031:0;git status 
+: 1701078032:0;git push
+: 1701078372:0;git status 
+: 1701078470:0;./run.cdm.sh
+: 1701079019:0;git status 
+: 1701079021:0;git add .
+: 1701079024:0;git commit -m "〃?f-19755866〃?s3_type 胮?僯?? bug"
+: 1701079025:0;git push 
+: 1701079078:0;sudo apt update
+: 1701079097:0;apt list --upgradable
+: 1701079101:0;sudo apt upgrade 
+: 1701079248:0;git status 
+: 1701079254:0;git add .
+: 1701079262:0;git commit -m "〃?f-19755866〃?s3_type 殃?烵??"
+: 1701079264:0;git push
+: 1701079379:0;htop
+: 1701079551:0;chezmoi diff
+: 1701079590:0;chezmoi cd
+: 1701079594:0;git status 
+: 1701079596:0;cd 
+: 1701079617:0;chezmoi merge-all
+: 1701079632:0;chezmoi merge
+: 1701079640:0;chezmoi diff
+: 1701079669:0;chezmoi status
+: 1701079671:0;git status 
+: 1701079744:0;chezmoi apply
+: 1701079759:0;chezmoi apply --help
+: 1701079798:0;chezmoi diff
+: 1701080202:0;chezmoi git status
+: 1701080444:0;chezmoi status
+: 1701080456:0;chezmoi add .gitignore
+: 1701080458:0;chezmoi git status
+: 1701080463:0;chezmoi git diff
+: 1701080473:0;chezmoi add .mycli-history
+: 1701080478:0;chezmoi add .zsh_history
+: 1701080483:0;chezmoi status
+: 1701080494:0;chezmoi git status
+: 1701080497:0;chezmoi git add
+: 1701080499:0;chezmoi git add .
+: 1701080504:0;chezmoi git status
+: 1701080522:0;chezmoi git commit -m "test add"
+: 1701080530:0;chezmoi cd
+: 1701080544:0;ls
+: 1701080547:0;git s
+: 1701080550:0;git status 
+: 1701080557:0;git commit -m "add test"
+: 1701080561:0;git push
+: 1701080572:0;lvim ~/.zshrc
+: 1701080605:0;git fetch
+: 1701080803:0;mycli -h 192.168.90.41 -u root -pp@3Sw0rd
+: 1701082944:0;git status 
+: 1701082946:0;git add .
+: 1701082965:0;git commit -m "chezmoi 惻?惭?? macbuck"
+: 1701082967:0;git push
+: 1701082977:0;umount /dev/sda1
+: 1701082982:0;lsof /media/black/Data
+: 1701083002:0;kill -9 2079731
+: 1701083014:0;umount /dev/sda1
+: 1701083016:0;lsof /media/black/Data
+: 1701083030:0;umount /dev/sda1
+: 1701083041:0;i3lock
+: 1701133684:0;git status 
+: 1701133765:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701133767:0;udisksctl mount -b /dev/sda1
+: 1701133768:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701133777:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701133777:0;ls
+: 1701133784:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701133933:0;lvim BH.md
+: 1701133979:0;git fetch
+: 1701133984:0;git pull
+: 1701133988:0;git status 
+: 1701133990:0;git fetch
+: 1701133992:0;git pull
+: 1701133996:0;git fetch
+: 1701133998:0;git pull
+: 1701135036:0;./run.cdm.sh
+: 1701135050:0;pyenv activate cdm
+: 1701135063:0;lvim run.cdm.sh
+: 1701135073:0;lvim aio/api/callback/common_api.py
+: 1701135083:0;./run.cdm.sh
+: 1701135177:0;./run.cdm.create.table.sh
+: 1701135211:0;./run.cdm.sh
+: 1701135246:0;mycli -h 192.168.78.212 -u root -pp@3Sw0rd
+: 1701135588:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701135591:0;cd -
+: 1701135593:0;./run.cdm.sh
+: 1701137664:0;git status 
+: 1701137667:0;black_21_12b0 aio
+: 1701137670:0;git fetch
+: 1701137674:0;git add .
+: 1701137694:0;git commit -m "〃?f-19755866〃?触僯??彃?惁?惮?僯?胁?僥??孃?段"
+: 1701137696:0;git push
+: 1701137753:0;cd /media/black/Data/Documents/github/Go
+: 1701137754:0;ls
+: 1701137755:0;cd mc
+: 1701137756:0;ls
+: 1701137762:0;sftp root@192.168.78.212
+: 1701137769:0;sftp root@192.168.78.213
+: 1701138244:0;ls
+: 1701138259:0;lvim airflow/dags/archive_s3.py
+: 1701138333:0;MA=1 echo $MA
+: 1701139169:0;./run.cdm.sh
+: 1701139279:0;git status 
+: 1701139284:0;black_21_12b0 airflow
+: 1701139287:0;git add .
+: 1701139310:0;git commit -m "〃?f-19755866〃?彃?惁?僻??调?僯?惵?郴??误"
+: 1701139312:0;git push
+: 1701139317:0;git status 
+: 1701139320:0;black_21_12b0 aio
+: 1701139322:0;git add .
+: 1701139324:0;git commit -m "〃?f-19755866〃?彃?惁?僻??调?僯?惵?郴??误"
+: 1701139326:0;git push
+: 1701139340:0;mc ls BHOSS/wdg1
+: 1701139347:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/
+: 1701139354:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/
+: 1701139710:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/DN1
+: 1701139713:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/DN3
+: 1701139717:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/DN5
+: 1701139718:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/DN7
+: 1701139721:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701140322:0;git status 
+: 1701140352:0;mc ls BHOSS/wdg1/
+: 1701140362:0;mc ls BHOSS/wdg1/test2
+: 1701140380:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701140886:0;git status 
+: 1701140888:0;git add .
+: 1701140889:0;git status 
+: 1701140911:0;git commit -m "〃?f-19755866〃?烩?烰??恃?夃?路徃?赃?值修夃?"
+: 1701140912:0;git push
+: 1701141252:0;fanyi normal
+: 1701141895:0;cdls
+: 1701141898:0;cd /media/black/Data/Documents/github/C
+: 1701141899:0;ls
+: 1701141901:0;git clone git@github.com:mlichvar/chrony.git
+: 1701141914:0;ls
+: 1701141916:0;cd chrony
+: 1701141916:0;ls
+: 1701141919:0;./configure CFLAGS='-g -O0' 
+: 1701141925:0;ls
+: 1701141934:0;bear -- make
+: 1701141954:0;ls
+: 1701141960:0;lvim main.c
+: 1701142100:0;ls
+: 1701142116:0;lvim Makefile
+: 1701143213:0;cd ..
+: 1701143215:0;git clone git@github.com:ntp-project/ntp.git
+: 1701143271:0;cd ntp
+: 1701143271:0;ls
+: 1701143273:0;git s
+: 1701143276:0;./bootstrap
+: 1701143306:0;ls
+: 1701143308:0;./configure CFLAGS='-g -O0' 
+: 1701143362:0;ls
+: 1701143365:0;bear -- make
+: 1701143372:0;ls
+: 1701143394:0;sudo apt install lynx
+: 1701143410:0;bear -- make
+: 1701143535:0;fanyi entries
+: 1701144329:0;git status 
+: 1701144333:0;git fetch
+: 1701144336:0;git pull
+: 1701144340:0;yarn install
+: 1701144346:0;yarn build
+: 1701144539:0;export NODE_OPTIONS=--max_old_space_size=4096
+: 1701144541:0;yarn build
+: 1701144949:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701144950:0;yarn build
+: 1701145253:0;free -h
+: 1701145275:0;htop
+: 1701149919:0;lvim aio/api/callback/common_api.py
+: 1701150321:0;pyenv activate airflow
+: 1701150327:0;lvim aio/api/callback/common_api.py
+: 1701150332:0;ls
+: 1701150338:0;lvim airflow/dags/archive_s3.py
+: 1701150700:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701150711:0;mc rm -rf BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701150715:0;mc rm -r -f BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701150724:0;mc rm -r --force BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701150730:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18
+: 1701150953:0;git status 
+: 1701150955:0;git add .
+: 1701150962:0;git commit -m "〃?f-19755866〃?修惴?惵?惭?郧??讃?箃?"
+: 1701151053:0;git status 
+: 1701151064:0;black_21_12b0 airflow
+: 1701151067:0;git add .
+: 1701151074:0;git commit --amend
+: 1701151081:0;git status 
+: 1701151082:0;git push
+: 1701151930:0;lvim 
+: 1701152424:0;./run.cdm.sh
+: 1701153097:0;git status 
+: 1701153105:0;black_21_12b0 aio
+: 1701153111:0;git add .
+: 1701153128:0;git commit -m "〃?f-19755866〃?修惴? archive_count 赃?值郴??误"
+: 1701153129:0;git push
+: 1701153135:0;git status 
+: 1701154073:0;./run.cdm.sh
+: 1701154347:0;mc ls BHOSS/wdg1/
+: 1701154353:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/
+: 1701154358:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/
+: 1701154372:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/tenant_test/
+: 1701154379:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/tenant01_1693208031/
+: 1701154458:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/tenant01_1693208031/aio_1_2_1701154253224_clone/
+: 1701154461:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/tenant01_1693208031/aio_1_2_1701154253224_clone/data
+: 1701156775:0;ssh root@192.168.90.41
+: 1701156782:0;mycli -h 192.168.90.41 -u root -pp@3Sw0rd
+: 1701157533:0;./run.cdm.sh
+: 1701157806:0;git fetch
+: 1701157811:0;git status 
+: 1701157815:0;git diff
+: 1701157829:0;git status 
+: 1701157833:0;git diff
+: 1701157839:0;git add .
+: 1701157847:0;git commit -m "〃?f-19755866〃?惫?惨? ssh 郴??误"
+: 1701157849:0;git pull
+: 1701158094:0;./run.cdm.sh
+: 1701158461:0;git status 
+: 1701158464:0;black_21_12b0 aio
+: 1701158472:0;git status 
+: 1701158473:0;git add .
+: 1701158495:0;git commit -m "〃?f-19755866〃?mount s3 僯??值郴??误"
+: 1701158497:0;git push
+: 1701159030:0;ls
+: 1701159036:0;cd /media/black/Data/Documents/github/C
+: 1701159037:0;cd ..go
+: 1701159043:0;cd ../Go
+: 1701159056:0;cd mc
+: 1701159056:0;ls
+: 1701159076:0;lvim cmd/encrypt-set.go
+: 1701159091:0;cd ../
+: 1701159092:0;ls
+: 1701159098:0;cd minio
+: 1701159099:0;ls
+: 1701159105:0;lvim cmd/erasure.go
+: 1701159215:0;lvim 
+: 1701159744:0;git status 
+: 1701159745:0;git add .
+: 1701159785:0;git commit -m "append 它?惶?对亃?检骃?僲??七?惴?惬?七?僪??"
+: 1701160469:0;cd /media/black/Data/Documents/github/
+: 1701160473:0;cd ..
+: 1701160474:0;ls
+: 1701160481:0;cd ZFDM
+: 1701160481:0;ls
+: 1701160483:0;cd deployment-warehouse
+: 1701160483:0;ls
+: 1701160500:0;lvim harbor/harbor/templates/nginx/configmap-https.yaml
+: 1701160693:0;git status 
+: 1701160694:0;git add .
+: 1701160712:0;git commit -m "〃?f-19755866〃?惀?弃?僬??惼??郷?郂??"
+: 1701160715:0;git fetch
+: 1701160718:0;git push
+: 1701160922:0;git status 
+: 1701160924:0;git add .
+: 1701160947:0;git commit -m "〃?f-19755866〃?e 对豃?沃?惼??使烴?"
+: 1701160949:0;git push
+: 1701161627:0;git fetch
+: 1701161633:0;git pull
+: 1701161654:0;lvim vite.config.ts 
+: 1701163093:0;./run.cdm.sh
+: 1701163292:0;lvim 
+: 1701165105:0;git status 
+: 1701165107:0;git diff
+: 1701165515:0;git status 
+: 1701165519:0;git diff
+: 1701165527:0;git restore .
+: 1701166003:0;git status 
+: 1701166005:0;git fetch
+: 1701166008:0;git pull
+: 1701166156:0;./run.cdm.sh
+: 1701166333:0;git status 
+: 1701166428:0;git add .
+: 1701166455:0;git commit -m "〃?f-19755866〃?create_or_update_stat_task 僯?惵?郴??误"
+: 1701166457:0;git push
+: 1701168202:0;cd /media/black/Data/Documents/AIO/aio-lib
+: 1701168203:0;git status 
+: 1701168206:0;git fetch
+: 1701168214:0;git switch test
+: 1701168216:0;git pull
+: 1701168224:0;lvim aio_lib/storage/s3_client.py
+: 1701168252:0;git switch master
+: 1701168254:0;git pull
+: 1701168439:0;git status 
+: 1701168441:0;git add .
+: 1701168454:0;git commit -m "〃?f-19755866〃?S3 to s3"
+: 1701168455:0;git push
+: 1701168851:0;git status 
+: 1701170008:0;i3lock
+: 1701218788:0;git status 
+: 1701218790:0;git fetch
+: 1701218794:0;git switch test
+: 1701218796:0;git pull
+: 1701218805:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701218807:0;yarn build
+: 1701218896:0;git fetch
+: 1701218904:0;git diff
+: 1701219003:0;git restore .
+: 1701219005:0;git pull
+: 1701219011:0;git fetch
+: 1701219014:0;git pull
+: 1701219903:0;git status 
+: 1701219909:0;black_21_12b0 aio
+: 1701219933:0;git add .
+: 1701219962:0;git commit -m "〃?f-24070190〃?修夃?导僥?郴??误郷?郂??"
+: 1701219963:0;git push
+: 1701220338:0;ssh root@192.168.78.212
+: 1701220604:0;git status 
+: 1701220607:0;git add .
+: 1701220632:0;git commit -m "〃?f-19755866〃?筃?烵? job 彃?惁?僰??称惫?惮?郴??误"
+: 1701220635:0;git push
+: 1701221396:0;git status 
+: 1701221399:0;black_21_12b0 aio
+: 1701221406:0;git status 
+: 1701221407:0;git add .
+: 1701221417:0;git commit -m "〃?f-24070190〃?修夃?导僥?郴??误郷?郂??"
+: 1701221617:0;git push
+: 1701221714:0;./run.cdm.sh
+: 1701222520:0;isort aio
+: 1701222525:0;git diff
+: 1701222533:0;git restore .
+: 1701222536:0;git status 
+: 1701222537:0;git log
+: 1701222556:0;git aio/models/common/copy.py
+: 1701222572:0;isort aio/models/common/copy.py
+: 1701222639:0;git diff
+: 1701222641:0;git status 
+: 1701222643:0;git add .
+: 1701222649:0;git commit -m "〃?f-24070190〃?惀?弃?僬??郷?郂??"
+: 1701222651:0;git push
+: 1701222796:0;git status 
+: 1701222798:0;git add .
+: 1701222805:0;git commit -m "〃?f-24070190〃?修夃?导僥?郴??误郷?郂??"
+: 1701222808:0;git push
+: 1701222871:0;grep -E "aio.config.base"
+: 1701223705:0;cd /media/black/Data/Documents/github/Python
+: 1701223706:0;ls
+: 1701223707:0;cd airflow
+: 1701223708:0;ls
+: 1701223743:0;lvim airflow/ti_deps/dep_context.py
+: 1701227069:0;cd /media/black/Data/Documents/Python
+: 1701227070:0;ls
+: 1701227072:0;cd 
+: 1701227077:0;cd /media/black/Data/Documents/github/Python/minio-py
+: 1701227078:0;ls
+: 1701227099:0;python3 examples/list_buckets.py
+: 1701227110:0;lvim examples/list_buckets.py
+: 1701227147:0;mc ls play
+: 1701227154:0;mc ls play/liyun
+: 1701227165:0;python3 examples/list_buckets.py
+: 1701227193:0;python3 examples/list_objects.py
+: 1701227208:0;mc ls play/liyun
+: 1701227212:0;mc ls play/liyun/c
+: 1701227229:0;python3 examples/list_objects.py
+: 1701227339:0;mc ls play/liyun/c/subx
+: 1701227354:0;mc ls play/liyun/c/subx/
+: 1701227359:0;mc ls play/liyun/c/subx//
+: 1701227363:0;mc ls play/liyun/c/subx/
+: 1701227404:0;mc cp .gitignore play/liyun/c/subx/
+: 1701227410:0;mc ls play/liyun/c/subx/
+: 1701227577:0;mc ls BHOSS/wdg1
+: 1701227583:0;mc ls BHOSS/wdg1/test2/
+: 1701227589:0;mc ls BHOSS/wdg1/test2/archive-20231127-17-18/
+: 1701227606:0;mkdir /
+: 1701227611:0;mkdir \/
+: 1701227721:0;python3 examples/list_objects.py
+: 1701227829:0;mc ls BHOSS/
+: 1701227832:0;mc ls BHOSS/wdg1/
+: 1701227837:0;mc ls BHOSS/wdg1/subx/
+: 1701227867:0;mc mb BHOSS/wdg1/subx/c
+: 1701227872:0;mc ls BHOSS/wdg1/subx/
+: 1701227875:0;mc ls BHOSS/wdg1/subx/c/
+: 1701227881:0;mc ls BHOSS/
+: 1701227960:0;python3 examples/list_objects.py
+: 1701228176:0;mc rm -r --force play/b/hhh.txt
+: 1701228182:0;mc rm play/b/hhh.txt
+: 1701228195:0;mc rm play/liyun/b/hhh.txt
+: 1701228216:0;mc rm -r --force play/liyun/b/sub1/
+: 1701228226:0;mc rm -r --force play/liyun/b/test.py
+: 1701228230:0;python3 examples/list_objects.py
+: 1701228261:0;mc ls play/liyun/b/
+: 1701228284:0;mc ls BHOSS/
+: 1701228287:0;mc ls BHOSS/wdg1
+: 1701228293:0;mc ls BHOSS/wdg1/test2
+: 1701228301:0;mc ls BHOSS/wdg1/test2/archive-20231127-17-18/
+: 1701228317:0;mc cp .gitignore BHOSS/wdg1/test1
+: 1701228327:0;mc ls BHOSS/wdg1/test1
+: 1701228336:0;mc ls BHOSS/wdg1/test1/
+: 1701228346:0;mc ls BHOSS/wdg1/
+: 1701228354:0;mc cp .gitignore BHOSS/wdg1/test1/
+: 1701228356:0;mc ls BHOSS/wdg1/
+: 1701228374:0;mc cp .gitignore BHOSS/wdg1/test1/test1
+: 1701228377:0;mc ls BHOSS/wdg1/test1
+: 1701228380:0;mc ls BHOSS/wdg1/
+: 1701228387:0;mc cp .gitignore BHOSS/wdg1/test2/test1
+: 1701228394:0;mc ls BHOSS/wdg1/test2/
+: 1701228405:0;mc cp .gitignore BHOSS/wdg1/test23/test1
+: 1701228414:0;mc ls  BHOSS/wdg1/test23/
+: 1701228417:0;mc ls  BHOSS/wdg1/
+: 1701228422:0;mc ls  BHOSS/wdg1/test23/
+: 1701228433:0;mc rm BHOSS/wdg1/test23/
+: 1701228439:0;mc ls  BHOSS/wdg1/test23/
+: 1701228453:0;mc rm BHOSS/wdg1/test23/test1
+: 1701228457:0;mc ls  BHOSS/wdg1/test23/
+: 1701228459:0;mc ls  BHOSS/wdg1/
+: 1701228497:0;mc ls play/liyun/
+: 1701228502:0;python3 examples/list_objects.py
+: 1701228624:0;cd 
+: 1701228624:0;ls
+: 1701228627:0;cd /media/black/Data/Documents/github/Go
+: 1701228628:0;ls
+: 1701228629:0;cd min
+: 1701228632:0;cd minio
+: 1701228632:0;ls
+: 1701228638:0;lvim run.sh
+: 1701228643:0;ls
+: 1701228658:0;./minio server ./database
+: 1701228669:0;./minio server --help
+: 1701228685:0;ls
+: 1701228690:0;rm -rf database/
+: 1701228750:0;./minio server --address :9000 ./database 
+: 1701229106:0;mc mb --help
+: 1701231748:0;ssh root@192.168.30.125
+: 1701232025:0;fanyi expires
+: 1701232725:0;git status 
+: 1701232726:0;git fetch
+: 1701232790:0;git status 
+: 1701232805:0;git add .
+: 1701232806:0;git status 
+: 1701232816:0;git commit -m "〃?f-24070190〃?s3 to S3"
+: 1701232817:0;git push 
+: 1701232827:0;git status 
+: 1701232829:0;git add .
+: 1701232831:0;git commit -m "〃?f-24070190〃?s3 to S3"
+: 1701232832:0;git push
+: 1701233001:0;pwd
+: 1701233043:0;ls
+: 1701233047:0;pwd
+: 1701233135:0;git checkout 2.2.3
+: 1701237226:0;git status 
+: 1701237229:0;git restore .
+: 1701238203:0;git status 
+: 1701238206:0;git add .
+: 1701238220:0;git switch -c S3 
+: 1701238224:0;git add .
+: 1701238229:0;git commit -m "〃?f-24070190〃?s3 to S3"
+: 1701238236:0;git push origin S3
+: 1701238308:0;git switch -c S3 
+: 1701238310:0;git status 
+: 1701238354:0;git switch test
+: 1701238431:0;git lgo
+: 1701238433:0;git log
+: 1701238445:0;git status
+: 1701238459:0;git log
+: 1701238466:0;git status
+: 1701238488:0;git diff
+: 1701238490:0;git add .
+: 1701238495:0;git commit -m "〃?f-24070190〃?s3 to S3"
+: 1701238506:0;git push
+: 1701238509:0;git log
+: 1701238513:0;git diff HEAD HEAD^
+: 1701238526:0;git status
+: 1701238527:0;git add .
+: 1701238533:0;git commit -m "〃?f-24070190〃?惀?弃?僬??郷?郂??"
+: 1701238534:0;git push 
+: 1701238556:0;git diff HEAD HEAD^
+: 1701238563:0;git diff HEAD^ HEAD
+: 1701240395:0;git restore .
+: 1701240396:0;git status
+: 1701240402:0;git switch 2.2.3rc2_zh
+: 1701240418:0;git status
+: 1701240420:0;git restore .
+: 1701240645:0;git fetch
+: 1701240647:0;git pull
+: 1701240652:0;git diff
+: 1701240655:0;git diff HEAD^ HEAD
+: 1701241778:0;git checkout 2.2.3
+: 1701242497:0;git status 
+: 1701242501:0;git restore .
+: 1701243530:0;git fetch
+: 1701243532:0;git status 
+: 1701243605:0;ssh root@192.168.78.212
+: 1701243808:0;git status 
+: 1701244548:0;lvim 
+: 1701244922:0;./run.cdm.sh
+: 1701245987:0;lvim 
+: 1701247693:0;black_21_12b0 aio
+: 1701247923:0;git status 
+: 1701247943:0;./run.cdm.sh
+: 1701248133:0;black_21_12b0 aio
+: 1701248978:0;git status 
+: 1701248981:0;black_21_12b0 aio
+: 1701248983:0;git add .
+: 1701249003:0;git commit -m "〃?f-19755866〃?修惴?触僯??伃?逃?孃?段"
+: 1701249007:0;git pull
+: 1701249010:0;git push
+: 1701249131:0;git status 
+: 1701249136:0;git fetch
+: 1701249146:0;black_21_12b0 airflow
+: 1701249151:0;git add .
+: 1701249152:0;git commit -m "〃?f-19755866〃?修惴?触僯??伃?逃?孃?段"
+: 1701249154:0;git push
+: 1701249156:0;git pull
+: 1701249158:0;git push
+: 1701250068:0;git status 
+: 1701250072:0;git diff
+: 1701250084:0;git status 
+: 1701250086:0;git add .
+: 1701250121:0;git commit -m "〃?f-19755866〃?彃?惁?轻郧?? dag 想??佃?类僾??郴??误"
+: 1701250122:0;git push
+: 1701251454:0;git status 
+: 1701251456:0;git diff
+: 1701251459:0;git add .
+: 1701251535:0;git commit -m "〃?f-19755866〃?snapshot_sync_s3"
+: 1701251536:0;git push
+: 1701251540:0;git fetch
+: 1701251543:0;git pull
+: 1701251545:0;git push
+: 1701256710:0;git status 
+: 1701256714:0;git status
+: 1701256718:0;git restore .
+: 1701256722:0;git fetch
+: 1701256732:0;git status 
+: 1701256735:0;git fetch
+: 1701256737:0;git pull
+: 1701256875:0;git status 
+: 1701256886:0;git status
+: 1701256906:0;git fetch
+: 1701256909:0;git pull
+: 1701256916:0;umount /dev/sda1
+: 1701256925:0;lsof /media/black/Data
+: 1701256943:0;poweroff
+: 1701305864:0;udisksctl mount -b /dev/sda1
+: 1701305907:0;tmux new-session w -s mysql
+: 1701305917:0;tmux new-session -d -s mysql
+: 1701305926:0;tmux new-session -d -s ssh
+: 1701305933:0;chezmoi diff
+: 1701305962:0;chezmoi status
+: 1701305969:0;chezmoi status .gitignore
+: 1701305975:0;chezmoi diff .gitignore
+: 1701305991:0;chezmoi --hlep
+: 1701305995:0;chezmoi --help
+: 1701306034:0;chezmoi state
+: 1701306037:0;chezmoi --help
+: 1701306047:0;chezmoi upgrade
+: 1701306064:0;chezmoi merge-all --help
+: 1701306101:0;xrandr --output eDP --right-of HDMI-A-0
+: 1701306313:0;chezmoi merge .gitignore
+: 1701306402:0;chezmoi state
+: 1701306405:0;chezmoi status
+: 1701306500:0;chezmoi merge-all
+: 1701306608:0;nvim -d -o .gitignore .gitconfig
+: 1701306630:0;lvim -d -o .gitignore .gitconfig
+: 1701306742:0;cd Documents/MyBlackHole
+: 1701306799:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701306800:0;git status
+: 1701306806:0;git diff
+: 1701306823:0;cd /media/black/Data/Documents/github/C/yark
+: 1701306831:0;lvim hide_nfs.
+: 1701306833:0;lvim hide_nfs.c
+: 1701306896:0;showmount -e 127.0.0.1
+: 1701306919:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents ~/nfstest
+: 1701306926:0;mkdir ~/nfstest
+: 1701306927:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents ~/nfstest
+: 1701306929:0;mount
+: 1701306946:0;bear -- make
+: 1701306958:0;cd 
+: 1701306966:0;sudo dmesg -w
+: 1701306979:0;sudo insmod yark.ko
+: 1701306984:0;cd 
+: 1701306986:0;cd nfstest
+: 1701306987:0;ls
+: 1701306999:0;touch 1.txt
+: 1701307007:0;sudo touch 1.txt
+: 1701307013:0;ls
+: 1701307022:0;sudo nvim /etc/exports
+: 1701307043:0;exportfs -e
+: 1701307047:0;exportfs --help
+: 1701307050:0;exportfs 
+: 1701307064:0;systemctl restart nfs-server.service
+: 1701307072:0;ls
+: 1701307074:0;ls -alh
+: 1701307078:0;touch 1.txt
+: 1701307086:0;rm 1.txt
+: 1701307189:0;lvim fs/nfsd/nfs2acl.c
+: 1701307857:0;fanyi compound
+: 1701307940:0;ls
+: 1701307941:0;ls -alh
+: 1701307950:0;cd .cache/clangd/index
+: 1701307951:0;ls
+: 1701307953:0;cd -
+: 1701307953:0;ls
+: 1701307960:0;rm -rf .cache
+: 1701308028:0;cd .cache/clangd/index
+: 1701308029:0;ls
+: 1701308037:0;ls -alh
+: 1701308059:0;htop
+: 1701308444:0;mycli -h 192.168.90.41 -u root -pp@3Sw0rd
+: 1701308458:0;mycli -h 192.168.78.212 -u root -pp@3Sw0rd
+: 1701308465:0;ssh root@192.168.78.212
+: 1701308472:0;ssh root@192.168.78.213
+: 1701308475:0;ssh root@192.168.78.214
+: 1701308938:0;sudo rmmod yark
+: 1701309204:0;bear -- make
+: 1701309216:0;sudo insmod yark.ko
+: 1701309223:0;ls
+: 1701309229:0;touch 2.txt
+: 1701309232:0;rm 2.txt
+: 1701309300:0;cd /media/black/Data/Documents/AIO/aio-lib
+: 1701309308:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701309314:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701309314:0;ls
+: 1701309339:0;pyenv activate airflow
+: 1701309343:0;pyenv activate cdm
+: 1701309551:0;sudo rmmod yark
+: 1701309729:0;bear -- make
+: 1701310198:0;git diff
+: 1701310413:0;cd /media/black/Data/Documents/C/linux_module_learn
+: 1701310413:0;ls
+: 1701310420:0;lvim fs/path/Makefile
+: 1701311023:0;sudo rmmod yark
+: 1701311027:0;bear -- make
+: 1701311087:0;sudo insmod yark.ko
+: 1701311093:0;ls
+: 1701311125:0;touch 2.txt
+: 1701311126:0;ls
+: 1701311128:0;rm 2.txt
+: 1701311154:0;bear -- make
+: 1701311696:0;sudo rmmod yark
+: 1701311705:0;sudo insmod yark.ko
+: 1701311708:0;ls
+: 1701311736:0;rm 2.txt
+: 1701311771:0;git status
+: 1701311778:0;git add .
+: 1701311779:0;git status
+: 1701311790:0;git commit -m "七?僥?许僨??郹?"
+: 1701311799:0;git status
+: 1701311817:0;git commit --amend
+: 1701312705:0;git fetch
+: 1701312710:0;git pull
+: 1701312714:0;git fetch
+: 1701312718:0;git pull
+: 1701312750:0;lvim aio/api/v3/common/archive_api.py
+: 1701313215:0;lvim airflow/dags/archive_s3.py
+: 1701313875:0;pyenv activate cdm
+: 1701313878:0;black_21_12b0 cdm
+: 1701313882:0;black_21_12b0 aio
+: 1701314591:0;fanyi 僪??
+: 1701315086:0;mycli -h 192.168.60.70 -u root -pp@3Sw0rd
+: 1701318022:0;fanyi 僪??
+: 1701318025:0;black_21_12b0 aio
+: 1701318713:0;ls
+: 1701318716:0;rm 2.txt
+: 1701318750:0;ip route
+: 1701318815:0;ls
+: 1701318818:0;mv 2.txt 3.txt
+: 1701318879:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701318879:0;ls
+: 1701318882:0;git fetch
+: 1701318888:0;git pull
+: 1701318894:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701318901:0;yarn build
+: 1701322471:0;./run.cdm.sh
+: 1701322490:0;xkill
+: 1701322787:0;./run.cdm.sh
+: 1701326992:0;git status
+: 1701326997:0;black_21_12b0 aio
+: 1701326999:0;git status
+: 1701327440:0;git add .
+: 1701327472:0;git commit -m "〃?f-19755866〃?僂??僪??彃?惁?记彃?大尃?"
+: 1701327475:0;git fetch
+: 1701327477:0;git pull
+: 1701328807:0;black_21_12b0 aio
+: 1701331916:0;mc ls LGP/back099
+: 1701334782:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/
+: 1701334796:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/
+: 1701334809:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/
+: 1701334825:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/
+: 1701334836:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/ data/
+: 1701334846:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/
+: 1701334859:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/
+: 1701335027:0;mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/
+: 1701337906:0;black_21_12b0 aio
+: 1701339278:0;./run.cdm.sh
+: 1701339362:0;pyenv activate cdm
+: 1701339363:0;./run.cdm.sh
+: 1701339376:0;mycli -h 192.168.60.70 -u root -pp@3Sw0rd
+: 1701339410:0;./run.cdm.sh
+: 1701339518:0;lvim 
+: 1701339643:0;./run.cdm.sh
+: 1701339870:0;echo $AIO_WEBSRV_PORT
+: 1701340675:0;git diff
+: 1701340765:0;git status
+: 1701340792:0;git add .
+: 1701340793:0;git status
+: 1701340807:0;git diff
+: 1701340830:0;git commit -m "〃?f-19755866〃?快烥?僂??郧??惸? inc"
+: 1701340834:0;git push
+: 1701340837:0;git fetch
+: 1701340839:0;git pull
+: 1701340840:0;git push
+: 1701340843:0;./run.cdm.sh
+: 1701340851:0;git diff
+: 1701340856:0;git add .
+: 1701340860:0;git commit -m "〃?f-19755866〃?快烥?僂??郧??惸? inc"
+: 1701340863:0;git fetch
+: 1701340865:0;git pull
+: 1701340867:0;git push
+: 1701341597:0;./run.cdm.sh
+: 1701343563:0;umount /dev/sda1
+: 1701343569:0;lsof /media/black/Data
+: 1701343576:0;docker ps
+: 1701343581:0;docker stop postgres
+: 1701343585:0;lsof /media/black/Data
+: 1701343590:0;umount /dev/sda1
+: 1701343635:0;i3lock
+: 1701392847:0;udisksctl mount -b /dev/sda1
+: 1701392898:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701392899:0;ls
+: 1701392900:0;./run.cdm.sh
+: 1701392907:0;pyenv activate cdm
+: 1701392908:0;./run.cdm.sh
+: 1701392919:0;pyenv activate cdm
+: 1701393260:0;lvim aio/api/v3/common/archive_api.py
+: 1701393502:0;git status
+: 1701393508:0;black_21_12b0 aio
+: 1701393554:0;git status
+: 1701393555:0;git add .
+: 1701393571:0;git commit -m "〃?f-19755866〃?僂??僪??胮?僯?? s3 对豃?僨??胁?"
+: 1701393575:0;git status
+: 1701393576:0;git fetch
+: 1701393581:0;git push
+: 1701394373:0;mc ls BHOSS/wdg1/
+: 1701394388:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/
+: 1701394395:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/
+: 1701394544:0;git status
+: 1701394547:0;git add .
+: 1701394564:0;git commit -m "〃?f-19755866〃?s3 对豃?僨??胁?僂??僪??夃?份对豃?惀?路徃?"
+: 1701394567:0;git push
+: 1701394716:0;cd Documents/MyBlackHole
+: 1701394718:0;git status
+: 1701394720:0;git diff
+: 1701394772:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701394772:0;ls
+: 1701394781:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701394782:0;git status
+: 1701394784:0;ls
+: 1701394785:0;git fetch
+: 1701394791:0;git pull
+: 1701395068:0;ssh root@192.168.50.61
+: 1701396730:0;lvim 
+: 1701397017:0;lvim BH.md
+: 1701397738:0;git status
+: 1701397740:0;git diff
+: 1701397746:0;git status
+: 1701397748:0;git add .
+: 1701397750:0;git push 
+: 1701397756:0;git commit -m "〃?f-19755866〃?惀?弃?僬??"
+: 1701397758:0;git push
+: 1701398366:0;black_21_12b0 aio
+: 1701398400:0;isort --version
+: 1701398435:0;isort aio/api/callback/archive_api.py
+: 1701398476:0;isort aio/api/callback/archive_api.py --profile black 
+: 1701398498:0;isort aio/api/callback/archive_api.py
+: 1701398507:0;isort aio/api/callback/archive_api.py --profile black 
+: 1701398540:0;./run.cdm.sh
+: 1701398545:0;git status
+: 1701398550:0;git add .
+: 1701398552:0;git commit -m "〃?f-19755866〃?惀?弃?僬??"
+: 1701398554:0;git push
+: 1701402677:0;git diff
+: 1701402980:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701402986:0;lvim fs/xfs/Kconfig
+: 1701403199:0;git fetch
+: 1701403226:0;git pull
+: 1701403562:0;ssh root@192.168.60.71
+: 1701403712:0;git fetch
+: 1701403717:0;git switch fix-lt-lgk
+: 1701403722:0;git rebase origin/test
+: 1701403725:0;git status
+: 1701403727:0;git pull
+: 1701403731:0;git status
+: 1701403739:0;git log
+: 1701403747:0;git push 
+: 1701403765:0;git status
+: 1701403767:0;git fetch
+: 1701404405:0;git checkout v4.19
+: 1701404414:0;git diff
+: 1701404419:0;git add .
+: 1701404430:0;git diff
+: 1701404450:0;git commit -m "nfs v4 夃?僰??调?烴?"
+: 1701404458:0;git checkout v4.19
+: 1701404808:0;git switch zh_master
+: 1701411866:0;git fetch
+: 1701411960:0;git pull
+: 1701412109:0;pyenv activate airflow
+: 1701412119:0;git status
+: 1701412130:0;git switch test
+: 1701412132:0;git pull
+: 1701412163:0;ls
+: 1701412170:0;lvim airflow/dags/aio_full_backup.py
+: 1701413751:0;fd xfs.pdf
+: 1701414301:0;grep -E "xfs_has_norecovery"
+: 1701414884:0;lvim fs/xfs/Kconfig
+: 1701415152:0;lvim fs/xfs/kmem.c
+: 1701417115:0;git fetch
+: 1701417118:0;git pull
+: 1701417126:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701417128:0;yarn build
+: 1701417185:0;cd /media/black/Data/Documents/Python/
+: 1701417186:0;ls
+: 1701417195:0;lvim os_learn/烮?僂??僯??郧??.py
+: 1701417202:0;ipython3
+: 1701417545:0;cd Downloads
+: 1701417546:0;ls
+: 1701417549:0;cd 
+: 1701417549:0;ls
+: 1701417555:0;cd -
+: 1701417555:0;ls
+: 1701417579:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701417579:0;ls
+: 1701417583:0;cd dist
+: 1701417584:0;ls
+: 1701417587:0;cd ..
+: 1701417587:0;ls
+: 1701417590:0;rm -rf dist
+: 1701417595:0;mv ~/Downloads/frontend-dist-3.9.1.0.tar .
+: 1701417599:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701417600:0;ls
+: 1701417734:0;ssh root@192.168.78.212
+: 1701418586:0;git status
+: 1701418649:0;pyenv activate cdm
+: 1701418651:0;./run.cdm.sh
+: 1701418813:0;git status
+: 1701418815:0;git add .
+: 1701418847:0;git commit -m "〃?f-19755866〃?彃?惁? v2 crontab_id 郴??误"
+: 1701418849:0;git push
+: 1701422179:0;git status
+: 1701422180:0;git fetch
+: 1701422186:0;git pull
+: 1701422191:0;git status
+: 1701422223:0;git switch fix-lt-lgk
+: 1701422225:0;git pull
+: 1701422230:0;git status
+: 1701422234:0;./run.cdm.sh
+: 1701422241:0;git status
+: 1701422243:0;git diff
+: 1701422247:0;git status
+: 1701422250:0;git add .
+: 1701422257:0;git log
+: 1701422285:0;git commit -m  "〃?m-24717315〃?惀?弃?僬??"
+: 1701422287:0;git push
+: 1701422332:0;sudo apt update
+: 1701422351:0;apt list --upgradable
+: 1701422358:0;sudo apt upgrade 
+: 1701423615:0;nvim include/linux/fs.h
+: 1701424046:0;lvim fs/xfs/kmem.c
+: 1701424397:0;git status
+: 1701424402:0;git diff
+: 1701424407:0;git status
+: 1701424408:0;git add .
+: 1701424414:0;git commit -m  "vfs"
+: 1701424820:0;git status
+: 1701424822:0;git diff
+: 1701424834:0;lvim fs/xfs/xfs_inode.c
+: 1701425720:0;lvim 
+: 1701431091:0;git status
+: 1701431092:0;git add .
+: 1701431097:0;git commit -m  "xfs 工僥?"
+: 1701431098:0;git push
+: 1701431103:0;umount /dev/sda1
+: 1701431627:0;i3lock
+: 1701651482:0;sudo apt update
+: 1701651493:0;apt list --upgradable
+: 1701651496:0;sudo apt upgrade 
+: 1701651565:0;git fetch
+: 1701651575:0;git pull
+: 1701651591:0;udisksctl mount -b /dev/sda1
+: 1701652229:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701652231:0;git fetch
+: 1701652234:0;git pull
+: 1701652245:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701652247:0;git fetch
+: 1701652255:0;git switch test
+: 1701652257:0;git pull
+: 1701652263:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1701652266:0;git fetch
+: 1701652270:0;git pull
+: 1701652309:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701652310:0;yarn build
+: 1701652393:0;pyenv activate airflow
+: 1701652395:0;pyenv activate cdm
+: 1701652403:0;chezmoi status
+: 1701652419:0;lvim airflow/dags/archive_s3.py
+: 1701652467:0;ipython3
+: 1701654126:0;git status
+: 1701654163:0;lvim run.cdm.sh
+: 1701654305:0;chmod u+x airflow.black.sh
+: 1701654310:0;./airflow.black.sh
+: 1701654313:0;git status
+: 1701654342:0;git restore .
+: 1701654361:0;git status
+: 1701654363:0;git add .
+: 1701654383:0;git status
+: 1701654395:0;git restore --staged airflow.black.sh
+: 1701654397:0;git status
+: 1701654443:0;git commit -m  "〃?m-24717315〃?mc 工僥?僯??送僨?惷?郷?路徃?七?"
+: 1701654458:0;lvim ~/.gitignore
+: 1701654462:0;git status
+: 1701654464:0;git push
+: 1701654568:0;git status
+: 1701655697:0;bluetoothd
+: 1701655708:0;bluetoothctl
+: 1701656531:0;ls
+: 1701656535:0;./run.cdm.sh
+: 1701656545:0;pyenv activate cdm
+: 1701656546:0;./run.cdm.sh
+: 1701659557:0;cd /media/black/Data/Documents/github/Go/mc
+: 1701659557:0;ls
+: 1701659559:0;git status
+: 1701659560:0;git diff
+: 1701659566:0;git status
+: 1701659568:0;git add .
+: 1701659576:0;git commit -m  "僰??步练?胪? 1"
+: 1701659580:0;git diff 
+: 1701659584:0;git diff HEAD^ HEAD
+: 1701659620:0;lvim cmd/mirror-main.go
+: 1701659666:0;fanyi mirror
+: 1701659724:0;bluetoothctl
+: 1701659745:0;sudo apt update
+: 1701659752:0;apt list --upgradable
+: 1701660139:0;ls
+: 1701660142:0;cd Documents
+: 1701660143:0;ls
+: 1701660149:0;cd aio-data
+: 1701660149:0;ls
+: 1701660150:0;cd ..
+: 1701660151:0;s
+: 1701660157:0;mc --help
+: 1701660176:0;mc mirror aio-data aio-data_test
+: 1701660180:0;cd aio-data_test
+: 1701660180:0;ls
+: 1701660182:0;ls -alh
+: 1701660184:0;cd ..
+: 1701660184:0;ls
+: 1701660188:0;cd aio-data
+: 1701660188:0;ls
+: 1701660190:0;ls -alh
+: 1701660191:0;cd ..
+: 1701660191:0;ls
+: 1701660194:0;rm -rf aio-data_test
+: 1701660195:0;ls
+: 1701660203:0;mc mirror aio-data aio-data_test
+: 1701660205:0;ls
+: 1701660213:0;touch aio-data/1.txt
+: 1701660216:0;mc mirror aio-data aio-data_test
+: 1701660225:0;ls
+: 1701661356:0;iotop
+: 1701662031:0;git fetch
+: 1701662034:0;git pull
+: 1701662037:0;yarn build
+: 1701668367:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701668373:0;lvim fs/xfs/xfs_inode.c
+: 1701671809:0;fanyi GREATER
+: 1701675484:0;ls
+: 1701675486:0;ls -ahl
+: 1701676151:0;fanyi normalized
+: 1701677768:0;fanyi Trim
+: 1701677780:0;fanyi Prefix
+: 1701678394:0;fanyi Expected
+: 1701678895:0;java -jar /media/black/Data/lib/plantumlplantuml-1.2023.9.jar linux/kernel/fs/minio/client/cmd/mirror.md
+: 1701678914:0;cd /media/black/Data/lib/plantuml
+: 1701678915:0;ls
+: 1701678923:0;java -jar /media/black/Data/lib/plantuml/plantuml-1.2023.9.jar linux/kernel/fs/minio/client/cmd/mirror.md
+: 1701679029:0;yarn build
+: 1701679032:0;git fetch
+: 1701679034:0;git pull
+: 1701679037:0;yarn build
+: 1701679318:0;fanyi monitor
+: 1701681360:0;git fetch
+: 1701681363:0;git pull
+: 1701682011:0;git diff
+: 1701682018:0;git add .
+: 1701682296:0;git commit -m  "〃?m-24717315〃?target_host to target_storage "
+: 1701682298:0;git status
+: 1701682299:0;git push 
+: 1701682303:0;git fetch
+: 1701682305:0;git pull
+: 1701682308:0;git push
+: 1701682316:0;git diff HEAD^ HEAD
+: 1701682705:0;ssh root@192.168.60.71
+: 1701682790:0;ssh root@192.168.60.70
+: 1701682907:0;sftp root@192.168.60.70
+: 1701683478:0;ssh root@192.168.90.80
+: 1701683970:0;ls
+: 1701683987:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 /test
+: 1701684017:0;mc ls LGP
+: 1701684032:0;lvim ~/.mc/config.json
+: 1701684047:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 ./test
+: 1701684196:0;mc cp -r LGP/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 ./test
+: 1701684274:0;mc mirror -r LGP/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 ./test
+: 1701684307:0;mc mirror --overwrite LGP/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 ./test
+: 1701684339:0;git status
+: 1701684343:0;git add .
+: 1701684364:0;git commit -m  "〃?m-24717315〃?s3 僳??広?烀?异常"
+: 1701684366:0;git push 
+: 1701684465:0;mc ls LGP
+: 1701684475:0;mc ls LGP/aio-wdg
+: 1701684487:0;mc cp .gitignore LGP/aio-wdg/
+: 1701684498:0;mc cp  LGP/aio-wdg/ ./test
+: 1701684507:0;mc cp -recursive LGP/aio-wdg/ ./test
+: 1701684520:0;cd /media/black/Data/lib/plantuml
+: 1701684521:0;ls
+: 1701684522:0;cd ..
+: 1701684522:0;s
+: 1701684524:0;ls
+: 1701684532:0;cd xtrabackup
+: 1701684535:0;du 
+: 1701684538:0;du -h
+: 1701684560:0;mc cp xtrabackup_8_0/ LGP/aio-wdg/
+: 1701684569:0;mc cp --recursive xtrabackup_8_0/ LGP/aio-wdg/
+: 1701684729:0;cd ..
+: 1701684730:0;ls
+: 1701684738:0;cd openssh
+: 1701684740:0;ls
+: 1701684743:0;du -h
+: 1701684753:0;mc cp --recursive openssh-9.3p1 LGP/aio-wdg/
+: 1701684789:0;mc cp --recursive LGP/aio-wdg/openssh-9.3p1 ./test2
+: 1701684832:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/aio-wdg/openssh-9.3p1 ./test
+: 1701684848:0;ls
+: 1701684851:0;rm -rf test
+: 1701684853:0;rm -rf test2
+: 1701684896:0;mc cp --recursive openssh-9.3p1 LGP/back099/
+: 1701684919:0;mc cp --recursive LGP/back099/openssh-9.3p1 ./test2
+: 1701685349:0;java -jar /media/black/Data/lib/plantuml/plantuml-1.2023.9.jar linux/kernel/fs/minio/client/parallel_manage.md
+: 1701685447:0;git status
+: 1701685452:0;git add .
+: 1701685467:0;git commit -m  "minio mc mirror"
+: 1701685468:0;git push 
+: 1701688520:0;./run.cdm.sh
+: 1701688792:0;git status
+: 1701688809:0;git add .
+: 1701688818:0;git status
+: 1701688890:0;git commit -m  "〃?m-24717315〃?七?郹??僨?惼?迃?烺??僱?惼??胮?僯??"
+: 1701688892:0;git status
+: 1701688895:0;git push
+: 1701688899:0;git fetch
+: 1701688901:0;git pull
+: 1701688903:0;git push
+: 1701689663:0;mc ls LGP
+: 1701689674:0;mv mb LGP/wdg
+: 1701689680:0;mc mb LGP/wdg
+: 1701689684:0;mc ls LGP
+: 1701690092:0;./run.cdm.sh
+: 1701690159:0;git status
+: 1701690161:0;git add .
+: 1701690191:0;git commit -m  "〃?m-24717315〃?修惴?胮?僯??开姃?惷?郷?觃?僨??"
+: 1701690193:0;git push
+: 1701690397:0;mc ls LGP
+: 1701690408:0;mc ls LGP/back099
+: 1701692933:0;git status
+: 1701692941:0;git add .
+: 1701692966:0;git commit -m  "〃?m-24717315〃?僂??僪?? s3 迃?惮?异常惯??示"
+: 1701692968:0;git push
+: 1701692988:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/aio-wdg/openssh-9.3p1 ./test
+: 1701693000:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/archive-20231201-15-15 ./test
+: 1701693027:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/主仃?它?侃?-50.47_192.168.50.48_3306-5585fb3d175f/ ./test
+: 1701693045:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/ ./test
+: 1701693058:0;ls
+: 1701693067:0;rm -rf test
+: 1701693070:0;cd 
+: 1701693070:0;ls
+: 1701693095:0;mc ls LGP/back099
+: 1701693116:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/vastbase-backup90.80-5585fb3d175f/ ./test
+: 1701693153:0;mc ls LGP/back099
+: 1701693159:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/
+: 1701693164:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/
+: 1701693170:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/
+: 1701693176:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/
+: 1701693179:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data
+: 1701693181:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home
+: 1701693185:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/homevastbase
+: 1701693191:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase
+: 1701693194:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data
+: 1701693200:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/
+: 1701693220:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg gswlm_userinfo.cfg
+: 1701693236:0;ls
+: 1701693244:0;mc cp LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg gswlm_userinfo.cfg
+: 1701693424:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/DM-backup-9082-5585fb3d175f/ ./test
+: 1701693473:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ./test
+: 1701693486:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ./test
+: 1701693503:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ .
+: 1701693508:0;ls
+: 1701693516:0;mkdir s3
+: 1701693517:0;cd s3
+: 1701693517:0;ls
+: 1701693525:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701693633:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/archive-20231127-17-18/
+: 1701693640:0;mc ls BHOSS/wdg1/test_gdb_test1-1e9b3946a7d4/
+: 1701693643:0;mc ls BHOSS/wdg1/
+: 1701693650:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/
+: 1701693651:0;ls
+: 1701693657:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/
+: 1701693658:0;ls
+: 1701693661:0;tree
+: 1701693693:0;cd ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139403779/0/minor_data/1300
+: 1701693694:0;ls
+: 1701693695:0;cd -
+: 1701693696:0;ls
+: 1701693698:0;rm -rf ob-郻??群60.60-5585fb3d175f
+: 1701693700:0;mc ls BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/
+: 1701693709:0;mc cp -r BHOSS/wdg1/ob_backup_test-1e9b3946a7d4/archive-20231128-14-09/ test
+: 1701693720:0;rm -rf test/
+: 1701693723:0;ls
+: 1701693732:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701693807:0;git status
+: 1701693808:0;ls
+: 1701693813:0;rm mc
+: 1701693817:0;go build
+: 1701693832:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && ./mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701693838:0;ls
+: 1701693841:0;rm -rf ob-郻??群60.60-5585fb3d175f
+: 1701693853:0;go build
+: 1701693862:0;ls
+: 1701693866:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && ./mc cp -r -a source_storage/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701693869:0;ls
+: 1701693871:0;rm -rf ob-郻??群60.60-5585fb3d175f
+: 1701693872:0;ls
+: 1701693875:0;rm mc
+: 1701693974:0;mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701694061:0;MC_REGION="cn" mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701694077:0;MC_REGION="en" mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ ob-郻??群60.60-5585fb3d175f/
+: 1701694103:0;MC_REGION="en" mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ LGP/wdg
+: 1701694118:0;MC_REGION="en" mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ LGP/wdg/ob-郻??群60.60-5585fb3d175f/
+: 1701694124:0;mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/ LGP/wdg/ob-郻??群60.60-5585fb3d175f/
+: 1701694164:0;MC_REGION="en" mc cp -r -a LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 macro_block_index_14
+: 1701694176:0;MC_REGION="en" mc ls LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 
+: 1701694197:0;MC_REGION="en" mc cp LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 macro_block_index_14
+: 1701694208:0;mc cp LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 macro_block_index_14
+: 1701694291:0;mc cp LGP/back099/ob-郻??群60\.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 macro_block_index_14
+: 1701694306:0;mc cp LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 macro_block_index_14
+: 1701694400:0;mc cp rm LGP/back099/ob-郻??群60\.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 
+: 1701694407:0;mc rm LGP/back099/ob-郻??群60\.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 
+: 1701694418:0;mc rm LGP/back099/ob-郻??群60.60-5585fb3d175f/archive-20231130-09-59/tenant01/aio_3_3_1701328201693_clone/data/backup_set_14_full_20231130/data/1100611139404029/0/major_data/macro_block_index_14 
+: 1701694621:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r -a source_storage/back099/mysql_data ob-郻??群60.60-5585fb3d175f/
+: 1701694715:0;mc ls LGP
+: 1701694720:0;mc ls LGP/yzy-test
+: 1701694736:0;ls
+: 1701694738:0;rm -rf macro_block_index_14
+: 1701694740:0;rm -rf ob-郻??群60.60-5585fb3d175f/
+: 1701694741:0;ls
+: 1701694766:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/gdb_test1-619e84e1b41e/ gdb_test1-619e84e1b41e
+: 1701694779:0;export MC_HOST_source_storage=https://5J5G0P5ZWSAT6A4Y4SPZ:eCLvOvcKEML0ls77ngDEJOvT4hLTSwRfZjxFHlBH@ss-rgw-unicom-sxxa.superstor.cn:39443 && mc cp -r source_storage/yzy-test/gdb_test1-619e84e1b41e/ gdb_test1-619e84e1b41e
+: 1701694882:0;umount /dev/sda1
+: 1701694885:0;i3lock
+: 1701737365:0;mc ls LGP/yzy-test
+: 1701737371:0;mc ls LGP/
+: 1701737377:0;mc ls LGP/back099
+: 1701737390:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701737400:0;fanyi glacier
+: 1701737443:0;./run.cdm.sh
+: 1701737446:0;git status
+: 1701737450:0;git diff
+: 1701737459:0;git status
+: 1701737462:0;git diff
+: 1701737469:0;git status
+: 1701737471:0;git add .
+: 1701737479:0;git commit -m  "〃?m-24717315〃?惀?弃?僬??"
+: 1701737480:0;git push
+: 1701737515:0;cd /media/black/Data/Documents/github/Python/boto3
+: 1701737517:0;git fetch
+: 1701737527:0;git pull
+: 1701737545:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701737552:0;ls
+: 1701737561:0;lvim boto3/examples/cloudfront.rst
+: 1701737957:0;git status
+: 1701737958:0;git add .
+: 1701737962:0;git commit -m  "〃?m-24717315〃?惀?弃?僬??"
+: 1701737963:0;git push
+: 1701738562:0;ls
+: 1701738569:0;cd /media/black/Data/Documents/Python
+: 1701738570:0;ls
+: 1701738584:0;mkdir s3_client
+: 1701738587:0;cd s3_client
+: 1701738587:0;ls
+: 1701738600:0;lvim 恃?夃?彃?惁?惵?惭?.py
+: 1701738699:0;pip install loguru
+: 1701738744:0;git fetch
+: 1701738755:0;git pull
+: 1701738770:0;yarn build
+: 1701738919:0;cd ../minio-py
+: 1701738923:0;grep -E "restore_object"
+: 1701738937:0;ls
+: 1701738944:0;lvim examples/remove_bucket.py
+: 1701738984:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701739415:0;cd /media/black/Data/Documents/github/Python/boto3
+: 1701739423:0;cd ../minio-py
+: 1701739423:0;ls
+: 1701739448:0;lvim examples/list_objects.py
+: 1701739457:0;lvim ~/.mc/config.json
+: 1701739513:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701739536:0;python3 examples/list_objects.py
+: 1701740634:0;fanyi Lifecycle
+: 1701740796:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701740915:0;python3 examples/get_bucket_lifecycle.py
+: 1701741609:0;git add examples/get_bucket_lifecycle.py
+: 1701741634:0;git commit -m  "僂??僪??烴??僱?僱?惼??夃?烰??"
+: 1701741636:0;git status
+: 1701741650:0;git switch -C zh_master
+: 1701742810:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701743553:0;git fetch
+: 1701743576:0;git pull
+: 1701743694:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701743699:0;mc --help
+: 1701743733:0;mc ilm LGP
+: 1701743739:0;mc ilm LGP/back099
+: 1701743751:0;mc ls LGP/back099
+: 1701743756:0;mc ilm LGP/back099
+: 1701743760:0;mc ilm --help
+: 1701743780:0;mc ilm restore --help
+: 1701743955:0;mc ls LGP/
+: 1701743957:0;mc ls LGP/back099
+: 1701743981:0;mc ilm restore -r --days 2 LGP/back099
+: 1701744310:0;mc ls --storage-class 'GLACIER' LGP/back099
+: 1701744315:0;mc ls --storage-class 'GLACIER' LGP/back099/
+: 1701744321:0;mc ls --storage-class -r 'GLACIER' LGP/back099
+: 1701744347:0;mc ls --storage-class -r 'GLACIER' LGP/back099/
+: 1701744359:0;mc ls --storage-class 'GLACIER' -r LGP/back099/
+: 1701744799:0;mc ls --storage-class 'GLACIER' LGP/back099/
+: 1701745439:0;python3 examples/list_objects.py
+: 1701746841:0;git status
+: 1701746843:0;git add .
+: 1701746845:0;git status
+: 1701746893:0;git commit -m "〃?f-25105085〃?孃?储汃?僰??称为空僨??使烴?惁?僰??称"
+: 1701746896:0;git push
+: 1701746898:0;git fetch
+: 1701746900:0;git pull
+: 1701746902:0;git push
+: 1701747256:0;git diff HEAD^ HEAD
+: 1701747756:0;mc --help
+: 1701747765:0;mc ls --hlep
+: 1701747767:0;mc ls --help
+: 1701748791:0;mc ls --debug LGP/aio-wdg
+: 1701748953:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701748963:0;mc head LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701748968:0;mc --help
+: 1701748981:0;mc head --help
+: 1701748998:0;mc head LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg
+: 1701749007:0;mc head -n 1 LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg
+: 1701749022:0;mc ls LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg 
+: 1701749044:0;mc ilm restore --debug -r --days 2 LGP/back099/vastbase-backup90.80-5585fb3d175f/archive-20231130-16-30/vastbase-90.80-vastbase_5432/aio_1_1_1701412204507_clone/data/home/vastbase/data/vastbase/gswlm_userinfo.cfg
+: 1701749198:0;mc ls LGP/back099/
+: 1701749213:0;mc ilm restore --debug -r --days 2 LGP/back099/HAS_VastbaseG100_x86_64_V1.4_2022072614.zip
+: 1701749410:0;lvim ~/.mc/config.json
+: 1701749426:0;mc ilm restore --debug -r --days 2 LGP/back099/HAS_VastbaseG100_x86_64_V1.4_2022072614.zip
+: 1701749436:0;lvim ~/.mc/config.json
+: 1701749777:0;mc ls LGP/back099
+: 1701749782:0;mc du LGP/back099
+: 1701749801:0;mc du LGP/back099/ob-郻??群60.60-5585fb3d175f/
+: 1701749959:0;mc du --json LGP/back099/ob-郻??群60.60-5585fb3d175f/
+: 1701750052:0;mc cp --json LGP/back099/ob-郻??群60.60-5585fb3d175f LGP/wdg/ob-郻??群60.60-5585fb3d175f
+: 1701750061:0;mc cp --json -r LGP/back099/ob-郻??群60.60-5585fb3d175f LGP/wdg/ob-郻??群60.60-5585fb3d175f
+: 1701750087:0;mc cp --json -r LGP/back099/ob-郻??群60.60-5585fb3d175f test
+: 1701750150:0;ls
+: 1701750152:0;rm -rf test
+: 1701750691:0;fanyi speed
+: 1701751431:0;./run.cdm.sh
+: 1701754300:0;fanyi dummy
+: 1701755059:0;git fetch
+: 1701755061:0;git pull
+: 1701755065:0;git add .
+: 1701755087:0;git commit -m "〃?f-24070190〃?僻??调?惩?胁??"
+: 1701755091:0;git pull
+: 1701755093:0;git push
+: 1701755220:0;cd /tmp
+: 1701755220:0;ls
+: 1701755233:0;touch 1.txt
+: 1701755234:0;ls
+: 1701755247:0;cd 
+: 1701755248:0;ls
+: 1701755249:0;cd -
+: 1701755249:0;ls
+: 1701755251:0;cd 
+: 1701755252:0;ls
+: 1701755818:0;git status
+: 1701755820:0;git fetch
+: 1701755823:0;git add .
+: 1701755830:0;git commit -m "〃?f-24070190〃?惷?郷?広?僨??僬??失败"
+: 1701755831:0;git push
+: 1701756211:0;sftp root@192.168.60.70
+: 1701756297:0;ssh root@192.168.60.70
+: 1701757736:0;git fetch
+: 1701757779:0;./run.cdm.create.table.sh
+: 1701757796:0;git status
+: 1701757816:0;git fetch
+: 1701759713:0;ls
+: 1701759717:0;rm -rf dist
+: 1701759717:0;ls
+: 1701759722:0;mv ~/Downloads/frontend-dist-3.9.1.0.tar .
+: 1701759730:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701760050:0;git fetch
+: 1701760054:0;git pull
+: 1701760071:0;export NODE_OPTIONS=--max_old_space_size=12096
+: 1701760072:0;yarn build
+: 1701760113:0;git status
+: 1701760117:0;git log
+: 1701760255:0;export NODE_OPTIONS=--max_old_space_size=22096
+: 1701760257:0;yarn build
+: 1701761774:0;mc cp --json -r LGP/back099/
+: 1701761790:0;mc LGP/back099/
+: 1701761791:0;mc ls LGP/back099/
+: 1701761806:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/
+: 1701761811:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/
+: 1701761912:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/
+: 1701761923:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/full
+: 1701761928:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/full/
+: 1701761935:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/full/full_1701730804797/
+: 1701761988:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/
+: 1701761990:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/inc
+: 1701762006:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/inc/
+: 1701762033:0;mc tree LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/inc/
+: 1701762041:0;mc tree LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/
+: 1701762065:0;mc tree LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/inc/inc_1701754211950
+: 1701762076:0;mc ls LGP/back099/DM-backup-9082-5585fb3d175f/archive-20231205-13-30/DM-90.82_dm_backup_unit/aio_2_2_1701756542526_clone/inc/inc_1701754211950
+: 1701764343:0;git status
+: 1701764352:0;ls
+: 1701764363:0;rm -rf archive-20231130-09-59/
+: 1701764364:0;ls
+: 1701764367:0;rm -rf s3
+: 1701764368:0;ls
+: 1701764375:0;rm -rf TTY/
+: 1701764376:0;ls
+: 1701764486:0;cd /media/black/Data/Documents/github/C/
+: 1701764486:0;ls
+: 1701764496:0;cd awesome-cpp
+: 1701764496:0;ls
+: 1701764497:0;cd ..
+: 1701764498:0;s
+: 1701764499:0;ls
+: 1701764509:0;cd ../Cpp/oceanbase
+: 1701764509:0;ls
+: 1701764516:0;pwd
+: 1701765068:0;git fetch
+: 1701765085:0;git pull
+: 1701765157:0;ipython3
+: 1701765214:0;git fetch
+: 1701765216:0;git pull
+: 1701766542:0;git fetch
+: 1701766544:0;git pull
+: 1701766547:0;yarn build
+: 1701766574:0;free -h
+: 1701766580:0;htop
+: 1701766940:0;ls
+: 1701766945:0;ls -alh
+: 1701766953:0;rm frontend-dist-3.9.1.0.tar
+: 1701767058:0;tar zcvf frontend-dist-3.9.1.0.tar dist
+: 1701767060:0;ls
+: 1701767062:0;ls -alh
+: 1701767071:0;cp frontend-dist-3.9.1.0.tar ~/
+: 1701767072:0;cd 
+: 1701767072:0;ls
+: 1701767077:0;tar cvf frontend-dist-3.9.1.0.tar
+: 1701767080:0;ls -alh
+: 1701767086:0;cd -
+: 1701767087:0;ls
+: 1701767097:0;tar xvf Clash.for.Windows-0.20.22-x64-linux.tar.gz
+: 1701767107:0;tar cvf frontend-dist-3.9.1.0.tar dist
+: 1701767108:0;ls
+: 1701767111:0;rm -rf frontend-dist-3.9.1.0.tar
+: 1701767114:0;tar cvf frontend-dist-3.9.1.0.tar dist
+: 1701767115:0;ls
+: 1701767118:0;cp frontend-dist-3.9.1.0.tar ~/
+: 1701767118:0;cd 
+: 1701767126:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701767127:0;ls
+: 1701767130:0;rm -rf dist
+: 1701767133:0;rm -rf frontend-dist-3.9.1.0.tar
+: 1701767134:0;ls
+: 1701767137:0;cd -
+: 1701767137:0;ls
+: 1701767138:0;cp frontend-dist-3.9.1.0.tar ~/
+: 1701767183:0;ls
+: 1701767195:0;sftp root@192.168.60.70
+: 1701767210:0;ls
+: 1701767427:0;rm -rf frontend-dist-3.9.1.0.tar
+: 1701767429:0;make release-dist
+: 1701767432:0;ls
+: 1701767436:0;ls -alh
+: 1701767440:0;lvim Makefile
+: 1701767854:0;lvim airflow/dags/archive_s3_restore.py
+: 1701767960:0;sftp root@192.168.60.70
+: 1701768163:0;git status
+: 1701768175:0;git diff
+: 1701768186:0;git add .
+: 1701768298:0;git commit -m "〃?f-25159668〃?s3 僨? s3 惵?惭?大尃?惺?惷?烴? 0 "
+: 1701768301:0;git push
+: 1701769740:0;ls
+: 1701769743:0;cd src
+: 1701769744:0;ls
+: 1701769745:0;cd ..
+: 1701769746:0;ls
+: 1701771066:0;git fetch
+: 1701771068:0;git pull
+: 1701771069:0;yarn build
+: 1701771491:0;ls
+: 1701771492:0;ls -alh
+: 1701771499:0;rm -rf frontend-dist-3.9.1.0.tar
+: 1701771500:0;ls
+: 1701771641:0;lvim aio/services/storage_service.py
+: 1701772202:0;fd observer
+: 1701772208:0;lvim build.sh
+: 1701772240:0;fd -t executable
+: 1701772245:0;fd -t executable|grep observer
+: 1701772265:0;cd /media/black/Data/Documents/github/Python/minio-py
+: 1701772265:0;ls
+: 1701772288:0;lvim examples/bucket_exists.py
+: 1701772346:0;python3 examples/get_bucket_policy.py
+: 1701772364:0;mc ls play/
+: 1701772377:0;python3 examples/get_bucket_policy.py
+: 1701773989:0;umount /dev/sda1
+: 1701774012:0;i3lock
+: 1701824552:0;udisksctl mount -b /dev/sda1
+: 1701824560:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701824561:0;git status
+: 1701824563:0;git diff
+: 1701824599:0;git add .
+: 1701824659:0;git commit -m "〃?f-25168958〃?惭??胮?请求异常＃?迃?僻??迃?惮?失败"
+: 1701824660:0;git push
+: 1701824664:0;git fetch
+: 1701824667:0;git pull
+: 1701824670:0;git push 
+: 1701824677:0;pyenv activate cdm
+: 1701824681:0;./run.cdm.sh
+: 1701824688:0;git status
+: 1701824691:0;git add .
+: 1701824696:0;git commit -m "〃?f-25168958〃?惀?弃?僬??"
+: 1701824697:0;git push
+: 1701824723:0;lvim run.cdm.sh
+: 1701824730:0;./run.cdm.create.table.sh
+: 1701824753:0;./run.cdm.sh
+: 1701824777:0;cd /media/black/Data/Documents/AIO/aio-vue3
+: 1701824779:0;git status
+: 1701824780:0;git fetch
+: 1701824783:0;git pull
+: 1701824786:0;export NODE_OPTIONS=--max_old_space_size=22096
+: 1701824790:0;yarn build
+: 1701824920:0;docker pull 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0
+: 1701825125:0;pyenv activate cdm
+: 1701825127:0;lvim run.cdm.sh
+: 1701825263:0;pyenv activate cdm
+: 1701825279:0;pip install -r config/requirements.runtime.txt
+: 1701825533:0;lvim CHANGELOG.en_US.md
+: 1701825623:0;docker build -f ci/Dockerfile -t 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0
+: 1701825643:0;doker ps
+: 1701825646:0;docker ps
+: 1701825655:0;docker build -f ci/Dockerfile -t 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0
+: 1701825689:0;docker build -f ci/Dockerfile 
+: 1701825711:0;docker buildx -f ci/Dockerfile -t 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0
+: 1701825717:0;docker build -f ci/Dockerfile -t 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0
+: 1701825726:0;docker build -f ci/Dockerfile -t 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0 .
+: 1701825792:0;tar cvf frontend-dist-3.9.1.0.tar dist
+: 1701825794:0;ls
+: 1701825803:0;mv frontend-dist-3.9.1.0.tar frontend-dist-3.9.1.0.tar.old
+: 1701825804:0;ls
+: 1701825877:0;mv ~/Downloads/frontend-dist-3.9.1.0.tar .
+: 1701825877:0;ls
+: 1701825883:0;rm -rf dist
+: 1701825889:0;tar xvf frontend-dist-3.9.1.0.tar
+: 1701827020:0;xk ill
+: 1701827021:0;xkill
+: 1701827508:0;./run.cdm.sh
+: 1701828175:0;git status
+: 1701828180:0;./run.cdm.sh
+: 1701828181:0;git add .
+: 1701828229:0;git commit -m "〃?f-25105085〃?孃?储 s3 详惣??僂??僪??孃?储汃? id 心?郁?伃?"
+: 1701828232:0;git push
+: 1701828291:0;docker -a
+: 1701828300:0;docker images
+: 1701828333:0;docker run --rm -it 192.168.100.114:8080/aio/aio-frontend-service bash
+: 1701828360:0;docker run --rm -it 192.168.100.114:8080/aio/aio-frontend-service:3.9.1.0 bash
+: 1701828913:0;git add .
+: 1701829010:0;git commit -m "〃?f-25168958〃?s3 孃?储僂??僪?? name 孃?僼?僨?惶?"
+: 1701829011:0;git push
+: 1701829019:0;./run.cdm.sh
+: 1701829026:0;git status
+: 1701829277:0;./run.cdm.sh
+: 1701829537:0;ssh root@192.168.80.140
+: 1701829792:0;lvim BH.md
+: 1701829832:0;ls
+: 1701829839:0;cd /media/black/Data/Documents/github/Cpp/oceanbase
+: 1701829839:0;ls
+: 1701829845:0;lvim run.sh
+: 1701830295:0;./build.sh init
+: 1701830322:0;./build.sh debug --make -j4
+: 1701830342:0;git log
+: 1701830764:0;ssh root@192.168.110.145
+: 1701830982:0;chezmoi status
+: 1701830992:0;chezmoi add .zsh_history
+>>>>>>> 7a752f3 (合并)

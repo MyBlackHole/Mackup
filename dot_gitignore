@@ -20,4 +20,5 @@ run.cdm.create.table.sh
 run.cdm.sh
 run.scheduler.sh
 run.uwsgi.sh
+frontend-dist-*
 airflow.black.sh
