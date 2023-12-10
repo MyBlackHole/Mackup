@@ -85,6 +85,7 @@ plugins=(
   zsh-history-substring-search
   vi-mode
   tmux
+  rust
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -159,11 +160,20 @@ export HTTPS_PROXY="http://127.0.0.1:1080"
 # zsh 解释 *
 setopt no_nomatch
 
-# cargo
-source $HOME/.cargo/env
-# source ~/.rustup_completes
-# source $(rustc --print sysroot)/etc/bash_completion.d/cargo
+# # cargo
+# CARGO_PATH=$HOME/.cargo/env
+# if [ -f "$CARGO_PATH" ]; then
+#     source $CARGO_PATH
+#     source $HOME/.rustup_completes
+#     # source $(rustc --print sysroot)/etc/bash_completion.d/cargo
+# fi
 
+CHEZMOI_ROOT="$HOME/.config/zsh/completions/chezmoi.zsh"
+if [ -f "$CHEZMOI_ROOT" ]; then
+    # mkdir -r .config/zsh/completions
+    # chezmoi completion zsh --output=~/.config/zsh/completions/chezmoi.zsh
+    source $CHEZMOI_ROOT
+fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

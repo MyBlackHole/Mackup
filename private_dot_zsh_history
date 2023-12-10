@@ -122,7 +122,6 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1641831506:0;sudo make linux
 : 1641831523:0;sudo make 
 : 1641831528:0;sudo make linux 
-: 1641831557:0;lvim config.log
 : 1641831598:0;sudo make clean 
 : 1641831604:0;./configure --prefix=/opt/riscv --with-arch=rv32gc --with-abi=ilp32d
 : 1641831607:0;sudo make linux -j 16
@@ -185,7 +184,6 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1642173583:0;rm -rf out
 : 1642174086:0;git commit -m "main"
 : 1642174595:0;sudo apt install clang d
-: 1642174601:0;sudo apt install clang
 : 1642174638:0;sudo apt install clangd
 : 1642176832:0;rm compile_commands.json
 : 1642176972:0;cd .cache
@@ -338,7 +336,6 @@ libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 : 1642897290:0;mkdir http_learn
 : 1642900054:0;pip install flask
 : 1642900163:0;mkdir Werkzeug_learn
-: 1642900943:0;ipython
 : 1642900951:0;sudo apt install ipython3
 : 1642901003:0;cd Werkzeug_learn
 : 1642902191:0;cd http_learn
@@ -566,7 +563,6 @@ P\
 : 1643782836:0;cd ../1
 : 1643782838:0;./make.sh
 : 1643783233:0;cd ../2
-: 1643783313:0;mkdir 3
 : 1643783423:0;go mod init 3
 : 1643783432:0;go run 1.go 
 : 1643797423:0;mkdir 4
@@ -710,9 +706,7 @@ exit
 : 1643890751:0;rustup update stable
 : 1643890799:0;rustup component list
 : 1643890825:0;rustup completions bash rustup > ~/.rustup_completes
-: 1643890832:0;lvim ~/.rustup_completes
 : 1643890921:0;rustup completions bash cargo
-: 1643891046:0;rustc --print sysroot
 : 1643891206:0;mkdir ~/.zfunc/
 : 1643891209:0;rustup completions zsh > ~/.zfunc/_rustup
 : 1643891214:0;lvim ~/.zfunc/_rustup
@@ -1155,7 +1149,6 @@ ls
 : 1645350394:0;cargo install
 : 1645350405:0;sudo cargo install
 : 1645350905:0;sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:1080" install ripgrep
-: 1645351492:0;which fd
 : 1645351523:0;sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:1080" install fzf
 : 1645351820:0;sudo npm install n -g
 : 1645351919:0;node --version
@@ -1502,7 +1495,6 @@ git push -u origin main
 : 1648397748:0;git add unistd_learn/
 : 1648470198:0;rm -rf .config/clash
 : 1648470219:0;git commit -m "--"
-: 1648470383:0;git diff 
 : 1648470396:0;git diff HEAD
 : 1648470598:0;git checkout 39ae1f5 .config/clash/
 : 1648470608:0;git checkout 39ae1f5 .config/clash/*
@@ -1520,7 +1512,6 @@ git push -u origin main
 : 1649499021:0;git add liburing_learn/
 : 1649499026:0;git add stdlib_learn/
 : 1649499028:0;git add time_learn/
-: 1649499675:0;fanyi macro
 : 1649499792:0;./out/obj/grammar_learn/macro/define_test
 : 1649499833:0;git add grammar_learn/
 : 1649499848:0;git commit -m "macro ##"
@@ -1675,7 +1666,6 @@ git push -u origin main
 : 1650556838:0;nvim 
 : 1650556846:0;nvim .Xresources 
 : 1650557824:0;.local/share/lunarvim/lvim/utils/installer/uninstall.sh
-: 1650558879:0;git push --force
 : 1650559250:0;cd .config/lvim/
 : 1650559291:0;pip install --user mackup
 : 1650559708:0;rm .
@@ -1732,7 +1722,6 @@ git push -u origin main
 : 1651470529:0;aclocal
 : 1651470598:0;autoscan
 : 1651470892:0;autoreconf -fvi
-: 1651471037:0;bear -- make
 : 1651471063:0;./configure --enable-debug=full
 : 1651471876:0;cd /media/black/Data/Documents/Code/C/C_learn/
 : 1651471960:0;lvim sys_stat_learn/umask_test.c
@@ -1768,7 +1757,6 @@ git push -u origin main
 : 1652273925:0;sudo apt install libqt6
 : 1652273945:0;sudo apt install qt6-declarative-dev
 : 1652274040:0;git submodule sync
-: 1652274085:0;cmake ..
 : 1652274113:0;lvim src/main.cpp
 : 1652275732:0;cd /media/black/Data/Downloads/github
 : 1652275824:0;python3 i3wm-themer.py -c config.yaml --load themes/001.json
@@ -1813,7 +1801,6 @@ git push -u origin main
 : 1652747220:0;udisksctl mount -b /dev/sda
 : 1652747531:0;cd /media/black/Data/Documents/Docx
 : 1652779541:0;us
-: 1652873050:0;fd --help
 : 1652873172:0;mkdir aaa
 : 1652873183:0;touch {1-8}.txt
 : 1652873197:0;rm \{1-8\}.txt
@@ -2040,9 +2027,7 @@ p\
 /^\n*$/{$d; N; b start}\
 }' test
 : 1653126439:0;tar -f 1.txt
-: 1653126451:0;touch 1.txt
 : 1653126452:0;tail -f 1.txt
-: 1653182959:0;docker stop mysql-test
 : 1653183089:0;cd /media/black/Data/Documents/Code/linux/linux-tutorial/codes/shell
 : 1653183099:0;mkdir mysql
 : 1653183116:0;lvim mvcc.sh
@@ -2329,7 +2314,6 @@ p\
 : 1653708611:0;curl -X GET 127.0.0.1:8080/html1
 : 1653711125:0;t
 : 1653718198:0;cp -rf 2 3
-: 1653718200:0;cd 3
 : 1653718398:0;cd gin_learn/dome/3
 : 1653718458:0;curl -X GET 127.0.0.1:8080/\?username=1&age=2&page=2
 : 1653718470:0;curl -X GET 127.0.0.1:8080/\?username=1&age=2\&page=2
@@ -2467,7 +2451,6 @@ p\
 : 1653835114:0;rm -rf test*
 : 1653835231:0;echo "kjlk" > test.txt
 : 1653835238:0;cat test.txt
-: 1653836572:0;fd
 : 1653872536:0;sudo sus
 : 1653872738:0;lspci
 : 1653872978:0;nmcli device wifi connect Jingling_Wi-Fi5 password jl888888
@@ -2632,7 +2615,6 @@ p\
 : 1653980545:0;mv jt_erp config
 : 1653980548:0;cd config
 : 1653986461:0;rm jt_erp
-: 1653986714:0;sudo touch /var/local.st
 : 1653987402:0;curl 127.0.0.1:8080 -v
 : 1653988892:0;ps aux|grep gopls
 : 1653990723:0;cd ../../excelize_learn
@@ -2985,7 +2967,6 @@ p\
 : 1655605555:0;lvim unsafe_learn/unsafe_Pointer.go
 : 1655605817:0;lvim sync_learn/main.go
 : 1655606041:0;mkdir publicChain
-: 1655606043:0;cd
 : 1655606046:0;cd publicChain
 : 1655606554:0;cd snap
 : 1655606557:0;cd snap-store
@@ -3039,7 +3020,6 @@ p\
 : 1656114229:0;git clone git@github.com:syndtr/goleveldb.git
 : 1656114299:0;git clone git@github.com:ledisdb/ledisdb.git
 : 1656115207:0;cd CPP_learn
-: 1656115231:0;lvim CMakeLists.txt
 : 1656115306:0;cd CPP_learn/
 : 1656115347:0;lvim db/dbformat.cc
 : 1656115496:0;git clone git@github.com:google/snappy.git
@@ -3099,1346 +3079,361 @@ p\
 : 1656139896:0;mv k8s-app-config-master.zip yaml
 : 1656139911:0;cd all-in-one
 : 1656139922:0;mv apisix-docker yaml
-: 1656139941:0;ls
-: 1656139944:0;cd drone
-: 1656139945:0;ls
-: 1656139948:0;cd ..
-: 1656139950:0;ls
-: 1656139954:0;cd ..
-: 1656139956:0;ls
-: 1656139967:0;cd vsdx
-: 1656139968:0;ls
-: 1656139969:0;cd ..
-: 1656139970:0;ls
-: 1656139980:0;cd Code/Go/go_learn
-: 1656139981:0;ls
-: 1656140088:0;sudo apt update
-: 1656140132:0;apt list --upgradable
-: 1656140162:0;sudo apt upgrade
-: 1656140182:0;ls
-: 1656140188:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656140189:0;ls
-: 1656140190:0;cd dome
-: 1656140191:0;ls
-: 1656140194:0;cd goleveldb
-: 1656140195:0;cd ..
-: 1656140196:0;ls
-: 1656140199:0;cd goleveldb-annotated
-: 1656140200:0;ls
-: 1656140202:0;lvim test/main.go
-: 1656140227:0;ls
-: 1656140229:0;cd test
-: 1656140230:0;ls
-: 1656140231:0;go run main.go
-: 1656141221:0;update-desktop-database --help
-: 1656141230:0;ls
-: 1656141236:0;exit
-: 1656142679:0;cd /media/black/Data/Documents/Code/C/C_learn
-: 1656142680:0;l
 : 1656143352:0;lvim fcntl_learn/fcntl_F_WRLCK_test.c
-: 1656143667:0;ninja -C out
-: 1656143679:0;ls
 : 1656143705:0;cd out/obj/fcntl_learn
-: 1656143706:0;ls
-: 1656143737:0;./fcntl_F_WRLCK_test
-: 1656143740:0;ls
-: 1656143743:0;lvim hello.log
-: 1656143856:0;ls
-: 1656143911:0;cd /media/black/Data/Documents/Code/Python/python_learn
-: 1656143911:0;ls
 : 1656143930:0;lvim threading_learn/test1.py
-: 1656143993:0;lvim hello.log
-: 1656144000:0;ls
-: 1656144001:0;lvim hello.log
-: 1656144167:0;exit
-: 1656144168:0;ls
-: 1656144171:0;./fcntl_F_WRLCK_test
-: 1656144776:0;ls
 : 1656144785:0;chattr +i hello.log
 : 1656144809:0;chattr +a hello.log
 : 1656144827:0;sudo chattr +i hello.log
-: 1656144833:0;ls
-: 1656144836:0;ls -alh
 : 1656144842:0;lvim hello.log
-: 1656144865:0;ls
 : 1656144867:0;rm -rf hello.log
-: 1656144903:0;lsattr hello.log
-: 1656144962:0;./fcntl_F_WRLCK_test
 : 1656144991:0;suod chattr -i hello.log
 : 1656144995:0;sudo chattr -i hello.log
-: 1656144998:0;lsattr hello.log
 : 1656145002:0;./fcntl_F_WRLCK_test
 : 1656145009:0;lsattr hello.log
-: 1656145263:0;exit
-: 1656145270:0;cd ...
-: 1656145272:0;cd -
-: 1656145278:0;exit
-: 1656145296:0;git status
-: 1656145302:0;git add .
 : 1656145318:0;git commit -m "æƒ¶ƒ§ä»¶éƒ´-å»ºè®®éƒ´"
-: 1656145320:0;git status
-: 1656145322:0;git push
-: 1656145331:0;exit
-: 1656145345:0;git status
-: 1656145518:0;fanyi release
-: 1656145751:0;ls
 : 1656145753:0;ls db
 : 1656145771:0;cat db/LOG
 : 1656145810:0;cat LOCK
 : 1656145819:0;cat db/LOCK
 : 1656145847:0;fanyi seek
-: 1656146592:0;htop
 : 1656146683:0;fanyi counter
 : 1656146766:0;fanyi // fileStorage is a file-system backed storage.
 : 1656146781:0;fanyi storage
 : 1656146961:0;fanyi SetFinalizer
 : 1656146972:0;fanyi Finalizer
-: 1656150086:0;nmcli device wifi connect BlackHole
-: 1656150599:0;ls
-: 1656150601:0;cd db
-: 1656150602:0;ls
 : 1656150618:0;cat MANIFEST-000000
-: 1656150626:0;cd -
-: 1656150626:0;ls
 : 1656167542:0;fanyi single
 : 1656167777:0;fanyi journal
-: 1656167799:0;exit
 : 1656167894:0;fanyi sequence
 : 1656168245:0;fanyi pending
 : 1656168268:0;fanyi fill
-: 1656172205:0;poweroff
 : 1656198770:0;FileCheck-14 --help
-: 1656198777:0;udisksctl mount -b /dev/sda1
-: 1656198783:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656198784:0;ls
-: 1656199107:0;sudo apt update
-: 1656199183:0;ls
-: 1656199189:0;cd dome
-: 1656199190:0;ls
-: 1656199192:0;cd goleveldb-annotated
-: 1656199193:0;ls
 : 1656199206:0;lvim leveldb/leveldb_suite_test.go
-: 1656200256:0;ls
 : 1656200258:0;cd test
-: 1656200258:0;ls
-: 1656200264:0;dlv debug ./main.go
-: 1656200505:0;ls
-: 1656200510:0;cd db
-: 1656200510:0;ls
 : 1656200521:0;stat LOCK
 : 1656200535:0;stat LOG
 : 1656200545:0;ls -l
-: 1656201405:0;ls
-: 1656202487:0;exit
-: 1656202868:0;ls
 : 1656202876:0;cat db/CURRENT
 : 1656202882:0;cat db/MANIFEST-000000
 : 1656202985:0;cd db
-: 1656202986:0;ls
 : 1656202994:0;cat 000001.log
-: 1656203024:0;cat LOG
 : 1656203127:0;fanyi Compaction
 : 1656207029:0;fanyi minor
 : 1656207062:0;fanyi major
 : 1656207904:0;fanyi released
 : 1656210595:0;fanyi manifest
-: 1656212148:0;fanyi snapshot
 : 1656212300:0;fanyi drop
-: 1656212519:0;fanyi compaction
 : 1656212761:0;cat LOG
-: 1656213589:0;fanyi release
-: 1656213624:0;unset http_proxy
-: 1656213627:0;unset https_proxy
 : 1656213734:0;fanyi release
-: 1656213754:0;fanyi reference
-: 1656225370:0;ls
 : 1656225373:0;cd example
-: 1656225373:0;ls
-: 1656225509:0;go get github.com/onsi/ginkgo/ginkgo
-: 1656225541:0;unset https_proxy
-: 1656225543:0;unset http_proxy
 : 1656225545:0;go get github.com/onsi/ginkgo/ginkgo
-: 1656225590:0;ginkgo --help
 : 1656225596:0;go install github.com/onsi/ginkgo/ginkgo
 : 1656225603:0;ginkgo --help
-: 1656225760:0;cd ..
-: 1656225760:0;ls
 : 1656225764:0;rm -rf example
-: 1656225765:0;exit
 : 1656226305:0;dlv debug ./main.go
 : 1656226847:0;fanyi batch
 : 1656236197:0;fanyi compaction
 : 1656236936:0;fanyi current
 : 1656246076:0;fanyi expand
 : 1656246106:0;fanyi overlap
-: 1656246727:0;ls
-: 1656252454:0;poweroff
-: 1656274210:0;udisksctl mount -b /dev/sda1
-: 1656274212:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656274214:0;ls
-: 1656274221:0;cd dome
-: 1656274222:0;ls
 : 1656274230:0;cd goleveldb
-: 1656274231:0;ls
 : 1656274240:0;cd ../goleveldb-annotated
-: 1656274240:0;ls
-: 1656274243:0;lvim test/main.go
 : 1656275092:0;fanyi internal
-: 1656276764:0;poweroff
-: 1656424432:0;sudo apt update
-: 1656424463:0;apt list --upgradable
-: 1656424489:0;sudo apt upgrade
 : 1656424659:0;js
-: 1656424698:0;udisksctl mount -b /dev/sda1
-: 1656424700:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656424701:0;ls
-: 1656424705:0;git pull
-: 1656424726:0;cd dome
-: 1656424726:0;ls
-: 1656424730:0;cd goleveldb-annotated
-: 1656424732:0;ls
-: 1656424735:0;lvim test/main.go
-: 1656428636:0;git status
-: 1656428640:0;poweroff
-: 1656457775:0;curl baidu.com
-: 1656457778:0;unset http_proxy
-: 1656457782:0;unset https_proxy
 : 1656457783:0;curl baidu.com
-: 1656457788:0;udisksctl mount -b /dev/sda1
-: 1656457804:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656457805:0;ls
-: 1656457808:0;cd dome
-: 1656457809:0;ls
-: 1656457812:0;cd goleveldb-annotated
-: 1656457814:0;ls
-: 1656457816:0;git status
-: 1656457821:0;git add .
-: 1656457847:0;git commit -m "goleveldb-annotated 1"
-: 1656457849:0;git push
-: 1656457866:0;source ~/.zshrc
-: 1656457870:0;git push
-: 1656457890:0;git status
-: 1656457899:0;rm -rf .git
-: 1656457900:0;git push
-: 1656457910:0;git status
-: 1656457918:0;git add .
-: 1656457921:0;git status
 : 1656457923:0;git commit -m "goleveldb-annotated 1"
-: 1656457925:0;git push
-: 1656458496:0;poweroff
-: 1656509446:0;udisksctl mount -b /dev/sda1
-: 1656509449:0;cd /media/black/Data/Documents/
-: 1656509450:0;ls
-: 1656509452:0;cd pdf
-: 1656509452:0;ls
 : 1656509464:0;find . -name "*.dpdk*" 
 : 1656509531:0;cd eBook-1/Building\ Machine\ Learning\ Systems\ with\ Python\ \[Epub\ \&\ PDF\]
-: 1656509532:0;ls
-: 1656509535:0;cd -
-: 1656509536:0;ls
 : 1656509542:0;cd ebook-2/01_programming
-: 1656509542:0;ls
-: 1656509545:0;cd -
-: 1656510346:0;cd ..
-: 1656510346:0;ls
-: 1656510347:0;cd Code
-: 1656510348:0;ls
 : 1656510709:0;git clone git@github.com:DPDK/dpdk.git
-: 1656511094:0;cd dpdk
-: 1656511095:0;ls
-: 1656511098:0;cd examples
-: 1656511098:0;ls
 : 1656511101:0;cd bbdev_app
-: 1656511102:0;ls
-: 1656511104:0;make
-: 1656511112:0;lvim Makefile
-: 1656511151:0;pkg-config --exists libdpdk
 : 1656511166:0;sudo apt install libdpdk-dev
 : 1656511638:0;pkg-config --exists libdpdk
-: 1656511645:0;make
-: 1656511649:0;ls
-: 1656511652:0;cd build
-: 1656511653:0;ls
-: 1656511658:0;ls -alh
-: 1656511664:0;cd ..
-: 1656511665:0;ls
 : 1656511685:0;lvim main.c
 : 1656511877:0;cd /usr/include/dpdk/
-: 1656511878:0;ls
 : 1656511889:0;lvim rte_common.h
-: 1656511936:0;cd -
-: 1656511937:0;ls
-: 1656511949:0;git status
 : 1656511953:0;git restore main.c
-: 1656511954:0;ls
-: 1656511957:0;cd ...
-: 1656511958:0;ls
-: 1656511959:0;cd ..
-: 1656511959:0;ls
-: 1656511966:0;cd C/C_learn
-: 1656511968:0;ls
 : 1656511978:0;lvim crypto-algorithms_learn/aes.c
-: 1656512096:0;ls
-: 1656512111:0;lvim aio_learn/aio_read_test.c
-: 1656512279:0;ls
-: 1656512306:0;cd 
-: 1656512307:0;ls
-: 1656513222:0;poweroff
-: 1656598484:0;bluetoothctl connect F8:4E:17:4B:57:72
-: 1656601580:0;poweroff
-: 1656681231:0;udisksctl mount -b /dev/sda1
-: 1656681238:0;cd /media/black/Data/Documents/
-: 1656681238:0;ls
-: 1656681241:0;cd JL/jt
-: 1656681242:0;ls
-: 1656681258:0;cd /media/black/Data/Documents/
-: 1656681262:0;cd Code/Go/go_learn
-: 1656681263:0;ls
 : 1656681270:0;lvim cron_learn/job/main.go 
-: 1656681275:0;ls
 : 1656681278:0;cd cron_learn
-: 1656681279:0;ls
 : 1656681283:0;cd job
-: 1656681284:0;ls
-: 1656681288:0;go run main.go
-: 1656681336:0;git pull origin master:master
-: 1656681360:0;lvim server/app/erp/cmd/erp/jt_erp.go
-: 1656681379:0;go run main.go
-: 1656681381:0;ls
-: 1656681383:0;go mod tidy
-: 1656681395:0;lvim server/app/erp/cmd/erp/jt_erp.go
-: 1656681732:0;go mod tidy
 : 1656681752:0;cd ../job-wrapper
-: 1656681752:0;ls
 : 1656681755:0;cd recover
-: 1656681756:0;ls
-: 1656681759:0;go run main.go
-: 1656682066:0;git status
-: 1656682090:0;git checkout master 
-: 1656682095:0;git status
 : 1656682120:0;git checkout -b wdg
-: 1656682122:0;git add .
-: 1656682138:0;git commit -m "auto ont"
-: 1656682139:0;git status
-: 1656682144:0;git checkout master 
-: 1656682153:0;git merge wdg
-: 1656682157:0;git status
-: 1656682159:0;git pull origin master:master
-: 1656682170:0;git pull origin master:master --force
 : 1656682175:0;git merge wdg
-: 1656682178:0;git status
 : 1656682186:0;git push origin main:main
-: 1656682193:0;git push origin master:master
-: 1656682205:0;exit
-: 1656682348:0;cd /media/black/Data/Documents/
-: 1656682352:0;cd JL/jt
-: 1656682353:0;ls
 : 1656682356:0;lvim server/app/erp/cmd/erp/jt_erp.go
-: 1656682371:0;cd server/app/erp/cmd/erp
-: 1656682371:0;ls
-: 1656682373:0;go run main.go
-: 1656682379:0;go run jt_erp.go
-: 1656682396:0;cd -
-: 1656682397:0;ls
-: 1656682400:0;git add .
-: 1656682412:0;git commit --amend
-: 1656682417:0;git push origin master:master
 : 1656682429:0;git pull origin master:master --force
-: 1656682438:0;git status
-: 1656682440:0;git add .
 : 1656682444:0;git commit -m "auto ont"
-: 1656682446:0;git push origin master:master
 : 1656682650:0;git checkout wdg
-: 1656688828:0;/opt/Postman/Postman
 : 1656688895:0;cd server/app/erp/cmd/erp
-: 1656688895:0;ls
-: 1656688898:0;go run jt_erp.go
-: 1656688905:0;unset https_proxy
-: 1656688906:0;unset http_proxy
 : 1656688907:0;go run jt_erp.go
-: 1656688956:0;unset https_proxy
-: 1656688958:0;unset http_proxy
-: 1656688960:0;/opt/Postman/Postman
 : 1656689076:0;touch /var/local.st
 : 1656689083:0;cat /var/local.st
-: 1656689810:0;cd /media/black/Data/Documents/
-: 1656689810:0;l
-: 1656689811:0;ls
-: 1656689817:0;cd Code/Go/go_learn
-: 1656689818:0;ls
 : 1656689828:0;lvim encoding/json/json/2.go
-: 1656689831:0;exit
-: 1656689833:0;ls
 : 1656689849:0;cd encoding/json/json
-: 1656689852:0;ls
 : 1656689854:0;go run 2.go
 : 1656690725:0;cd ../json/1
-: 1656690726:0;ls
-: 1656690731:0;go run 1.go
-: 1656691186:0;poweroff
-: 1656772994:0;sudo apt update
-: 1656773030:0;apt list --upgradable
-: 1656773034:0;sudo apt upgrade
-: 1656773815:0;ls
-: 1656773837:0;poweroff
-: 1656804624:0;sudo apt upgrade
-: 1656805048:0;ls
-: 1656805116:0;udisksctl mount -b /dev/sda1
-: 1656805118:0;cd /media/black/Data/Documents/
-: 1656805118:0;ls
 : 1656805125:0;cd Code/Python/python_learn
-: 1656805126:0;ls
-: 1656805130:0;cd ..
-: 1656805130:0;ls
-: 1656805132:0;cd ..
-: 1656805132:0;ls
-: 1656805137:0;cd Go/go_learn
-: 1656805145:0;cd dome
-: 1656805146:0;ls
 : 1656805148:0;cd goleveldb-annotated
-: 1656805149:0;ls
-: 1656805242:0;lvim test/main.go
-: 1656805321:0;ls
-: 1656805327:0;cd Documents/Mackup
-: 1656805328:0;ls
-: 1656805330:0;git status
-: 1656805336:0;git add .
 : 1656805342:0;git checkout ubuntu
 : 1656805347:0;git checkout -b ubuntu
-: 1656805349:0;git status
 : 1656805357:0;git commit -m "ubuntu"
-: 1656805368:0;git push origin ubuntu:ubuntu
-: 1656805386:0;lvim .config/lvim/config.lua
-: 1656805748:0;git pull --force
-: 1656805763:0;lvim .config/lvim/config.lua
-: 1656806347:0;git status
-: 1656806349:0;lvim .config/lvim/config.lua
-: 1656806780:0;lvim test/main.go
-: 1656807662:0;git status
-: 1656807664:0;git add .
 : 1656807675:0;git commit -m "éƒ‚ƒ¼èƒ©²"
-: 1656807681:0;git push origin ubuntu:ubuntu
-: 1656807693:0;exit
-: 1656807695:0;ls
-: 1656807699:0;source ~/.zshrc
 : 1656807701:0;lvim test/main.go
-: 1656808905:0;cd Documents/Mackup
-: 1656808906:0;ls
-: 1656808907:0;git status
-: 1656808910:0;git add .
 : 1656808917:0;git commit -m "è¯­æ³ƒµé«ƒ¸äº®"
-: 1656808923:0;git push origin ubuntu:ubuntu
-: 1656809970:0;cd 
-: 1656809973:0;cd /media/black/Data/Documents/Code/Python/python_learn
-: 1656809975:0;ls
 : 1656810003:0;lvim opencv-learn/opencv1/Hough-Transform/hough_circles.py
-: 1656810429:0;exit
-: 1656810473:0;pip install opencv-python
-: 1656810574:0;unset http_proxy
-: 1656810576:0;unset https_proxy
 : 1656810579:0;pip install opencv-python
 : 1656810898:0;lvim opencv-learn/OpenCV-Python/ch37-çƒ©¹å¾åƒ¬¹éƒ¥ƒ­/37.2-å¯¹ORBæƒ¯ƒ¯è¿°ç¬¦è¿ƒ»èƒƒ¬èƒ»®åƒªƒ»åƒ¬¹éƒ¥ƒ­.py
 : 1656811247:0;cd opencv-learn/OpenCV-Python/ch37-çƒ©¹å¾åƒ¬¹éƒ¥ƒ­/
-: 1656811249:0;ls
 : 1656811255:0;python3 37.5-FLANNåƒ¬¹éƒ¥ƒ­åƒ¹¨.py
-: 1656811380:0;exit
-: 1656811381:0;ls
-: 1656811382:0;cd 
-: 1656812294:0;cd /media/black/Data/Downloads
-: 1656812295:0;ls
 : 1656812298:0;cd deb/
-: 1656812298:0;ls
 : 1656812336:0;sudo dpkg --install drawio-amd64-17.2.1.deb
-: 1656812477:0;cd /media/black/Data/Documents
-: 1656812477:0;ls
-: 1656812481:0;cd pdf
-: 1656812481:0;ls
-: 1656813485:0;cd 
-: 1656813485:0;ls
-: 1656813505:0;pwd
-: 1656813509:0;ls
-: 1656813776:0;cd /media/black/Data/Documents/Code
-: 1656813777:0;ls
-: 1656813780:0;cd Rust
-: 1656813781:0;ls
-: 1656813785:0;git clone git@github.com:rustdesk/rustdesk.git
-: 1656813801:0;ls
 : 1656813806:0;rm code_1.64.2-1644445741_amd64.deb
 : 1656813818:0;sudo dpkg --install code_1.68.1-1655263094_amd64.deb
-: 1656813831:0;ls
-: 1656813833:0;cd rustdesk
-: 1656813833:0;ls
 : 1656813856:0;sudo apt install -y g++ gcc git curl wget nasm yasm libgtk-3-dev clang libxcb-randr0-dev libxdo-dev libxfixes-dev libxcb-shape0-dev libxcb-xfixes0-dev libasound2-dev libpulse-dev cmake
-: 1656813974:0;pip3 install pynput
-: 1656813982:0;unset https_proxy
-: 1656813983:0;unset http_proxy
 : 1656813986:0;pip3 install pynput
-: 1656814005:0;cd ..
-: 1656814009:0;cd -
 : 1656814019:0;cd /media/black/Data/Documents/Code/Python
 : 1656814022:0;git clone git clone https://github.com/microsoft/vcpkg
-: 1656814024:0;ls
 : 1656814025:0;git clone https://github.com/microsoft/vcpkg
-: 1656814106:0;ls
-: 1656814111:0;lvim build.rs
-: 1656814254:0;ls
 : 1656814332:0;lvim libs/virtual_display/src/lib.rs
 : 1656814366:0;cargo install --path=.
 : 1656814663:0;java --help
 : 1656814667:0;java --version
 : 1656815198:0;sudo apt install graphviz\
 
-: 1656816349:0;exit
-: 1656816512:0;ls
-: 1656816514:0;cd Documents
-: 1656816514:0;ls
 : 1656816516:0;lvim theme.puml
-: 1656817367:0;ls
-: 1656817371:0;cd Documents/Mackup
-: 1656817371:0;ls
-: 1656817373:0;cd 
-: 1656817376:0;cd /media/black/Data/Documents/Code
-: 1656817377:0;ls
-: 1656817387:0;cd dpdk
-: 1656817388:0;ls
-: 1656817390:0;cd ..
-: 1656817390:0;ls
-: 1656817392:0;cd dpdk
-: 1656817393:0;ls
-: 1656817406:0;cd ..
-: 1656817407:0;ls
-: 1656817408:0;cd ..
-: 1656817409:0;ls
-: 1656817411:0;cd pdf
-: 1656817411:0;ls
 : 1656817423:0;find . -name "*.plan*" 
-: 1656818761:0;cd ..
-: 1656818761:0;ls
-: 1656818763:0;cd Code
-: 1656818763:0;ls
-: 1656818765:0;cd Rust
-: 1656818765:0;ls
-: 1656818768:0;cd ..
-: 1656818768:0;ls
 : 1656818799:0;mkdir tauri
-: 1656818801:0;cd tauri
 : 1656818802:0;npm create tauri-app
-: 1656819651:0;cd tauri-app
 : 1656819658:0;npm run tauri dev
-: 1656819694:0;ls
 : 1656819703:0;lvim src-tauri/src/main.rs 
-: 1656820016:0;ls
 : 1656820024:0;lvim package-lock.json
 : 1656820039:0;npm run tauri tauri
 : 1656820042:0;npm run tauri 
-: 1656820046:0;ls
-: 1656820062:0;npm run tauri  build
 : 1656820267:0;npm run tauri init
-: 1656820383:0;ls
-: 1656820391:0;lvim package.json
 : 1656820400:0;tsc && vite build
-: 1656820403:0;lvim package.json
 : 1656820408:0;npm build
 : 1656820421:0;lvim package.json
 : 1656820429:0;npm dev
-: 1656820438:0;npm run tauri build
 : 1656820479:0;lvim src-tauri/tauri.conf.json
-: 1656820485:0;npm run tauri build
-: 1656820712:0;cd ....
-: 1656820712:0;ls
-: 1656820716:0;cd ..
 : 1656820720:0;cd Rust/
-: 1656820720:0;ls
-: 1656820722:0;cd holleword
-: 1656820722:0;ls
-: 1656820725:0;lvim src/main.rs
 : 1656820965:0;lvim ~/.cargo/env
-: 1656820974:0;source ~/.cargo/env
-: 1656820980:0;lvim ~/.zshrc
 : 1656820995:0;rustup default stable\
-
-: 1656821005:0;rustup update\
-
-: 1656821175:0;unset http_proxy
-: 1656821177:0;unset https_proxy
-: 1656821181:0;rustup update\
 
 : 1656821411:0;\
 rustup update nightly\
 
-: 1656821591:0;ls
-: 1656821599:0;cargo --help
-: 1656821603:0;cargo build
-: 1656821607:0;ls
 : 1656821620:0;./target/debug/examples
-: 1656821620:0;ls
-: 1656821622:0;cd -
-: 1656821622:0;ls
 : 1656821628:0;./target/debug/build
-: 1656821628:0;ls
-: 1656821631:0;cd -
-: 1656821631:0;ls
 : 1656821638:0;./target/debug/holleword
-: 1656821642:0;lvim src/main.rs
-: 1656821711:0;ls
-: 1656821714:0;cd ..
-: 1656821714:0;ls
-: 1656821718:0;cd rustdesk
-: 1656821718:0;ls
-: 1656821728:0;lvim src/main.rs
-: 1656821750:0;unset https_proxy
-: 1656821754:0;unset http_proxy
-: 1656821759:0;cargo build
 : 1656821851:0;cargo --vsersion
 : 1656821855:0;cargo --version
-: 1656821953:0;ls
-: 1656822426:0;cargo build
-: 1656822436:0;ls
-: 1656822441:0;lvim src/main.rs
-: 1656822453:0;cd ..
-: 1656822454:0;ls
 : 1656822455:0;cd music-player
-: 1656822455:0;ls
-: 1656822458:0;lvim src/main.rs
-: 1656822474:0;cd ../music-player
-: 1656822478:0;cargo build
-: 1656822485:0;ls
-: 1656822551:0;cd ..
-: 1656822551:0;ls
-: 1656822555:0;cd holleword
-: 1656822557:0;ls
 : 1656822561:0;lvim Cargo.toml
-: 1656822625:0;ls
-: 1656822710:0;exit
 : 1656822821:0;cd ../music-player
-: 1656822822:0;ls
 : 1656822846:0;git pull --force
-: 1656822877:0;lvim src/main.rs
-: 1656822967:0;cargo build
 : 1656823174:0;./target/debug/music_player
-: 1656823972:0;ls
-: 1656823985:0;cargo build
-: 1656823986:0;ls
-: 1656823991:0;npm run tauri build
 : 1656824067:0;cd src-tauri
-: 1656824070:0;cargo build
 : 1656824141:0;sudo apt install libsoup-3.0-dev
-: 1656824205:0;cd ..
-: 1656824206:0;ls
-: 1656824208:0;npm run tauri build
-: 1656824391:0;cd /media/black/Data/Downloads/tar
-: 1656824392:0;ls
 : 1656824406:0;tar xvf libsoup-2.74.2.tar.xz
-: 1656824408:0;ls
 : 1656824411:0;cd libsoup-2.74.2
-: 1656824412:0;ls
-: 1656824416:0;mkdir build
-: 1656824418:0;cd build
 : 1656824439:0;ls ../
 : 1656824450:0;meson ..
 : 1656824459:0;ninja
-: 1656824466:0;ls
 : 1656824473:0;ninja install
-: 1656824520:0;exit
-: 1656824527:0;cargo build
-: 1656824533:0;npm run tauri build
 : 1656824574:0;sudo apt install libsoup2.4-1
-: 1656826468:0;exit
-: 1656826486:0;ls
 : 1656826503:0;rm theme.puml
-: 1656826503:0;ls
-: 1656826662:0;poweroff
-: 1656835915:0;ssh root@82.156.131.67
 : 1656835949:0;lvim ~/.ssh/id_rsa.pub
 : 1656835966:0;docker pull ssh
-: 1656835979:0;docker ps -a
-: 1656836012:0;ls
-: 1656836075:0;nc -nv -z 82.156.131.67 1-65535
-: 1656836119:0;unset http_proxy
-: 1656836121:0;unset https_proxy
 : 1656836122:0;nc -nv -z 82.156.131.67 1-65535
-: 1656844541:0;udisksctl mount -b /dev/sda1
-: 1656844542:0;ls
 : 1656844548:0;cd /media/black/Data/Documents/Code/Rust
-: 1656844548:0;ls
 : 1656844550:0;cd holleword
-: 1656844551:0;ls
 : 1656844553:0;lvim src/main.rs
-: 1656845653:0;ls
 : 1656845710:0;sudo apt install lldb
-: 1656845835:0;source ~/.cargo/env
-: 1656845845:0;exit
-: 1656845846:0;ls
-: 1656846105:0;cd /media/black/Data/Documents/Code/Go
-: 1656846106:0;ls
 : 1656846109:0;git clone https://github.com/golang/vscode-go
 : 1656846142:0;git clone git@github.com:golang/vscode-go.git
-: 1656846813:0;cd vscode-go
-: 1656846813:0;ls
-: 1656846823:0;npm install
-: 1656846941:0;unset https_proxy
-: 1656846943:0;unset http_proxy
-: 1656846947:0;npm install
-: 1656846991:0;ls
 : 1656847015:0;find . -name "*debug*" 
 : 1656847160:0;npm install
 : 1656847218:0;npm run compile
 : 1656847275:0;lvim dist/debugAdapter.js
-: 1656847377:0;cd ....
-: 1656847378:0;ls
-: 1656847381:0;cd Code/Go/go_learn
-: 1656847382:0;ls
-: 1656847386:0;lvim grammar_learn/1.go
-: 1656847485:0;ls
-: 1656847491:0;cd dist
-: 1656847493:0;ls
-: 1656847494:0;pwd
-: 1656847498:0;pwd | clipcopy
-: 1656847553:0;ls
 : 1656847559:0;cp debugAdapter.js ~/
-: 1656847560:0;cd 
-: 1656847560:0;ls
 : 1656847578:0;cd ./.config/
 : 1656847617:0;mkdir vscode-go/
 : 1656847621:0;cd vscode-go
-: 1656847621:0;ls
 : 1656847633:0;mkdir dist
-: 1656847637:0;ls
 : 1656847643:0;rm ~/debugAdapter.js
 : 1656847667:0;cp -r dist/* ~/.config/vscode-go/dist
-: 1656847669:0;ls
-: 1656847670:0;cd dist
-: 1656847671:0;ls
-: 1656847676:0;pwd | clipcopy
-: 1656847790:0;cd ...
-: 1656847790:0;ls
-: 1656847793:0;cd Rust
-: 1656847794:0;ls
 : 1656847805:0;mkdir rust_learn
-: 1656847809:0;ls
 : 1656847813:0;mv holleword rust_learn
-: 1656847814:0;ls
-: 1656847817:0;cd rust_learn
-: 1656847817:0;ls
-: 1656847982:0;lvim holleword/src/main.rs
-: 1656848140:0;ls
 : 1656848143:0;rm -rf holleword
 : 1656848152:0;cargo new holleword
-: 1656848154:0;ls
 : 1656848158:0;lvim holleword/src/main.rs
-: 1656848879:0;ls
 : 1656848920:0;cargo new guessing_game
-: 1656848924:0;lvim guessing_game/src/main.rs
-: 1656849340:0;ls
-: 1656849383:0;cargo run
-: 1656849500:0;cargo build
-: 1656849541:0;ls
-: 1656849553:0;exit
-: 1656849566:0;lvim guessing_game/src/main.rs
-: 1656849602:0;cargo build
 : 1656849660:0;lvim guessing_game/src/main.rs
-: 1656849663:0;unset http_proxy
-: 1656849665:0;unset https_proxy
 : 1656849667:0;cargo build
-: 1656849955:0;cargo run
-: 1656851060:0;ls
 : 1656851086:0;cargo new variables
 : 1656851090:0;lvim variables/src/main.rs
-: 1656851290:0;cargo run
 : 1656851297:0;cd ../variables
-: 1656851298:0;ls
-: 1656851301:0;cargo run
 : 1656851589:0;go run 1.go
-: 1656851591:0;cargo run
-: 1656854286:0;ls
 : 1656854295:0;cargo new branches
 : 1656854300:0;lvim branches/src/main.rs
 : 1656854310:0;cd ../branches
-: 1656854310:0;ls
-: 1656854483:0;cargo run
-: 1656856470:0;poweroff
-: 1656937729:0;sudo apt update
-: 1656937764:0;udisksctl mount -b /dev/sda1
-: 1656937769:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1656937772:0;git pull
 : 1656937786:0;rm cron_learn/job/main.go
-: 1656937788:0;git pull
-: 1656937800:0;ls
-: 1656943661:0;poweroff
-: 1657114257:0;udisksctl mount -b /dev/sda1
-: 1657114258:0;ls
-: 1657114259:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1657114260:0;ls
-: 1657114262:0;git pull
-: 1657114270:0;ls
-: 1657114407:0;git status
-: 1657114690:0;ls
 : 1657114729:0;lvim cobra_learn/scaffold/main.go
 : 1657114758:0;cd cobra_learn
-: 1657114758:0;ls
 : 1657114762:0;cd scaffold
-: 1657114763:0;ls
-: 1657114766:0;go mod tidy
-: 1657114768:0;ls
 : 1657114776:0;go mod init scaffold
-: 1657114783:0;go mod tidy
-: 1657116984:0;poweroff
-: 1657149692:0;nautilus .
-: 1657150292:0;poweroff
-: 1657323647:0;ip route
-: 1657325698:0;python3 -m http.server
-: 1657325741:0;lsof -i:1080
-: 1657325807:0;lsof -i:8000
-: 1657325855:0;lsof -i:1080
-: 1657325930:0;python3 -m http.server
 : 1657325941:0;lsof -i:8000
-: 1657325950:0;exit
-: 1657325955:0;lsof -i:1080
-: 1657326298:0;udisksctl mount -b /dev/sda1
 : 1657326832:0;cd /media/black/Data/Downloads/tar/
-: 1657326833:0;ls
 : 1657326843:0;tar xvf tsetup.4.0.2.tar.xz
 : 1657326849:0;rm tsetup.3.6.1.tar.xz
-: 1657326851:0;ls
 : 1657326853:0;cd Telegram
-: 1657326854:0;ls
 : 1657326856:0;./Telegram
 : 1657327222:0;sudo mv Telegram /usr/local/bin
 : 1657327241:0;mv Updater TelegramUpdater
-: 1657327242:0;ls
 : 1657327250:0;mv TelegramUpdater /usr/local/bin
-: 1657327252:0;ls
-: 1657327253:0;cd ..
-: 1657327253:0;ls
 : 1657327256:0;rm -rf Telegram
-: 1657327258:0;exit
-: 1657327706:0;Telegram
-: 1657332284:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1657332285:0;ls
-: 1657332300:0;git pull
 : 1657332581:0;code
-: 1657332637:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657333625:0;unset https_proxy
-: 1657333627:0;unset http_proxy
-: 1657333629:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657333658:0;ls
 : 1657333665:0;lvim ~/.gitconfig 
-: 1657333674:0;lvim go-zero_learn/zero-examples/breaker/main.go
 : 1657333723:0;source ~/.cargo/env
-: 1657333731:0;source ~/.zshrc
-: 1657333733:0;lvim go-zero_learn/zero-examples/breaker/main.go
 : 1657333888:0;cd go-vgo_learn
-: 1657333889:0;ls
-: 1657333898:0;cd ..
-: 1657333899:0;ls
-: 1657333905:0;cd go-zero_learn/zero-examples/breaker
 : 1657333911:0;go mod init breaker
-: 1657333914:0;go mod tidy
-: 1657334121:0;lvim 
-: 1657334129:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657334565:0;go run main.go
-: 1657336145:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1657336146:0;ls
-: 1657336149:0;cd 
-: 1657336153:0;cd /media/black/Data/Documents/pdf
-: 1657336154:0;ls
-: 1657336199:0;evince PlantUML_Language_Reference_Guide_zh.pdf
-: 1657337725:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657339512:0;ls
 : 1657339538:0;go get -u github.com/ofabry/go-callvis
-: 1657339843:0;go-callvis 
 : 1657339870:0;go intsall github.com/ofabry/go-callvis
 : 1657339876:0;go install github.com/ofabry/go-callvis
 : 1657339930:0;go-callvis 
-: 1657340038:0;go-callvis -format png -group pkg,type -focus breaker
-: 1657340047:0;cd ..
-: 1657340048:0;ls
 : 1657340056:0;go-callvis -format png -group pkg,type -focus breaker
 : 1657340149:0;go-callvis -format png -group pkg,type -focus breaker github.com/zeromicro/go-zero/core/breaker
-: 1657340156:0;go mod tidy
 : 1657340180:0;go-callvis -group pkg,type -focus breaker github.com/zeromicro/go-zero/core/breaker
 : 1657340293:0;go-callvis -group pkg,type -focus github.com/zeromicro/go-zero/core/breaker
 : 1657340297:0;go-callvis -group pkg,type -focus github.com/zeromicro/go-zero/core/breaker breaker
 : 1657340314:0;go-callvis -group pkg,type -focus go-zero/breaker github.com/zeromicro/go-zero/core/breaker
-: 1657340327:0;ls
-: 1657340329:0;cd ..
-: 1657340331:0;ls
-: 1657340333:0;cd ..
-: 1657340333:0;s
-: 1657340334:0;ls
 : 1657340383:0;cd go-zero_learn/zero-examples/shorturl
-: 1657340384:0;ls
-: 1657340388:0;cd api
-: 1657340389:0;ls
 : 1657340395:0;lvim shorturl.go
 : 1657340420:0;go-callvis -skipbrowser -nostd ./
-: 1657341442:0;lvim go-zero_learn/zero-examples/breaker/main.go
 : 1657341877:0;cd .local/share/TelegramDesktop/tdata/
-: 1657341877:0;ls
 : 1657341881:0;cd user_data
-: 1657341881:0;ls
 : 1657341884:0;cd media_cache
-: 1657341889:0;ranger
-: 1657341961:0;Telegram
-: 1657342803:0;ls
-: 1657342808:0;cd go-zero_learn/zero-examples/breaker
-: 1657342810:0;ls
-: 1657342815:0;go run main.go
-: 1657342872:0;ls
 : 1657342880:0;tail -f result.csv
-: 1657352520:0;exit
-: 1657354493:0;ls
-: 1657354495:0;cd ..
-: 1657354496:0;ls
-: 1657354502:0;exit
 : 1657362814:0;Telegram
-: 1657367105:0;bluetoothctl paired-devices
 : 1657367154:0;bluetoothctl E3:BF:A6:0A:D2:1E
 : 1657367169:0;bluetoothctl connect E3:BF:A6:0A:D2:1E
-: 1657367208:0;bluetoothctl connect E3:BF:A6:06:D2:1E
-: 1657367239:0;bluetoothctl connect E3:BF:A6:09:D2:1E
-: 1657367248:0;bluetoothctl 
-: 1657367314:0;exit
-: 1657376580:0;ls
-: 1657376581:0;poweroff
-: 1657410408:0;sudo apt update
-: 1657410446:0;apt list --upgradable
-: 1657410463:0;sudo apt upgrade
-: 1657411226:0;ls
-: 1657411245:0;udisksctl mount -b /dev/sda1
-: 1657411252:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1657411254:0;ls
-: 1657411256:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657413551:0;ls
 : 1657413553:0;cd go-zero_learn/zero-examples/breaker
-: 1657413554:0;ls
-: 1657413559:0;python3 plot.py
-: 1657414261:0;ls
-: 1657414263:0;go run main.go
-: 1657416123:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1657416262:0;ls
 : 1657416264:0;rm result.csv
-: 1657416266:0;go run main.go
 : 1657416849:0;rm result.*
-: 1657416849:0;ls
-: 1657416852:0;go run main.go
-: 1657417027:0;exit
-: 1657417213:0;go get -u github.com/zeromicro/go-zero
 : 1657417220:0;go install -u github.com/zeromicro/go-zero
-: 1657417224:0;go install github.com/zeromicro/go-zero
-: 1657417228:0;go install github.com/zeromicro/go-zero@latest
-: 1657417316:0;go install github.com/zeromicro/go-zero/tools/goctl@latest
-: 1657417663:0;goctl --help
-: 1657417676:0;ls
-: 1657417688:0;docker ps
-: 1657417694:0;docker start redis-test
 : 1657418810:0;cd ../bloom
-: 1657418811:0;ls
-: 1657418813:0;go run main.go
-: 1657418815:0;go run bloom.go
-: 1657418910:0;s
-: 1657418911:0;ls
 : 1657418914:0;lvim 1.sql
-: 1657418921:0;ls
-: 1657418926:0;goctl --help
 : 1657419011:0;goctl model --help
 : 1657419020:0;goctl model mysql ./1.sql
 : 1657419028:0;goctl model mysql ddl ./1.sql
 : 1657419036:0;goctl model mysql ddl -c ./1.sql
 : 1657419180:0;goctl model mysql ddl -s ./1.sql
-: 1657419183:0;ls
 : 1657419186:0;lvim bookmodel_gen.go
-: 1657419948:0;ls
 : 1657419950:0;rm 1.sql
-: 1657419951:0;ls
 : 1657419955:0;rm bookmodel_gen.go bookmodel.go vars.go 
-: 1657419959:0;ls
-: 1657420652:0;fanyi discovery
 : 1657420870:0;cd ./fx
-: 1657420870:0;ls
 : 1657420875:0;cd ../fx
-: 1657420875:0;ls
 : 1657420891:0;go test -v . -run="TestFxSplit"
 : 1657421055:0;go run square.go
 : 1657436676:0;fanyi graceful
-: 1657439454:0;fanyi breaker
-: 1657440000:0;ls
 : 1657440003:0;cd ../http
-: 1657440003:0;ls
-: 1657440004:0;cd breaker
-: 1657440006:0;ls
 : 1657440011:0;go run server.go
-: 1657440044:0;ls
-: 1657440050:0;cd client
-: 1657440051:0;ls
 : 1657440058:0;go run client.go
-: 1657440179:0;cd ..
-: 1657440179:0;ls
-: 1657440181:0;./good.sh
 : 1657440188:0;chmod u+x good.sh
-: 1657440188:0;ls
-: 1657440190:0;./good.sh
 : 1657440197:0;sudo apt install hey
-: 1657440229:0;./good.sh
-: 1657440396:0;ls
 : 1657440401:0;chmod u+x heavy.sh
-: 1657440404:0;./heavy.sh
-: 1657440945:0;ls
-: 1657447762:0;exit
-: 1657447766:0;ls
-: 1657447767:0;cd ...
-: 1657447768:0;ls
-: 1657447772:0;cd ..
-: 1657447773:0;ls
 : 1657447776:0;git clone git@github.com:Mikaelemmmm/go-zero-looklook.git
 : 1657448033:0;cd go-zero-looklook
-: 1657448034:0;ls
-: 1657448036:0;rm -rf .git
-: 1657448038:0;ls
 : 1657448054:0;cd ../go-zero-looklook
-: 1657448055:0;ls
-: 1657448059:0;go mod tidy
-: 1657463576:0;exit
-: 1657464324:0;poweroff
-: 1657802760:0;udisksctl mount -b /dev/sda1
-: 1657802761:0;ls
 : 1657802765:0;cd /media/black/Data/Documents/Code/Python/python_learn
-: 1657802766:0;ls
 : 1657802843:0;lvim tensorflow_learn/Tensorflow-/Tensorflow/5_2_CNN_MNIST.py
 : 1657804015:0;cd pytorch_learn/Deep-Learning-with-PyTorch-Tutorials
-: 1657804015:0;ls
 : 1657804027:0;cd lesson05-æƒ©ƒ«åƒ¦ƒ¹æƒµ°å­ƒ·éƒ·®éƒ‚ƒ¸
-: 1657804027:0;ls
 : 1657804106:0;python3 mnist_train.py
-: 1657804857:0;htop
-: 1657805001:0;exit
-: 1657805028:0;ls
-: 1657805029:0;exit
-: 1657806295:0;ls
-: 1657806302:0;sudo apt update
-: 1657806745:0;ls
-: 1657808849:0;poweroff
-: 1658014811:0;sudo apt update
-: 1658014835:0;apt list --upgradable
-: 1658014843:0;sudo apt upgrade
 : 1658015130:0;update-desktop-database --help
 : 1658015139:0;do-release-upgrade 
 : 1658015159:0;do-release-upgrade --help
-: 1658015168:0;do-release-upgrade -d
-: 1658015185:0;unset http_proxy
-: 1658015187:0;unset https_proxy
 : 1658015189:0;do-release-upgrade -d
 : 1658015215:0;sudo do-release-upgrade -d
 : 1658015441:0;sudo do-release-upgrade -d -m server
 : 1658015593:0;jjkd
-: 1658018604:0;udisksctl mount -b /dev/sda1
-: 1658018702:0;cd /media/black/Data/Documents/Code/Go/go_learn/
-: 1658018703:0;ls
 : 1658018839:0;lvim go-zero_learn/zero-examples/breaker/main.go
-: 1658069674:0;cd 
-: 1658069676:0;poweroff
-: 1658329782:0;exit
-: 1658330508:0;poweroff
-: 1658443506:0;udisksctl mount -b /dev/sda1
-: 1658443511:0;cd /media/black/Data/Documents/JL/jt/
-: 1658443517:0;git pull origin master:master
-: 1658443529:0;git status
-: 1658443534:0;git restore .
 : 1658443536:0;git pull origin master:master
 : 1658443554:0;lvim server/app/analysis/config/config.go
-: 1658443608:0;git status
 : 1658443691:0;git checkout master 
-: 1658443692:0;git status
-: 1658443695:0;git add .
 : 1658443703:0;git commit -m "api"
 : 1658443707:0;git push origin master:master
 : 1658443833:0;ssh root@82.156.131.67
 : 1658443858:0;ssh root@8.134.106.141
-: 1658446808:0;poweroff
-: 1658548043:0;sudo apt update
-: 1658548073:0;apt list --upgradable
-: 1658548078:0;sudo apt upgrade
-: 1658548320:0;apt --fix-broken install
 : 1658548323:0;sudo apt --fix-broken install
-: 1658548340:0;lvim 
-: 1658548361:0;nvim
-: 1658548376:0;bash ./install.sh
-: 1658548378:0;udisksctl mount -b /dev/sda1
-: 1658548380:0;ls
-: 1658548382:0;cd /media/black/Data/Documents/
-: 1658548382:0;ls
-: 1658548384:0;cd lvim
-: 1658548386:0;ls
-: 1658548389:0;./install.sh
 : 1658548391:0;bash ./install.sh
-: 1658548420:0;lvim 
-: 1658548465:0;ls
-: 1658548471:0;cd Documents/Mackup
-: 1658548473:0;git status
-: 1658548488:0;lvim .config/lvim/config.lua
-: 1658548506:0;git restore .config/lvim/config.lua
-: 1658548510:0;lvim .config/lvim/config.lua
-: 1658548530:0;lvim 
-: 1658548570:0;s
-: 1658548570:0;ls
-: 1658548573:0;git status
-: 1658548578:0;lvim .gitignore
-: 1658548580:0;ls
-: 1658548690:0;exit
-: 1658548691:0;ls
-: 1658548727:0;git status
-: 1658548734:0;git add .
-: 1658548737:0;git status
-: 1658548784:0;git commit -m "clash"
-: 1658548788:0;git push origin ubuntu:ubuntu
-: 1658548816:0;d 
-: 1658548826:0;cd 
-: 1658548827:0;ls
-: 1658548831:0;cd /media/black/Data/Documents/
 : 1658548832:0;d
 : 1658548836:0;d 1
 : 1658548841:0;d --help
 : 1658548854:0;d 
-: 1658548958:0;ls
-: 1658548961:0;cd Code/Go/go_learn
-: 1658548962:0;ls
-: 1658548965:0;git status
-: 1658549017:0;lvim dome/goleveldb-annotated/test/main.go
-: 1658571843:0;poweroff
-: 1658584758:0;df
-: 1658585195:0;ls
 : 1658585259:0;sudo apt install linux-tools-common
 : 1658585283:0;perf --help
 : 1658585313:0;sudo apt install linux-tools-generic
-: 1658587704:0;udisksctl mount -b /dev/sda1
-: 1658587705:0;cd /media/black/Data/Documents/
-: 1658587706:0;ls
-: 1658587709:0;lvim dome/goleveldb-annotated/test/main.go
-: 1658587716:0;cd Code
-: 1658587717:0;ls
-: 1658587724:0;cd Go/go_learn
-: 1658587725:0;lvim dome/goleveldb-annotated/test/main.go
-: 1658595079:0;cd 
-: 1658595081:0;ls
-: 1658595092:0;exit
-: 1658595096:0;ls
 : 1658595098:0;ranger
-: 1658595100:0;ls
-: 1658595193:0;cd Downloads
-: 1658595193:0;sl
-: 1658595194:0;ls
 : 1658595201:0;rm æƒ¼ªçƒ®è®¤\ 263256.crdownload
 : 1658595204:0;rm æƒ¼ªçƒ®è®¤\ 201034.crdownload
 : 1658595205:0;rm æƒ¼ªçƒ®è®¤\ 296541.crdownload
-: 1658595206:0;ls
 : 1658595207:0;rm æƒ¼ªçƒ®è®¤\ 918610.crdownload
 : 1658595210:0;cd Telegram\ Desktop
-: 1658595210:0;ls
-: 1658595212:0;cd 
-: 1658595212:0;ls
-: 1658595214:0;cd /media/black/Data/Documents/
-: 1658595215:0;ls
-: 1658595217:0;cd ..
-: 1658595217:0;ls
-: 1658595220:0;cd Downloads
-: 1658595220:0;ls
-: 1658595317:0;exit
-: 1658595594:0;ls
-: 1658595597:0;cd Documents
-: 1658595597:0;ls
-: 1658595599:0;cd /media/black/Data/Documents/
-: 1658595600:0;ls
-: 1658595604:0;cd Code
-: 1658595604:0;ls
-: 1658597473:0;cd 
-: 1658597477:0;ls
-: 1658597523:0;umount /dev/sda1
 : 1658597527:0;sudo umount /dev/sda1
-: 1658597532:0;cd /media/black/Data/Documents/
-: 1658597533:0;ls
-: 1658597540:0;umount /dev/sda1
-: 1658597562:0;umount /dev/sda1 
-: 1658597565:0;cd 
 : 1658597567:0;umount /dev/sda1 
 : 1658597570:0;sudo umount /dev/sda1 
 : 1658597605:0;ps aux|grep *.go
-: 1658597609:0;ps aux|grep go
-: 1658597642:0;ls
 : 1658597646:0;ps aux|grep go
-: 1658597662:0;exit
-: 1658604290:0;poweroff
-: 1658624948:0;udisksctl mount -b /dev/sda1
-: 1658624958:0;udisksctl mount -b /dev/sdb
-: 1658624962:0;udisksctl mount -b /dev/sdb1
-: 1658624967:0;udisksctl mount -b /dev/sdb2
-: 1658624971:0;udisksctl mount -b /dev/sdb3
-: 1658624972:0;ls
 : 1658624981:0;umount /dev/sdb1
-: 1658624984:0;umount /dev/sdb2 
 : 1658625023:0;dd --help
-: 1658625201:0;cd /media/black/Data/Documents/
-: 1658625202:0;ls
-: 1658625205:0;cd ../Downloads
-: 1658625206:0;ls
-: 1658625213:0;cd deb
-: 1658625214:0;ls
-: 1658625217:0;cd ..
-: 1658625217:0;ls
 : 1658625224:0;cd dmg
-: 1658625225:0;ls
-: 1658625301:0;cd ../zip
-: 1658625302:0;ls
 : 1658625314:0;unzip balena-etcher-electron-1.7.9-linux-x64.zip
-: 1658625318:0;ls
 : 1658625337:0;mv balenaEtcher-1.7.9-x64.AppImage ../appimage
-: 1658625340:0;cd ../appimage
-: 1658625341:0;ls
-: 1658625347:0;./balenaEtcher-1.7.9-x64.AppImage
-: 1658625527:0;ls
-: 1658625556:0;./balenaEtcher-1.7.9-x64.AppImage
-: 1658625746:0;dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=1M
-: 1658625749:0;sudo dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=1M
-: 1658626531:0;reboot
 : 1658626718:0;udisksctl mount -b /dev/sdb3
-: 1658626726:0;udisksctl mount -b /dev/sda1
-: 1658626727:0;cd /media/black/Data/Documents/
 : 1658626730:0;cd ../Downloads
-: 1658626731:0;s
-: 1658626732:0;ls
-: 1658626740:0;cd appimage
-: 1658626740:0;ls
 : 1658626742:0;./balenaEtcher-1.7.9-x64.AppImage
 : 1658626843:0;dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=1M
 : 1658626846:0;sudo dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=1M
 : 1658627022:0;cd /media/black/Ubuntu\ 22.04\ LTS\ amd64
-: 1658627023:0;ls
-: 1658627026:0;cd ..
-: 1658627027:0;ls
-: 1658627189:0;cd /media/black/CCCOMA_X64FRE_ZH-CN_DV9
-: 1658627190:0;ls
-: 1658627194:0;cd ..
-: 1658627194:0;ls
-: 1658627196:0;reboot
-: 1658627428:0;ls
-: 1658627433:0;udisksctl mount -b /dev/sda1
-: 1658627438:0;cd /media/black/Data/Downloads
-: 1658627438:0;ls
-: 1658627440:0;cd appimage
-: 1658627440:0;ls
-: 1658627444:0;sudo ./balenaEtcher-1.7.9-x64.AppImage
-: 1658627853:0;reboot
-: 1658628457:0;udisksctl mount -b /dev/sda1
 : 1658628466:0;udisksctl mount -b /dev/sda 
-: 1658628469:0;cd /media/black/CCCOMA_X64FRE_ZH-CN_DV9
-: 1658628470:0;ls
-: 1658628497:0;cd 
-: 1658628509:0;udisksctl mount -b /dev/sda1
-: 1658628514:0;cd /media/black/Data
-: 1658628514:0;ls
-: 1658628516:0;cd Downloads
-: 1658628516:0;ls
-: 1658628518:0;cd ISO
-: 1658628519:0;ls
-: 1658630570:0;udisksctl mount -b /dev/sda1
 : 1658630572:0;cd /media/black/Data
-: 1658630573:0;ls
-: 1658630577:0;cd Downloads
-: 1658630578:0;ls
 : 1658630582:0;cd appimage
-: 1658630583:0;ls
 : 1658630587:0;sudo ./balenaEtcher-1.7.9-x64.AppImage
-: 1658630765:0;ls
 : 1658630780:0;dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=4M
 : 1658630783:0;sudo dd if=../ISO/Win11_Chinese\(Simplified\)_x64v1.iso of=/dev/sdb bs=4M
 : 1658631105:0;update-grub2
-: 1658631108:0;sudo update-grub2
-: 1658631150:0;cd 
-: 1658631151:0;ls
-: 1658631153:0;sudo update-grub2
-: 1658631159:0;reboot
-: 1658632015:0;sudo su
 : 1658632356:0;sudo apt install virtualbox
-: 1658632500:0;udisksctl mount -b /dev/sda1
-: 1658633133:0;reboot
-: 1658633599:0;exit
-: 1658633739:0;udisksctl mount -b /dev/sda1
-: 1658633742:0;udisksctl mount -b /dev/sdb
 : 1658633746:0;cd /media/black/CCCOMA_X64FRE_ZH-CN_DV9
-: 1658633747:0;ls
 : 1658633764:0;cd sources/
-: 1658633765:0;ls
-: 1658633770:0;ls -alh
 : 1658633779:0;ls |grep *.bin
 : 1658633785:0;ls -lh|grep *.bin
 : 1658633789:0;ls -lh|grep *.win
 : 1658633793:0;ls -lh
-: 1658633796:0;ls
-: 1658633796:0;cd ..
-: 1658633797:0;ls
 : 1658633799:0;cd support
-: 1658633800:0;ls
-: 1658633801:0;cd ..
-: 1658633802:0;ls
 : 1658633804:0;cd sources
-: 1658633804:0;ls
 : 1658633864:0;mv install.wim /media/black/Data/Downloads/ISO
-: 1658633941:0;ls
-: 1658633942:0;cd 
-: 1658633943:0;ls
-: 1658633953:0;cd /media/black/Data/
-: 1658633955:0;ls
 : 1658633958:0;rm -rf 11
-: 1658633959:0;ls
 : 1658633964:0;rm -rf lost+found
-: 1658633965:0;ls
-: 1658633967:0;cd Downloads
-: 1658633967:0;ls
-: 1658633968:0;cd ISO
-: 1658633969:0;ls
 : 1658633983:0;sudo dd if=../ISO/install.wim of=/dev/sdb bs=4M
-: 1658634113:0;reboot
-: 1658657470:0;udisksctl mount -b /dev/sdb
-: 1658657473:0;cd /media/black/Data/
-: 1658657479:0;udisksctl mount -b /dev/sda1
-: 1658657483:0;udisksctl mount -b /dev/sdb
 : 1658657492:0;cd /media/black/MTP
-: 1658657493:0;ls
-: 1658657495:0;cd ..
-: 1658657496:0;ls
-: 1658657499:0;udisksctl mount -b /dev/sdb
 : 1658657526:0;cd Data/Documents/Code/C/C_learn
-: 1658657526:0;ls
-: 1658657533:0;cd ..
-: 1658657533:0;ls
 : 1658657538:0;cd qemu-6.2.0
-: 1658657539:0;ls
 : 1658657542:0;lvim configure
-: 1658657558:0;cd ..
-: 1658657558:0;ls
-: 1658657566:0;cd ..
-: 1658657567:0;ls
-: 1658657570:0;cd Go/go_learn
-: 1658657571:0;ls
-: 1658657578:0;lvim dome/goleveldb-annotated/test/main.go
 : 1658659175:0;cd dome/goleveldb-annotated
-: 1658659176:0;ls
-: 1658659186:0;dlv --help
 : 1658659196:0;dlv debug --help
 : 1658659332:0;dlv debug leveldb/util/hash_test.go
-: 1658659527:0;dlv --help
 : 1658659543:0;dlv test leveldb/util/hash_test.go
-: 1658659835:0;dlv test leveldb/util/hash_test.go 
 : 1658659862:0;dlv test leveldb/util/hash_test.go TestHash
 : 1658659899:0;dlv test leveldb/util/hash_test.go 
-: 1658659907:0;dlv test --help
 : 1658659943:0;dlv test util -- -test.v TestHash
 : 1658659965:0;dlv test leveldb/util -- -test.v TestHash
 : 1658659982:0;dlv test ./leveldb/util -- -test.v TestHash
 : 1658660141:0;dlv test ./leveldb/util -- -test.v --help
-: 1658660146:0;dlv --help
 : 1658660163:0;dlv test ./leveldb/util -- -test.v -test.func TestHash
-: 1658660217:0;dlv test ./leveldb/util -- -test.v -test.run TestHash
-: 1658660570:0;dlv test --help
 : 1658660601:0;dlv test ./leveldb/util -- -test.v -test.run TestHash
 : 1658660616:0;dlv test ./leveldb/util -- -test.v -test.
 : 1658660631:0;dlv --help
@@ -4449,104 +3444,24 @@ rustup update nightly\
 : 1658660767:0;dlv help test --j
 : 1658660770:0;dlv help test --
 : 1658660880:0;go help testflag
-: 1658673842:0;poweroff
-: 1658934844:0;exit
-: 1658935413:0;poweroff
-: 1659019105:0;sudo apt update
 : 1659019132:0;apt --fix-broken install
-: 1659019137:0;apt list --upgradable
-: 1659019150:0;sudo apt upgrade
-: 1659020046:0;lvim 
-: 1659021173:0;poweroff
-: 1659101805:0;bluetoothctl 
-: 1659102209:0;systemctl status bluetooth.service
-: 1659102253:0;rfkill unblock all
-: 1659102256:0;bluetoothctl 
-: 1659102283:0;rfkill unblock all
 : 1659102314:0;systemctl restart bluetooth.service
-: 1659102320:0;bluetoothctl 
-: 1659102378:0;reboot
-: 1659102413:0;bluetoothctl 
-: 1659102439:0;rfkill unblock all
-: 1659102441:0;bluetoothctl 
-: 1659102448:0;systemctl status bluetooth.service
 : 1659102456:0;systemctl start bluetooth.service
-: 1659102461:0;systemctl status bluetooth.service
 : 1659102575:0;1
-: 1659102581:0;bluetoothctl 
 : 1659102649:0;lvim /etc/modprobe.d/blacklist.conf
 : 1659102708:0;systemctl status bluetooth.service
-: 1659102744:0;ls
 : 1659102747:0;cd Backup
-: 1659102748:0;ls
 : 1659102751:0;lvim i3.config
-: 1659102754:0;ls
-: 1659102853:0;cd 
-: 1659102854:0;ls
-: 1659102856:0;lvim config/acl.yaml
-: 1659102859:0;ls
-: 1659102982:0;nvim
-: 1659102987:0;lvim 
-: 1659102989:0;ls
-: 1659103004:0;sudo apt update
-: 1659103031:0;apt list --upgradable
-: 1659103045:0;sudo apt upgrade
 : 1659103868:0;fanyi suspend
-: 1659103914:0;exit
-: 1659104751:0;sudo apt update
-: 1659104774:0;apt list --upgradable
-: 1659104786:0;sudo apt upgrade
-: 1659104796:0;reboot
-: 1659104867:0;sudo apt update
-: 1659104887:0;apt list --upgradable
-: 1659104893:0;sudo apt upgrade
 : 1659104905:0;sudo apt autoremove
-: 1659104925:0;apt list --upgradable
-: 1659104936:0;sudo apt upgrade 
-: 1659105006:0;sudo apt upgrade --help
-: 1659105031:0;reboot
-: 1659105067:0;bluetoothctl 
-: 1659106784:0;poweroff
-: 1659184628:0;cd 
-: 1659184629:0;ls
 : 1659184634:0;lvim .config/dlv/config.yml
-: 1659186774:0;poweroff
-: 1659198471:0;bluetoothctl 
 : 1659198480:0;udisksctl mount -b /dev/sdb
-: 1659198492:0;udisksctl mount -b /dev/sda1
-: 1659198526:0;cd /media/black/Data/Downloads/ISO
-: 1659198527:0;ls
-: 1659198547:0;udisksctl mount -b /dev/sdb2
-: 1659198551:0;udisksctl mount -b /dev/sdb1
 : 1659198564:0;cp install.wim /media/black/å¾®PEå·¥åƒ¥·ç®±/
-: 1659198741:0;reboot
-: 1659199330:0;udisksctl mount -b /dev/sda1
-: 1659199331:0;ls
-: 1659199371:0;udisksctl mount -b /dev/sda1
-: 1659199374:0;cd /media/black/Data/Downloads/ISO
-: 1659199374:0;ls
 : 1659199393:0;cp Win11_Chinese\(Simplified\)_x64v1.iso /media/black/3CDF6A4440807D46
-: 1659199623:0;reboot
-: 1659200705:0;sudo apt update
-: 1659200742:0;sudo apt upgrade 
-: 1659201050:0;reboot
-: 1659201182:0;sudo apt update
-: 1659201203:0;apt list --upgradable
-: 1659201208:0;sudo apt upgrade 
-: 1659201287:0;nvim
-: 1659201553:0;ls
 : 1659201560:0;lvim .mysql_history 
-: 1659201571:0;ls
 : 1659201630:0;cd VirtualBox\ VMs
-: 1659201631:0;ls
-: 1659201633:0;cd 
-: 1659201634:0;exit
-: 1659202144:0;poweroff
-: 1659229228:0;ls
-: 1659229254:0;udisksctl mount -b /dev/sda1
 : 1659229312:0;bluetoothctl 
 : 1659229349:0;bluetoothctl pair E3:BF:A6:4C:D2:1E
-: 1659229365:0;bluetoothctl paired-devices
 : 1659229399:0;bluetoothctl pair E3:BF:A6:06:D2:1E
 : 1659229457:0;bluetoothctl connect E3:BF:A6:09:D2:1E
 : 1659229469:0;bluetoothctl paired-devices
@@ -10246,3 +9161,1113 @@ rustup update nightly\
 : 1701127222:0;chezmoi add .zshrc
 : 1701127227:0;chezmoi add .zshenv
 : 1701127231:0;chezmoi add .zsh_history
+: 1701127237:0;chezmoi add .rediscli_history
+: 1701127241:0;chezmoi add .python_history
+: 1701127249:0;chezmoi add .mycli-history
+: 1701127253:0;chezmoi add .gitignore
+: 1701127256:0;chezmoi add .gitconfig
+: 1701127267:0;chezmoi add .config/polybar
+: 1701127271:0;chezmoi add .config/lvim
+: 1701127275:0;chezmoi add .config/i3
+: 1701127280:0;chezmoi add .config/clash
+: 1701127286:0;chezmoi status
+: 1701127311:0;chezmoi cd 
+: 1701127317:0;git status
+: 1701127349:0;rm -rf private_dot_config/private_clash/private_Country.mmdb
+: 1701127353:0;rm -rf private_dot_config/private_clash/private_cache.db
+: 1701127356:0;rm -rf private_dot_config/private_clash/private_logs
+: 1701127361:0;rm -rf private_dot_config/private_clash/private_service
+: 1701127362:0;git status
+: 1701127380:0;git diff
+: 1701127386:0;git diff dot_gitignore
+: 1701127496:0;git diff private_dot_zshrc
+: 1701127580:0;git switch -C ubuntu_home
+: 1701127582:0;git status
+: 1701127584:0;git add .
+: 1701127619:0;git commit -m "æƒ»¿æƒ­ƒ‚ home macback ä¸º chezmoi"
+: 1701127621:0;git status
+: 1701127636:0;git switch ubuntu
+: 1701127652:0;git switch main
+: 1701127659:0;git rebase ubuntu
+: 1701127665:0;git status
+: 1701127672:0;git push --force
+: 1701127683:0;git switch ubuntu
+: 1701127691:0;git merge ubuntu_home
+: 1701127697:0;git status
+: 1701127710:0;git reset HEAD
+: 1701127714:0;git reset HEAD^
+: 1701127716:0;git status
+: 1701127723:0;git restore .
+: 1701127724:0;git status
+: 1701127731:0;git clean -fd
+: 1701127733:0;git status
+: 1701127765:0;git switch ubuntu_home
+: 1701127768:0;git status
+: 1701127773:0;lvim dot_gitignore
+: 1701127801:0;umount /dev/sda1
+: 1701261415:0;sudo apt update
+: 1701261459:0;apt list --upgradable
+: 1701261479:0;sudo apt upgrade 
+: 1701264678:0;git pull
+: 1701264691:0;udisksctl mount -b /dev/sda1
+: 1701264700:0;chezmoi status
+: 1701264712:0;chezmoi diff
+: 1701264766:0;showmount -e 127.0.0.1
+: 1701264807:0;cd /media/black/Data/Documents/C
+: 1701264807:0;ls
+: 1701264811:0;cd linux_module_learn
+: 1701264811:0;ls
+: 1701264817:0;cd nfs
+: 1701264818:0;ls
+: 1701264819:0;cd remove
+: 1701264820:0;ls
+: 1701264823:0;lvim remove.c
+: 1701264859:0;cd /media/black/Data/Documents/github/C/yark
+: 1701264860:0;ls
+: 1701264891:0;lvim run.sh
+: 1701264920:0;lvim BH
+: 1701264922:0;lvim BH.md
+: 1701265038:0;lvim ~/.zshrc
+: 1701265112:0;systemctl status nfs-server.service
+: 1701265119:0;systemctl start nfs-server.service
+: 1701265123:0;systemctl status nfs-server.service
+: 1701265125:0;showmount -e 127.0.0.1
+: 1701265213:0;sudo dmesg -w
+: 1701265217:0;sudo insmod yark.ko
+: 1701265251:0;cd 
+: 1701265251:0;ls
+: 1701265263:0;showmount -e 127.0.0.1
+: 1701265282:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents nfstest
+: 1701265308:0;cd nfstest
+: 1701265308:0;ls
+: 1701265312:0;cd goctl_test
+: 1701265313:0;ls
+: 1701265315:0;tree
+: 1701265332:0;ls
+: 1701265333:0;cd ..
+: 1701265333:0;ls
+: 1701265336:0;cd arduino
+: 1701265336:0;ls
+: 1701265337:0;cd ..
+: 1701265338:0;ls
+: 1701265341:0;cd HomaModule
+: 1701265341:0;ls
+: 1701265343:0;cd ..
+: 1701265345:0;ls
+: 1701265365:0;cd HomaModule
+: 1701265366:0;ls
+: 1701265373:0;cd ..
+: 1701265373:0;ls
+: 1701265379:0;cd OceanBase
+: 1701265380:0;ls
+: 1701265400:0;cd ..
+: 1701265400:0;ls
+: 1701265407:0;cd MyBlackHole
+: 1701265408:0;ls
+: 1701265409:0;cd ..
+: 1701265410:0;ls
+: 1701265424:0;rm -rf goctl_test
+: 1701265459:0;mkdir test_remoce
+: 1701265461:0;cd test_remoce
+: 1701265462:0;ls
+: 1701265467:0;touch 1.txt
+: 1701265473:0;touch 2.txt
+: 1701265477:0;mkdir 3
+: 1701265478:0;cd 3
+: 1701265479:0;ls
+: 1701265490:0;touch 3.txt
+: 1701265491:0;cd ..
+: 1701265492:0;ls
+: 1701265493:0;cd ..
+: 1701265494:0;ls
+: 1701265504:0;rm -rf test_remoce
+: 1701265552:0;mkdir test_remoce
+: 1701265558:0;mkdir test_remoce/3
+: 1701265560:0;cd test_remoce
+: 1701265561:0;ls
+: 1701265567:0;touch 1.txt
+: 1701265569:0;touch 2.txt
+: 1701265571:0;cd 3
+: 1701265571:0;ls
+: 1701265574:0;touch 3.txt
+: 1701265575:0;cd ...
+: 1701265576:0;ls
+: 1701265581:0;cd test_remoce
+: 1701265582:0;tree
+: 1701265641:0;rm -rf ../test_remoce
+: 1701266531:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701266542:0;lvim fs/nfsd/vfs.c
+: 1701267214:0;git status
+: 1701267241:0;lvim fs/nfsd/vfs.c
+: 1701267438:0;scripts/clang-tools/gen_compile_commands.py
+: 1701267464:0;lvim fs/nfsd/vfs.c
+: 1701267466:0;ls
+: 1701268539:0;free -h
+: 1701268552:0;htop
+: 1701269572:0;ls
+: 1701269577:0;mount
+: 1701269588:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents nfstest
+: 1701269591:0;cd 
+: 1701269595:0;systemctl status nfs-server.service
+: 1701269598:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents nfstest
+: 1701269614:0;bear -- make
+: 1701269633:0;sudo rmmod yark 
+: 1701269673:0;sudo insmod yark.ko
+: 1701269684:0;ls
+: 1701269686:0;cd 
+: 1701269688:0;cd nfstest
+: 1701269688:0;ls
+: 1701269696:0;mkdir -p test_remoce/3
+: 1701269697:0;cd test_remoce
+: 1701269698:0;ls
+: 1701269702:0;touch 3.txt
+: 1701269708:0;rm 3.txt
+: 1701269741:0;sudo rmmod yark 
+: 1701269749:0;ls
+: 1701271322:0;free -h
+: 1701271335:0;git status
+: 1701271339:0;git add .
+: 1701271372:0;git commit -m "èƒ¥åƒ¥ƒ¥ nfs_remove è¿ƒ§ç¨ƒ«"
+: 1701271398:0;git push my zh_master
+: 1701271409:0;git diff HEAD HEAD^
+: 1701271426:0;lvim fs/nfsd/vfs.c
+: 1701272871:0;sudo dmesg -w
+: 1701301384:0;sudo insmod yark.ko
+: 1701301396:0;mount
+: 1701301401:0;cd 
+: 1701301404:0;cd nfstest
+: 1701301405:0;ls
+: 1701301411:0;cd test_remoce
+: 1701301412:0;ls
+: 1701301414:0;rm 3.txt
+: 1701301435:0;sudo rmmod yark 
+: 1701301494:0;umount /dev/sda1
+: 1701351476:0;git fetch
+: 1701351492:0;udisksctl mount -b /dev/sda1
+: 1701351532:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701351535:0;git diff
+: 1701351568:0;lvim aio/api/v3/common/archive_api.py
+: 1701354756:0;git status
+: 1701354762:0;cd
+: 1701354762:0;ls
+: 1701354941:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701354942:0;ls
+: 1701354945:0;lvim fs/nfsd/vfs.c
+: 1701387946:0;umount /dev/sda1
+: 1701477463:0;udisksctl mount -b /dev/sda1
+: 1701477474:0;cd /media/black/Data/Documents/github/C/xfsprogs/
+: 1701477475:0;ls
+: 1701477492:0;fd -t --hep
+: 1701477497:0;fd -t 
+: 1701477503:0;fd -t executable
+: 1701477529:0;fd --help
+: 1701477542:0;fd -I -t executable
+: 1701477593:0;lvim db/xfs_metadump.sh
+: 1701478953:0;git pull
+: 1701478987:0;zfs list
+: 1701479075:0;zpool list
+: 1701479344:0;lsblk
+: 1701479377:0;zpool create xfs_test /dev/sdb
+: 1701479381:0;sudo zpool create xfs_test /dev/sdb
+: 1701479391:0;zpool list
+: 1701480934:0;git status
+: 1701480936:0;git add .
+: 1701480948:0;git commit -m "ä¿®æƒ´¹ç»ƒ³æƒ¾ƒ¤ zfs xfs"
+: 1701481018:0;zfs list
+: 1701481047:0;zfs create -V 1G xfs_test/xfs_test_1
+: 1701481050:0;sudo zfs create -V 1G xfs_test/xfs_test_1
+: 1701481109:0;zfs list
+: 1701481532:0;mkfs.xfs /dev/xfs_test/xfs_test_1
+: 1701481535:0;sudo mkfs.xfs /dev/xfs_test/xfs_test_1
+: 1701481778:0;xfs_db -c frag -r /dev/xfs_test/xfs_test_1
+: 1701481781:0;sudo xfs_db -c frag -r /dev/xfs_test/xfs_test_1
+: 1701481792:0;fanyi frag
+: 1701481812:0;fanyi actual
+: 1701481850:0;udisksctl mount -b /dev/xfs_test/xfs_test_1
+: 1701481858:0;cd /media/black/fa25581c-61b2-43f0-af5e-557401fd8ae6
+: 1701481858:0;ls
+: 1701481866:0;ls -alh
+: 1701481870:0;sudo touch /var/local.st
+: 1701481875:0;sudo touch 1.txt
+: 1701481879:0;sudo xfs_db -c frag -r /dev/xfs_test/xfs_test_1
+: 1701481882:0;ls
+: 1701481899:0;sudo echo "kjkjkjkjk" > 1.txt
+: 1701481906:0;sudo su
+: 1701481935:0;ls
+: 1701481937:0;ls -alh
+: 1701481939:0;sudo xfs_db -c frag -r /dev/xfs_test/xfs_test_1
+: 1701481958:0;ls -alh 
+: 1701482117:0;sudo xfs_info /dev/xfs_test/xfs_test_1
+: 1701482377:0;sudo xfs_db  /dev/xfs_test/xfs_test_1
+: 1701482387:0;mount
+: 1701482406:0;umount xfs_test
+: 1701482409:0;sudo umount xfs_test
+: 1701482411:0;cd 
+: 1701482411:0;ls
+: 1701482412:0;mount
+: 1701482420:0;sudo xfs_db  /dev/xfs_test/xfs_test_1
+: 1701482430:0;fanyi crontains
+: 1701482457:0;sudo xfs_db  /dev/xfs_test/xfs_test_1
+: 1701482585:0;sudo xfs_db  /dev/zd0
+: 1701482782:0;sudo su
+: 1701482843:0;sudo zfs create -V 1G xfs_test/xfs_test_2
+: 1701482848:0;sudo xfs_db /dev/zd16
+: 1701482856:0;sudo mkfs.xfs /dev/xfs_test/xfs_test_2
+: 1701482868:0;sudo xfs_db /dev/zd16
+: 1701482905:0;mount
+: 1701482919:0;umount /dev/zd0
+: 1701482926:0;sudo xfs_db /dev/zd0
+: 1701484030:0;lsmod
+: 1701484799:0;fanyi tail
+: 1701484920:0;fanyi notice
+: 1701486822:0;fanyi hold
+: 1701486878:0;git status
+: 1701486895:0;cd ../linux/
+: 1701486896:0;git status
+: 1701486900:0;git diff
+: 1701486904:0;git add .
+: 1701487054:0;git commit -m "xfs log filesystem æƒ‚å¤ƒ­"
+: 1701487068:0;git checkout v4.19
+: 1701487477:0;fanyi trans
+: 1701501672:0;cd Documents/MyBlackHole
+: 1701501673:0;ls
+: 1701501675:0;lvim BH.md
+: 1701501691:0;udisksctl mount -b /dev/xfs_test/xfs_test_1
+: 1701501702:0;cd /media/black/fa25581c-61b2-43f0-af5e-557401fd8ae6
+: 1701501702:0;ls
+: 1701501721:0;mount /dev/xfs_test/xfs_test_
+: 1701501725:0;umount /dev/xfs_test/xfs_test_
+: 1701501731:0;umount /dev/zd0
+: 1701501736:0;cd 
+: 1701501741:0;sudo umount /dev/zd0
+: 1701501770:0;ls
+: 1701501783:0;udisksctl mount -b /dev/sda1
+: 1701501799:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701501799:0;ls
+: 1701501814:0;git status
+: 1701501836:0;git switch zh_master
+: 1701501871:0;git status
+: 1701501896:0;git push my zh_master
+: 1701501913:0;git log
+: 1701501969:0;ls
+: 1701501975:0;ls -alh 
+: 1701502004:0;lvim .clang-format
+: 1701502714:0;git status
+: 1701502718:0;git add .
+: 1701502732:0;git commit -m "è°ƒ£æƒµ´ scsi ä½ƒ­ç½®"
+: 1701502734:0;git push
+: 1701503462:0;cat /sys/kernel/debug/tracing
+: 1701503465:0;sudo cat /sys/kernel/debug/tracing
+: 1701503472:0;sudo su
+: 1701504680:0;udisksctl mount -b /dev/xfs_test/xfs_test_1
+: 1701505050:0;umount /dev/zd0
+: 1701505052:0;mount
+: 1701505130:0;udisksctl mount -b /dev/xfs_test/xfs_test_1
+: 1701505441:0;cd /media/black/fa25581c-61b2-43f0-af5e-557401fd8ae6
+: 1701505441:0;ls
+: 1701505627:0;showmount -e 127.0.0.1
+: 1701505637:0;systemctl start nfs-server.service
+: 1701505640:0;showmount -e 127.0.0.1
+: 1701505657:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents nfstest
+: 1701505670:0;ls
+: 1701505680:0;sudo mount -t nfs 127.0.0.1:/home/black/Documents nfstest
+: 1701505683:0;ls
+: 1701505849:0;sudo su
+: 1701506128:0;ls
+: 1701506130:0;cd 
+: 1701506130:0;ls
+: 1701506132:0;cd nfstest
+: 1701506133:0;ls
+: 1701506137:0;touch 1.txt
+: 1701506159:0;ls
+: 1701506161:0;rm 1.txt
+: 1701506203:0;ls
+: 1701506205:0;touch 1.txt
+: 1701506212:0;rm 1.txt
+: 1701506229:0;touch 1.txt
+: 1701506233:0;rm 1.txt
+: 1701506367:0;ls
+: 1701506368:0;touch 1.txt
+: 1701506387:0;rm 1.txt
+: 1701506489:0;touch 1.txt
+: 1701506502:0;rm 1.txt
+: 1701506685:0;touch 1.txt
+: 1701506753:0;rm 1.txt
+: 1701508136:0;fd
+: 1701508496:0;mount
+: 1701508499:0;umount /dev/zd0
+: 1701509163:0;udisksctl mount -b /dev/xfs_test/xfs_test_1
+: 1701509229:0;lvim ~/mount_xfs.log
+: 1701509605:0;htop
+: 1701511944:0;ls
+: 1701511958:0;cd /media/black/Data/Documents/github/Demo/Linux/
+: 1701511958:0;ls
+: 1701511971:0;cd ..
+: 1701511972:0;ls
+: 1701511982:0;mkdir OpenEuler
+: 1701511986:0;cd OpenEuler
+: 1701511986:0;ls
+: 1701511989:0;git clone git@gitee.com:openeuler/kernel.git
+: 1701511996:0;git clone git@gitee.com:openeuler/kernel.git --depth=1
+: 1701512338:0;cd kernel
+: 1701512378:0;git switch OLK-5.10
+: 1701512382:0;git fetch
+: 1701512417:0;git checkout OLK-5.10
+: 1701512441:0;git fetch
+: 1701512445:0;git pull
+: 1701512524:0;git pull origin OLK-5.10
+: 1701515423:0;git switch OLK-5.10
+: 1701515454:0;git pull origin 
+: 1701515480:0;git config pull.rebase true
+: 1701515484:0;git switch OLK-5.10
+: 1701515487:0;git log
+: 1701515507:0;git switch OLK-5.10
+: 1701515513:0;git fetch origin
+: 1701517746:0;git switch OLK-5.10
+: 1701517762:0;git checkout OLK-5.10
+: 1701517817:0;git switch or OLK-5.10
+: 1701517839:0;git config --list
+: 1701517869:0;git switch remote/OLK-5.10
+: 1701517873:0;git switch remote:OLK-5.10
+: 1701517876:0;git switch remote OLK-5.10
+: 1701517888:0;git config --list
+: 1701517907:0;git switch origin OLK-5.10
+: 1701517924:0;git checkout origin OLK-5.10
+: 1701517963:0;git fetch origin OLK-5.10
+: 1701517983:0;fanyi FETCH
+: 1701517990:0;fanyi fetch
+: 1701517996:0;git fetch origin OLK-5.10
+: 1701518009:0;git switch FETCH_HEAD
+: 1701518019:0;git switch --detach FETCH_HEAD
+: 1701518042:0;git switch --detach OLK-5.10
+: 1701518047:0;git log
+: 1701518060:0;git fetch origin OLK-5.10
+: 1701518075:0;git switch -C OLK-5.10
+: 1701518080:0;git status
+: 1701518083:0;git log
+: 1701518090:0;git pull
+: 1701518283:0;git status
+: 1701518354:0;git rebase --abort
+: 1701518371:0;git pull origin OLK-5.10
+: 1701518398:0;git status
+: 1701518403:0;git branch -a
+: 1701518435:0;git branch 
+: 1701518451:0;git fetch origin OLK-5.10
+: 1701518569:0;git fetch origin OLK-5.10:OLK-5.10
+: 1701518639:0;git switch openEuler-1.0-LTS
+: 1701518646:0;git fetch origin OLK-5.10:OLK-5.10
+: 1701518657:0;git branch -a
+: 1701518674:0;git prune
+: 1701518734:0;git fetch origin OLK-5.10:OLK-5.10
+: 1701518741:0;git branch -a
+: 1701518747:0;git fetch origin 
+: 1701518757:0;git branch -a
+: 1701518805:0;git switch origin OLK-5.10
+: 1701518847:0;git config --list
+: 1701518890:0;git status
+: 1701518923:0;ä¸ªit
+: 1701518926:0;git branch -r
+: 1701518975:0;git fetch --all
+: 1701518981:0;git branch -a
+: 1701519009:0;git pull --all
+: 1701521712:0;cd /media/black/Data/Documents/github/Demo/OceanBase
+: 1701521713:0;ls
+: 1701521717:0;cd oceanbase
+: 1701521718:0;ls
+: 1701521721:0;git status
+: 1701521724:0;git pull
+: 1701521881:0;git fetch 
+: 1701522860:0;ls
+: 1701522875:0;fd -I -t executable
+: 1701522914:0;lvim src/sql/session/ObSQLSessionMgrå®ƒ¾çƒ®°æ€ƒ½è·¯.md
+: 1701523067:0;git status
+: 1701523905:0;fanyi submit
+: 1701524169:0;git status
+: 1701524177:0;git diff
+: 1701524192:0;cd tools/deploy/data
+: 1701524193:0;ls
+: 1701524199:0;cd ..
+: 1701524200:0;ls
+: 1701524203:0;cd ...
+: 1701524203:0;ls
+: 1701524208:0;git status
+: 1701524238:0;cat run.sh
+: 1701524244:0;git add run.sh
+: 1701524248:0;git log
+: 1701524259:0;git status
+: 1701524265:0;git switch zh_master
+: 1701524269:0;git status
+: 1701524273:0;lvim .gitignore
+: 1701524284:0;git status
+: 1701524287:0;git add .
+: 1701524297:0;git commit -m "build cmd"
+: 1701524313:0;git switch 3.1
+: 1701524322:0;git pull
+: 1701524517:0;fanyi replay
+: 1701566260:0;git status
+: 1701566272:0;ls
+: 1701566507:0;git checkout zh_master run.sh
+: 1701566510:0;git status
+: 1701566538:0;git switch zh_3.1
+: 1701566542:0;git switch -C zh_3.1
+: 1701566546:0;git status
+: 1701566561:0;./build.sh do_clean
+: 1701566575:0;./build.sh --help
+: 1701566597:0;./build.sh do_clean
+: 1701566611:0;fanyi usage
+: 1701566619:0;./build.sh usage
+: 1701566637:0;./build.sh clean
+: 1701566640:0;git status
+: 1701566649:0;git clean -fd
+: 1701566664:0;git status
+: 1701566670:0;/build.sh -h
+: 1701566673:0;./build.sh -h
+: 1701566681:0;./build.sh clean
+: 1701566684:0;./build.sh init
+: 1701566803:0;./build.sh debug --make -j4
+: 1701567341:0;fanyi clear
+: 1701567441:0;fanyi replay
+: 1701567478:0;fd -I observer
+: 1701567485:0;./build.sh debug --make -j4
+: 1701567728:0;./build.sh test --make -j4
+: 1701567744:0;./build.sh build --make -j4
+: 1701567918:0;rm -rf build_debug
+: 1701567925:0;./build.sh init
+: 1701567962:0;./build.sh debug --make -j4
+: 1701568539:0;fanyi resolver
+: 1701568584:0;git checkout v3.1.5_CE
+: 1701568587:0;git status
+: 1701568595:0;./build.sh init
+: 1701568624:0;./build.sh debug --make -j4
+: 1701569452:0;fd -I proc_mutex
+: 1701569901:0;fanyi reference
+: 1701570080:0;./build.sh debug --make -j4
+: 1701570249:0;ls
+: 1701570264:0;git status
+: 1701570276:0;git restore .
+: 1701570277:0;git status
+: 1701570283:0;git switch zh_3.1
+: 1701570287:0;git status
+: 1701570291:0;lvim run.sh
+: 1701570331:0;./build.sh debug --make -j4
+: 1701570652:0;fd -I libc
+: 1701570750:0;cd /media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701570751:0;ls
+: 1701570753:0;pwd
+: 1701570767:0;ls -alh 
+: 1701570916:0;cd /media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701570917:0;pwd
+: 1701571029:0;./build.sh debug --make -j4
+: 1701571093:0;export LD_LIBRARY_PATH=/media/black/Data/lib/glibc/glibc-2.27_bin:$LD_LIBRARY_PATH
+: 1701571121:0;echo $LD_LIBRARY_PATH
+: 1701571132:0;./build.sh debug --make -j4
+: 1701571139:0;echo $LD_LIBRARY_PATH
+: 1701571153:0;./build.sh debug --make -j4
+: 1701571442:0;cd /media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701571443:0;ls
+: 1701571446:0;ls -lah
+: 1701571467:0;cd /media/black/Data/Documents/github/C/glibc
+: 1701571469:0;git status
+: 1701571473:0;git fetch 
+: 1701571486:0;git status
+: 1701571490:0;git pull
+: 1701571497:0;git status
+: 1701571501:0;git diff
+: 1701571508:0;git add .
+: 1701571517:0;git commit -m "git ignore"
+: 1701571520:0;git status
+: 1701571638:0;git checkout glibc-2.2
+: 1701571643:0;git status
+: 1701571651:0;ls
+: 1701571770:0;rm -rf build
+: 1701571773:0;git status
+: 1701571780:0;rm -rf autom4te.cache
+: 1701571792:0;rm -rf config.log
+: 1701571797:0;rm -rf configure\~
+: 1701571799:0;git status
+: 1701571805:0;mkdir build
+: 1701571806:0;cd b
+: 1701571808:0;cd build
+: 1701571816:0;../configure CFLAGS="-Werror=use-after-free -g -O2" --prefix=/media/black/Data/lib/glibc/glibc-2.2
+: 1701571829:0;cd ..
+: 1701571829:0;ls
+: 1701571835:0;git clean -fd
+: 1701571837:0;git status
+: 1701571840:0;mkdir build
+: 1701571842:0;cd build
+: 1701571845:0;../configure CFLAGS="-Werror=use-after-free -g -O2" --prefix=/media/black/Data/lib/glibc/glibc-2.2
+: 1701571859:0;../configure --prefix=/media/black/Data/lib/glibc/glibc-2.2
+: 1701571865:0;ls
+: 1701571868:0;cd ..
+: 1701571869:0;ls
+: 1701571987:0;sudo apt install gawk
+: 1701572035:0;cd /media/black/Data/Documents/github/C/glibc
+: 1701572036:0;ls
+: 1701572041:0;./configure
+: 1701572083:0;git checkout glibc-2.18
+: 1701572087:0;cd build
+: 1701572087:0;ls
+: 1701572092:0;../configure --prefix=/media/black/Data/lib/glibc/glibc-2.18
+: 1701572111:0;cd /media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701572112:0;ls
+: 1701572113:0;cd ..
+: 1701572114:0;ls
+: 1701572130:0;cd glibc-2.27_src
+: 1701572131:0;ls
+: 1701572151:0;cd ..
+: 1701572151:0;ls
+: 1701572154:0;cd glibc-2.27_bin
+: 1701572155:0;ls
+: 1701572161:0;ldd ld-2.27.so
+: 1701572169:0;ldd libc-2.27.so
+: 1701572205:0;cd ..
+: 1701572206:0;ls
+: 1701572212:0;rm -rf glibc-2.27_bin
+: 1701572214:0;cd glibc-2.27_src
+: 1701572230:0;./configure --prefix=/media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701572238:0;cd build
+: 1701572239:0;ls
+: 1701572241:0;cd ..
+: 1701572242:0;ls
+: 1701572245:0;rm -rf build
+: 1701572248:0;mkdir build
+: 1701572254:0;cd build
+: 1701572255:0;ls
+: 1701572258:0;../configure --prefix=/media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701572363:0;ls
+: 1701572366:0;cd ..
+: 1701572367:0;ls
+: 1701572377:0;cd -
+: 1701572378:0;ls
+: 1701572381:0;lvim Makefile
+: 1701572478:0;../configure --enable-static=yes --prefix=/media/black/Data/lib/glibc/glibc-2.27_bin
+: 1701572490:0;lvim config.log
+: 1701572523:0;ls
+: 1701572530:0;make
+: 1701572617:0;cd /media/black/Data/lib/glibc/master
+: 1701572619:0;ls
+: 1701572656:0;./build.sh debug --make -j4
+: 1701572844:0;./build.sh debug --make -j1
+: 1701573624:0;fd -I observer
+: 1701573718:0;git status
+: 1701573796:0;./build.sh debug --make -j1
+: 1701573812:0;./build.sh debug --make -j12
+: 1701574945:0;./build.sh debug --make -j4
+: 1701575507:0;fd -I observer
+: 1701575527:0;rm -rf tools/deploy/data
+: 1701575529:0;git status
+: 1701577258:0;nix-shell
+: 1701577351:0;nix-shell --help
+: 1701578046:0;nix-shell -p oceabash lolcat
+: 1701578092:0;nix-shell -p glibc
+: 1701578187:0;nix-shell -p oceabash
+: 1701578209:0;nix-shell -p BH
+: 1701578219:0;nix-shell -p glibc-
+: 1701578307:0;docker ps
+: 1701580074:0;fanyi available
+: 1701580741:0;fanyi delta
+: 1701580766:0;fanyi round
+: 1701581687:0;fanyi finished
+: 1701581815:0;fanyi ensure
+: 1701591197:0;sudo apt update
+: 1701591225:0;apt list --upgradable
+: 1701591229:0;sudo apt upgrade 
+: 1701591578:0;lvim src/archive/ob_archive_allocator.cpp
+: 1701591820:0;git status
+: 1701595428:0;sudo apt upgrade 
+: 1701597283:0;fanyi macro
+: 1701597596:0;fanyi fake
+: 1701597855:0;fanyi dump
+: 1701646797:0;git status
+: 1701646801:0;cd
+: 1701646812:0;umount /dev/sda1
+: 1701696952:0;mc ls LGP
+: 1701696963:0;mc --help
+: 1701697001:0;mc ls LGP
+: 1701697007:0;mc ls LGP/back099
+: 1701697035:0;mc rm LGP/back099/openssh-9.3p1/
+: 1701697042:0;mc rm -r LGP/back099/openssh-9.3p1/
+: 1701697052:0;mc rm -r -f LGP/back099/openssh-9.3p1/
+: 1701697090:0;mc rm -r --force LGP/back099/openssh-9.3p1/
+: 1701697110:0;mc ls LGP/back099
+: 1701697130:0;mc rm -r --force LGP/back099/openssh-9.3p1_src
+: 1701697151:0;mc rm -r --force LGP/back099/ä¸»ä»ƒ®å®ƒ¾ä¾ƒ«-50.47_192.168.50.48_3306-5585fb3d175f/
+: 1701697337:0;mc ls LGP/back099
+: 1701697350:0;mc rm -r --force LGP/back099/mysql_data/
+: 1701697358:0;mc ls LGP/back099
+: 1701697399:0;mc cp -r LGP/back099/crontab-éƒ»ƒ¦ç¾¤-a480904620e6/ ./test
+: 1701697418:0;ls
+: 1701697421:0;mc ls LGP/back099
+: 1701697442:0;mc rm -r --force LGP/back099/openssh-9.3p1.tar.gz
+: 1701697489:0;mc rm -r --force LGP/back099/HAS_VastbaseG100_x86_64_V1.4_2022072614.zip
+: 1701697567:0;mc --help
+: 1701697589:0;mc ls LGP/back099
+: 1701786008:0;udisksctl mount -b /dev/sda1
+: 1701786016:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1701786062:0;lvim aio/services/storage_service.py
+: 1701786106:0;fanyi æƒ½ƒ£éƒ¹ƒ°
+: 1701786265:0;cd /media/black/Data/Documents/github/Python/minio-py
+: 1701786266:0;ls
+: 1701786272:0;lvim examples/put_object.py
+: 1701787280:0;python3 examples/list_objects.py
+: 1701788084:0;cd /media/black/Data/Documents/github/Cpp/oceanbase
+: 1701788084:0;ls
+: 1701788091:0;git status
+: 1701788096:0;fd -t executable
+: 1701788117:0;ls
+: 1701788125:0;git diff
+: 1701788131:0;git log
+: 1701788140:0;lvim src/archive/ob_archive_allocator.cpp
+: 1701788502:0;cd /media/black/Data/Documents/github/Demo/Linux/linux
+: 1701788505:0;chezmoi diff
+: 1701788518:0;lvim fs/nfsd/vfs.c
+: 1701788572:0;htop
+: 1701789452:0;umount /dev/sda1
+: 1701870176:0;udisksctl mount -b /dev/sda1
+: 1701870195:0;cd /media/black/Data/Downloads/Demo
+: 1701870196:0;ls
+: 1701870199:0;cd docker
+: 1701870200:0;ls
+: 1701870202:0;cd oceanbase
+: 1701870203:0;ls
+: 1701870226:0;docker load -i oceanbase_dev.tar
+: 1701870257:0;cd /media/black/Data/Documents/github/Demo/OceanBase/oceanbase
+: 1701870258:0;ls
+: 1701870261:0;pwd
+: 1701870264:0;ls
+: 1701870266:0;fd -t executable
+: 1701870291:0;lvim tools/docker/standalone/boot/ob-mysql
+: 1701870296:0;ls
+: 1701870299:0;lvim run.sh
+: 1701870325:0;docker run --name oceanbase_dev -v .:/media/black/Data/Documents/github/Cpp/oceanbase -it oceanbase_dev:1.0.1 bash
+: 1701870340:0;docker images |grep oceanbase
+: 1701870376:0;cd /media/black/Data/Documents/github/Cpp/oceanbase
+: 1701870376:0;ls
+: 1701870378:0;docker run --name oceanbase_dev -v .:/media/black/Data/Documents/github/Cpp/oceanbase -it oceanbase_dev:1.0.1 bash
+: 1701870404:0;docker run --name oceanbase_dev -v $(pwd):/media/black/Data/Documents/github/Cpp/oceanbase -it oceanbase_dev:1.0.1 bash
+: 1701870469:0;free -h
+: 1701870601:0;fd -t executable
+: 1701870612:0;fd -I -t executable
+: 1701870630:0;cd build_debug/tools/ob_admin/
+: 1701870631:0;ls
+: 1701870633:0;ls -alh
+: 1701870638:0;./ob_admin --version
+: 1701870645:0;ldd ob_admin
+: 1701870660:0;ls
+: 1701870665:0;cd ..
+: 1701870665:0;ls
+: 1701870671:0;cd ob_error
+: 1701870671:0;ls
+: 1701870674:0;cd ..
+: 1701870674:0;ls
+: 1701870675:0;cd ..
+: 1701870676:0;ls
+: 1701870678:0;cd ..
+: 1701870679:0;ls
+: 1701871195:0;sudo apt update
+: 1701871214:0;apt list --upgradable
+: 1701873093:0;cd build_debug/tools/ob_admin/
+: 1701873095:0;ls
+: 1701873098:0;ls -lha
+: 1701904889:0;docker ps
+: 1701904923:0;fanyi Partition
+: 1701905809:0;cd tools/ob-configserver
+: 1701905810:0;ls
+: 1701905829:0;go mod tidy
+: 1701905843:0;make
+: 1701906056:0;umount /dev/sda1
+: 1702080594:0;udisksctl mount -b /dev/sda1
+: 1702080595:0;ls
+: 1702080620:0;lvim mount_xfs.log
+: 1702080628:0;rm mount_xfs.log
+: 1702080631:0;ls
+: 1702085860:0;cd Documents/MyBlackHole
+: 1702085862:0;git fetch 
+: 1702085871:0;git diff
+: 1702085874:0;git diff HEAD HEAD^
+: 1702085877:0;git diff 
+: 1702085886:0;git status
+: 1702085888:0;git add .
+: 1702085908:0;git commit -m "build system|glibc"
+: 1702085911:0;git pull
+: 1702085920:0;git status
+: 1702085925:0;git push
+: 1702085933:0;git status
+: 1702085948:0;cd /media/black/Data/Documents/github/C/
+: 1702085949:0;ls
+: 1702085955:0;cd bcc
+: 1702085957:0;git fetch 
+: 1702085967:0;ls
+: 1702085981:0;git pull
+: 1702086002:0;lvim tools/argdist_example.txt
+: 1702087035:0;cd build
+: 1702087036:0;ls
+: 1702087053:0;cmake ..
+: 1702087056:0;make
+: 1702087082:0;sudo apt-get install -y bpfcc-tools libbpfcc libbpfcc-dev linux-headers-$(uname -r)
+: 1702087103:0;make
+: 1702087110:0;make clean
+: 1702087113:0;make
+: 1702087161:0;sudo apt install -y bison build-essential cmake flex git libedit-dev \\
+  libllvm7 llvm-7-dev libclang-7-dev python zlib1g-dev libelf-dev libfl-dev
+: 1702087225:0;make
+: 1702087250:0;cd /media/black/Data/Documents/github/Cpp/llvm-project
+: 1702087252:0;git fl
+: 1702087257:0;git fetch
+: 1702087323:0;git pull
+: 1702090365:0;lvim BH.md
+: 1702090874:0;sudo apt install -y zip bison build-essential cmake flex git libedit-dev \\
+  libllvm15 llvm-15-dev libclang-15-dev python3 zlib1g-dev libelf-dev libfl-dev python3-setuptools \\
+  liblzma-dev libdebuginfod-dev arping netperf iperf libpolly-15-dev
+: 1702090902:0;make
+: 1702090921:0;cd ..
+: 1702090922:0;ls
+: 1702090923:0;rm -rf build
+: 1702090930:0;mkdir build
+: 1702090933:0;cd build
+: 1702090936:0;cmake ..
+: 1702090975:0;sudo apt install sdcc-libraries
+: 1702090993:0;uname -a
+: 1702091018:0;cat /etc/os-release
+: 1702091028:0;cmake ..
+: 1702091507:0;ls
+: 1702091508:0;cd build
+: 1702091510:0;cmake ..
+: 1702091697:0;sudo apt install clang
+: 1702091819:0;sudo apt install libclang-dev
+: 1702091982:0;sudo apt install libclang-16-dev
+: 1702091994:0;clang --version
+: 1702092070:0;cmake ..
+: 1702092073:0;sudo apt install libclang-15-dev
+: 1702092083:0;sudo apt reinstall libclang-15-dev
+: 1702092133:0;cmake ..
+: 1702092197:0;ls
+: 1702092199:0;cd ..
+: 1702092199:0;s
+: 1702092200:0;ls
+: 1702092294:0;sudo apt-get -y install zip bison build-essential cmake flex git libedit-dev \\
+  libllvm3.7 llvm-3.7-dev libclang-3.7-dev python zlib1g-dev libelf-dev python3-setuptools \\
+  liblzma-dev arping netperf iperf
+: 1702092305:0;sudo apt install -y zip bison build-essential cmake flex git libedit-dev \\
+  libllvm15 llvm-15-dev libclang-15-dev python3 zlib1g-dev libelf-dev libfl-dev python3-setuptools \\
+  liblzma-dev libdebuginfod-dev arping netperf iperf libpolly-15-dev
+: 1702092311:0;cd build
+: 1702092312:0;cmake ..
+: 1702092320:0;sudo apt install -y zip bison build-essential cmake flex git libedit-dev \\
+  libllvm14 llvm-14-dev libclang-14-dev python3 zlib1g-dev libelf-dev libfl-dev python3-setuptools \\
+  liblzma-dev libdebuginfod-dev arping netperf iperf
+: 1702092364:0;cmake ..
+: 1702092445:0;make
+: 1702092691:0;make --help
+: 1702092722:0;make VERBOSE=1
+: 1702092794:0;sudo apt install libpolly-14-dev
+: 1702092837:0;make
+: 1702093256:0;cmake -DPYTHON_CMD=python3 .. # build python3 binding
+: 1702093273:0;pushd src/python/
+: 1702093287:0;make
+: 1702093288:0;ls
+: 1702093299:0;ls -alh bcc-python3/
+: 1702093306:0;ls -alh bcc-python3/bcc/
+: 1702093313:0;popd
+: 1702093321:0;popd --help
+: 1702093328:0;pushd --help
+: 1702093417:0;dirs
+: 1702093824:0;sudo make install
+: 1702093841:0;cd /usr/share/bcc/tools
+: 1702093842:0;ls
+: 1702093848:0;cd ..
+: 1702093848:0;ls
+: 1702093852:0;cd examples
+: 1702093852:0;ls
+: 1702093857:0;lvim hello_world.py
+: 1702093866:0;python3 hello_world.py 
+: 1702093873:0;cd -
+: 1702093874:0;ls
+: 1702093877:0;cd build
+: 1702093892:0;pushd src/python/
+: 1702093894:0;ls
+: 1702093897:0;sudo make install
+: 1702093910:0;popd 
+: 1702093935:0;pushd /usr/share/bcc/
+: 1702093936:0;ls
+: 1702093945:0;pushd examples/
+: 1702093946:0;ls
+: 1702093948:0;dirs
+: 1702093958:0;python3 hello_world.py 
+: 1702093967:0;sudo python3 hello_world.py
+: 1702093986:0;ls
+: 1702093998:0;sudo python3 hello_world.py
+: 1702094004:0;popd 
+: 1702094020:0;popd +2
+: 1702094032:0;popd +1
+: 1702094040:0;popd
+: 1702094044:0;ls
+: 1702094048:0;di
+: 1702094050:0;dirs
+: 1702094089:0;sudo /usr/share/bcc/tools/opensnoop
+: 1702094099:0;cat /usr/share/bcc/tools/opensnoop
+: 1702094112:0;which python3
+: 1702094122:0;sudo python3
+: 1702094132:0;sudo python
+: 1702094145:0;sudo apt install python
+: 1702094149:0;sudo apt install python3
+: 1702117107:0;ls
+: 1702117117:0;cd /usr/share/bcc/tools
+: 1702117117:0;ls
+: 1702117126:0;sudo su
+: 1702117322:0;sudo update-alternatives --config python 
+: 1702117334:0;sudo su
+: 1702117419:0;sudo apt install python3.11
+: 1702117429:0;sudo apt reinstall python3.11
+: 1702117444:0;sudo update-alternatives --config python 
+: 1702117459:0;ls
+: 1702117475:0;/usr/share/bcc/tools/tcpconnect
+: 1702117515:0;sudo update-alternatives --config python 
+: 1702117539:0;sudo update-alternatives --install python
+: 1702117692:0;update-alternatives --display python 
+: 1702117749:0;sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.11 0
+: 1702117753:0;update-alternatives --display python 
+: 1702117760:0;sudo su
+: 1702117771:0;sudo update-alternatives --config python 
+: 1702117786:0;sudo /usr/share/bcc/tools/tcpconnect
+: 1702117902:0;sudo /usr/share/bcc/tools/filetop
+: 1702117970:0;ls
+: 1702117975:0;ls -alh
+: 1702117982:0;lvim CMakeLists.txt
+: 1702118021:0;sudo /usr/share/bcc/tools/tcptop
+: 1702118116:0;sudo /usr/share/bcc/tools/tcpstates
+: 1702118309:0;sudo /usr/share/bcc/examples/networking/net_monitor.py
+: 1702118318:0;ip route
+: 1702118324:0;sudo /usr/share/bcc/examples/networking/net_monitor.py wlp1s0
+: 1702118349:0;lvim /usr/share/bcc/examples/networking/net_monitor.py 
+: 1702118395:0;ls
+: 1702118403:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1702118404:0;ls
+: 1702118406:0;git status
+: 1702118435:0;lvim ~/.gitconfig
+: 1702118819:0;cd /media/black/Data/Documents/Python
+: 1702118820:0;ls
+: 1702118823:0;git status
+: 1702118828:0;git add .
+: 1702118853:0;git commit -m "s3 sha256 sql"
+: 1702118859:0;git status
+: 1702118862:0;git push
+: 1702118973:0;ls
+: 1702118979:0;lvim sqlmodel_learn/æ¨ƒåƒ¾ƒ«å¤ƒºæ€.py
+: 1702119384:0;cd /media/black/Data/Documents/AIO/aio-cdm
+: 1702119386:0;git status
+: 1702119396:0;git switch feature-v3-goldendb
+: 1702119399:0;git status
+: 1702119402:0;ls
+: 1702119418:0;lvim aio/api/v3/goldendb/crontab_api.py
+: 1702120574:0;cd /media/black/Data/Documents/AIO/aio-airflow
+: 1702120582:0;git status
+: 1702120584:0;git diff
+: 1702120594:0;lvim airflow.black.sh
+: 1702120598:0;lvim ~/.gitconfig
+: 1702120610:0;git switch feature-v3-goldendb
+: 1702120613:0;git status
+: 1702120626:0;lvim airflow/dags/aio_full_backup.py
+: 1702123589:0;mc --help
+: 1702123649:0;mc ping --help
+: 1702123681:0;mc --help
+: 1702123700:0;mc pipe --help
+: 1702123709:0;mc ping --help
+: 1702123712:0;mc pipe --help
+: 1702124047:0;mc cp --hlep
+: 1702124050:0;mc cp --help
+: 1702124172:0;cd /media/black/Data/Documents/github/Go/mc
+: 1702124173:0;ls
+: 1702124178:0;lvim cmd/pipe-main.go
+: 1702124494:0;cat /proc/sys/fs/pipe-max-size
+: 1702124510:0;1048576 / 1024
+: 1702124515:0;ipython
+: 1702124698:0;fanyi Partition
+: 1702126612:0;cd /media/black/Data/Documents/github/Go/minio-go
+: 1702126628:0;lvim api-put-object-streaming.go
+: 1702127725:0;git diff
+: 1702127727:0;git log
+: 1702127731:0;git status
+: 1702127732:0;git add .
+: 1702127767:0;git commit -m "äºƒ¦è§£ put part Stream Parallel "
+: 1702129430:0;cd /media/black/Data/Documents/github/Python
+: 1702129431:0;ls
+: 1702129433:0;cd full-stack-fastapi-postgresql
+: 1702129435:0;git fetch
+: 1702129442:0;git pull
+: 1702129479:0;ls
+: 1702129485:0;lvim src/backend/backend.dockerfile
+: 1702129893:0;cd /media/black/Data/Documents/github/Python/sqlmodel
+: 1702129897:0;lvim mkdocs.yml
+: 1702129925:0;git status
+: 1702129927:0;git diff
+: 1702129953:0;git fetch
+: 1702129962:0;git pull
+: 1702129970:0;git restore .
+: 1702129972:0;git pull
+: 1702130879:0;fanyi multiple
+: 1702131561:0;cd ..
+: 1702131562:0;ls
+: 1702131564:0;cd ..
+: 1702131564:0;ls
+: 1702131565:0;cd ..
+: 1702131565:0;l
+: 1702131567:0;ls
+: 1702131572:0;cd Python/
+: 1702131573:0;ls
+: 1702131579:0;lvim sqlmodel_learn/æ¨ƒåƒ¾ƒ«å¤ƒºæ€.py
+: 1702131801:0;docker ps
+: 1702131807:0;docker start mysql-test
+: 1702131819:0;mycli -h 127.0.0.1 -u black -p1358
+: 1702131826:0;mycli -h 127.0.0.1 -u black -P1358
+: 1702131831:0;mycli -h 127.0.0.1 -u black -p
+: 1702131835:0;mycli -h 127.0.0.1 -u black -p1358
+: 1702131842:0;mycli -h 127.0.0.1 -u root -p1358
+: 1702131846:0;mycli -h 127.0.0.1 -u black -p1358
+: 1702132241:0;docker inspect mysql-test
+: 1702132272:0;docker stop mysql-test
+: 1702132292:0;docker rm --volumes mysql-test
+: 1702132336:0;docker run -p 3306:3306 --name mysql \\
+    -v /etc/localtime:/etc/localtime:ro \\
+    -e MYSQL_ROOT_PASSWORD=123456 \\
+    -d mysql\
+
+: 1702132354:0;docker ps -a |grep mysql
+: 1702132359:0;docker stop mysql
+: 1702132360:0;docker ps
+: 1702132367:0;docker rm --volumes mysql
+: 1702132370:0;docker run -p 3306:3306 --name mysql \\
+    -v /etc/localtime:/etc/localtime:ro \\
+    -e MYSQL_ROOT_PASSWORD=123456 \\
+    -d mysql\
+
+: 1702132386:0;mycli -h 127.0.0.1 -u root -p123456
+: 1702132390:0;docker ps
+: 1702132395:0;docker logs -f mysql
+: 1702132412:0;docker ps
+: 1702132425:0;mycli -h 127.0.0.1 -u root -p123456
+: 1702132534:0;cd sqlmodel_learn
+: 1702132540:0;python3 èƒ¨å¤ƒºæ€.py
+: 1702132596:0;pip install --upgrade sqlalchemy
+: 1702132626:0;pip install --upgrade sqlmodel
+: 1702132650:0;python3 èƒ¨å¤ƒºæ€.py
+: 1702132696:0;mycli -h 127.0.0.1 -u root -p123456
+: 1702133531:0;cd /media/black/Data/Documents/github/Python/full-stack-fastapi-postgresql
+: 1702133532:0;ls
+: 1702133549:0;lvim src/backend/app/app/models.py
+: 1702134196:0;python3 èƒ¨å¤ƒºæ€.py
+: 1702134247:0;mycli -h 127.0.0.1 -u root -p123456
+: 1702134399:0;python3 èƒ¨å¤ƒºæ€.py
+: 1702134905:0;lvim sqlmodel_learn/æ¨ƒåƒ¾ƒ«å¤ƒºæ€.py
+: 1702137010:0;python3 èƒ¨å¤ƒºæ€.py
+: 1702139996:0;pip install pydantic-sqlalchemy
+: 1702140018:0;lvim sqlmodel_learn/æ¨ƒåƒ¾ƒ«å¤ƒºæ€.py
+: 1702170125:0;sudo /usr/share/bcc/tools/opensnoop
+: 1702170163:0;sudo /usr/share/bcc/tools/opensnoop ~/1.txt
+: 1702170178:0;sudo /usr/share/bcc/tools/opensnoop
+: 1702170195:0;sudo /usr/share/bcc/tools/opensnoop > ~/1.txt
+: 1702170205:0;lvim ~/1.txt
+: 1702170207:0;sudo /usr/share/bcc/tools/opensnoop > ~/1.txt
+: 1702170217:0;lvim ~/1.txt
+: 1702170227:0;rm ~/1.txt
+: 1702170782:0;pidof lvim
+: 1702170865:0;git status
+: 1702170874:0;git add linux/cd/
+: 1702170877:0;git add linux/eBPF/
+: 1702170879:0;git status
+: 1702170886:0;git commit -m "eBPF"
+: 1702170889:0;git push
+: 1702170952:0;git status
+: 1702170955:0;git add database/
+: 1702170957:0;git status
+: 1702170968:0;git commit -m "ä¿®æƒ´¹ mysql çƒ»®å½ƒµç»ƒ³æƒ¾ƒ¤"
+: 1702170970:0;git status
+: 1702170971:0;git push
+: 1702170978:0;git status
+: 1702170983:0;git add language/
+: 1702170988:0;git add .
+: 1702170989:0;git status
+: 1702171006:0;git commit -m "go config GOGC"
+: 1702171008:0;git push 
+: 1702193035:0;git log
+: 1702197966:0;git diff
+: 1702198061:0;cargo --help
+: 1702198176:0;rustup update\
+
+: 1702198182:0;rustup --hlep
+: 1702198188:0;rustup --help
+: 1702198208:0;rustup completions zsh
+: 1702198238:0;lvim ~/.zshrc
+: 1702198268:0;lvim ~/.rustup_completes
+: 1702198329:0;rustc --print sysroot
+: 1702198346:0;lvim /home/black/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/etc/bash_completion.d/cargo
+: 1702198576:0;cd .cargo/
+: 1702198577:0;ls
+: 1702198578:0;cd bin
+: 1702198579:0;ls
+: 1702198580:0;cd ..
+: 1702198580:0;ls
+: 1702198585:0;lvim env
+: 1702198589:0;ls
+: 1702198592:0;cd ..
+: 1702198592:0;ls
+: 1702198628:0;rustc --print sysroot
+: 1702198649:0;lvim /home/black/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/etc/bash_completion.d/cargo
+: 1702198759:0;lvim ~/.zshrc
+: 1702198957:0;cd .cargo/
+: 1702198958:0;ls
+: 1702198959:0;cd bin
+: 1702198959:0;ls
+: 1702198967:0;cd 
+: 1702198971:0;which fd
+: 1702198992:0;lvim aio/api/v3/goldendb/crontab_api.py
+: 1702199066:0;chezmoi diff
+: 1702199077:0;git status
+: 1702199083:0;chezmoi status
+: 1702199086:0;chezmoi --hlep
+: 1702199088:0;chezmoi --help
+: 1702199101:0;chezmoi completion
+: 1702199121:0;chezmoi completion --help
+: 1702199170:0;chezmoi completion zsh
+: 1702199172:0;chezmoi completion --help
+: 1702199355:0;chezmoi completion zsh --output=~/.config/fish/completions/chezmoi.zsh
+: 1702199366:0;chezmoi completion zsh --output=~/.config/zsh/completions/chezmoi.zsh
+: 1702199395:0;mkdir -p ~/.config/zsh/completions
+: 1702199397:0;chezmoi completion zsh --output=~/.config/zsh/completions/chezmoi.zsh
+: 1702199621:0;chezmoi status
+: 1702199636:0;chezmoi diff .config/i3/config.save
+: 1702199652:0;chezmoi cd
+: 1702199654:0;ls
+: 1702199658:0;git status
+: 1702199662:0;git branch -a
+: 1702199676:0;ls
+: 1702199793:0;cd tmp_dir
+: 1702199793:0;ls
+: 1702199796:0;tree
+: 1702199801:0;ls
+: 1702199802:0;cd ..
+: 1702199802:0;ls
+: 1702199806:0;rm -rf tmp_dir
+: 1702199806:0;ls
+: 1702199813:0;cd postgres
+: 1702199814:0;ls
+: 1702199815:0;cd bak
+: 1702199816:0;ls
+: 1702199817:0;tree
+: 1702199820:0;cd 
+: 1702199820:0;ls
+: 1702199854:0;cd gowin
+: 1702199855:0;ls
+: 1702199858:0;pwd
+: 1702199865:0;cd 
+: 1702199865:0;ls
+: 1702199867:0;cd config
+: 1702199868:0;ls
+: 1702199870:0;lvim acl.yaml
+: 1702199906:0;ls
+: 1702199907:0;cd 
+: 1702199907:0;ls
+: 1702199909:0;diff
+: 1702199910:0;ls
+: 1702199935:0;chezmoi status
+: 1702199944:0;chezmoi add .zsh_history

@@ -6393,3 +6393,54 @@
 
 # 2023-10-27 23:23:34.775810
 +select * from crontab_;
+
+# 2023-12-09 22:34:17.536245
++show databases;
+
+# 2023-12-09 22:34:31.334959
++create database test;
+
+# 2023-12-09 22:38:20.459648
++show databases;
+
+# 2023-12-09 22:38:24.479663
++use test;
+
+# 2023-12-09 22:38:28.095389
++show tables;
+
+# 2023-12-09 22:38:42.059498
++select * from client;
+
+# 2023-12-09 22:38:44.999164
++select * from contract;
+
+# 2023-12-09 22:38:48.767133
++select * from timecontract;
+
+# 2023-12-09 22:38:52.547873
++select * from workscontract
+
+# 2023-12-09 22:39:00.587273
++select * from timecontract;
+
+# 2023-12-09 22:39:17.535494
++select * from contract;
+
+# 2023-12-09 22:40:15.135227
++select * from timecontract;
+
+# 2023-12-09 23:04:10.251483
++use test;
+
+# 2023-12-09 23:04:14.048233
++select * from contract;
+
+# 2023-12-10 00:26:18.691136
++select * from timecontract;
+
+# 2023-12-10 00:26:23.415350
++select * from workscontract;
+
+# 2023-12-10 00:26:25.831733
++select * from timecontract;

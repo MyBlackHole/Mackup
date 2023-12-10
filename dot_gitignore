@@ -12,3 +12,12 @@ aio.airflow.web.debug
 aio.scheduler.debug
 airflow.runtime.env.90.41
 debug.task.sh
+cdm.runtime.env.30.123
+cdm.runtime.env.60.70
+cdm.runtime.env.78.212
+cdm.runtime.env.90.41
+run.cdm.create.table.sh
+run.cdm.sh
+run.scheduler.sh
+run.uwsgi.sh
+airflow.black.sh
