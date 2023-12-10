@@ -11352,4 +11352,3 @@ rustup update nightly\
 : 1701830764:0;ssh root@192.168.110.145
 : 1701830982:0;chezmoi status
 : 1701830992:0;chezmoi add .zsh_history
->>>>>>> 7a752f3 (合并)

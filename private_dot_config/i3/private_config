@@ -221,13 +221,13 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/i3wmthemer_bar_launch.sh
 
 # Theme colors
-client.focused #b0b287 #1d1e26 #b0b287 #789073 #789073
-client.focused_inactive #b0b287 #1d1e26 #b0b287 #789073 #789073
-client.unfocused #b0b287 #1d1e26 #b0b287 #789073 #789073
-client.urgent #b0b287 #1d1e26 #b0b287 #789073 #789073
-client.placeholder #b0b287 #1d1e26 #b0b287 #789073 #789073
+client.focused #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
+client.focused_inactive #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
+client.unfocused #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
+client.urgent #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
+client.placeholder #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
 
-client.background #1d1e26
+client.background #1f1f1f
 
 # Gaps
 gaps inner 10
