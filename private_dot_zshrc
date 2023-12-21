@@ -249,7 +249,15 @@ NVIM_PATH="/opt/nvim"
 if [ -d "$NVIM_PATH" ]; then
     export PATH=$NVIM_PATH/bin:$PATH
 fi
+
+# oracle
+ORACLE_CLIENT_HOME="/media/black/Data/lib/oracle/client_home"
+if [ -d "$ORACLE_CLIENT_HOME" ]; then
+    export PATH=$ORACLE_CLIENT_HOME/bin:$PATH
+    export LD_LIBRARY_PATH=$ORACLE_CLIENT_HOME/lib:$LD_LIBRARY_PATH
+    export ORACLE_HOME=$ORACLE_CLIENT_HOME
+fi
+
 # >>> xmake >>>
 test -f "/home/black/.xmake/profile" && source "/home/black/.xmake/profile"
 # <<< xmake <<<
-
