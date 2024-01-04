@@ -1,0 +1,21 @@
+# Profiles Config for Clash Verge
+
+current: rvyix1kH9pLi
+chain: null
+valid:
+- dns
+- sub-rules
+- unified-delay
+- tcp-concurrent
+items:
+- uid: rvyix1kH9pLi
+  type: remote
+  name: Clash_1704331490.yaml
+  file: rvyix1kH9pLi.yaml
+  url: https://sub.ibcn-sub.xyz/link/pZlKcvYeh6fGTXnJ?clash=1
+  extra:
+    upload: 21061753129
+    download: 1098484450538
+    total: 1565528162304
+    expire: 1711885869
+  updated: 1704331491
