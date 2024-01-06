@@ -258,6 +258,8 @@ if [ -d "$ORACLE_CLIENT_HOME" ]; then
     export ORACLE_HOME=$ORACLE_CLIENT_HOME
 fi
 
-# >>> xmake >>>
-test -f "/home/black/.xmake/profile" && source "/home/black/.xmake/profile"
-# <<< xmake <<<
+# xmake
+XMAKE_HOME="/media/black/Data/lib/xmake/master"
+if [ -d "$XMAKE_HOME" ]; then
+    export PATH=$XMAKE_HOME/bin:$PATH
+fi
