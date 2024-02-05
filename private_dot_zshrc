@@ -121,15 +121,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # riscv
-RISCV_PATH=/opt/riscv
-if [ -d "$RISCV_PATH" ]; then
-    export PATH=$RISCV_PATH/bin:$PATH
+RISCV64_PATH=/opt/riscv64
+if [ -d "$RISCV64_PATH" ]; then
+    export PATH=$RISCV64_PATH/bin:$PATH
 fi
 
 # gcc_riscv32
-GCC_RISCV32_PATH=/opt/gcc_riscv32
-if [ -d "$GCC_RISCV32_PATH" ]; then
-    export PATH=$GCC_RISCV32_PATH/bin:$PATH
+RISCV32_PATH=/opt/riscv32
+if [ -d "$RISCV32_PATH" ]; then
+    export PATH=$RISCV32_PATH/bin:$PATH
 fi
 
 # gcc_arm
